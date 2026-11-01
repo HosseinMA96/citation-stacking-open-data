@@ -66,6 +66,12 @@ flagged for an **anomalous citation pattern** in a given year. This includes jou
   present a flag as evidence against a journal, its editors or its authors.
 - All analyses are at journal level. The files contain no author or editor names.
 
+## Licence
+
+- Code (`*.py`, `*.sh`): MIT, see `LICENSE`.
+- Data tables, run records, figures and documentation: CC BY 4.0, see `LICENSE-DATA`.
+- Clarivate's material is not covered and is not included. The input datasets keep their own licences.
+
 ## Contact
 
 Hossein Mohasel Arjomandi, hosseinm@microsoft.com. The views expressed here are the author's own and do not
