@@ -1,5 +1,7 @@
 # Project C VM runbook (TODO item 6)
 
+> **2026-10-31: the analysis VM was deleted after submission.** A snapshot of its disk and the large outputs are archived privately by the author (available on request); the steps below rebuild everything from the public inputs.
+
 One Azure VM, used for one job: turn the two Data Bank files into small journal-level tables, fit the dcSBM blocks, copy the results back, then delete everything. Everything after that runs on the laptop.
 
 ## Cost (Azure retail price API, eastus, Linux, pay-as-you-go, read 2026-10-28)

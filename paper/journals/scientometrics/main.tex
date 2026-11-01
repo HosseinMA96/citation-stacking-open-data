@@ -3,9 +3,8 @@
 % Journal rules (submission guidelines, checked 2026-10-31): abstract 150-250 words; 4-6 keywords; author-year
 % citations; no length limit stated; "Declarations" before the references (Funding, Competing interests, Ethics,
 % Consent, Data/Code availability, Author contributions); LLM use documented in the Methods section.
-% Build: tectonic -X compile main.tex   (option pdflatex only skips breakurl; the engine is XeTeX)
+% Build: pdflatex + bibtex (Springer); locally tectonic -X compile main.tex. No fontspec: Springer compiles with pdflatex.
 \documentclass[pdflatex,sn-basic]{sn-jnl}
-\usepackage{fontspec}
 \usepackage{graphicx}
 \usepackage{amsmath,amssymb}
 \usepackage{booktabs}

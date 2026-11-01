@@ -746,3 +746,6 @@ User: "apply this feedback". The critique asks for a simple baseline, an asymmet
   - The variant's flag rate rises with size: 0% in the three lowest deciles (e ≥ 50 is unreachable there), 7–9% at the top.
   - The 43% rule falls with size: 6% in the lowest decile, 0.2% at the top, since small numerators reach a 43% share easily.
   - Size matching therefore lowers the variant's enrichment (10.5 → 5.0) and raises the 43% rule's (3.1 → 5.0).
+
+## 2026-10-31: archive after submission; analysis VM deleted
+- The analysis VM's disk (raw downloads, DuckDB intermediates, conda environment, all run folders) was snapshotted and the VM deleted. Large unversioned outputs (full-run parquet files, c9 scores; 32 files, 1.86 GB) were archived with SHA-256 checksums, downloaded back and verified (32/32). These archives are held privately by the author and are available on request; everything can also be rebuilt from the public inputs with `vm/run_all.sh`.
