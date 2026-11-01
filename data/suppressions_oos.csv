@@ -1,0 +1,33 @@
+jcr_data_year,release_year,journal,jcr_abbrev,type,role,partner_journal,pct_jif_numerator,pct_exchange_to_jif_years,pct_self_cites_jif_numerator,source_file,note
+2024,2025,Advances and Applications in Discrete Mathematics,ADV APPL DISCRET MAT,self,,,,,,suppression_sources/clarivate_2026/suppressed_titles_2024-2007.xlsx,"xlsx gives title, year and type only"
+2024,2025,Annals of Phytomedicine-an International Journal,ANN PHYTOMEDICINE,self,,,,,,suppression_sources/clarivate_2026/suppressed_titles_2024-2007.xlsx,"xlsx gives title, year and type only"
+2024,2025,Applied Organometallic Chemistry,APPL ORGANOMET CHEM,stacking,recipient,,,,,suppression_sources/clarivate_2026/suppressed_titles_2024-2007.xlsx,"xlsx gives title, year and type only"
+2024,2025,Asian Journal of Agriculture and Biology,ASIAN J AGR BIOL,stacking,recipient,,,,,suppression_sources/clarivate_2026/suppressed_titles_2024-2007.xlsx,"xlsx gives title, year and type only"
+2024,2025,Chemical Methodologies,CHEM METHODOL,stacking,recipient,,,,,suppression_sources/clarivate_2026/suppressed_titles_2024-2007.xlsx,"xlsx gives title, year and type only"
+2024,2025,Clinical Hemorheology and Microcirculation,CLIN HEMORHEOL MICRO,self,,,,,,suppression_sources/clarivate_2026/suppressed_titles_2024-2007.xlsx,"xlsx gives title, year and type only"
+2024,2025,Genetic Resources and Crop Evolution,GENET RESOUR CROP EV,stacking,recipient,,,,,suppression_sources/clarivate_2026/suppressed_titles_2024-2007.xlsx,"xlsx gives title, year and type only"
+2024,2025,Indian Journal of Biochemistry & Biophysics,INDIAN J BIOCHEM BIO,self,,,,,,suppression_sources/clarivate_2026/suppressed_titles_2024-2007.xlsx,"xlsx gives title, year and type only"
+2024,2025,Jordan Journal of Mechanical and Industrial Engineering,JORDAN J MECH IND EN,self,,,,,,suppression_sources/clarivate_2026/suppressed_titles_2024-2007.xlsx,"xlsx gives title, year and type only"
+2024,2025,Journal of Earthquake and Tsunami,J EARTHQ TSUNAMI,self,,,,,,suppression_sources/clarivate_2026/suppressed_titles_2024-2007.xlsx,"xlsx gives title, year and type only"
+2024,2025,Journal of Mind and Medical Sciences,J MIND MED SCI,self,,,,,,suppression_sources/clarivate_2026/suppressed_titles_2024-2007.xlsx,"xlsx gives title, year and type only"
+2024,2025,Lobachevskii Journal of Mathematics,LOBACHEVSKII J MATH,self,,,,,,suppression_sources/clarivate_2026/suppressed_titles_2024-2007.xlsx,"xlsx gives title, year and type only"
+2024,2025,Mechanics of Advanced Materials and Structures,MECH ADV MATER STRUC,self,,,,,,suppression_sources/clarivate_2026/suppressed_titles_2024-2007.xlsx,"xlsx gives title, year and type only"
+2024,2025,Media Education-Mediaobrazovanie,MEDIA EDUC-RUSS,self,,,,,,suppression_sources/clarivate_2026/suppressed_titles_2024-2007.xlsx,"xlsx gives title, year and type only"
+2024,2025,Punjab University Journal of Mathematics,PUNJAB UNIV J MATH,self,,,,,,suppression_sources/clarivate_2026/suppressed_titles_2024-2007.xlsx,"xlsx gives title, year and type only"
+2024,2025,Russian Chemical Bulletin,RUSS CHEM B+,self,,,,,,suppression_sources/clarivate_2026/suppressed_titles_2024-2007.xlsx,"xlsx gives title, year and type only"
+2024,2025,Russian Journal of Physical Chemistry B,RUSS J PHYS CHEM B+,self,,,,,,suppression_sources/clarivate_2026/suppressed_titles_2024-2007.xlsx,"xlsx gives title, year and type only"
+2024,2025,Tema-Journal of Land Use Mobility and Environment,TEMA,self,,,,,,suppression_sources/clarivate_2026/suppressed_titles_2024-2007.xlsx,"xlsx gives title, year and type only"
+2024,2025,Transactions of FAMENA,T FAMENA,self,,,,,,suppression_sources/clarivate_2026/suppressed_titles_2024-2007.xlsx,"xlsx gives title, year and type only"
+2024,2025,Vestnik St Petersburg University-Mathematics,VESTN ST PETER U-MAT,self,,,,,,suppression_sources/clarivate_2026/suppressed_titles_2024-2007.xlsx,"xlsx gives title, year and type only"
+2025,2026,Action Learning,ACTION LEARN,self,,,,,87,suppression_sources/clarivate_2026/title_suppressions_article_28351398819089.json,
+2025,2026,Aestimum,AESTIMUM,stacking,recipient,INT J ENG GEOSCI,54,100,,suppression_sources/clarivate_2026/title_suppressions_article_28351398819089.json,partner given as JCR abbreviation only
+2025,2026,Aging Medicine and Healthcare,AGING MED HEALTHCARE,stacking,recipient,ARCH GERONTOL GERIAT,38,84,,suppression_sources/clarivate_2026/title_suppressions_article_28351398819089.json,partner given as JCR abbreviation only
+2025,2026,Avances en Ciencias e Ingenieria,AV CIENC ING,self,,,,,100,suppression_sources/clarivate_2026/title_suppressions_article_28351398819089.json,
+2025,2026,Balneo and PRM Research Journal,BALNEO PRM RES J,self,,,,,62,suppression_sources/clarivate_2026/title_suppressions_article_28351398819089.json,
+2025,2026,International Journal of e-Health And Medical Communications,INT J E-HEALTH MED C,stacking,recipient,ALEX ENG J,36,86,,suppression_sources/clarivate_2026/title_suppressions_article_28351398819089.json,partner given as JCR abbreviation only
+2025,2026,International Journal of Power and Energy Systems,INT J POWER ENERGY S,self,,,,,78,suppression_sources/clarivate_2026/title_suppressions_article_28351398819089.json,
+2025,2026,New Materials Compounds and Applications,NEW MATER COMPOUND A,stacking,recipient,RUSS J PHYS CHEM B+,35,100,,suppression_sources/clarivate_2026/title_suppressions_article_28351398819089.json,partner given as JCR abbreviation only
+2025,2026,,INT J ENG GEOSCI,stacking,donor,Aestimum,54,100,,suppression_sources/clarivate_2026/title_suppressions_article_28351398819089.json,donor; JCR abbreviation only (full title not in the source)
+2025,2026,,ARCH GERONTOL GERIAT,stacking,donor,Aging Medicine and Healthcare,38,84,,suppression_sources/clarivate_2026/title_suppressions_article_28351398819089.json,donor; JCR abbreviation only (full title not in the source)
+2025,2026,,ALEX ENG J,stacking,donor,International Journal of e-Health And Medical Communications,36,86,,suppression_sources/clarivate_2026/title_suppressions_article_28351398819089.json,donor; JCR abbreviation only (full title not in the source)
+2025,2026,,RUSS J PHYS CHEM B+,stacking,donor,New Materials Compounds and Applications,35,100,,suppression_sources/clarivate_2026/title_suppressions_article_28351398819089.json,donor; JCR abbreviation only (full title not in the source)

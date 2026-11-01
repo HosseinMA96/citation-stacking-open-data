@@ -1,0 +1,4 @@
+# Clarivate source files are not redistributed (see SOURCES.md)
+*
+!SOURCES.md
+!.gitignore

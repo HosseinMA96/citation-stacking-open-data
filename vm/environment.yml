@@ -1,0 +1,21 @@
+# Conda environment for Project C full run (laptop test and Azure VM).
+# graph-tool is not on PyPI; graph-tool-base is the conda-forge build without the GUI.
+name: c-gt
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - graph-tool-base
+  - duckdb=1.5
+  - python-duckdb
+  - pandas=2.3
+  - pyarrow
+  - pyyaml
+  - numpy
+  - scipy
+  - networkx
+  - psutil
+  - matplotlib-base           # imported by cidre/draw.py at package import
+  - seaborn
+  - pip
+# cidre 0.0.1 pins matplotlib==3.1.3 (no Python 3.11 build); setup_vm.sh installs it with --no-deps.

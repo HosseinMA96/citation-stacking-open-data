@@ -1,0 +1,17 @@
+% Central Paper C content (journal-neutral). Edit here; journal wrappers in ../journals/ only \input these files.
+% Every number traces to ../../FINDINGS.md.
+Clarivate suppresses journals from the Journal Citation Reports when self-citations or concentrated citations from
+another journal (``citation stacking'') distort their Journal Impact Factor. Its data are closed, so independent
+checks need open citation data. We audit how far fully open data can reproduce and anticipate these decisions. We
+built yearly journal citation networks from the OpenCitations snapshot of January 2024 (1.96 billion citations;
+85,437 journals) and compared them with Clarivate's suppression lists for data years 2015--2023, collected from
+primary sources. Where a journal's reference lists are present, open data reproduce Clarivate's published
+self-citation shares within ten percentage points for 36 of 50 journals; the failures follow publishers that do not
+deposit references with Crossref, which also hides several stacking donors entirely. Open data contain a further
+artifact: biodiversity data downloads registered with DataCite inflate naive impact-factor numerators of taxonomy
+journals. The leading open method for stacking groups, CIDRE, detects none of 15 named Clarivate pairs. A
+diagnosis shows why: it flags the stacking citations but drops large donor journals, so a big journal feeding a small
+one never forms a group. A recipient-centric reading of CIDRE's own test, with its parameters unchanged, flags
+journals later listed for stacking 10 to 14 times more often than other journals, sometimes years before the
+listing; flagged journal pairs show more citations per citing paper and weaker topical similarity than matched pairs.
+Open data can support such audits, provided coverage gaps and their sources are reported alongside the results.

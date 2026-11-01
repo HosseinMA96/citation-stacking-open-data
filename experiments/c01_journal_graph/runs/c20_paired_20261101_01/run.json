@@ -1,0 +1,19 @@
+{
+  "run_id": "c20_paired_20261101_01",
+  "script": "c20_paired.py",
+  "script_sha256": "2ec381dfa34828208a49faa23998249e4eb97308e85a30afe7bb7be98cada63b",
+  "basesize": "c17_basesize_20261101_01",
+  "scores": "c9_scores_20261031_02",
+  "recip": "c12_recip_20261031_01",
+  "consensus": "c12_consensus_20261031_01",
+  "src": "c6_full_20261031_02",
+  "match": "c10_match_20261031_05",
+  "labels": "suppressions_v2.csv",
+  "labels_sha256": "58b9899765c5c4cf948ccf714452e1515a15834af314fbf768ec405e2e8d381c",
+  "seeds": {
+    "controls": 4311,
+    "bootstrap": 4312
+  },
+  "bootstrap_resamples": 10000,
+  "python": "3.10.9"
+}

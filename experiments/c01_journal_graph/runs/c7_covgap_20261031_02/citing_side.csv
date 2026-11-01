@@ -1,0 +1,93 @@
+t,citing_type,citing_journal,edges
+2014,journal article,true,59148923
+2014,book chapter,true,6464673
+2014,proceedings article,true,2051545
+2014,,true,161648
+2014,web content,false,146573
+2014,reference entry,true,140158
+2014,journal article,false,56282
+2014,,false,39487
+2014,book part,true,37778
+2014,report,false,35971
+2014,dataset,false,28687
+2014,book,false,19377
+2014,book section,true,17359
+2014,book,true,8239
+2014,dissertation,false,6606
+2014,book chapter,false,4099
+2014,proceedings,false,1869
+2014,report,true,206
+2014,journal,true,184
+2014,dataset,true,84
+2014,series,true,17
+2014,computer program,false,3
+2014,reference book,false,1
+2018,journal article,true,76446992
+2018,dataset,false,20175470
+2018,book chapter,true,7555889
+2018,proceedings article,true,2720852
+2018,web content,false,986321
+2018,,true,195594
+2018,reference entry,true,164138
+2018,journal article,false,114460
+2018,book,false,87729
+2018,,false,86559
+2018,report,false,36214
+2018,book,true,7062
+2018,dissertation,false,5847
+2018,book part,true,3414
+2018,proceedings,false,3391
+2018,book section,true,1341
+2018,book chapter,false,999
+2018,series,true,911
+2018,dataset,true,135
+2018,journal,true,18
+2018,report,true,15
+2018,computer program,false,3
+2018,proceedings,true,1
+2018,journal,false,1
+2020,journal article,true,99671183
+2020,dataset,false,47136833
+2020,book chapter,true,10105662
+2020,web content,false,2580803
+2020,proceedings article,true,2496924
+2020,,true,798077
+2020,book,false,182842
+2020,journal article,false,138654
+2020,report,false,118320
+2020,,false,113034
+2020,book part,true,104962
+2020,report,true,14276
+2020,book section,true,11988
+2020,reference entry,true,10852
+2020,book,true,10424
+2020,proceedings,false,3998
+2020,dissertation,false,2776
+2020,series,true,1703
+2020,book chapter,false,1169
+2020,dataset,true,363
+2020,computer program,false,11
+2020,proceedings article,false,2
+2022,journal article,true,121586906
+2022,book chapter,true,9065287
+2022,proceedings article,true,3230796
+2022,web content,false,3102163
+2022,,true,708276
+2022,journal article,false,113773
+2022,book,false,64736
+2022,,false,44376
+2022,book,true,23222
+2022,book part,true,19625
+2022,book section,true,13104
+2022,dataset,true,7364
+2022,proceedings,false,6706
+2022,report,false,6358
+2022,reference entry,true,3507
+2022,series,true,1574
+2022,dissertation,false,1501
+2022,dataset,false,1071
+2022,report,true,1033
+2022,book chapter,false,891
+2022,computer program,false,246
+2022,reference book,false,35
+2022,data management plan,false,1

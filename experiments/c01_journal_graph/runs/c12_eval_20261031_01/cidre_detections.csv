@@ -1,0 +1,161 @@
+t,tag,recipient,donor,type,both_matched,detected,recipient_in_any_group,donor_in_any_group
+2018,main,Journal of Seismic Exploration,Journal of Applied Geophysics,stacking,False,False,False,False
+2018,main_s1,Journal of Seismic Exploration,Journal of Applied Geophysics,stacking,False,False,False,False
+2018,main_s2,Journal of Seismic Exploration,Journal of Applied Geophysics,stacking,False,False,False,False
+2018,main_s3,Journal of Seismic Exploration,Journal of Applied Geophysics,stacking,False,False,False,False
+2018,main_s4,Journal of Seismic Exploration,Journal of Applied Geophysics,stacking,False,False,False,False
+2018,main_s4311_rep,Journal of Seismic Exploration,Journal of Applied Geophysics,stacking,False,False,False,False
+2018,main_s4311_t1a,Journal of Seismic Exploration,Journal of Applied Geophysics,stacking,False,False,False,False
+2018,type_issn_ja50,Journal of Seismic Exploration,Journal of Applied Geophysics,stacking,False,False,False,False
+2018,main,Nanoscience and Nanotechnology Letters,Journal of Biomedical Nanotechnology,stacking,True,False,False,False
+2018,main_s1,Nanoscience and Nanotechnology Letters,Journal of Biomedical Nanotechnology,stacking,True,False,False,False
+2018,main_s2,Nanoscience and Nanotechnology Letters,Journal of Biomedical Nanotechnology,stacking,True,False,False,False
+2018,main_s3,Nanoscience and Nanotechnology Letters,Journal of Biomedical Nanotechnology,stacking,True,False,False,False
+2018,main_s4,Nanoscience and Nanotechnology Letters,Journal of Biomedical Nanotechnology,stacking,True,False,False,False
+2018,main_s4311_rep,Nanoscience and Nanotechnology Letters,Journal of Biomedical Nanotechnology,stacking,True,False,False,False
+2018,main_s4311_t1a,Nanoscience and Nanotechnology Letters,Journal of Biomedical Nanotechnology,stacking,True,False,False,False
+2018,type_issn_ja50,Nanoscience and Nanotechnology Letters,Journal of Biomedical Nanotechnology,stacking,True,False,False,False
+2018,main,Journal of Seismic Exploration,Journal of Geophysics and Engineering,stacking,False,False,False,False
+2018,main_s1,Journal of Seismic Exploration,Journal of Geophysics and Engineering,stacking,False,False,False,False
+2018,main_s2,Journal of Seismic Exploration,Journal of Geophysics and Engineering,stacking,False,False,False,False
+2018,main_s3,Journal of Seismic Exploration,Journal of Geophysics and Engineering,stacking,False,False,False,False
+2018,main_s4,Journal of Seismic Exploration,Journal of Geophysics and Engineering,stacking,False,False,False,False
+2018,main_s4311_rep,Journal of Seismic Exploration,Journal of Geophysics and Engineering,stacking,False,False,False,False
+2018,main_s4311_t1a,Journal of Seismic Exploration,Journal of Geophysics and Engineering,stacking,False,False,False,False
+2018,type_issn_ja50,Journal of Seismic Exploration,Journal of Geophysics and Engineering,stacking,False,False,False,False
+2018,main,Journal of Biobased Materials and Bioenergy,Nanoscience and Nanotechnology Letters,stacking,True,False,False,False
+2018,main_s1,Journal of Biobased Materials and Bioenergy,Nanoscience and Nanotechnology Letters,stacking,True,False,False,False
+2018,main_s2,Journal of Biobased Materials and Bioenergy,Nanoscience and Nanotechnology Letters,stacking,True,False,False,False
+2018,main_s3,Journal of Biobased Materials and Bioenergy,Nanoscience and Nanotechnology Letters,stacking,True,False,False,False
+2018,main_s4,Journal of Biobased Materials and Bioenergy,Nanoscience and Nanotechnology Letters,stacking,True,False,False,False
+2018,main_s4311_rep,Journal of Biobased Materials and Bioenergy,Nanoscience and Nanotechnology Letters,stacking,True,False,False,False
+2018,main_s4311_t1a,Journal of Biobased Materials and Bioenergy,Nanoscience and Nanotechnology Letters,stacking,True,False,False,False
+2018,type_issn_ja50,Journal of Biobased Materials and Bioenergy,Nanoscience and Nanotechnology Letters,stacking,True,False,False,False
+2018,main,Bone Research,Journal of Biobased Materials and Bioenergy,stacking (expression of concern),True,False,False,False
+2018,main_s1,Bone Research,Journal of Biobased Materials and Bioenergy,stacking (expression of concern),True,False,False,False
+2018,main_s2,Bone Research,Journal of Biobased Materials and Bioenergy,stacking (expression of concern),True,False,False,False
+2018,main_s3,Bone Research,Journal of Biobased Materials and Bioenergy,stacking (expression of concern),True,False,False,False
+2018,main_s4,Bone Research,Journal of Biobased Materials and Bioenergy,stacking (expression of concern),True,False,False,False
+2018,main_s4311_rep,Bone Research,Journal of Biobased Materials and Bioenergy,stacking (expression of concern),True,False,False,False
+2018,main_s4311_t1a,Bone Research,Journal of Biobased Materials and Bioenergy,stacking (expression of concern),True,False,False,False
+2018,type_issn_ja50,Bone Research,Journal of Biobased Materials and Bioenergy,stacking (expression of concern),True,False,False,False
+2018,main,Bone Research,Nanoscience and Nanotechnology Letters,stacking (expression of concern),True,False,False,False
+2018,main_s1,Bone Research,Nanoscience and Nanotechnology Letters,stacking (expression of concern),True,False,False,False
+2018,main_s2,Bone Research,Nanoscience and Nanotechnology Letters,stacking (expression of concern),True,False,False,False
+2018,main_s3,Bone Research,Nanoscience and Nanotechnology Letters,stacking (expression of concern),True,False,False,False
+2018,main_s4,Bone Research,Nanoscience and Nanotechnology Letters,stacking (expression of concern),True,False,False,False
+2018,main_s4311_rep,Bone Research,Nanoscience and Nanotechnology Letters,stacking (expression of concern),True,False,False,False
+2018,main_s4311_t1a,Bone Research,Nanoscience and Nanotechnology Letters,stacking (expression of concern),True,False,False,False
+2018,type_issn_ja50,Bone Research,Nanoscience and Nanotechnology Letters,stacking (expression of concern),True,False,False,False
+2018,main,Bone Research,Journal of Biomedical Nanotechnology,stacking (expression of concern),True,False,False,False
+2018,main_s1,Bone Research,Journal of Biomedical Nanotechnology,stacking (expression of concern),True,False,False,False
+2018,main_s2,Bone Research,Journal of Biomedical Nanotechnology,stacking (expression of concern),True,False,False,False
+2018,main_s3,Bone Research,Journal of Biomedical Nanotechnology,stacking (expression of concern),True,False,False,False
+2018,main_s4,Bone Research,Journal of Biomedical Nanotechnology,stacking (expression of concern),True,False,False,False
+2018,main_s4311_rep,Bone Research,Journal of Biomedical Nanotechnology,stacking (expression of concern),True,False,False,False
+2018,main_s4311_t1a,Bone Research,Journal of Biomedical Nanotechnology,stacking (expression of concern),True,False,False,False
+2018,type_issn_ja50,Bone Research,Journal of Biomedical Nanotechnology,stacking (expression of concern),True,False,False,False
+2020,main,Archivos Latinoamericanos de Nutricion,Journal of Intelligent & Fuzzy Systems,stacking,True,False,False,False
+2020,main_s1,Archivos Latinoamericanos de Nutricion,Journal of Intelligent & Fuzzy Systems,stacking,True,False,False,False
+2020,main_s2,Archivos Latinoamericanos de Nutricion,Journal of Intelligent & Fuzzy Systems,stacking,True,False,False,False
+2020,main_s3,Archivos Latinoamericanos de Nutricion,Journal of Intelligent & Fuzzy Systems,stacking,True,False,False,False
+2020,main_s4,Archivos Latinoamericanos de Nutricion,Journal of Intelligent & Fuzzy Systems,stacking,True,False,False,False
+2020,main_s4311_rep,Archivos Latinoamericanos de Nutricion,Journal of Intelligent & Fuzzy Systems,stacking,True,False,False,False
+2020,main_s4311_t1a,Archivos Latinoamericanos de Nutricion,Journal of Intelligent & Fuzzy Systems,stacking,True,False,False,False
+2020,type_issn_ja50,Archivos Latinoamericanos de Nutricion,Journal of Intelligent & Fuzzy Systems,stacking,True,False,False,False
+2020,main,Materials Express,Nanoscience and Nanotechnology Letters,stacking,True,False,False,False
+2020,main_s1,Materials Express,Nanoscience and Nanotechnology Letters,stacking,True,False,False,False
+2020,main_s2,Materials Express,Nanoscience and Nanotechnology Letters,stacking,True,False,False,False
+2020,main_s3,Materials Express,Nanoscience and Nanotechnology Letters,stacking,True,False,False,False
+2020,main_s4,Materials Express,Nanoscience and Nanotechnology Letters,stacking,True,False,False,False
+2020,main_s4311_rep,Materials Express,Nanoscience and Nanotechnology Letters,stacking,True,False,False,False
+2020,main_s4311_t1a,Materials Express,Nanoscience and Nanotechnology Letters,stacking,True,False,False,False
+2020,type_issn_ja50,Materials Express,Nanoscience and Nanotechnology Letters,stacking,True,False,False,False
+2022,main,Bioinspired Biomimetic and Nanobiomaterials,Cardiometry,stacking,True,False,False,False
+2022,main_s1,Bioinspired Biomimetic and Nanobiomaterials,Cardiometry,stacking,True,False,False,False
+2022,main_s2,Bioinspired Biomimetic and Nanobiomaterials,Cardiometry,stacking,True,False,False,False
+2022,main_s3,Bioinspired Biomimetic and Nanobiomaterials,Cardiometry,stacking,True,False,False,False
+2022,main_s4,Bioinspired Biomimetic and Nanobiomaterials,Cardiometry,stacking,True,False,False,False
+2022,main_s4311_rep,Bioinspired Biomimetic and Nanobiomaterials,Cardiometry,stacking,True,False,False,False
+2022,main_s4311_t1a,Bioinspired Biomimetic and Nanobiomaterials,Cardiometry,stacking,True,False,False,False
+2022,type_issn_ja50,Bioinspired Biomimetic and Nanobiomaterials,Cardiometry,stacking,True,False,False,False
+2022,main,Bioinspired Biomimetic and Nanobiomaterials,International Journal of Early Childhood Special Education,stacking,True,False,False,False
+2022,main_s1,Bioinspired Biomimetic and Nanobiomaterials,International Journal of Early Childhood Special Education,stacking,True,False,False,False
+2022,main_s2,Bioinspired Biomimetic and Nanobiomaterials,International Journal of Early Childhood Special Education,stacking,True,False,False,False
+2022,main_s3,Bioinspired Biomimetic and Nanobiomaterials,International Journal of Early Childhood Special Education,stacking,True,False,False,False
+2022,main_s4,Bioinspired Biomimetic and Nanobiomaterials,International Journal of Early Childhood Special Education,stacking,True,False,False,False
+2022,main_s4311_rep,Bioinspired Biomimetic and Nanobiomaterials,International Journal of Early Childhood Special Education,stacking,True,False,False,False
+2022,main_s4311_t1a,Bioinspired Biomimetic and Nanobiomaterials,International Journal of Early Childhood Special Education,stacking,True,False,False,False
+2022,type_issn_ja50,Bioinspired Biomimetic and Nanobiomaterials,International Journal of Early Childhood Special Education,stacking,True,False,False,False
+2022,main,Genetika-Belgrade,Bioscience Research,stacking,False,False,False,False
+2022,main_s1,Genetika-Belgrade,Bioscience Research,stacking,False,False,False,False
+2022,main_s2,Genetika-Belgrade,Bioscience Research,stacking,False,False,False,False
+2022,main_s3,Genetika-Belgrade,Bioscience Research,stacking,False,False,False,False
+2022,main_s4,Genetika-Belgrade,Bioscience Research,stacking,False,False,False,False
+2022,main_s4311_rep,Genetika-Belgrade,Bioscience Research,stacking,False,False,False,False
+2022,main_s4311_t1a,Genetika-Belgrade,Bioscience Research,stacking,False,False,False,False
+2022,type_issn_ja50,Genetika-Belgrade,Bioscience Research,stacking,False,False,False,False
+2023,main,Annals of Financial Economics,Resources Policy,stacking,True,False,False,False
+2023,main_s1,Annals of Financial Economics,Resources Policy,stacking,True,False,False,False
+2023,main_s2,Annals of Financial Economics,Resources Policy,stacking,True,False,False,False
+2023,main_s3,Annals of Financial Economics,Resources Policy,stacking,True,False,False,False
+2023,main_s4,Annals of Financial Economics,Resources Policy,stacking,True,False,False,False
+2023,main_s4311_rep,Annals of Financial Economics,Resources Policy,stacking,True,False,False,False
+2023,main_s4311_t1a,Annals of Financial Economics,Resources Policy,stacking,True,False,False,False
+2023,type_issn_ja50,Annals of Financial Economics,Resources Policy,stacking,True,False,False,False
+2023,main,Climate Change Economics,Environmental Science and Pollution Research,stacking,True,False,False,False
+2023,main_s1,Climate Change Economics,Environmental Science and Pollution Research,stacking,True,False,False,False
+2023,main_s2,Climate Change Economics,Environmental Science and Pollution Research,stacking,True,False,False,False
+2023,main_s3,Climate Change Economics,Environmental Science and Pollution Research,stacking,True,False,False,False
+2023,main_s4,Climate Change Economics,Environmental Science and Pollution Research,stacking,True,False,False,False
+2023,main_s4311_rep,Climate Change Economics,Environmental Science and Pollution Research,stacking,True,False,False,False
+2023,main_s4311_t1a,Climate Change Economics,Environmental Science and Pollution Research,stacking,True,False,False,False
+2023,type_issn_ja50,Climate Change Economics,Environmental Science and Pollution Research,stacking,True,False,False,False
+2023,main,Cuadernos de Economia - Spain,Environmental Science and Pollution Research,stacking,False,False,False,False
+2023,main_s1,Cuadernos de Economia - Spain,Environmental Science and Pollution Research,stacking,False,False,False,False
+2023,main_s2,Cuadernos de Economia - Spain,Environmental Science and Pollution Research,stacking,False,False,False,False
+2023,main_s3,Cuadernos de Economia - Spain,Environmental Science and Pollution Research,stacking,False,False,False,False
+2023,main_s4,Cuadernos de Economia - Spain,Environmental Science and Pollution Research,stacking,False,False,False,False
+2023,main_s4311_rep,Cuadernos de Economia - Spain,Environmental Science and Pollution Research,stacking,False,False,False,False
+2023,main_s4311_t1a,Cuadernos de Economia - Spain,Environmental Science and Pollution Research,stacking,False,False,False,False
+2023,type_issn_ja50,Cuadernos de Economia - Spain,Environmental Science and Pollution Research,stacking,False,False,False,False
+2023,main,Cuadernos de Economia - Spain,Resources Policy,stacking,False,False,False,False
+2023,main_s1,Cuadernos de Economia - Spain,Resources Policy,stacking,False,False,False,False
+2023,main_s2,Cuadernos de Economia - Spain,Resources Policy,stacking,False,False,False,False
+2023,main_s3,Cuadernos de Economia - Spain,Resources Policy,stacking,False,False,False,False
+2023,main_s4,Cuadernos de Economia - Spain,Resources Policy,stacking,False,False,False,False
+2023,main_s4311_rep,Cuadernos de Economia - Spain,Resources Policy,stacking,False,False,False,False
+2023,main_s4311_t1a,Cuadernos de Economia - Spain,Resources Policy,stacking,False,False,False,False
+2023,type_issn_ja50,Cuadernos de Economia - Spain,Resources Policy,stacking,False,False,False,False
+2023,main,Granular Computing,Information Sciences,stacking,True,False,False,False
+2023,main_s1,Granular Computing,Information Sciences,stacking,True,False,False,False
+2023,main_s2,Granular Computing,Information Sciences,stacking,True,False,False,False
+2023,main_s3,Granular Computing,Information Sciences,stacking,True,False,False,False
+2023,main_s4,Granular Computing,Information Sciences,stacking,True,False,False,False
+2023,main_s4311_rep,Granular Computing,Information Sciences,stacking,True,False,False,False
+2023,main_s4311_t1a,Granular Computing,Information Sciences,stacking,True,False,False,False
+2023,type_issn_ja50,Granular Computing,Information Sciences,stacking,True,False,False,False
+2023,main,Minerva Medica,Gazzetta Medica Italiana Archivio per le Scienze Mediche,stacking,True,False,False,False
+2023,main_s1,Minerva Medica,Gazzetta Medica Italiana Archivio per le Scienze Mediche,stacking,True,False,False,False
+2023,main_s2,Minerva Medica,Gazzetta Medica Italiana Archivio per le Scienze Mediche,stacking,True,False,False,False
+2023,main_s3,Minerva Medica,Gazzetta Medica Italiana Archivio per le Scienze Mediche,stacking,True,False,False,False
+2023,main_s4,Minerva Medica,Gazzetta Medica Italiana Archivio per le Scienze Mediche,stacking,True,False,False,False
+2023,main_s4311_rep,Minerva Medica,Gazzetta Medica Italiana Archivio per le Scienze Mediche,stacking,True,False,False,False
+2023,main_s4311_t1a,Minerva Medica,Gazzetta Medica Italiana Archivio per le Scienze Mediche,stacking,True,False,False,False
+2023,type_issn_ja50,Minerva Medica,Gazzetta Medica Italiana Archivio per le Scienze Mediche,stacking,True,False,False,False
+2023,main,Panminerva Medica,Gazzetta Medica Italiana Archivio per le Scienze Mediche,stacking,True,False,False,False
+2023,main_s1,Panminerva Medica,Gazzetta Medica Italiana Archivio per le Scienze Mediche,stacking,True,False,False,False
+2023,main_s2,Panminerva Medica,Gazzetta Medica Italiana Archivio per le Scienze Mediche,stacking,True,False,False,False
+2023,main_s3,Panminerva Medica,Gazzetta Medica Italiana Archivio per le Scienze Mediche,stacking,True,False,False,False
+2023,main_s4,Panminerva Medica,Gazzetta Medica Italiana Archivio per le Scienze Mediche,stacking,True,False,False,False
+2023,main_s4311_rep,Panminerva Medica,Gazzetta Medica Italiana Archivio per le Scienze Mediche,stacking,True,False,False,False
+2023,main_s4311_t1a,Panminerva Medica,Gazzetta Medica Italiana Archivio per le Scienze Mediche,stacking,True,False,False,False
+2023,type_issn_ja50,Panminerva Medica,Gazzetta Medica Italiana Archivio per le Scienze Mediche,stacking,True,False,False,False
+2023,main,Ukrainian Journal of Physical Optics,Optik,stacking,True,False,False,False
+2023,main_s1,Ukrainian Journal of Physical Optics,Optik,stacking,True,False,False,False
+2023,main_s2,Ukrainian Journal of Physical Optics,Optik,stacking,True,False,False,False
+2023,main_s3,Ukrainian Journal of Physical Optics,Optik,stacking,True,False,False,False
+2023,main_s4,Ukrainian Journal of Physical Optics,Optik,stacking,True,False,False,False
+2023,main_s4311_rep,Ukrainian Journal of Physical Optics,Optik,stacking,True,False,False,False
+2023,main_s4311_t1a,Ukrainian Journal of Physical Optics,Optik,stacking,True,False,False,False
+2023,type_issn_ja50,Ukrainian Journal of Physical Optics,Optik,stacking,True,False,False,False

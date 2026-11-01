@@ -1,0 +1,14 @@
+{
+  "run_id": "c9_scores_20261031_01",
+  "script": "c9_scores.py",
+  "script_sha256": "3e96627818f6ea894c609055bbaa6ada8e3b3b64bee3de2d46c4cd32e40842db",
+  "config_sha256": "951e58395601d7de74c49161f5c1149a260ff8408a6fbe5b76c6322e15957157",
+  "src_run": "c6_full_20261031_02",
+  "src_sha256sums": "bc0fb8290f988cb6123595e26b73cef7f202379f17534985ccda0e8923be4615  agg_eff_network.parquet\n777a9dd57f46dbd8f2f001b6b022ac39eba021acd555078b8e06802b350d9af7  citable_by_year.parquet\n9029703e9129bef9f59726285a83ee92dfebcaeff2d45431b990b8d214ccbcd0  coverage.csv\n2fb7e4138a202e9bcbadb14d8b97dd1c765e4daa6bc10849ac50f0c156d69d23  journals.parquet\n08f91c899761b492788098505799b0de97c2344e8332fb511a97c30e2527bbcc  meta_files.sha256\nbe616288347d6bfb371d774d3cd5a4fa7be53fb0d76184397cfa7676c0f82ff8  pairs_jcr_years.parquet\n4754b246566fceb66352d7671c9c1670fe73efa4b288de1d3cd334a4f410cf82  run.json\n974ef0b814c6065d7fee5b5ff287944741f530dbbb85fecbecc5ce6b1facbead  venue_source.csv\n34b48e05b1178d8a7171f6d0c2af0b6fa9aaed359dcb9c91803178af2a994ad6  journal_flags.parquet\n6e9470caf26cfcf5c6175b64955d01c61ea2991a118003eaad714a563f705ffd  blocks_main.parquet\n9b86042a10f0cc88a74a66d51b78b3745793bddd02064a58e03accab13a1a0ac  blocks_type_issn_ja50.parquet\n48644cb5e05c11e7440c3a7e35dfb6d82c57fcd65b378b49e9087d59e3eba22d  blocks_main_s1.parquet\n1f4f8186fc3196b5534c79a69b2686492eeb47a67b3e1af87c976119a791e562  blocks_main_s2.parquet\n5749d814fffecfb042e1072aca42f03d736be0ea12d5dbdc86ae1126e1d44668  blocks_main_s3.parquet\n9d1e97a182aaefe7939cd887320d3a885f9daf1cfaf27b7f33d571cabd9a2602  blocks_main_s4.parquet\nc6ae445a12de8f28b1c627ec007b79f2c135c3160223f23c61089345e605752b  blocks_main_s4311_rep.parquet\n",
+  "work": "/home/azureuser/c/data/work/c6_full_20261031_02",
+  "python": "3.11.18",
+  "duckdb": "1.5.6",
+  "pandas": "2.3.3",
+  "threads": "5",
+  "memory": "18GB"
+}

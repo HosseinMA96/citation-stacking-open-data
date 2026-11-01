@@ -1,0 +1,13 @@
+{
+  "run_id": "c12_enrich_20261031_01",
+  "script": "c12_enrichment.py",
+  "script_sha256": "aa04e8af1f8b5b15c348cf6f3361cc307d8e85d5ae07ab82c7624125a37db398",
+  "recip_run": "c12_recip_20261031_01",
+  "scores_run": "c9_scores_20261031_02",
+  "match_run": "c10_match_20261031_03",
+  "design_cases": [
+    "Climate Change Economics",
+    "Ukrainian Journal for Physical Optics"
+  ],
+  "python": "3.10.9"
+}

@@ -1,0 +1,9 @@
+{
+  "run_id": "c6_blockstab_20261031_01",
+  "script": "c6_block_stability.py",
+  "script_sha256": "273400af0bf9656478110d72a3668286f8bb7498a17798eb3b8deef3ef06408c",
+  "src_run": "c6_full_20261031_02",
+  "python": "3.10.9",
+  "pandas": "2.3.3",
+  "numpy": "2.2.6"
+}

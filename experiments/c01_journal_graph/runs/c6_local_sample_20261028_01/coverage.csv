@@ -1,0 +1,9 @@
+citing_found,citing_year,citing_journal,cited_found,cited_year,cited_journal,n
+False,False,False,False,False,False,2678494
+False,False,False,True,True,True,2314
+True,True,True,False,False,False,2012
+True,True,False,False,False,False,123
+False,False,False,True,True,False,37
+True,True,True,True,True,True,22
+False,False,False,True,False,False,4
+False,False,False,True,False,True,1

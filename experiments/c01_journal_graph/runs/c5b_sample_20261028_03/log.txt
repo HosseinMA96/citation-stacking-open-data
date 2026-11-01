@@ -1,0 +1,9 @@
+[19:51:40] edges: snapshot open_citations_jan2024_iid_el.csv.gz.prefix (19,542,647 bytes)
+[19:51:40] edges: {"source": "open_citations_jan2024_iid_el.csv.gz.crdownload", "snapshot": "open_citations_jan2024_iid_el.csv.gz.prefix", "snapshot_sha256": "d26384bbe06f0b11d0d55e7f3d2c76fe9f62b86d4a760f08aad2216935fdde46", "note": "decompressed CSV reused from an earlier run", "csv": "open_citations_jan2024_iid_el.prefix.csv", "csv_sha256": "6276f4758d272ee80836a29f0a16b3476b1a5baad156965e733bc2948cb5f006"}
+[19:51:40] pubs: snapshot open_citations_jan2024_pubs.csv.gz.prefix (9,660,696 bytes)
+[19:51:40] pubs: {"source": "open_citations_jan2024_pubs.csv.gz.crdownload", "snapshot": "open_citations_jan2024_pubs.csv.gz.prefix", "snapshot_sha256": "398af8bee997a582688c6bc1be94f58f6e0ecbc93472f50fa0fd037de1ac2b21", "note": "decompressed CSV reused from an earlier run", "csv": "open_citations_jan2024_pubs.prefix.csv", "csv_sha256": "417a6bdd441e1f5fe13b81f0d50405ed4868cafab7c3797bff8430d57056c1e5"}
+[19:51:40] load_edges: 0.18 s
+[19:51:41] load_pubs: 0.09 s
+[19:51:41] join: 0.01 s
+[19:51:41] aggregate: 0.0 s
+[19:51:41] denominator: 0.02 s

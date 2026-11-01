@@ -1,0 +1,63 @@
+{
+  "criteria": {
+    "scores_main": "c9_scores_20261031_02",
+    "scores_sensitivity": "c9_scores_20261031_01",
+    "min_citable": 20,
+    "min_citable_sensitivity": [
+      10,
+      50
+    ],
+    "min_num": 20,
+    "pass_abs_pp": 10,
+    "pass_top_share": 0.01
+  },
+  "fidelity_pass": {
+    "n/a": "0/10",
+    "pairs (counting-independent)": "4/13",
+    "scores_main": "40/73",
+    "scores_sensitivity": "40/73"
+  },
+  "checkpoint_2020": {
+    "journals": 8,
+    "rank_top": 0,
+    "signal": false
+  },
+  "ranks_top_by_year_main": {
+    "2015": "2/16",
+    "2016": "1/6",
+    "2017": "2/8",
+    "2018": "1/12",
+    "2019": "0/31",
+    "2020": "0/8",
+    "2021": "1/3",
+    "2022": "0/3",
+    "2023": "3/10"
+  },
+  "ranks_top_pooled_main": {
+    "self": "9/85",
+    "stacking_recipient": "1/12"
+  },
+  "relevant_pct_median_main": {
+    "self": 0.0313,
+    "stacking_recipient": 0.5294
+  },
+  "relevant_pct_top5_main": {
+    "self": "59/85",
+    "stacking_recipient": "3/12"
+  },
+  "fidelity_pass_by_metric": {
+    "donor_pct_jif_numerator": "4/13",
+    "pct_exchange_to_jif_years": "4/6",
+    "self_cites_pct_jif_numerator": "36/57"
+  },
+  "fidelity_median_abs_diff_pp": {
+    "donor_pct_jif_numerator": 24.92,
+    "pct_exchange_to_jif_years": 4.27,
+    "self_cites_pct_jif_numerator": 6.02
+  },
+  "fidelity_median_signed_diff_pp": {
+    "donor_pct_jif_numerator": -24.0,
+    "pct_exchange_to_jif_years": -0.39,
+    "self_cites_pct_jif_numerator": -4.0
+  }
+}

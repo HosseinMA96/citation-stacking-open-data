@@ -1,0 +1,9 @@
+{
+  "run_id": "c10_publishers_20261031_02",
+  "script": "c10_publishers.py",
+  "script_sha256": "c8b8b35d6126de2481fca3d4fe6bc6f081649688da8ad253a4232d2fe18e9f25",
+  "covsplit_run": "c10_covsplit_20261031_01",
+  "match_run": "c10_match_20261031_05",
+  "queried": "2026-10-31T21:32:27Z",
+  "python": "3.10.9"
+}

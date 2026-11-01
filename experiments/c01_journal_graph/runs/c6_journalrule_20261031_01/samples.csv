@@ -1,0 +1,61 @@
+grp,journal_id,omid,name,items,journal_articles,ja_share,top_type,rec_types,type_journal,issn
+excluded_by_type_journal_largest,1525,br/0603969993,理学療法学Supplement,29995,20106,0.67,journal article,<no record>,False,False
+excluded_by_type_journal_largest,1956,br/0604048064,応用物理学会学術講演会講演予稿集,15562,15562,1.0,journal article,<no record>,False,True
+excluded_by_type_journal_largest,1813,br/0603997547,精密工学会学術講演会講演論文集,16931,10747,0.635,journal article,<no record>,False,False
+excluded_by_type_journal_largest,1613,br/0603975657,日本原子力学会 年会・大会予稿集,12834,9134,0.712,journal article,<no record>,False,False
+excluded_by_type_journal_largest,2061,br/0604143650,日本森林学会大会発表データベース,12227,8952,0.732,journal article,<no record>,False,False
+excluded_by_type_journal_largest,1641,br/0603979263,化学工学会 研究発表講演要旨集,9286,7154,0.77,journal article,<no record>,False,False
+excluded_by_type_journal_largest,1913,br/0604013655,日本セラミックス協会 年会・秋季シンポジウム 講演予稿集,9422,6456,0.685,journal article,<no record>,False,False
+excluded_by_type_journal_largest,2078,br/0604155636,日本植物生理学会年会およびシンポジウム 講演要旨集,7451,5487,0.736,journal article,<no record>,False,False
+excluded_by_type_journal_largest,2153,br/0604226413,電気関係学会九州支部連合大会講演論文集,7627,4610,0.604,journal article,<no record>,False,False
+excluded_by_type_journal_largest,1962,br/0604050786,The Japanese Journal Of Pediatric Dentistry,5665,4257,0.751,journal article,<no record>,False,True
+excluded_by_type_journal_largest,1711,br/0603986394,人工知能学会全国大会論文集,8522,4068,0.477,journal article,<no record>,False,False
+excluded_by_type_journal_largest,2218,br/0604292737,やどりが,4472,3864,0.864,journal article,<no record>,False,True
+excluded_by_type_journal_largest,2068,br/0604147725,日本地理学会発表要旨集,7161,3774,0.527,journal article,<no record>,False,False
+excluded_by_type_journal_largest,2026,br/0604110104,自動制御連合講演会講演論文集,4099,3747,0.914,journal article,<no record>,False,False
+excluded_by_type_journal_largest,1978,br/0604065108,日本数学教育会雑誌,6170,3669,0.595,journal article,<no record>,False,True
+excluded_by_type_journal_random,3002505,br/0618053953,Cerebrospinal Fluid In Clinical Neurology,24,0,0.0,book chapter,book,False,False
+excluded_by_type_journal_random,3123716,br/061902613730,Studies In Universal Logic,24,0,0.0,book chapter,book,False,False
+excluded_by_type_journal_random,5702399,br/0626070752,Erectile Dysfunction,25,0,0.0,book chapter,book,False,False
+excluded_by_type_journal_random,442296,br/06104538660,,28,0,0.0,dataset,journal article,False,True
+excluded_by_type_journal_random,7090268,br/06503270521,Leonhard Euler 1707–1783,22,0,0.0,book chapter,book,False,False
+excluded_by_type_journal_random,8223669,br/067057343,Intracellular Staining In Neurobiology,20,0,0.0,book chapter,book,False,False
+excluded_by_type_journal_random,2344553,br/061603492064,The Oxford Textbook Of Palliative Social Work,104,0,0.0,book chapter,book,False,False
+excluded_by_type_journal_random,129645,br/06102530426,Textbook Of Three-Dimensional Echocardiography,25,0,0.0,book chapter,book,False,False
+excluded_by_type_journal_random,3006407,br/061901408961,Algorithms And Discrete Applied Mathematics,24,0,0.0,book chapter,book,False,False
+excluded_by_type_journal_random,2682871,br/0617046403,The Sustainability Communication Reader,31,0,0.0,book chapter,book,False,False
+not_type_journal_but_issn&ja>=0.5_largest,1956,br/0604048064,応用物理学会学術講演会講演予稿集,15562,15562,1.0,journal article,<no record>,False,True
+not_type_journal_but_issn&ja>=0.5_largest,1962,br/0604050786,The Japanese Journal Of Pediatric Dentistry,5665,4257,0.751,journal article,<no record>,False,True
+not_type_journal_but_issn&ja>=0.5_largest,2218,br/0604292737,やどりが,4472,3864,0.864,journal article,<no record>,False,True
+not_type_journal_but_issn&ja>=0.5_largest,1978,br/0604065108,日本数学教育会雑誌,6170,3669,0.595,journal article,<no record>,False,True
+not_type_journal_but_issn&ja>=0.5_largest,1619,br/0603976685,生体医工学,5345,3446,0.645,journal article,<no record>,False,True
+not_type_journal_but_issn&ja>=0.5_largest,1957,br/0604048877,Jim,5757,3402,0.591,journal article,<no record>,False,True
+not_type_journal_but_issn&ja>=0.5_largest,1951,br/0604043038,耳鼻と臨床,4869,3145,0.646,journal article,<no record>,False,True
+not_type_journal_but_issn&ja>=0.5_largest,1594,br/0603974727,Finex,3888,2851,0.733,journal article,<no record>,False,True
+not_type_journal_but_issn&ja>=0.5_largest,1904,br/0604008567,理学療法学,3187,2721,0.854,journal article,<no record>,False,True
+not_type_journal_but_issn&ja>=0.5_largest,1992,br/0604077820,日本先天異常学会会報,3995,2702,0.676,journal article,<no record>,False,True
+not_type_journal_but_issn&ja>=0.5_largest,2023,br/0604106371,日本蚕糸学雑誌,3952,2687,0.68,journal article,<no record>,False,True
+not_type_journal_but_issn&ja>=0.5_largest,1952,br/0604043149,日本液晶学会討論会講演予稿集,3926,2617,0.667,journal article,<no record>,False,True
+not_type_journal_but_issn&ja>=0.5_largest,1959,br/0604049446,雪氷研究大会講演要旨集,2679,2615,0.976,journal article,<no record>,False,True
+not_type_journal_but_issn&ja>=0.5_largest,2467,br/0604621014,地理科学,3465,2537,0.732,journal article,<no record>,False,True
+not_type_journal_but_issn&ja>=0.5_largest,2248,br/0604323045,家政学雑誌,2993,2511,0.839,journal article,<no record>,False,True
+type_journal_but_ja_share<0.5_largest,1843,br/0603999439,,5327,2647,0.497,journal article,<no record>|journal,True,True
+type_journal_but_ja_share<0.5_largest,1730,br/0603987895,,4185,1964,0.469,journal article,<no record>|journal,True,True
+type_journal_but_ja_share<0.5_largest,1644,br/0603979650,,3595,1486,0.413,book,<no record>|journal,True,True
+type_journal_but_ja_share<0.5_largest,3327062,br/06190986176,Advances In Experimental Medicine And Biology,40972,1061,0.026,book chapter,journal,True,True
+type_journal_but_ja_share<0.5_largest,1284,br/0603903820,Conference Proceedings : ... Annual International Conference Of The IEEE,4666,85,0.018,proceedings article,journal,True,True
+type_journal_but_ja_share<0.5_largest,4597906,br/062303067819,Current Topics In Microbiology And Immunology,4888,85,0.017,book chapter,journal,True,True
+type_journal_but_ja_share<0.5_largest,1309,br/0603903850,Annual International Conference Of The IEEE Engineering In Medicine And Biology,25210,30,0.001,proceedings article,journal,True,True
+type_journal_but_ja_share<0.5_largest,5175823,br/062502729589,Recent Results In Cancer Research,3638,28,0.008,book chapter,journal,True,True
+type_journal_but_ja_share<0.5_largest,4422628,br/06230202004,Handbook Of Experimental Pharmacology,4622,5,0.001,book chapter,journal,True,True
+type_journal_but_ja_share<0.5_largest,8686557,br/06902061821,IFMBE Proceedings,8920,2,0.0,book chapter,journal,True,True
+type_journal_no_issn_largest,6797364,br/06450199822,大塚考古,2,2,1.0,journal article,journal,True,False
+type_journal_no_issn_largest,6797378,br/06450199844,大田区立郷土博物館紀要,2,2,1.0,journal article,journal,True,False
+type_journal_no_issn_largest,6834407,br/06480283610,"アジア・アフリカ言語文化研究 別冊(Journal Of Asian And African Studies, Supplement)",2,2,1.0,journal article,journal,True,False
+type_journal_no_issn_largest,6265788,br/06370247816,Tellus B,2,2,1.0,journal article,journal,True,False
+type_journal_no_issn_largest,6178991,br/06304511764,国立歴史民俗博物館研究報告 = Bulletin Of The National Museum Of Japanese History,2,2,1.0,journal article,journal,True,False
+type_journal_no_issn_largest,6178935,br/06304511668,国立歴史民俗博物館研究報告 = Bulletin Of The National Museum Of Japanese History,2,2,1.0,journal article,journal,True,False
+type_journal_no_issn_largest,6178959,br/06304511700,国立歴史民俗博物館研究報告 = Bulletin Of The National Museum Of Japanese History,2,2,1.0,journal article,journal,True,False
+type_journal_no_issn_largest,5051512,br/062404083093,語文研究,2,2,1.0,journal article,journal,True,False
+type_journal_no_issn_largest,5051475,br/062404083033,經濟學研究,2,2,1.0,journal article,journal,True,False
+type_journal_no_issn_largest,5739664,br/06290252324,青陵,2,2,1.0,journal article,journal,True,False

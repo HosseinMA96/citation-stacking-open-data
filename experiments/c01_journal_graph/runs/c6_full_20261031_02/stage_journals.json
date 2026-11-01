@@ -1,0 +1,18 @@
+{
+  "venue_omids": 9007672,
+  "journals": 9006164,
+  "journals_from_merged_omids": 963,
+  "omids_in_merged_journals": 2471,
+  "largest_merge": 50,
+  "output": "/home/azureuser/c/data/work/c6_full_20261031_02/pubs_j.parquet",
+  "stage": "journals",
+  "seconds": 380.9,
+  "peak_rss_mb_so_far": 29063.2,
+  "limits": {
+    "threads": 8,
+    "memory_limit": "48GB",
+    "temp_directory": "/home/azureuser/c/data/work/c6_full_20261031_02/duckdb_tmp",
+    "max_temp_directory_size": "150GB"
+  },
+  "finished": "2026-10-31 04:27:20"
+}

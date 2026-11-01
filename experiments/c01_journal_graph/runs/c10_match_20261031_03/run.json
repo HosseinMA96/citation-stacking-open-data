@@ -1,0 +1,14 @@
+{
+  "run_id": "c10_match_20261031_03",
+  "script": "c10_match.py",
+  "script_sha256": "de93d297b4c761d0a5057024df02ca87ec5e871f9b42b123d3a04d72deb74151",
+  "src_run": "c6_full_20261031_02",
+  "suppressions_sha256": "40a37bb0ef80dddce2da945ab87efbebf3050a93b53072cf48d7e0b004d80a62",
+  "queried": "2026-10-31T15:36:27Z",
+  "python": "3.10.9",
+  "duckdb": "1.5.6",
+  "status_counts": {
+    "matched": 31,
+    "issn_not_in_data": 1
+  }
+}

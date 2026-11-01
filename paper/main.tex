@@ -1,0 +1,44 @@
+% Paper C, CENTRAL version (journal-neutral, numbered refs). All text lives in content/; see content/README.md.
+% Journal versions: journals/<venue>/main.tex input the same content files.
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{fontspec} % compiled with Tectonic (XeTeX); Unicode in refs.bib
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[hidelinks]{hyperref}
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+\graphicspath{{figures/}}
+\input{content/meta}
+
+\title{\papertitle}
+\author{Hossein Mohasel Arjomandi\thanks{Microsoft, Redmond, WA, USA; \texttt{hosseinm@microsoft.com}. The views expressed in this article are the author's own and do not necessarily reflect those of Microsoft.}}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\input{content/abstract}
+\end{abstract}
+
+\noindent\textbf{Keywords:} \paperkeywords
+
+\input{content/intro}
+\input{content/related}
+\input{content/methods}
+\input{content/results}
+\input{content/discussion}
+\input{content/conclusions}
+
+\section*{Data and code availability}\label{sec:availability}
+\input{content/availability}
+
+\section*{Declaration of generative AI use}
+\input{content/ai_use}
+
+\bibliographystyle{unsrtnat}
+\bibliography{refs}
+\end{document}

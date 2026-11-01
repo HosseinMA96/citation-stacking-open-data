@@ -1,0 +1,18 @@
+{
+  "aggregate_years": "all",
+  "edges": 39508367,
+  "weight": 285746820.0,
+  "citing_journals": 3761337,
+  "cited_journals": 2712341,
+  "self_loops": 38758,
+  "stage": "agg",
+  "seconds": 4.1,
+  "peak_rss_mb_so_far": 47630.7,
+  "limits": {
+    "threads": 8,
+    "memory_limit": "48GB",
+    "temp_directory": "/home/azureuser/c/data/work/c6_full_20261031_02/duckdb_tmp",
+    "max_temp_directory_size": "150GB"
+  },
+  "finished": "2026-10-31 04:34:11"
+}

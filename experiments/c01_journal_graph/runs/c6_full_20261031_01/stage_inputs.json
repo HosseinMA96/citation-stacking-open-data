@@ -1,0 +1,25 @@
+{
+  "edges": {
+    "path": "/home/azureuser/c/data/raw/open_citations_jan2024_iid_el.csv.gz",
+    "bytes": 14309784846,
+    "sha256": "40faa8bb7762f0042e5e901278cc2269e43a5cb28fada1e093ed254a0df66ca7"
+  },
+  "pubs": {
+    "path": "/home/azureuser/c/data/raw/open_citations_jan2024_pubs.csv.gz",
+    "bytes": 9064662339,
+    "sha256": "c071228e4d4f5dfca381c7d32f986dad87bf0712b1b039fd6afb314d0a921e14"
+  },
+  "config_sha256": "afa5f5f3d1a0777cb3b710219e1109f26a04fc6c9e7c7eb2c8553cbc0936767c",
+  "python": "3.11.18",
+  "duckdb": "1.5.6",
+  "stage": "inputs",
+  "seconds": 19.4,
+  "peak_rss_mb_so_far": 178.4,
+  "limits": {
+    "threads": 8,
+    "memory_limit": "48GB",
+    "temp_directory": "/home/azureuser/c/data/work/c6_full_20261031_01/duckdb_tmp",
+    "max_temp_directory_size": "150GB"
+  },
+  "finished": "2026-10-31 03:25:56"
+}

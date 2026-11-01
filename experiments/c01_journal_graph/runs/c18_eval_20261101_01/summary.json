@@ -1,0 +1,155 @@
+{
+  "sanity_theta_d_015_equals_c12_main": true,
+  "asym": [
+    {
+      "theta_d": 0.01,
+      "groups": 506,
+      "groups_per_year_median": 52.0,
+      "group_size_median": 4.0,
+      "group_size_max": 3056,
+      "journals_in_any_group": 7089,
+      "base_rate": 0.2394,
+      "stacking_listed": 28,
+      "stacking_listed_in_group": 24,
+      "enrichment": 3.58,
+      "p_one_sided": 9.059771438240007e-12,
+      "named_pairs": 15,
+      "detected": 0,
+      "same_group": 3
+    },
+    {
+      "theta_d": 0.02,
+      "groups": 519,
+      "groups_per_year_median": 57.0,
+      "group_size_median": 4.0,
+      "group_size_max": 656,
+      "journals_in_any_group": 3558,
+      "base_rate": 0.12016,
+      "stacking_listed": 28,
+      "stacking_listed_in_group": 20,
+      "enrichment": 5.94,
+      "p_one_sided": 4.632156075243806e-13,
+      "named_pairs": 15,
+      "detected": 0,
+      "same_group": 3
+    },
+    {
+      "theta_d": 0.05,
+      "groups": 379,
+      "groups_per_year_median": 38.0,
+      "group_size_median": 4.0,
+      "group_size_max": 163,
+      "journals_in_any_group": 1600,
+      "base_rate": 0.05403,
+      "stacking_listed": 28,
+      "stacking_listed_in_group": 15,
+      "enrichment": 9.91,
+      "p_one_sided": 1.8631696280207697e-12,
+      "named_pairs": 15,
+      "detected": 0,
+      "same_group": 1
+    },
+    {
+      "theta_d": 0.1,
+      "groups": 257,
+      "groups_per_year_median": 26.0,
+      "group_size_median": 4.0,
+      "group_size_max": 29,
+      "journals_in_any_group": 957,
+      "base_rate": 0.03232,
+      "stacking_listed": 28,
+      "stacking_listed_in_group": 13,
+      "enrichment": 14.37,
+      "p_one_sided": 9.955395536038417e-13,
+      "named_pairs": 15,
+      "detected": 0,
+      "same_group": 0
+    },
+    {
+      "theta_d": 0.15,
+      "groups": 201,
+      "groups_per_year_median": 22.0,
+      "group_size_median": 4.0,
+      "group_size_max": 28,
+      "journals_in_any_group": 705,
+      "base_rate": 0.02381,
+      "stacking_listed": 28,
+      "stacking_listed_in_group": 8,
+      "enrichment": 12.0,
+      "p_one_sided": 2.0945034275980842e-07,
+      "named_pairs": 15,
+      "detected": 0,
+      "same_group": 0
+    }
+  ],
+  "one_block_vs_dcsbm": [
+    {
+      "flag_set": "dcsbm_main",
+      "kind": "stacking",
+      "base_rate": 0.03418,
+      "listed": 28,
+      "listed_flagged": 10,
+      "enrichment": 10.45,
+      "enrichment_ci95": [
+        6.06,
+        15.85
+      ],
+      "p_one_sided": 1.6186806380709515e-08,
+      "flagged_before_first_listing": 6.0
+    },
+    {
+      "flag_set": "dcsbm_main",
+      "kind": "self",
+      "base_rate": 0.03418,
+      "listed": 85,
+      "listed_flagged": 10,
+      "enrichment": 3.44,
+      "enrichment_ci95": [
+        1.91,
+        5.95
+      ],
+      "p_one_sided": 0.0006549330426162673,
+      "flagged_before_first_listing": NaN
+    },
+    {
+      "flag_set": "one_block",
+      "kind": "stacking",
+      "base_rate": 0.11634,
+      "listed": 28,
+      "listed_flagged": 14,
+      "enrichment": 4.3,
+      "enrichment_ci95": [
+        2.8,
+        5.79
+      ],
+      "p_one_sided": 6.722111843612682e-07,
+      "flagged_before_first_listing": 10.0
+    },
+    {
+      "flag_set": "one_block",
+      "kind": "self",
+      "base_rate": 0.11634,
+      "listed": 85,
+      "listed_flagged": 22,
+      "enrichment": 2.22,
+      "enrichment_ci95": [
+        1.53,
+        3.1
+      ],
+      "p_one_sided": 0.00022451561485791523,
+      "flagged_before_first_listing": NaN
+    }
+  ],
+  "jaccard_dcsbm_one_block": 0.294,
+  "one_block_flags_per_year": {
+    "2015": 592,
+    "2016": 618,
+    "2017": 662,
+    "2018": 730,
+    "2019": 888,
+    "2020": 1058,
+    "2021": 1424,
+    "2022": 1619,
+    "2023": 1075
+  }
+}

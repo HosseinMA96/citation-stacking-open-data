@@ -1,0 +1,15 @@
+{
+  "rows": 1962840983,
+  "output": "/home/azureuser/c/data/work/c6_full_20261031_01/edges.parquet",
+  "output_bytes": 12062739011,
+  "stage": "edges",
+  "seconds": 184.0,
+  "peak_rss_mb_so_far": 2019.7,
+  "limits": {
+    "threads": 8,
+    "memory_limit": "48GB",
+    "temp_directory": "/home/azureuser/c/data/work/c6_full_20261031_01/duckdb_tmp",
+    "max_temp_directory_size": "150GB"
+  },
+  "finished": "2026-10-31 03:32:32"
+}

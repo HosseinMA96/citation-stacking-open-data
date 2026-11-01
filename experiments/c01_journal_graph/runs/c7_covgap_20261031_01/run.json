@@ -1,0 +1,18 @@
+{
+  "run_id": "c7_covgap_20261031_01",
+  "script": "c7_coverage_gap.py",
+  "script_sha256": "7599e5a4a2a33f337911d3e51ff4ccad3f833dec77beb8bec1cd04944474ec49",
+  "src_run": "c6_full_20261031_02",
+  "work": "/home/azureuser/c/data/work/c6_full_20261031_02",
+  "years": [
+    2014,
+    2018,
+    2020,
+    2022
+  ],
+  "python": "3.11.18",
+  "duckdb": "1.5.6",
+  "threads": "5",
+  "memory": "16GB",
+  "seconds": 147.3
+}

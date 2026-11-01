@@ -1,0 +1,83 @@
+% Central Paper C content (journal-neutral). Edit here; journal wrappers in ../journals/ only \input these files.
+% Every number traces to ../../FINDINGS.md.
+\section{Data and methods}\label{sec:methods}
+
+\subsection{Citation data and journals}
+We use the parsed OpenCitations snapshot of January 2024 released through the Illinois Data Bank
+\citep{arjomandi2024dataset}, with 1,962,840,983 citation links between integer-identified publications. Journal
+(venue) assignments come from the OpenCitations Meta CSV dump \citep{ocmeta2024dump,massari2024meta}, joined on the
+publication identifier; venue records are merged when they share an ISSN. Of 76.8 million journal articles,
+72,720,703 obtain their venue from Meta, 388,394 from the venue field of the parsed file, and 3,695,762 have none. A
+venue counts as a journal if its own Meta record has type \emph{journal} and it has an ISSN; this rule keeps 92,779
+venues, of which 85,437 appear in the citation network. A stricter rule that also requires at least half of the
+venue's items to be journal articles is used as a sensitivity check. Processing used DuckDB \citep{raasveldt2019duckdb}.
+
+\subsection{JIF-window counts and journal scores}
+For a citing year $t$, let $c(A\!\to\!B,t)$ be the number of citations from items of journal $A$ published in $t$ to
+items of journal $B$ published in $t-1$ or $t-2$, the JIF window. We count citing items of any type but, following
+Clarivate's practice of counting citations from indexed sources, only citing items that have a journal; including
+citing items without a journal is a sensitivity analysis. For each recipient journal $B$ and year $t$ we compute the
+numerator $n_B(t)=\sum_A c(A\!\to\!B,t)$, the self-citation share $c(B\!\to\!B,t)/n_B(t)$, a JIF proxy dividing $n_B(t)$
+by $B$'s journal articles from $t-1$ and $t-2$, and the share of $n_B(t)$ from its largest external donor.
+
+\subsection{Labels: Clarivate suppressions 2015--2023}
+We rebuilt the suppression lists from primary Clarivate material: the ``Suppressed Titles 2007--2017'' spreadsheet
+(data years 2015--2017: journal, year and type), the Journal Citation Reports help pages for the 2019, 2022, 2023 and
+2024 releases (archived copies), the 2020 release page and a copy of the 2021 release list. The resulting table has 144
+rows: 98 self-citation suppressions, of which 60 come with a published self-citation share, 11 stacking journals
+without named partners (2015--2017), 17 named recipient--donor pairs with Clarivate's two stacking figures, one
+expression of concern with three donors, and six ``suppression warnings'' that we exclude. Journals were matched to
+our venues by ISSN taken from Crossref journal records, with a documented alias or ISSN choice where titles were
+ambiguous; 131 of 138 names matched.
+
+\subsection{Fidelity measures}
+Clarivate reports, for self-citation cases, the percentage of self-citations in the JIF numerator and, for stacking
+pairs, the donor's percentage of the recipient's JIF numerator and the ``percentage exchange to JIF years'', the share
+of all donor-to-recipient citations in year $t$ that go to the JIF window \todo{verify the verbatim JCR wording}. We
+compute the same quantities; for the exchange share our denominator counts cited years before $t$, so the estimate is
+an upper bound. We fixed in advance that a figure counts as reproduced if it lies within $\pm10$ percentage points,
+and that a listed journal ``ranks'' if it is in the top 1\% of its year on the relevant share.
+
+\subsection{CIDRE}
+We implemented CIDRE as described by \citet{kojaku2021cidre}, wrapping the authors' package and closing
+three gaps between package and paper: condition 1 (more than half of the $A\!\to\!B$ citations in year $t$ go to the
+JIF window), the minimum of $\theta_w=50$ within-group citations, and a compatibility fix. An edge is excessive if it
+meets condition 1 and its weight is significant under a Poisson test against the expected weight from a
+degree-corrected stochastic block model, with Benjamini--Hochberg correction at $\alpha=0.01$
+\citep{benjamini1995}. A journal's donor (recipient) score is the share of its outgoing (incoming) citations that are
+excessive within the current group; journals whose donor and recipient scores are both below $\theta=0.15$ are
+removed iteratively, and the remaining weakly connected components are the groups. The block model was fitted once on
+the network aggregated over all years with graph-tool's nonparametric inference
+\citep{peixoto2017nonparametric,peixoto2014graphtool}. Detection follows the paper's rule: a Clarivate group is detected
+if at least half of a CIDRE group's journals and at least two journals are shared.
+
+The block-model fit is stochastic. We therefore fitted seven partitions of the main journal network (five seeds, a
+repeat of the configuration seed, and a single-threaded fit) and one of the stricter journal rule, and ran CIDRE on
+every year from 2015 to 2023 with each.
+
+\subsection{A recipient-centric reading of CIDRE}
+Clarivate's stacking criterion is recipient-centric: a recipient that depends on one donor for a large share of its
+numerator. CIDRE's excessive-edge test can be read the same way, without the group step. For journal $j$ in year
+$t$, let $e_j$ be the number of excessive citations it receives (self-citations excluded) and $s_j$ its in-strength.
+We flag $j$ if $e_j/s_j \ge \theta$ and $e_j \ge \theta_w$, with CIDRE's own $\theta=0.15$ and $\theta_w=50$. This
+variant was designed after we diagnosed CIDRE's misses on two 2023 cases (Section~\ref{sec:res-cidre}); those two
+journals are therefore excluded from every evaluation in which they could favour it. Because flags vary between
+partitions, we also report consensus flags present in at least $k$ of the seven partitions. We evaluate the variant by
+enrichment: the share of listed journals ever flagged in 2015--2023 compared with the share of all journals with at
+least 20 numerator citations in some year, with a one-sided binomial test.
+
+\subsection{Paper-level anatomy and evidence check}
+For flagged recipients and their largest excessive donor, and for named Clarivate pairs, we collect the citing papers
+behind the pair's window citations and compute the citations per citing paper, the Gini coefficient of citations
+over citing papers, and the shares coming from the single top citing paper and from the top 10\% of citing papers. We
+compare titles of citing and cited papers by TF--IDF cosine similarity. Each pair receives up to three controls from
+the same year with 0.8 to 1.25 times its window citations, both journals in the journal rule, and a recipient never
+flagged. As a structured evidence check, fixed before the sample was drawn, we record three public indicators per
+pair: either journal appears in Clarivate's lists; recipient and donor share a Crossref publisher; or the top 10\% of
+citing papers carry at least half of the pair's citations.
+
+\subsection{Reproducibility}
+Every analysis is a script that writes a run folder with its parameters, input and output checksums and log, and the
+decisions and pass criteria were recorded in a lab notebook before the corresponding runs. We distinguish
+pre-specified from post hoc analyses throughout.
+

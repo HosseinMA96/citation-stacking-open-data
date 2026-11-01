@@ -1,0 +1,10 @@
+{
+  "run_id": "c10_covsplit_20261031_01",
+  "script": "c10_coverage_split.py",
+  "script_sha256": "9e374da0947b5ddc1ab35196cdd25023bc3a2b92a62a3c45d998abfa8e990472",
+  "src_run": "c6_full_20261031_02",
+  "fidelity_run": "c10_fidelity_20261031_02",
+  "match_run": "c10_match_20261031_05",
+  "python": "3.10.9",
+  "duckdb": "1.5.6"
+}

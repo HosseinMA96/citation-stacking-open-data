@@ -1,0 +1,31 @@
+Traceback (most recent call last):
+  File "/home/azureuser/c/experiments/c01_journal_graph/c13_anatomy.py", line 215, in <module>
+    main()
+  File "/home/azureuser/c/experiments/c01_journal_graph/c13_anatomy.py", line 147, in main
+    con.execute(f"""CREATE TABLE ctl AS SELECT * FROM (
+_duckdb.OutOfRangeException: Out of Range Error: Overflow in multiplication of INT32 (2366231 * 1000003)!
+Command exited with non-zero status 1
+	Command being timed: "/home/azureuser/mamba/envs/c-gt/bin/python c13_anatomy.py --src c6_full_20261031_02 --match c10_match_20261031_05 --labels suppressions_v2.csv --recip c12_recip_20261031_01 --consensus c12_consensus_20261031_01 --meta /home/azureuser/c/data/raw/meta_csv --run-id c13_anatomy_20261031_01"
+	User time (seconds): 16.08
+	System time (seconds): 1.20
+	Percent of CPU this job got: 107%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:16.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1057240
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 270360
+	Voluntary context switches: 644
+	Involuntary context switches: 117
+	Swaps: 0
+	File system inputs: 2347568
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+exit 1

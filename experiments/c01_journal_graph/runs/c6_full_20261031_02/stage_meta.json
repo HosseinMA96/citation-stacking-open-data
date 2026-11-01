@@ -1,0 +1,23 @@
+{
+  "used": true,
+  "rows": 107067700,
+  "with_omid": 107067700,
+  "distinct_omid": 107067700,
+  "with_venue_omid": 88323047,
+  "distinct_venue_omid": 9238083,
+  "with_issn": 75918803,
+  "omids_with_several_venues": 0,
+  "parse_rejects": 0,
+  "output": "/home/azureuser/c/data/work/c6_full_20261031_02/meta_venue.parquet",
+  "output_bytes": 766926872,
+  "stage": "meta",
+  "seconds": 77.8,
+  "peak_rss_mb_so_far": 29063.2,
+  "limits": {
+    "threads": 8,
+    "memory_limit": "48GB",
+    "temp_directory": "/home/azureuser/c/data/work/c6_full_20261031_02/duckdb_tmp",
+    "max_temp_directory_size": "150GB"
+  },
+  "finished": "2026-10-31 04:18:36"
+}

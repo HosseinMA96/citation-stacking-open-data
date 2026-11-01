@@ -1,0 +1,106 @@
+{"t": 2015, "tag": "main", "journals": 85437, "edges": 2364996, "weight": 9337309.0, "groups": 11, "seconds": 25.8, "peak_rss_mb": 15128.3}
+{"t": 2015, "tag": "main_s1", "journals": 85437, "edges": 2364996, "weight": 9337309.0, "groups": 13, "seconds": 25.8, "peak_rss_mb": 15725.6}
+{"t": 2015, "tag": "main_s2", "journals": 85437, "edges": 2364996, "weight": 9337309.0, "groups": 15, "seconds": 26.1, "peak_rss_mb": 15801.3}
+{"t": 2015, "tag": "main_s3", "journals": 85437, "edges": 2364996, "weight": 9337309.0, "groups": 15, "seconds": 25.1, "peak_rss_mb": 15725.6}
+{"t": 2015, "tag": "main_s4", "journals": 85437, "edges": 2364996, "weight": 9337309.0, "groups": 14, "seconds": 26.3, "peak_rss_mb": 15768.1}
+{"t": 2015, "tag": "main_s4311_rep", "journals": 85437, "edges": 2364996, "weight": 9337309.0, "groups": 13, "seconds": 26.2, "peak_rss_mb": 15959.2}
+{"t": 2015, "tag": "main_s4311_t1a", "journals": 85437, "edges": 2364996, "weight": 9337309.0, "groups": 13, "seconds": 27.4, "peak_rss_mb": 17796.7}
+{"t": 2015, "tag": "type_issn_ja50", "journals": 85261, "edges": 2347607, "weight": 9293721.0, "groups": 14, "seconds": 25.6, "peak_rss_mb": 15768.1}
+{"t": 2016, "tag": "main", "journals": 85437, "edges": 2512667, "weight": 9870584.0, "groups": 22, "seconds": 26.4, "peak_rss_mb": 15959.2}
+{"t": 2016, "tag": "main_s1", "journals": 85437, "edges": 2512667, "weight": 9870584.0, "groups": 23, "seconds": 26.9, "peak_rss_mb": 15768.1}
+{"t": 2016, "tag": "main_s2", "journals": 85437, "edges": 2512667, "weight": 9870584.0, "groups": 23, "seconds": 27.5, "peak_rss_mb": 17796.7}
+{"t": 2016, "tag": "main_s3", "journals": 85437, "edges": 2512667, "weight": 9870584.0, "groups": 22, "seconds": 26.5, "peak_rss_mb": 15959.2}
+{"t": 2016, "tag": "main_s4", "journals": 85437, "edges": 2512667, "weight": 9870584.0, "groups": 22, "seconds": 26.8, "peak_rss_mb": 15768.1}
+{"t": 2016, "tag": "main_s4311_rep", "journals": 85437, "edges": 2512667, "weight": 9870584.0, "groups": 23, "seconds": 27.0, "peak_rss_mb": 15959.2}
+{"t": 2016, "tag": "main_s4311_t1a", "journals": 85437, "edges": 2512667, "weight": 9870584.0, "groups": 24, "seconds": 29.0, "peak_rss_mb": 17796.7}
+{"t": 2016, "tag": "type_issn_ja50", "journals": 85261, "edges": 2494591, "weight": 9823486.0, "groups": 24, "seconds": 26.4, "peak_rss_mb": 15768.1}
+{"t": 2017, "tag": "main", "journals": 85437, "edges": 2639424, "weight": 10414757.0, "groups": 22, "seconds": 27.3, "peak_rss_mb": 15959.2}
+{"t": 2017, "tag": "main_s1", "journals": 85437, "edges": 2639424, "weight": 10414757.0, "groups": 23, "seconds": 27.8, "peak_rss_mb": 17796.7}
+{"t": 2017, "tag": "main_s2", "journals": 85437, "edges": 2639424, "weight": 10414757.0, "groups": 23, "seconds": 28.2, "peak_rss_mb": 15819.1}
+{"t": 2017, "tag": "main_s3", "journals": 85437, "edges": 2639424, "weight": 10414757.0, "groups": 23, "seconds": 27.4, "peak_rss_mb": 15959.2}
+{"t": 2017, "tag": "main_s4", "journals": 85437, "edges": 2639424, "weight": 10414757.0, "groups": 22, "seconds": 27.6, "peak_rss_mb": 17796.7}
+{"t": 2017, "tag": "main_s4311_rep", "journals": 85437, "edges": 2639424, "weight": 10414757.0, "groups": 23, "seconds": 27.9, "peak_rss_mb": 15858.8}
+{"t": 2017, "tag": "main_s4311_t1a", "journals": 85437, "edges": 2639424, "weight": 10414757.0, "groups": 22, "seconds": 29.7, "peak_rss_mb": 17779.8}
+{"t": 2017, "tag": "type_issn_ja50", "journals": 85261, "edges": 2621753, "weight": 10366500.0, "groups": 23, "seconds": 27.0, "peak_rss_mb": 17796.7}
+{"t": 2018, "tag": "main", "journals": 85437, "edges": 2806489, "weight": 11206800.0, "groups": 24, "seconds": 28.6, "peak_rss_mb": 15858.8}
+{"t": 2018, "tag": "main_s1", "journals": 85437, "edges": 2806489, "weight": 11206800.0, "groups": 24, "seconds": 29.3, "peak_rss_mb": 17779.8}
+{"t": 2018, "tag": "main_s2", "journals": 85437, "edges": 2806489, "weight": 11206800.0, "groups": 23, "seconds": 29.5, "peak_rss_mb": 17796.7}
+{"t": 2018, "tag": "main_s3", "journals": 85437, "edges": 2806489, "weight": 11206800.0, "groups": 21, "seconds": 28.4, "peak_rss_mb": 15858.8}
+{"t": 2018, "tag": "main_s4", "journals": 85437, "edges": 2806489, "weight": 11206800.0, "groups": 23, "seconds": 28.8, "peak_rss_mb": 17779.8}
+{"t": 2018, "tag": "main_s4311_rep", "journals": 85437, "edges": 2806489, "weight": 11206800.0, "groups": 24, "seconds": 29.2, "peak_rss_mb": 17796.7}
+{"t": 2018, "tag": "main_s4311_t1a", "journals": 85437, "edges": 2806489, "weight": 11206800.0, "groups": 23, "seconds": 30.4, "peak_rss_mb": 17854.9}
+{"t": 2018, "tag": "type_issn_ja50", "journals": 85261, "edges": 2789933, "weight": 11162764.0, "groups": 24, "seconds": 28.1, "peak_rss_mb": 17779.8}
+{"t": 2019, "tag": "main", "journals": 85437, "edges": 3129824, "weight": 12778545.0, "groups": 15, "seconds": 30.1, "peak_rss_mb": 17796.7}
+{"t": 2019, "tag": "main_s1", "journals": 85437, "edges": 3129824, "weight": 12778545.0, "groups": 15, "seconds": 30.8, "peak_rss_mb": 17854.9}
+{"t": 2019, "tag": "main_s2", "journals": 85437, "edges": 3129824, "weight": 12778545.0, "groups": 18, "seconds": 31.3, "peak_rss_mb": 17779.8}
+{"t": 2019, "tag": "main_s3", "journals": 85437, "edges": 3129824, "weight": 12778545.0, "groups": 15, "seconds": 30.1, "peak_rss_mb": 17796.7}
+{"t": 2019, "tag": "main_s4", "journals": 85437, "edges": 3129824, "weight": 12778545.0, "groups": 15, "seconds": 30.6, "peak_rss_mb": 17854.9}
+{"t": 2019, "tag": "main_s4311_rep", "journals": 85437, "edges": 3129824, "weight": 12778545.0, "groups": 15, "seconds": 30.9, "peak_rss_mb": 17779.8}
+{"t": 2019, "tag": "main_s4311_t1a", "journals": 85437, "edges": 3129824, "weight": 12778545.0, "groups": 16, "seconds": 32.6, "peak_rss_mb": 17796.7}
+{"t": 2019, "tag": "type_issn_ja50", "journals": 85261, "edges": 3111916, "weight": 12730188.0, "groups": 16, "seconds": 29.7, "peak_rss_mb": 17854.9}
+{"t": 2020, "tag": "main", "journals": 85437, "edges": 3651746, "weight": 15361187.0, "groups": 27, "seconds": 32.9, "peak_rss_mb": 17779.8}
+{"t": 2020, "tag": "main_s1", "journals": 85437, "edges": 3651746, "weight": 15361187.0, "groups": 27, "seconds": 33.5, "peak_rss_mb": 17796.7}
+{"t": 2020, "tag": "main_s2", "journals": 85437, "edges": 3651746, "weight": 15361187.0, "groups": 25, "seconds": 33.6, "peak_rss_mb": 17854.9}
+{"t": 2020, "tag": "main_s3", "journals": 85437, "edges": 3651746, "weight": 15361187.0, "groups": 24, "seconds": 32.9, "peak_rss_mb": 17779.8}
+{"t": 2020, "tag": "main_s4", "journals": 85437, "edges": 3651746, "weight": 15361187.0, "groups": 25, "seconds": 33.3, "peak_rss_mb": 17796.7}
+{"t": 2020, "tag": "main_s4311_rep", "journals": 85437, "edges": 3651746, "weight": 15361187.0, "groups": 25, "seconds": 33.0, "peak_rss_mb": 17854.9}
+{"t": 2020, "tag": "main_s4311_t1a", "journals": 85437, "edges": 3651746, "weight": 15361187.0, "groups": 26, "seconds": 35.2, "peak_rss_mb": 17785.2}
+{"t": 2020, "tag": "type_issn_ja50", "journals": 85261, "edges": 3634552, "weight": 15313176.0, "groups": 26, "seconds": 33.3, "peak_rss_mb": 17796.7}
+{"t": 2021, "tag": "main", "journals": 85437, "edges": 4609297, "weight": 20028035.0, "groups": 32, "seconds": 36.6, "peak_rss_mb": 17854.9}
+{"t": 2021, "tag": "main_s1", "journals": 85437, "edges": 4609297, "weight": 20028035.0, "groups": 32, "seconds": 38.0, "peak_rss_mb": 17785.2}
+{"t": 2021, "tag": "main_s2", "journals": 85437, "edges": 4609297, "weight": 20028035.0, "groups": 30, "seconds": 37.9, "peak_rss_mb": 17796.7}
+{"t": 2021, "tag": "main_s3", "journals": 85437, "edges": 4609297, "weight": 20028035.0, "groups": 30, "seconds": 36.4, "peak_rss_mb": 17854.9}
+{"t": 2021, "tag": "main_s4", "journals": 85437, "edges": 4609297, "weight": 20028035.0, "groups": 32, "seconds": 38.4, "peak_rss_mb": 17785.2}
+{"t": 2021, "tag": "main_s4311_rep", "journals": 85437, "edges": 4609297, "weight": 20028035.0, "groups": 31, "seconds": 38.2, "peak_rss_mb": 17796.7}
+{"t": 2021, "tag": "main_s4311_t1a", "journals": 85437, "edges": 4609297, "weight": 20028035.0, "groups": 32, "seconds": 39.6, "peak_rss_mb": 17893.3}
+{"t": 2021, "tag": "type_issn_ja50", "journals": 85261, "edges": 4591598, "weight": 19974257.0, "groups": 31, "seconds": 37.3, "peak_rss_mb": 17785.2}
+{"t": 2022, "tag": "main", "journals": 85437, "edges": 4915859, "weight": 21798499.0, "groups": 26, "seconds": 38.5, "peak_rss_mb": 17796.7}
+{"t": 2022, "tag": "main_s1", "journals": 85437, "edges": 4915859, "weight": 21798499.0, "groups": 25, "seconds": 39.0, "peak_rss_mb": 17893.3}
+{"t": 2022, "tag": "main_s2", "journals": 85437, "edges": 4915859, "weight": 21798499.0, "groups": 27, "seconds": 39.0, "peak_rss_mb": 17785.2}
+{"t": 2022, "tag": "main_s3", "journals": 85437, "edges": 4915859, "weight": 21798499.0, "groups": 27, "seconds": 38.0, "peak_rss_mb": 17796.7}
+{"t": 2022, "tag": "main_s4", "journals": 85437, "edges": 4915859, "weight": 21798499.0, "groups": 25, "seconds": 39.0, "peak_rss_mb": 17893.3}
+{"t": 2022, "tag": "main_s4311_rep", "journals": 85437, "edges": 4915859, "weight": 21798499.0, "groups": 26, "seconds": 39.1, "peak_rss_mb": 17785.2}
+{"t": 2022, "tag": "main_s4311_t1a", "journals": 85437, "edges": 4915859, "weight": 21798499.0, "groups": 26, "seconds": 41.0, "peak_rss_mb": 17916.0}
+{"t": 2022, "tag": "type_issn_ja50", "journals": 85261, "edges": 4902255, "weight": 21764898.0, "groups": 26, "seconds": 38.4, "peak_rss_mb": 17893.3}
+{"t": 2023, "tag": "main", "journals": 85437, "edges": 3533249, "weight": 15006686.0, "groups": 22, "seconds": 30.3, "peak_rss_mb": 17785.2}
+{"t": 2023, "tag": "main_s1", "journals": 85437, "edges": 3533249, "weight": 15006686.0, "groups": 23, "seconds": 30.9, "peak_rss_mb": 17916.0}
+{"t": 2023, "tag": "main_s2", "journals": 85437, "edges": 3533249, "weight": 15006686.0, "groups": 20, "seconds": 31.9, "peak_rss_mb": 17893.3}
+{"t": 2023, "tag": "main_s3", "journals": 85437, "edges": 3533249, "weight": 15006686.0, "groups": 20, "seconds": 30.6, "peak_rss_mb": 17785.2}
+{"t": 2023, "tag": "main_s4", "journals": 85437, "edges": 3533249, "weight": 15006686.0, "groups": 22, "seconds": 31.2, "peak_rss_mb": 17916.0}
+{"t": 2023, "tag": "main_s4311_rep", "journals": 85437, "edges": 3533249, "weight": 15006686.0, "groups": 22, "seconds": 30.8, "peak_rss_mb": 17785.2}
+{"t": 2023, "tag": "main_s4311_t1a", "journals": 85437, "edges": 3533249, "weight": 15006686.0, "groups": 21, "seconds": 32.9, "peak_rss_mb": 17893.3}
+{"t": 2023, "tag": "type_issn_ja50", "journals": 85261, "edges": 3529022, "weight": 14998627.0, "groups": 21, "seconds": 30.5, "peak_rss_mb": 17916.0}
+       t             tag                               recipient                                         donor  detected groups
+0   2020            main  Archivos Latinoamericanos de Nutricion        Journal of Intelligent & Fuzzy Systems     False       
+1   2020         main_s1  Archivos Latinoamericanos de Nutricion        Journal of Intelligent & Fuzzy Systems     False       
+2   2020         main_s2  Archivos Latinoamericanos de Nutricion        Journal of Intelligent & Fuzzy Systems     False       
+3   2020         main_s3  Archivos Latinoamericanos de Nutricion        Journal of Intelligent & Fuzzy Systems     False       
+4   2020         main_s4  Archivos Latinoamericanos de Nutricion        Journal of Intelligent & Fuzzy Systems     False       
+5   2020  main_s4311_rep  Archivos Latinoamericanos de Nutricion        Journal of Intelligent & Fuzzy Systems     False       
+6   2020  main_s4311_t1a  Archivos Latinoamericanos de Nutricion        Journal of Intelligent & Fuzzy Systems     False       
+7   2020  type_issn_ja50  Archivos Latinoamericanos de Nutricion        Journal of Intelligent & Fuzzy Systems     False       
+8   2020            main                       Materials Express        Nanoscience and Nanotechnology Letters     False       
+9   2020         main_s1                       Materials Express        Nanoscience and Nanotechnology Letters     False       
+10  2020         main_s2                       Materials Express        Nanoscience and Nanotechnology Letters     False       
+11  2020         main_s3                       Materials Express        Nanoscience and Nanotechnology Letters     False       
+12  2020         main_s4                       Materials Express        Nanoscience and Nanotechnology Letters     False       
+13  2020  main_s4311_rep                       Materials Express        Nanoscience and Nanotechnology Letters     False       
+14  2020  main_s4311_t1a                       Materials Express        Nanoscience and Nanotechnology Letters     False       
+15  2020  type_issn_ja50                       Materials Express        Nanoscience and Nanotechnology Letters     False       
+16  2023            main                Climate Change Economics  Environmental Science and Pollution Research     False       
+17  2023         main_s1                Climate Change Economics  Environmental Science and Pollution Research     False       
+18  2023         main_s2                Climate Change Economics  Environmental Science and Pollution Research     False       
+19  2023         main_s3                Climate Change Economics  Environmental Science and Pollution Research     False       
+20  2023         main_s4                Climate Change Economics  Environmental Science and Pollution Research     False       
+21  2023  main_s4311_rep                Climate Change Economics  Environmental Science and Pollution Research     False       
+22  2023  main_s4311_t1a                Climate Change Economics  Environmental Science and Pollution Research     False       
+23  2023  type_issn_ja50                Climate Change Economics  Environmental Science and Pollution Research     False       
+24  2023            main   Ukrainian Journal for Physical Optics                                         Optik     False       
+25  2023         main_s1   Ukrainian Journal for Physical Optics                                         Optik     False       
+26  2023         main_s2   Ukrainian Journal for Physical Optics                                         Optik     False       
+27  2023         main_s3   Ukrainian Journal for Physical Optics                                         Optik     False       
+28  2023         main_s4   Ukrainian Journal for Physical Optics                                         Optik     False       
+29  2023  main_s4311_rep   Ukrainian Journal for Physical Optics                                         Optik     False       
+30  2023  main_s4311_t1a   Ukrainian Journal for Physical Optics                                         Optik     False       
+31  2023  type_issn_ja50   Ukrainian Journal for Physical Optics                                         Optik     False       
+exit 0

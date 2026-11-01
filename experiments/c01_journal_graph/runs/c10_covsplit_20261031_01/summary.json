@@ -1,0 +1,37 @@
+{
+  "donor_pct_jif_numerator | refs_present=False": {
+    "n": 4,
+    "pass": 0,
+    "median_abs_diff_pp": 32.5,
+    "median_signed_diff_pp": -32.5
+  },
+  "donor_pct_jif_numerator | refs_present=True": {
+    "n": 9,
+    "pass": 4,
+    "median_abs_diff_pp": 24.0,
+    "median_signed_diff_pp": -2.59
+  },
+  "pct_exchange_to_jif_years | refs_present=True": {
+    "n": 6,
+    "pass": 4,
+    "median_abs_diff_pp": 4.27,
+    "median_signed_diff_pp": -0.39
+  },
+  "self_cites_pct_jif_numerator | refs_present=False": {
+    "n": 7,
+    "pass": 0,
+    "median_abs_diff_pp": 58.0,
+    "median_signed_diff_pp": -58.0
+  },
+  "self_cites_pct_jif_numerator | refs_present=True": {
+    "n": 50,
+    "pass": 36,
+    "median_abs_diff_pp": 4.58,
+    "median_signed_diff_pp": -2.77
+  },
+  "rows_without_value": {
+    "n": 17,
+    "refs_present_false": 6
+  },
+  "unmatched_rows": 3
+}

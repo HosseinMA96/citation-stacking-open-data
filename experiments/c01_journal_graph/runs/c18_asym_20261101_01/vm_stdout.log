@@ -1,0 +1,10 @@
+{"t": 2015, "journals": 85437, "groups_by_theta_d": {"0.15": 11, "0.1": 22, "0.05": 34, "0.02": 55, "0.01": 60}, "flags_1block": 592, "seconds": 52.0, "peak_rss_mb": 15134.0}
+{"t": 2016, "journals": 85437, "groups_by_theta_d": {"0.15": 22, "0.1": 27, "0.05": 38, "0.02": 63, "0.01": 73}, "flags_1block": 618, "seconds": 56.5, "peak_rss_mb": 15092.2}
+{"t": 2017, "journals": 85437, "groups_by_theta_d": {"0.15": 22, "0.1": 26, "0.05": 42, "0.02": 61, "0.01": 79}, "flags_1block": 662, "seconds": 59.6, "peak_rss_mb": 15110.4}
+{"t": 2018, "journals": 85437, "groups_by_theta_d": {"0.15": 24, "0.1": 26, "0.05": 39, "0.02": 57, "0.01": 59}, "flags_1block": 730, "seconds": 54.3, "peak_rss_mb": 15138.7}
+{"t": 2019, "journals": 85437, "groups_by_theta_d": {"0.15": 15, "0.1": 24, "0.05": 38, "0.02": 47, "0.01": 51}, "flags_1block": 888, "seconds": 59.1, "peak_rss_mb": 15227.9}
+{"t": 2020, "journals": 85437, "groups_by_theta_d": {"0.15": 27, "0.1": 31, "0.05": 34, "0.02": 51, "0.01": 51}, "flags_1block": 1058, "seconds": 69.0, "peak_rss_mb": 15220.4}
+{"t": 2021, "journals": 85437, "groups_by_theta_d": {"0.15": 32, "0.1": 42, "0.05": 53, "0.02": 65, "0.01": 52}, "flags_1block": 1424, "seconds": 76.2, "peak_rss_mb": 15273.9}
+{"t": 2022, "journals": 85437, "groups_by_theta_d": {"0.15": 26, "0.1": 33, "0.05": 64, "0.02": 71, "0.01": 35}, "flags_1block": 1619, "seconds": 84.6, "peak_rss_mb": 15296.5}
+{"t": 2023, "journals": 85437, "groups_by_theta_d": {"0.15": 22, "0.1": 26, "0.05": 37, "0.02": 49, "0.01": 46}, "flags_1block": 1075, "seconds": 51.3, "peak_rss_mb": 15220.4}
+EXIT=0

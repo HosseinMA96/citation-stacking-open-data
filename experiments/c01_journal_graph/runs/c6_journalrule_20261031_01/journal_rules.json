@@ -1,0 +1,118 @@
+{
+  "src": "c6_full_20261031_02",
+  "venue_groups": 9006164,
+  "journal_articles_with_venue": 73109097,
+  "journal_articles_all": 76804859,
+  "agg_weight": 285746820.0,
+  "eff_2015_2023_both_ends_venue": 140451400,
+  "eff_2015_2023_cited_venue": 149688989,
+  "rules": {
+    "type_journal": {
+      "venues_kept": 233239,
+      "journal_articles_covered": 72276180,
+      "share_of_journal_articles_with_venue": 0.9886,
+      "agg_nodes": 147765,
+      "agg_edges": 20906131,
+      "agg_weight_share": 0.9049,
+      "eff_2015_2023_both_ends": 125959602,
+      "eff_2015_2023_share_of_both_ends_venue": 0.8968
+    },
+    "issn": {
+      "venues_kept": 103652,
+      "journal_articles_covered": 72671703,
+      "share_of_journal_articles_with_venue": 0.994,
+      "agg_nodes": 91612,
+      "agg_edges": 21270721,
+      "agg_weight_share": 0.9141,
+      "eff_2015_2023_both_ends": 127247704,
+      "eff_2015_2023_share_of_both_ends_venue": 0.906
+    },
+    "ja_share>=0.3": {
+      "venues_kept": 334186,
+      "journal_articles_covered": 73089241,
+      "share_of_journal_articles_with_venue": 0.9997,
+      "agg_nodes": 150414,
+      "agg_edges": 20802289,
+      "agg_weight_share": 0.9013,
+      "eff_2015_2023_both_ends": 125613221,
+      "eff_2015_2023_share_of_both_ends_venue": 0.8944
+    },
+    "ja_share>=0.5": {
+      "venues_kept": 333892,
+      "journal_articles_covered": 73022919,
+      "share_of_journal_articles_with_venue": 0.9988,
+      "agg_nodes": 150317,
+      "agg_edges": 20788020,
+      "agg_weight_share": 0.9011,
+      "eff_2015_2023_both_ends": 125596062,
+      "eff_2015_2023_share_of_both_ends_venue": 0.8942
+    },
+    "ja_share>=0.7": {
+      "venues_kept": 333106,
+      "journal_articles_covered": 72234494,
+      "share_of_journal_articles_with_venue": 0.988,
+      "agg_nodes": 150076,
+      "agg_edges": 20733334,
+      "agg_weight_share": 0.8991,
+      "eff_2015_2023_both_ends": 125383938,
+      "eff_2015_2023_share_of_both_ends_venue": 0.8927
+    },
+    "issn & ja_share>=0.5": {
+      "venues_kept": 95340,
+      "journal_articles_covered": 72597578,
+      "share_of_journal_articles_with_venue": 0.993,
+      "agg_nodes": 85727,
+      "agg_edges": 20522482,
+      "agg_weight_share": 0.8999,
+      "eff_2015_2023_both_ends": 125432978,
+      "eff_2015_2023_share_of_both_ends_venue": 0.8931
+    },
+    "type_journal & issn": {
+      "venues_kept": 92779,
+      "journal_articles_covered": 72137132,
+      "share_of_journal_articles_with_venue": 0.9867,
+      "agg_nodes": 85437,
+      "agg_edges": 20656119,
+      "agg_weight_share": 0.9038,
+      "eff_2015_2023_both_ends": 125802402,
+      "eff_2015_2023_share_of_both_ends_venue": 0.8957
+    },
+    "type_journal | (issn & ja_share>=0.5)": {
+      "venues_kept": 236095,
+      "journal_articles_covered": 72762119,
+      "share_of_journal_articles_with_venue": 0.9953,
+      "agg_nodes": 148235,
+      "agg_edges": 20912066,
+      "agg_weight_share": 0.9049,
+      "eff_2015_2023_both_ends": 125964978,
+      "eff_2015_2023_share_of_both_ends_venue": 0.8969
+    }
+  },
+  "rec_types_top": {
+    "proceedings": 5336053,
+    "book": 2673893,
+    "<no record>": 446986,
+    "journal": 232504,
+    "reference book": 183329,
+    "journal article": 92308,
+    "book series": 32708,
+    "dataset": 7353,
+    "series": 295,
+    "journal|<no record>": 194,
+    "<no record>|journal": 185,
+    "journal|journal article": 134
+  },
+  "top_type_of_venues_not_type_journal": {
+    "proceedings article": 5336206,
+    "book chapter": 2630453,
+    "null": 263101,
+    "reference entry": 183329,
+    "dataset": 170973,
+    "journal article": 103001,
+    "book": 58104,
+    "journal": 9311,
+    "book section": 9184,
+    "reference book": 6427
+  },
+  "seconds": 226.8
+}

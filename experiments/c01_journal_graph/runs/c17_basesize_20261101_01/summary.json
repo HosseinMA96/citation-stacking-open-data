@@ -1,0 +1,177 @@
+{
+  "thresholds": {
+    "baseline_rate_main": {
+      "X": 0.43396226415094347,
+      "target_rate": 0.034176488467123706,
+      "achieved_rate": 0.034176488467123706
+    },
+    "baseline_rate_k7": {
+      "X": 0.5000000000000001,
+      "target_rate": 0.023099523825605348,
+      "achieved_rate": 0.02181621694640505
+    },
+    "baseline_015_w50": {
+      "X": 0.15,
+      "min_top_eff": 50,
+      "achieved_rate": 0.029819999324575328
+    }
+  },
+  "jaccard": {
+    "variant_main|baseline_rate_main": 0.058,
+    "variant_main|baseline_rate_k7": 0.052,
+    "variant_main|baseline_015_w50": 0.224,
+    "variant_k7|baseline_rate_main": 0.065,
+    "variant_k7|baseline_rate_k7": 0.062,
+    "variant_k7|baseline_015_w50": 0.237,
+    "variant_main|variant_k7": 0.676
+  },
+  "enrichment_stacking": [
+    {
+      "flag_set": "variant_main",
+      "base_journals": 29611,
+      "base_rate": 0.03418,
+      "listed": 28,
+      "listed_flagged": 10,
+      "enrichment": 10.45,
+      "enrichment_ci95": [
+        6.06,
+        15.85
+      ],
+      "p_one_sided": 1.6186806380709515e-08,
+      "flagged_before_first_listing": 6.0
+    },
+    {
+      "flag_set": "variant_k7",
+      "base_journals": 29611,
+      "base_rate": 0.0231,
+      "listed": 28,
+      "listed_flagged": 9,
+      "enrichment": 13.91,
+      "enrichment_ci95": [
+        7.76,
+        21.93
+      ],
+      "p_one_sided": 8.683587891411982e-09,
+      "flagged_before_first_listing": 5.0
+    },
+    {
+      "flag_set": "baseline_rate_main",
+      "base_journals": 29611,
+      "base_rate": 0.03418,
+      "listed": 28,
+      "listed_flagged": 3,
+      "enrichment": 3.13,
+      "enrichment_ci95": [
+        1.09,
+        7.96
+      ],
+      "p_one_sided": 0.06932193727207464,
+      "flagged_before_first_listing": 1.0
+    },
+    {
+      "flag_set": "baseline_rate_k7",
+      "base_journals": 29611,
+      "base_rate": 0.02182,
+      "listed": 28,
+      "listed_flagged": 2,
+      "enrichment": 3.27,
+      "enrichment_ci95": [
+        0.91,
+        10.38
+      ],
+      "p_one_sided": 0.12403526080988755,
+      "flagged_before_first_listing": 0.0
+    },
+    {
+      "flag_set": "baseline_015_w50",
+      "base_journals": 29611,
+      "base_rate": 0.02982,
+      "listed": 28,
+      "listed_flagged": 7,
+      "enrichment": 8.38,
+      "enrichment_ci95": [
+        4.25,
+        14.54
+      ],
+      "p_one_sided": 1.4284381938572927e-05,
+      "flagged_before_first_listing": 5.0
+    }
+  ],
+  "size_matched_stacking": [
+    {
+      "flag_set": "variant_main",
+      "listed": 28,
+      "listed_flagged": 10,
+      "cmh_mh_odds_ratio": 11.26,
+      "cmh_z": 6.85,
+      "cmh_p_one_sided": 3.6263293971113807e-12,
+      "controls": 280,
+      "controls_same_block_share": 0.711,
+      "controls_flagged": 20,
+      "listed_rate": 0.3571,
+      "control_rate": 0.0714,
+      "matched_enrichment": 5.0,
+      "fisher_p_one_sided": 6.777365708365706e-05
+    },
+    {
+      "flag_set": "variant_k7",
+      "listed": 28,
+      "listed_flagged": 9,
+      "cmh_mh_odds_ratio": 14.97,
+      "cmh_z": 7.97,
+      "cmh_p_one_sided": 8.168144352426719e-16,
+      "controls": 280,
+      "controls_same_block_share": 0.711,
+      "controls_flagged": 13,
+      "listed_rate": 0.3214,
+      "control_rate": 0.0464,
+      "matched_enrichment": 6.92,
+      "fisher_p_one_sided": 2.58568728159361e-05
+    },
+    {
+      "flag_set": "baseline_rate_main",
+      "listed": 28,
+      "listed_flagged": 3,
+      "cmh_mh_odds_ratio": 6.25,
+      "cmh_z": 3.4,
+      "cmh_p_one_sided": 0.0003403840900485122,
+      "controls": 280,
+      "controls_same_block_share": 0.711,
+      "controls_flagged": 6,
+      "listed_rate": 0.1071,
+      "control_rate": 0.0214,
+      "matched_enrichment": 5.0,
+      "fisher_p_one_sided": 0.03907186364956846
+    },
+    {
+      "flag_set": "baseline_rate_k7",
+      "listed": 28,
+      "listed_flagged": 2,
+      "cmh_mh_odds_ratio": 6.62,
+      "cmh_z": 2.9,
+      "cmh_p_one_sided": 0.001836579795349669,
+      "controls": 280,
+      "controls_same_block_share": 0.711,
+      "controls_flagged": 6,
+      "listed_rate": 0.0714,
+      "control_rate": 0.0214,
+      "matched_enrichment": 3.33,
+      "fisher_p_one_sided": 0.15853604241637104
+    },
+    {
+      "flag_set": "baseline_015_w50",
+      "listed": 28,
+      "listed_flagged": 7,
+      "cmh_mh_odds_ratio": 6.78,
+      "cmh_z": 4.8,
+      "cmh_p_one_sided": 7.809347189719231e-07,
+      "controls": 280,
+      "controls_same_block_share": 0.711,
+      "controls_flagged": 14,
+      "listed_rate": 0.25,
+      "control_rate": 0.05,
+      "matched_enrichment": 5.0,
+      "fisher_p_one_sided": 0.0011575114449506284
+    }
+  ]
+}

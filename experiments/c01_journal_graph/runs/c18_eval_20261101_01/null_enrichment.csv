@@ -1,0 +1,5 @@
+flag_set,kind,base_rate,listed,listed_flagged,enrichment,enrichment_ci95,p_one_sided,flagged_before_first_listing
+dcsbm_main,stacking,0.03418,28,10,10.45,"[np.float64(6.06), np.float64(15.85)]",1.6186806380709515e-08,6.0
+dcsbm_main,self,0.03418,85,10,3.44,"[np.float64(1.91), np.float64(5.95)]",0.0006549330426162673,
+one_block,stacking,0.11634,28,14,4.3,"[np.float64(2.8), np.float64(5.79)]",6.722111843612682e-07,10.0
+one_block,self,0.11634,85,22,2.22,"[np.float64(1.53), np.float64(3.1)]",0.00022451561485791523,

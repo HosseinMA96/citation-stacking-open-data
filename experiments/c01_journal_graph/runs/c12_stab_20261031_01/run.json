@@ -1,0 +1,17 @@
+{
+  "run_id": "c12_stab_20261031_01",
+  "script": "c12_stability.py",
+  "script_sha256": "a87d41508f4e6979341eb306b82fe449a367a82816dcafd636e4a8dd1af7f67d",
+  "cidre_run": "c12_cidre_20261031_02",
+  "recip_run": "c12_recip_20261031_01",
+  "tags": [
+    "main",
+    "main_s1",
+    "main_s2",
+    "main_s3",
+    "main_s4",
+    "main_s4311_rep",
+    "main_s4311_t1a"
+  ],
+  "python": "3.10.9"
+}

@@ -1,0 +1,31 @@
+block,step,n,source
+labels,rows: self,98,suppressions_v2.csv
+labels,rows: stacking,37,suppressions_v2.csv
+labels,rows: stacking (expression of concern),3,suppressions_v2.csv
+labels,rows: warning_self_stacking,6,suppressions_v2.csv
+labels,stacking rows: named recipient<-donor,17,suppressions_v2.csv
+labels,stacking rows: donor,9,suppressions_v2.csv
+labels,stacking rows: no named partner,11,suppressions_v2.csv
+labels,rows total,144,suppressions_v2.csv
+self fidelity,self rows,98,suppressions_v2.csv
+self fidelity,with a published self-citation %,60,suppressions_v2.csv
+self fidelity,matched to a journal,59,c10_fidelity_20261031_02/fidelity.csv
+self fidelity,"evaluated (num >= 20, citable >= 20)",57,c10_fidelity_20261031_02/fidelity.csv
+self fidelity,"evaluated, references present (pass within 10 pp)",50,c10_covsplit_20261031_01/summary.json (pass 36)
+self fidelity,"evaluated, references absent (pass within 10 pp)",7,c10_covsplit_20261031_01/summary.json (pass 0)
+self ranks,self rows in ranks,95,c10_fidelity_20261031_02/ranks.csv
+self ranks,matched,95,c10_fidelity_20261031_02/ranks.csv
+self ranks,"ranked (num >= 20, citable >= 20)",85,c10_fidelity_20261031_02/ranks.csv
+self ranks,ranked in the top 5%,59,c10_fidelity_20261031_02/ranks.csv
+stacking fidelity,named pairs with a published donor %,31,c10_fidelity_20261031_02/fidelity.csv
+stacking fidelity,both journals matched,26,c10_fidelity_20261031_02/fidelity.csv
+stacking fidelity,donor references present,9,c10_covsplit_20261031_01/summary.json (pass 4)
+stacking fidelity,donor references absent,4,c10_covsplit_20261031_01/summary.json (pass 0)
+CIDRE,named recipient<-donor rows 2015-2023 (incl. expression of concern),20,c12_eval_20261031_01/summary.json
+CIDRE,both journals matched,15,c12_eval_20261031_01/summary.json
+CIDRE,detected (any partition),0,c12_eval_20261031_01/summary.json
+variant enrichment,stacking-listed journals in base (design cases excluded),28,c17_basesize_20261101_01/baseline_enrichment.csv
+variant enrichment,self-listed journals in base,85,c17_basesize_20261101_01/baseline_enrichment.csv
+out of sample,"stacking recipients listed, data years 2024-2025",8,c16_oos_20261101_01/positives.csv
+out of sample,in the population,6,c16_oos_20261101_01/positives.csv
+out of sample,flagged in advance (k = 7),1,c16_oos_20261101_01/positives.csv

@@ -1,0 +1,16 @@
+{
+  "run_id": "c10_match_20261031_05",
+  "script": "c10_match.py",
+  "script_sha256": "59f200b4f547017404dd41f43df3190c406b6cae800f6e17e6de1fc792feff0f",
+  "src_run": "c6_full_20261031_02",
+  "labels": "suppressions_v2.csv",
+  "labels_sha256": "58b9899765c5c4cf948ccf714452e1515a15834af314fbf768ec405e2e8d381c",
+  "queried": "2026-10-31T21:23:40Z",
+  "python": "3.10.9",
+  "duckdb": "1.5.6",
+  "status_counts": {
+    "matched": 131,
+    "no_crossref_title_match": 5,
+    "issn_not_in_data": 2
+  }
+}

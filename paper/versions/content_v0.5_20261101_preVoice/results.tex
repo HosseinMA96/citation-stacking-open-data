@@ -1,0 +1,221 @@
+% Central Paper C content (journal-neutral). Edit here; journal wrappers in ../journals/ only \input these files.
+% Every number traces to ../../FINDINGS.md.
+\section{Results}\label{sec:results}
+
+\subsection{What open data contain}\label{sec:res-coverage}
+In citing years up to 2014, 99.5\% of citation links have a citing item with a journal; this share falls to 69.3\%
+in 2020 and recovers to 97.6\% in 2022 (Fig.~\ref{fig:coverage}). The dip is caused by one source. In 2020, 221,918 of
+the 230,438 citing items typed \emph{dataset} without a journal (96.3\%) carry DOIs of the Global Biodiversity
+Information Facility (prefix 10.15468, registered with DataCite): occurrence downloads whose reference lists cite the
+datasets and taxonomic publications the records come from. These are legitimate data citations, but they are not the
+journal citations Clarivate counts. Had they been counted, they would form 12.8\%, 14.4\% and 11.2\% of the JIF-window
+numerator in 2019, 2020 and 2021, concentrated in a few taxonomy journals: in 2020, 99.8\% of the numerator of
+\emph{Zootaxa} would come from such items, giving a JIF proxy above 600. Restricting citing items to those with a
+journal removes the artifact; including them changes the JIF proxy noticeably only in 2019--2021 (correlation with the
+main version 0.70--0.90, against at least 0.99 in other years).
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.6\linewidth]{F1_coverage_by_year.pdf}
+\caption{Share of citation links whose citing item has a journal, whose both items have a journal, and whose both
+items are journals under the journal rule, by citing year. The 2015--2021 dip is due to GBIF occurrence-download
+records registered with DataCite.}
+\label{fig:coverage}
+\end{figure}
+
+\subsection{Fidelity to Clarivate's published figures}\label{sec:res-fidelity}
+Whether open data reproduce Clarivate's figures depends mainly on whether the citing journal's reference lists are in
+OpenCitations (Fig.~\ref{fig:fidelity}). When they are, our self-citation share lies within $\pm10$ percentage points
+of Clarivate's for 36 of 50 journals, with a median absolute difference of 4.6 points and a median signed difference
+of $-2.8$ points. When they are absent, our share is zero and none of seven journals passes. For stacking pairs whose
+donor has references and the pair has citations in our data (five pairs), the donor's share of the recipient's
+numerator is reproduced for four and the exchange share for four. Many stacking donors in Clarivate's lists, however,
+have no references in OpenCitations at all.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.55\linewidth]{F2_fidelity.pdf}
+\caption{Clarivate's published percentages against ours, by whether the citing journal's (self-citation) or donor's
+(stacking) reference lists are present in OpenCitations. The band marks $\pm10$ percentage points.}
+\label{fig:fidelity}
+\end{figure}
+
+The missing references are not random. For the journals whose references are absent, the median share of their DOIs
+with deposited reference lists in Crossref is zero (zero for eight of eleven), against 0.96 for journals whose
+references are present. The journals of one publisher that deposits references today began only recently (backfile
+coverage around 5\%). These blind spots include donors in several Clarivate stacking cases.
+
+On ranks, 59 of 85 self-citation suppressions (69\%) lie in the top 5\% of their year by self-citation share, with a
+median percentile of 3.1\%, but only 9 are in the top 1\%. The criterion we fixed in advance for data year 2020,
+at least half of the suppressed journals in the top 1\%, was not met (0 of 8); we report this as recorded.
+Without the nine self-citation rows that are missing from Clarivate's current spreadsheet, 55 of 76 journal-years are
+in the top 5\% (72\%) and 9 in the top 1\%, and 28 of 41 journals with references present are reproduced within
+$\pm10$ points.
+
+\subsection{CIDRE on open data}\label{sec:res-cidre}
+CIDRE finds between 11 and 32 groups per year, typically of three to five journals. It detects none of the 15 named
+Clarivate pairs from 2018--2023 for which both journals are matched, in any of the eight partitions, and no recipient
+or donor of these pairs is in any CIDRE group in its year. Some misses are due to data: the donor has no references in
+OpenCitations, or the pair has too few citations to reach $\theta_w$. Two 2023 pairs, however, are well covered and
+still missed.
+
+For these, a stage-by-stage diagnosis shows the mechanism (Fig.~\ref{fig:peeling}). The stacking edge passes CIDRE's
+test: 99.5\% (Optik to Ukrainian Journal of Physical Optics) and 85.5\% (Environmental Science and Pollution Research
+to Climate Change Economics) of the donor's citations to the recipient fall in the JIF window, and the edges are
+significant against the block model. The recipients' scores, 0.83 and 0.32, are well above $\theta$. But the donors are
+large journals whose stacking citations are a small part of their output: their donor scores are 0.057 and 0.035.
+Since CIDRE removes a journal when both of its scores are below $\theta$, the donor is removed, the recipient's score
+falls to zero, and no group remains. The CIDRE paper motivates $\theta=0.15$ on the recipient side, noting that all
+recipients suspended by Clarivate received at least 15\% of their citations from donors \citep{kojaku2021cidre}, but
+applies the same threshold to donors.
+
+Lowering the donor threshold alone does not repair this. With $\theta_r=0.15$ and
+$\theta_d=0.10$, 0.05, 0.02 or 0.01, CIDRE still detects none of the 15 pairs. Keeping large donors joins their components:
+the largest group has 28 journals at the published setting, and 29, 163, 656 and 3,056 journals at
+$\theta_d=0.10$, 0.05, 0.02 and 0.01. The named pairs then sit inside groups much larger than the pair, and the overlap rule fails. At $\theta_d=0.05$,
+Ukrainian Journal of Physical Optics and Optik share a group of 13 journals; at $\theta_d=0.02$, three 2023 pairs share one group
+of 345 journals. The blind spot thus lies in how groups are formed, not only in the value of the threshold.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.6\linewidth]{F3_cidre_peeling.pdf}
+\caption{Why CIDRE misses two well-covered 2023 stacking pairs: the recipients' scores exceed $\theta$, but the large
+donors' scores do not, so the group-building step removes the donors.}
+\label{fig:peeling}
+\end{figure}
+
+CIDRE does find stacking between small journals. In 2015 one of its groups consists exactly of Applied Clinical
+Informatics and Methods of Information in Medicine, and in 2017 one consists exactly of Liver Cancer and Digestive
+Diseases; in each case both journals were suppressed for stacking in that year, although Clarivate's spreadsheet for
+those years does not name the pairs.
+
+\subsection{The recipient-centric reading}\label{sec:res-variant}
+Over 2015--2023, the variant flags 12 of 30 stacking-listed journals (40\%), against 3.4\% of all journals with at
+least 20 numerator citations in some year: an enrichment of 11.7 ($p=1.2\times10^{-10}$). Without the two journals
+used to design it, 10 of 28 are flagged (10.5-fold, $p=1.6\times10^{-8}$), and across partitions and size thresholds
+the enrichment ranges from 5.7 to 10.5 ($p\le1.1\times10^{-5}$). For self-citation-listed journals the enrichment is
+weaker and not robust across partitions (1.3 to 3.4), as expected for a measure of external citations.
+
+Requiring flags to appear in more partitions lowers the base rate faster than the hit rate (Fig.~\ref{fig:enrichment}).
+With flags present in all seven partitions, 2.3\% of journals are ever flagged, against 9 of 28 stacking-listed
+journals: a 13.9-fold enrichment ($p=8.7\times10^{-9}$). Because the consensus rule was chosen after seeing these
+results, we report all three levels.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.6\linewidth]{F4_enrichment.pdf}
+\caption{Share of listed journals ever flagged by the recipient-centric reading in 2015--2023, against the base rate,
+by the number of partitions required (design cases excluded). Labels give the enrichment for stacking-listed journals.}
+\label{fig:enrichment}
+\end{figure}
+
+Two checks ask whether simpler explanations account for this enrichment (Table~\ref{tab:baselines}). The first is a
+plain rule without a null model. Set to flag as many journals as the variant, it requires the largest donor to provide
+at least 43\% of the numerator, and it flags 3 of 28 stacking-listed journals (3.1-fold, 95\% CI 1.1--8.0, $p=0.069$).
+The variant reaches 10.5-fold (6.1--15.9) at the same flag rate. The variant's test against a single block instead of
+the block model flags 3.4 times as many journals, and its enrichment falls to 4.3-fold (2.8--5.8). The block model thus
+makes the test more specific. On the same 28 journals, the variant flags 8 that the rate-matched rule misses, and the
+rule flags 1 that the variant misses (exact McNemar test, $p=0.039$). A plain rule with CIDRE's two thresholds applied to
+the raw share comes closer, at 8.4-fold (4.3--14.5). It flags 7 listed journals; the variant flags 4 that it misses and
+it flags 1 that the variant misses ($p=0.38$). An absolute volume floor therefore carries much of the signal. Overall
+the two rules' flags overlap little (Jaccard 0.22), so they find partly different journals.
+
+The second check concerns size. Stacking-listed journals are not small: 25 of the 28 lie in the upper six deciles of
+journal size (largest yearly numerator). The variant needs at least 50 excessive citations, so it flags no journal in
+the three lowest deciles and 7--9\% of journals in the highest. Enrichment against all journals therefore partly
+reflects size. Against ten never-listed controls of nearest size per listed journal, 71\% of them from the same block,
+the variant flags 35.7\% of listed journals and 7.1\% of controls: 5.0-fold (95\% CI 2.7--10.9, cluster bootstrap over
+listed journals; $p=6.8\times10^{-5}$, Fisher's exact test). The consensus flags 32.1\% against 4.6\%: 6.9-fold
+(3.1--17.1, $p=2.6\times10^{-5}$). Over size deciles the Mantel--Haenszel odds ratios are 11.3 and 15.0. Size matching
+moves the rate-matched rule the other way, from 3.1- to 5.0-fold. A 43\% share is easy to reach with a small
+numerator, so this rule flags 6\% of journals in the lowest size decile but 0.2\% in the highest. Size-matched
+controls of the larger listed journals are therefore rarely flagged. With only 3 listed journals and 6 controls flagged,
+its interval is wide (0--30). For self-citation-listed journals the variant's size-matched enrichment is 1.7-fold and not
+significant ($p=0.09$).
+
+\begin{table}[t]
+\centering
+\caption{Enrichment of stacking-listed journals (28, design cases excluded) ever flagged in 2015--2023, by flagging
+rule. Flag rate: share of the 29,611 journals with at least 20 numerator citations in some year that are ever flagged.
+Size-matched: against ten never-listed controls of nearest size per listed journal (95\% CI from a cluster bootstrap
+over listed journals).}
+\label{tab:baselines}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Rule & Flag rate & Listed flagged & Enrichment (95\% CI) & Size-matched (95\% CI) \\
+\midrule
+Variant, partition \emph{main} & 3.4\% & 10 & 10.5 (6.1--15.9) & 5.0 (2.7--10.9) \\
+Variant, consensus of 7 partitions & 2.3\% & 9 & 13.9 (7.8--21.9) & 6.9 (3.1--17.1) \\
+Variant, single-block null & 11.6\% & 14 & 4.3 (2.8--5.8) & -- \\
+Top-donor share $\ge0.43$ (rate-matched) & 3.4\% & 3 & 3.1 (1.1--8.0) & 5.0 (0--30.0) \\
+Top-donor share $\ge0.15$ and $\ge50$ citations & 3.0\% & 7 & 8.4 (4.3--14.5) & 5.0 (1.7--12.9) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Eight listed journals were flagged before their first listing (Fig.~\ref{fig:leadtime}). Granular Computing was
+flagged in every year from 2016 to 2020, three to seven years before its 2023 listing, with Information Sciences, its
+donor in Clarivate's list, as the largest excessive donor in four of those years. Panminerva Medica and Minerva Medica
+were flagged three to four years before their 2023 listing, Liver Cancer one to two years before 2017 (largest
+excessive donor Digestive Diseases), and Ukrainian Journal of Physical Optics in 2022 (donor Optik).
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.6\linewidth]{F5_lead_time.pdf}
+\caption{Years in which listed journals were flagged (dots) and their first Clarivate listing (bars), partition
+\emph{main}.}
+\label{fig:leadtime}
+\end{figure}
+
+In the pre-specified evidence check on 196 randomly sampled consensus flags and 196 matched controls, 28.1\% of flagged
+pairs carry at least one independent indicator against 6.1\% of controls ($p=6.2\times10^{-9}$, Fisher's exact
+test). The most frequent indicator is a shared publisher of recipient and donor (19.4\% against 6.1\%); 5.1\% of
+flagged pairs have a donor in Clarivate's lists and 5.6\% have strongly concentrated citations, against none of the
+controls. These shares are a lower bound on the precision of the flags, not an estimate of it.
+
+\subsection{A prospective check on the 2024 and 2025 lists}\label{sec:res-oos}
+Clarivate listed eight journals for stacking in data years 2024 and 2025, six of which are in our evaluated
+population. One of them, Asian Journal of Agriculture and Biology, was among the frozen consensus flags (flagged in
+2022) and was listed for data year 2024. Thus 1 of 6 newly listed journals was flagged, against 2.3\% of the other
+29,490 journals (7.4-fold, one-sided Fisher $p=0.13$). With the flags of partition \emph{main} the result is 5.0-fold
+($p=0.19$). The direction agrees with the retrospective results, but with six cases the test has little power and the
+result is not significant. A flag can anticipate a later listing only if the pattern persists beyond our data, which
+end with data year 2023.
+
+\subsection{Paper-level anatomy}\label{sec:res-anatomy}
+Flagged pairs differ from matched controls in how their citations arise (Fig.~\ref{fig:anatomy}). Each citing paper
+cites the recipient 1.98 times on median, against 1.28 ($p=2.5\times10^{-27}$, Mann--Whitney), and citations are more
+unevenly spread over citing papers (Gini 0.25 against 0.18, $p=1.5\times10^{-8}$). The share from the top 10\% of
+citing papers does not differ ($p=0.35$): the pattern is many papers each citing a little too often rather than a few
+papers with long reference lists. Cited and citing titles are less similar in flagged pairs (TF--IDF cosine 0.084
+against 0.133, $p=1.2\times10^{-24}$). Since excessive edges are defined against the block model, flagged pairs might
+simply join more distant fields; in fact 27.9\% of flagged pairs share a block against 0.6\% of controls, and within
+cross-block pairs the differences remain (cosine 0.084 against 0.133, $p=1.2\times10^{-17}$; citations per citing
+paper 2.00 against 1.28). For the five named Clarivate pairs with citations the sample is too small for conclusions.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.6\linewidth]{F7_anatomy.pdf}
+\caption{Citations per citing paper (log scale) and citing--cited title similarity for named Clarivate pairs, flagged
+pairs and their matched controls.}
+\label{fig:anatomy}
+\end{figure}
+
+\subsection{Sensitivity to the block-model partition}\label{sec:res-stability}
+With eight threads, block-model fits are not reproducible from a seed: six fits of the same network give 2,131 to 2,912
+blocks, with pairwise normalized mutual information of 0.76--0.78 and adjusted Rand index \citep{hubert1985ari} of
+0.44--0.54. Two single-threaded fits with the same seed give identical partitions, so the variation comes from the
+parallel search. CIDRE's groups depend much less on the partition than the partitions themselves agree: the median
+Jaccard similarity of group members between partitions is 0.85, and 93\% of groups have a counterpart (Fig.~\ref{fig:stability}).
+The variant's flags are less stable (median Jaccard 0.62), which motivates the consensus rule.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.6\linewidth]{F6_stability.pdf}
+\caption{Agreement between fits: block-model partitions (ARI, NMI), CIDRE group members (Jaccard) and group recovery,
+and the variant's flags (Jaccard).}
+\label{fig:stability}
+\end{figure}
+

@@ -1,0 +1,26 @@
+{
+  "run_id": "c6_full_20261031_02",
+  "seed": 4311,
+  "min_strength": 0,
+  "journal_rule": "main",
+  "rule": {
+    "type_journal": true,
+    "issn": true
+  },
+  "journals_in_rule": 92779,
+  "agg_edges_before_rule": 39508367,
+  "agg_weight_before_rule": 285746820,
+  "journals": 85437,
+  "edges": 20656119,
+  "weight": 258255814,
+  "self_loops": 37305,
+  "load_seconds": 6.8,
+  "input_sha256": "bc0fb8290f988cb6123595e26b73cef7f202379f17534985ccda0e8923be4615",
+  "graph_tool": "3.9",
+  "omp_threads": "8",
+  "blocks": 2770,
+  "description_length": 148448383.3006835,
+  "fit_seconds": 1006.0,
+  "peak_rss_mb": 16271.6,
+  "output_sha256": "6e9470caf26cfcf5c6175b64955d01c61ea2991a118003eaad714a563f705ffd"
+}

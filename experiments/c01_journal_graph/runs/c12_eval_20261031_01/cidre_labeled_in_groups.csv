@@ -1,0 +1,1113 @@
+t,tag,journal,type,matched,in_group_same_year,in_group_any_year
+2017,main,CANADIAN HISTORICAL REVIEW,self,True,False,False
+2017,main_s1,CANADIAN HISTORICAL REVIEW,self,True,False,False
+2017,main_s2,CANADIAN HISTORICAL REVIEW,self,True,False,False
+2017,main_s3,CANADIAN HISTORICAL REVIEW,self,True,False,False
+2017,main_s4,CANADIAN HISTORICAL REVIEW,self,True,False,False
+2017,main_s4311_rep,CANADIAN HISTORICAL REVIEW,self,True,False,False
+2017,main_s4311_t1a,CANADIAN HISTORICAL REVIEW,self,True,False,False
+2017,type_issn_ja50,CANADIAN HISTORICAL REVIEW,self,True,False,False
+2017,main,AQUACULTURE ECONOMICS & MANAGEMENT,self,True,False,False
+2017,main_s1,AQUACULTURE ECONOMICS & MANAGEMENT,self,True,False,False
+2017,main_s2,AQUACULTURE ECONOMICS & MANAGEMENT,self,True,False,False
+2017,main_s3,AQUACULTURE ECONOMICS & MANAGEMENT,self,True,False,False
+2017,main_s4,AQUACULTURE ECONOMICS & MANAGEMENT,self,True,False,False
+2017,main_s4311_rep,AQUACULTURE ECONOMICS & MANAGEMENT,self,True,False,False
+2017,main_s4311_t1a,AQUACULTURE ECONOMICS & MANAGEMENT,self,True,False,False
+2017,type_issn_ja50,AQUACULTURE ECONOMICS & MANAGEMENT,self,True,False,False
+2017,main,Archives of Budo,self,True,False,False
+2017,main_s1,Archives of Budo,self,True,False,False
+2017,main_s2,Archives of Budo,self,True,False,False
+2017,main_s3,Archives of Budo,self,True,False,False
+2017,main_s4,Archives of Budo,self,True,False,False
+2017,main_s4311_rep,Archives of Budo,self,True,False,False
+2017,main_s4311_t1a,Archives of Budo,self,True,False,False
+2017,type_issn_ja50,Archives of Budo,self,True,False,False
+2017,main,Chinese Journal of Mechanical Engineering,self,True,False,False
+2017,main_s1,Chinese Journal of Mechanical Engineering,self,True,False,False
+2017,main_s2,Chinese Journal of Mechanical Engineering,self,True,False,False
+2017,main_s3,Chinese Journal of Mechanical Engineering,self,True,False,False
+2017,main_s4,Chinese Journal of Mechanical Engineering,self,True,False,False
+2017,main_s4311_rep,Chinese Journal of Mechanical Engineering,self,True,False,False
+2017,main_s4311_t1a,Chinese Journal of Mechanical Engineering,self,True,False,False
+2017,type_issn_ja50,Chinese Journal of Mechanical Engineering,self,True,False,False
+2017,main,DIGESTIVE DISEASES,stacking,True,True,True
+2017,main_s1,DIGESTIVE DISEASES,stacking,True,True,True
+2017,main_s2,DIGESTIVE DISEASES,stacking,True,True,True
+2017,main_s3,DIGESTIVE DISEASES,stacking,True,True,True
+2017,main_s4,DIGESTIVE DISEASES,stacking,True,True,True
+2017,main_s4311_rep,DIGESTIVE DISEASES,stacking,True,True,True
+2017,main_s4311_t1a,DIGESTIVE DISEASES,stacking,True,True,True
+2017,type_issn_ja50,DIGESTIVE DISEASES,stacking,True,True,True
+2017,main,European Journal of the History of Economic Thought,stacking,True,False,True
+2017,main_s1,European Journal of the History of Economic Thought,stacking,True,False,True
+2017,main_s2,European Journal of the History of Economic Thought,stacking,True,False,True
+2017,main_s3,European Journal of the History of Economic Thought,stacking,True,False,True
+2017,main_s4,European Journal of the History of Economic Thought,stacking,True,False,True
+2017,main_s4311_rep,European Journal of the History of Economic Thought,stacking,True,False,True
+2017,main_s4311_t1a,European Journal of the History of Economic Thought,stacking,True,False,True
+2017,type_issn_ja50,European Journal of the History of Economic Thought,stacking,True,False,True
+2017,main,Eurasia Journal of Mathematics Science and Technology Education,self,True,False,False
+2017,main_s1,Eurasia Journal of Mathematics Science and Technology Education,self,True,False,False
+2017,main_s2,Eurasia Journal of Mathematics Science and Technology Education,self,True,False,False
+2017,main_s3,Eurasia Journal of Mathematics Science and Technology Education,self,True,False,False
+2017,main_s4,Eurasia Journal of Mathematics Science and Technology Education,self,True,False,False
+2017,main_s4311_rep,Eurasia Journal of Mathematics Science and Technology Education,self,True,False,False
+2017,main_s4311_t1a,Eurasia Journal of Mathematics Science and Technology Education,self,True,False,False
+2017,type_issn_ja50,Eurasia Journal of Mathematics Science and Technology Education,self,True,False,False
+2017,main,History of Economic Ideas,stacking,False,False,False
+2017,main_s1,History of Economic Ideas,stacking,False,False,False
+2017,main_s2,History of Economic Ideas,stacking,False,False,False
+2017,main_s3,History of Economic Ideas,stacking,False,False,False
+2017,main_s4,History of Economic Ideas,stacking,False,False,False
+2017,main_s4311_rep,History of Economic Ideas,stacking,False,False,False
+2017,main_s4311_t1a,History of Economic Ideas,stacking,False,False,False
+2017,type_issn_ja50,History of Economic Ideas,stacking,False,False,False
+2017,main,INTERNATIONAL JOURNAL OF AMERICAN LINGUISTICS,self,True,False,False
+2017,main_s1,INTERNATIONAL JOURNAL OF AMERICAN LINGUISTICS,self,True,False,False
+2017,main_s2,INTERNATIONAL JOURNAL OF AMERICAN LINGUISTICS,self,True,False,False
+2017,main_s3,INTERNATIONAL JOURNAL OF AMERICAN LINGUISTICS,self,True,False,False
+2017,main_s4,INTERNATIONAL JOURNAL OF AMERICAN LINGUISTICS,self,True,False,False
+2017,main_s4311_rep,INTERNATIONAL JOURNAL OF AMERICAN LINGUISTICS,self,True,False,False
+2017,main_s4311_t1a,INTERNATIONAL JOURNAL OF AMERICAN LINGUISTICS,self,True,False,False
+2017,type_issn_ja50,INTERNATIONAL JOURNAL OF AMERICAN LINGUISTICS,self,True,False,False
+2017,main,International Journal of Applied Mechanics,self,True,False,False
+2017,main_s1,International Journal of Applied Mechanics,self,True,False,False
+2017,main_s2,International Journal of Applied Mechanics,self,True,False,False
+2017,main_s3,International Journal of Applied Mechanics,self,True,False,False
+2017,main_s4,International Journal of Applied Mechanics,self,True,False,False
+2017,main_s4311_rep,International Journal of Applied Mechanics,self,True,False,False
+2017,main_s4311_t1a,International Journal of Applied Mechanics,self,True,False,False
+2017,type_issn_ja50,International Journal of Applied Mechanics,self,True,False,False
+2017,main,International Journal of Civil Engineering,self,True,False,False
+2017,main_s1,International Journal of Civil Engineering,self,True,False,False
+2017,main_s2,International Journal of Civil Engineering,self,True,False,False
+2017,main_s3,International Journal of Civil Engineering,self,True,False,False
+2017,main_s4,International Journal of Civil Engineering,self,True,False,False
+2017,main_s4311_rep,International Journal of Civil Engineering,self,True,False,False
+2017,main_s4311_t1a,International Journal of Civil Engineering,self,True,False,False
+2017,type_issn_ja50,International Journal of Civil Engineering,self,True,False,False
+2017,main,Journal of the History of Economic Thought,stacking,True,False,False
+2017,main_s1,Journal of the History of Economic Thought,stacking,True,False,True
+2017,main_s2,Journal of the History of Economic Thought,stacking,True,False,True
+2017,main_s3,Journal of the History of Economic Thought,stacking,True,False,False
+2017,main_s4,Journal of the History of Economic Thought,stacking,True,False,True
+2017,main_s4311_rep,Journal of the History of Economic Thought,stacking,True,False,True
+2017,main_s4311_t1a,Journal of the History of Economic Thought,stacking,True,False,True
+2017,type_issn_ja50,Journal of the History of Economic Thought,stacking,True,False,True
+2017,main,JOURNAL OF VOICE,self,True,False,False
+2017,main_s1,JOURNAL OF VOICE,self,True,False,False
+2017,main_s2,JOURNAL OF VOICE,self,True,False,False
+2017,main_s3,JOURNAL OF VOICE,self,True,False,False
+2017,main_s4,JOURNAL OF VOICE,self,True,False,False
+2017,main_s4311_rep,JOURNAL OF VOICE,self,True,False,False
+2017,main_s4311_t1a,JOURNAL OF VOICE,self,True,False,False
+2017,type_issn_ja50,JOURNAL OF VOICE,self,True,False,False
+2017,main,Liver Cancer,stacking,True,True,True
+2017,main_s1,Liver Cancer,stacking,True,True,True
+2017,main_s2,Liver Cancer,stacking,True,True,True
+2017,main_s3,Liver Cancer,stacking,True,True,True
+2017,main_s4,Liver Cancer,stacking,True,True,True
+2017,main_s4311_rep,Liver Cancer,stacking,True,True,True
+2017,main_s4311_t1a,Liver Cancer,stacking,True,True,True
+2017,type_issn_ja50,Liver Cancer,stacking,True,True,True
+2017,main,Maritime Policy & Management,self,True,False,False
+2017,main_s1,Maritime Policy & Management,self,True,False,False
+2017,main_s2,Maritime Policy & Management,self,True,False,False
+2017,main_s3,Maritime Policy & Management,self,True,False,False
+2017,main_s4,Maritime Policy & Management,self,True,False,False
+2017,main_s4311_rep,Maritime Policy & Management,self,True,False,False
+2017,main_s4311_t1a,Maritime Policy & Management,self,True,False,False
+2017,type_issn_ja50,Maritime Policy & Management,self,True,False,False
+2017,main,ONCOLOGY,stacking,True,False,False
+2017,main_s1,ONCOLOGY,stacking,True,False,False
+2017,main_s2,ONCOLOGY,stacking,True,False,False
+2017,main_s3,ONCOLOGY,stacking,True,False,False
+2017,main_s4,ONCOLOGY,stacking,True,False,False
+2017,main_s4311_rep,ONCOLOGY,stacking,True,False,False
+2017,main_s4311_t1a,ONCOLOGY,stacking,True,False,False
+2017,type_issn_ja50,ONCOLOGY,stacking,True,False,False
+2017,main,PEDIATRIC DENTISTRY,self,False,False,False
+2017,main_s1,PEDIATRIC DENTISTRY,self,False,False,False
+2017,main_s2,PEDIATRIC DENTISTRY,self,False,False,False
+2017,main_s3,PEDIATRIC DENTISTRY,self,False,False,False
+2017,main_s4,PEDIATRIC DENTISTRY,self,False,False,False
+2017,main_s4311_rep,PEDIATRIC DENTISTRY,self,False,False,False
+2017,main_s4311_t1a,PEDIATRIC DENTISTRY,self,False,False,False
+2017,type_issn_ja50,PEDIATRIC DENTISTRY,self,False,False,False
+2017,main,PSYCHOANALYTIC QUARTERLY,self,True,False,False
+2017,main_s1,PSYCHOANALYTIC QUARTERLY,self,True,False,False
+2017,main_s2,PSYCHOANALYTIC QUARTERLY,self,True,False,False
+2017,main_s3,PSYCHOANALYTIC QUARTERLY,self,True,False,False
+2017,main_s4,PSYCHOANALYTIC QUARTERLY,self,True,False,False
+2017,main_s4311_rep,PSYCHOANALYTIC QUARTERLY,self,True,False,False
+2017,main_s4311_t1a,PSYCHOANALYTIC QUARTERLY,self,True,False,False
+2017,type_issn_ja50,PSYCHOANALYTIC QUARTERLY,self,True,False,False
+2016,main,Acta Veterinaria-Beograd,self,False,False,False
+2016,main_s1,Acta Veterinaria-Beograd,self,False,False,False
+2016,main_s2,Acta Veterinaria-Beograd,self,False,False,False
+2016,main_s3,Acta Veterinaria-Beograd,self,False,False,False
+2016,main_s4,Acta Veterinaria-Beograd,self,False,False,False
+2016,main_s4311_rep,Acta Veterinaria-Beograd,self,False,False,False
+2016,main_s4311_t1a,Acta Veterinaria-Beograd,self,False,False,False
+2016,type_issn_ja50,Acta Veterinaria-Beograd,self,False,False,False
+2016,main,Aquaculture Economics & Management,self,True,False,False
+2016,main_s1,Aquaculture Economics & Management,self,True,False,False
+2016,main_s2,Aquaculture Economics & Management,self,True,False,False
+2016,main_s3,Aquaculture Economics & Management,self,True,False,False
+2016,main_s4,Aquaculture Economics & Management,self,True,False,False
+2016,main_s4311_rep,Aquaculture Economics & Management,self,True,False,False
+2016,main_s4311_t1a,Aquaculture Economics & Management,self,True,False,False
+2016,type_issn_ja50,Aquaculture Economics & Management,self,True,False,False
+2016,main,Canadian Historical Review,self,True,False,False
+2016,main_s1,Canadian Historical Review,self,True,False,False
+2016,main_s2,Canadian Historical Review,self,True,False,False
+2016,main_s3,Canadian Historical Review,self,True,False,False
+2016,main_s4,Canadian Historical Review,self,True,False,False
+2016,main_s4311_rep,Canadian Historical Review,self,True,False,False
+2016,main_s4311_t1a,Canadian Historical Review,self,True,False,False
+2016,type_issn_ja50,Canadian Historical Review,self,True,False,False
+2016,main,Indian Journal of Experimental Biology,self,True,False,False
+2016,main_s1,Indian Journal of Experimental Biology,self,True,False,False
+2016,main_s2,Indian Journal of Experimental Biology,self,True,False,False
+2016,main_s3,Indian Journal of Experimental Biology,self,True,False,False
+2016,main_s4,Indian Journal of Experimental Biology,self,True,False,False
+2016,main_s4311_rep,Indian Journal of Experimental Biology,self,True,False,False
+2016,main_s4311_t1a,Indian Journal of Experimental Biology,self,True,False,False
+2016,type_issn_ja50,Indian Journal of Experimental Biology,self,True,False,False
+2016,main,International Journal of Mobile Communications,self,True,False,False
+2016,main_s1,International Journal of Mobile Communications,self,True,False,False
+2016,main_s2,International Journal of Mobile Communications,self,True,False,False
+2016,main_s3,International Journal of Mobile Communications,self,True,False,False
+2016,main_s4,International Journal of Mobile Communications,self,True,False,False
+2016,main_s4311_rep,International Journal of Mobile Communications,self,True,False,False
+2016,main_s4311_t1a,International Journal of Mobile Communications,self,True,False,False
+2016,type_issn_ja50,International Journal of Mobile Communications,self,True,False,False
+2016,main,International Journal of Polymer Analysis and Characterization,self,True,False,False
+2016,main_s1,International Journal of Polymer Analysis and Characterization,self,True,False,False
+2016,main_s2,International Journal of Polymer Analysis and Characterization,self,True,False,False
+2016,main_s3,International Journal of Polymer Analysis and Characterization,self,True,False,False
+2016,main_s4,International Journal of Polymer Analysis and Characterization,self,True,False,False
+2016,main_s4311_rep,International Journal of Polymer Analysis and Characterization,self,True,False,False
+2016,main_s4311_t1a,International Journal of Polymer Analysis and Characterization,self,True,False,False
+2016,type_issn_ja50,International Journal of Polymer Analysis and Characterization,self,True,False,False
+2016,main,Journal of Applied Fluid Mechanics,self,True,False,False
+2016,main_s1,Journal of Applied Fluid Mechanics,self,True,False,False
+2016,main_s2,Journal of Applied Fluid Mechanics,self,True,False,False
+2016,main_s3,Journal of Applied Fluid Mechanics,self,True,False,False
+2016,main_s4,Journal of Applied Fluid Mechanics,self,True,False,False
+2016,main_s4311_rep,Journal of Applied Fluid Mechanics,self,True,False,False
+2016,main_s4311_t1a,Journal of Applied Fluid Mechanics,self,True,False,False
+2016,type_issn_ja50,Journal of Applied Fluid Mechanics,self,True,False,False
+2016,main,Journal of Ceramic Processing Research,stacking,True,False,False
+2016,main_s1,Journal of Ceramic Processing Research,stacking,True,False,False
+2016,main_s2,Journal of Ceramic Processing Research,stacking,True,False,False
+2016,main_s3,Journal of Ceramic Processing Research,stacking,True,False,False
+2016,main_s4,Journal of Ceramic Processing Research,stacking,True,False,False
+2016,main_s4311_rep,Journal of Ceramic Processing Research,stacking,True,False,False
+2016,main_s4311_t1a,Journal of Ceramic Processing Research,stacking,True,False,False
+2016,type_issn_ja50,Journal of Ceramic Processing Research,stacking,True,False,False
+2016,main,Journal of Marital and Family Therapy,self,True,False,False
+2016,main_s1,Journal of Marital and Family Therapy,self,True,False,False
+2016,main_s2,Journal of Marital and Family Therapy,self,True,False,False
+2016,main_s3,Journal of Marital and Family Therapy,self,True,False,False
+2016,main_s4,Journal of Marital and Family Therapy,self,True,False,False
+2016,main_s4311_rep,Journal of Marital and Family Therapy,self,True,False,False
+2016,main_s4311_t1a,Journal of Marital and Family Therapy,self,True,False,False
+2016,type_issn_ja50,Journal of Marital and Family Therapy,self,True,False,False
+2016,main,Korean Journal of Metals and Materials,stacking,True,True,True
+2016,main_s1,Korean Journal of Metals and Materials,stacking,True,True,True
+2016,main_s2,Korean Journal of Metals and Materials,stacking,True,True,True
+2016,main_s3,Korean Journal of Metals and Materials,stacking,True,True,True
+2016,main_s4,Korean Journal of Metals and Materials,stacking,True,True,True
+2016,main_s4311_rep,Korean Journal of Metals and Materials,stacking,True,True,True
+2016,main_s4311_t1a,Korean Journal of Metals and Materials,stacking,True,True,True
+2016,type_issn_ja50,Korean Journal of Metals and Materials,stacking,True,True,True
+2016,main,Oral History Review,self,True,False,False
+2016,main_s1,Oral History Review,self,True,False,False
+2016,main_s2,Oral History Review,self,True,False,False
+2016,main_s3,Oral History Review,self,True,False,False
+2016,main_s4,Oral History Review,self,True,False,False
+2016,main_s4311_rep,Oral History Review,self,True,False,False
+2016,main_s4311_t1a,Oral History Review,self,True,False,False
+2016,type_issn_ja50,Oral History Review,self,True,False,False
+2016,main,Translational Stroke Research,stacking,True,True,True
+2016,main_s1,Translational Stroke Research,stacking,True,True,True
+2016,main_s2,Translational Stroke Research,stacking,True,True,True
+2016,main_s3,Translational Stroke Research,stacking,True,True,True
+2016,main_s4,Translational Stroke Research,stacking,True,True,True
+2016,main_s4311_rep,Translational Stroke Research,stacking,True,True,True
+2016,main_s4311_t1a,Translational Stroke Research,stacking,True,True,True
+2016,type_issn_ja50,Translational Stroke Research,stacking,True,True,True
+2016,main,Tropical Ecology,self,True,False,False
+2016,main_s1,Tropical Ecology,self,True,False,False
+2016,main_s2,Tropical Ecology,self,True,False,False
+2016,main_s3,Tropical Ecology,self,True,False,False
+2016,main_s4,Tropical Ecology,self,True,False,False
+2016,main_s4311_rep,Tropical Ecology,self,True,False,False
+2016,main_s4311_t1a,Tropical Ecology,self,True,False,False
+2016,type_issn_ja50,Tropical Ecology,self,True,False,False
+2015,main,Applied Clinical Informatics,stacking,True,True,True
+2015,main_s1,Applied Clinical Informatics,stacking,True,True,True
+2015,main_s2,Applied Clinical Informatics,stacking,True,True,True
+2015,main_s3,Applied Clinical Informatics,stacking,True,True,True
+2015,main_s4,Applied Clinical Informatics,stacking,True,True,True
+2015,main_s4311_rep,Applied Clinical Informatics,stacking,True,True,True
+2015,main_s4311_t1a,Applied Clinical Informatics,stacking,True,True,True
+2015,type_issn_ja50,Applied Clinical Informatics,stacking,True,True,True
+2015,main,Arabian Journal of Geosciences,self,True,False,False
+2015,main_s1,Arabian Journal of Geosciences,self,True,False,False
+2015,main_s2,Arabian Journal of Geosciences,self,True,False,False
+2015,main_s3,Arabian Journal of Geosciences,self,True,False,False
+2015,main_s4,Arabian Journal of Geosciences,self,True,False,False
+2015,main_s4311_rep,Arabian Journal of Geosciences,self,True,False,False
+2015,main_s4311_t1a,Arabian Journal of Geosciences,self,True,False,False
+2015,type_issn_ja50,Arabian Journal of Geosciences,self,True,False,False
+2015,main,Archives of Metallurgy and Materials,self,True,True,True
+2015,main_s1,Archives of Metallurgy and Materials,self,True,True,True
+2015,main_s2,Archives of Metallurgy and Materials,self,True,True,True
+2015,main_s3,Archives of Metallurgy and Materials,self,True,True,True
+2015,main_s4,Archives of Metallurgy and Materials,self,True,True,True
+2015,main_s4311_rep,Archives of Metallurgy and Materials,self,True,True,True
+2015,main_s4311_t1a,Archives of Metallurgy and Materials,self,True,True,True
+2015,type_issn_ja50,Archives of Metallurgy and Materials,self,True,True,True
+2015,main,Australian Journal of Political Science,self,True,False,False
+2015,main_s1,Australian Journal of Political Science,self,True,False,False
+2015,main_s2,Australian Journal of Political Science,self,True,False,False
+2015,main_s3,Australian Journal of Political Science,self,True,False,False
+2015,main_s4,Australian Journal of Political Science,self,True,False,False
+2015,main_s4311_rep,Australian Journal of Political Science,self,True,False,False
+2015,main_s4311_t1a,Australian Journal of Political Science,self,True,False,False
+2015,type_issn_ja50,Australian Journal of Political Science,self,True,False,False
+2015,main,Clean Technologies and Environmental Policy,self,True,False,False
+2015,main_s1,Clean Technologies and Environmental Policy,self,True,False,False
+2015,main_s2,Clean Technologies and Environmental Policy,self,True,False,False
+2015,main_s3,Clean Technologies and Environmental Policy,self,True,False,False
+2015,main_s4,Clean Technologies and Environmental Policy,self,True,False,False
+2015,main_s4311_rep,Clean Technologies and Environmental Policy,self,True,False,False
+2015,main_s4311_t1a,Clean Technologies and Environmental Policy,self,True,False,False
+2015,type_issn_ja50,Clean Technologies and Environmental Policy,self,True,False,False
+2015,main,Environmental Earth Sciences,self,True,False,False
+2015,main_s1,Environmental Earth Sciences,self,True,False,False
+2015,main_s2,Environmental Earth Sciences,self,True,False,False
+2015,main_s3,Environmental Earth Sciences,self,True,False,False
+2015,main_s4,Environmental Earth Sciences,self,True,False,False
+2015,main_s4311_rep,Environmental Earth Sciences,self,True,False,False
+2015,main_s4311_t1a,Environmental Earth Sciences,self,True,False,False
+2015,type_issn_ja50,Environmental Earth Sciences,self,True,False,False
+2015,main,Forensic Toxicology,self,True,False,False
+2015,main_s1,Forensic Toxicology,self,True,False,False
+2015,main_s2,Forensic Toxicology,self,True,False,False
+2015,main_s3,Forensic Toxicology,self,True,False,False
+2015,main_s4,Forensic Toxicology,self,True,False,False
+2015,main_s4311_rep,Forensic Toxicology,self,True,False,False
+2015,main_s4311_t1a,Forensic Toxicology,self,True,False,False
+2015,type_issn_ja50,Forensic Toxicology,self,True,False,False
+2015,main,Homeopathy,self,True,False,False
+2015,main_s1,Homeopathy,self,True,False,False
+2015,main_s2,Homeopathy,self,True,False,False
+2015,main_s3,Homeopathy,self,True,False,False
+2015,main_s4,Homeopathy,self,True,False,False
+2015,main_s4311_rep,Homeopathy,self,True,False,False
+2015,main_s4311_t1a,Homeopathy,self,True,False,False
+2015,type_issn_ja50,Homeopathy,self,True,False,False
+2015,main,IET Power Electronics,self,True,False,False
+2015,main_s1,IET Power Electronics,self,True,False,False
+2015,main_s2,IET Power Electronics,self,True,False,False
+2015,main_s3,IET Power Electronics,self,True,False,False
+2015,main_s4,IET Power Electronics,self,True,False,False
+2015,main_s4311_rep,IET Power Electronics,self,True,False,False
+2015,main_s4311_t1a,IET Power Electronics,self,True,False,False
+2015,type_issn_ja50,IET Power Electronics,self,True,False,False
+2015,main,Journal of Fusion Energy,self,True,False,False
+2015,main_s1,Journal of Fusion Energy,self,True,False,False
+2015,main_s2,Journal of Fusion Energy,self,True,False,False
+2015,main_s3,Journal of Fusion Energy,self,True,False,False
+2015,main_s4,Journal of Fusion Energy,self,True,False,False
+2015,main_s4311_rep,Journal of Fusion Energy,self,True,False,False
+2015,main_s4311_t1a,Journal of Fusion Energy,self,True,False,False
+2015,type_issn_ja50,Journal of Fusion Energy,self,True,False,False
+2015,main,Journal of Manufacturing Science and Engineering-Transactions of the ASME,self,True,False,False
+2015,main_s1,Journal of Manufacturing Science and Engineering-Transactions of the ASME,self,True,False,False
+2015,main_s2,Journal of Manufacturing Science and Engineering-Transactions of the ASME,self,True,False,False
+2015,main_s3,Journal of Manufacturing Science and Engineering-Transactions of the ASME,self,True,False,False
+2015,main_s4,Journal of Manufacturing Science and Engineering-Transactions of the ASME,self,True,False,False
+2015,main_s4311_rep,Journal of Manufacturing Science and Engineering-Transactions of the ASME,self,True,False,False
+2015,main_s4311_t1a,Journal of Manufacturing Science and Engineering-Transactions of the ASME,self,True,False,False
+2015,type_issn_ja50,Journal of Manufacturing Science and Engineering-Transactions of the ASME,self,True,False,False
+2015,main,Journal of Marital and Family Therapy,self,True,False,False
+2015,main_s1,Journal of Marital and Family Therapy,self,True,False,False
+2015,main_s2,Journal of Marital and Family Therapy,self,True,False,False
+2015,main_s3,Journal of Marital and Family Therapy,self,True,False,False
+2015,main_s4,Journal of Marital and Family Therapy,self,True,False,False
+2015,main_s4311_rep,Journal of Marital and Family Therapy,self,True,False,False
+2015,main_s4311_t1a,Journal of Marital and Family Therapy,self,True,False,False
+2015,type_issn_ja50,Journal of Marital and Family Therapy,self,True,False,False
+2015,main,Journal of Medical Systems,self,True,False,False
+2015,main_s1,Journal of Medical Systems,self,True,False,False
+2015,main_s2,Journal of Medical Systems,self,True,False,False
+2015,main_s3,Journal of Medical Systems,self,True,False,False
+2015,main_s4,Journal of Medical Systems,self,True,False,False
+2015,main_s4311_rep,Journal of Medical Systems,self,True,False,False
+2015,main_s4311_t1a,Journal of Medical Systems,self,True,False,False
+2015,type_issn_ja50,Journal of Medical Systems,self,True,False,False
+2015,main,Journal of Non-Equilibrium Thermodynamics,self,True,False,False
+2015,main_s1,Journal of Non-Equilibrium Thermodynamics,self,True,False,False
+2015,main_s2,Journal of Non-Equilibrium Thermodynamics,self,True,False,False
+2015,main_s3,Journal of Non-Equilibrium Thermodynamics,self,True,False,False
+2015,main_s4,Journal of Non-Equilibrium Thermodynamics,self,True,False,False
+2015,main_s4311_rep,Journal of Non-Equilibrium Thermodynamics,self,True,False,False
+2015,main_s4311_t1a,Journal of Non-Equilibrium Thermodynamics,self,True,False,False
+2015,type_issn_ja50,Journal of Non-Equilibrium Thermodynamics,self,True,False,False
+2015,main,Journal of Physical Therapy Science,self,True,False,False
+2015,main_s1,Journal of Physical Therapy Science,self,True,False,False
+2015,main_s2,Journal of Physical Therapy Science,self,True,False,False
+2015,main_s3,Journal of Physical Therapy Science,self,True,False,False
+2015,main_s4,Journal of Physical Therapy Science,self,True,False,False
+2015,main_s4311_rep,Journal of Physical Therapy Science,self,True,False,False
+2015,main_s4311_t1a,Journal of Physical Therapy Science,self,True,False,False
+2015,type_issn_ja50,Journal of Physical Therapy Science,self,True,False,False
+2015,main,Journal of Politeness Research-Language Behaviour Culture,self,True,False,False
+2015,main_s1,Journal of Politeness Research-Language Behaviour Culture,self,True,False,False
+2015,main_s2,Journal of Politeness Research-Language Behaviour Culture,self,True,False,False
+2015,main_s3,Journal of Politeness Research-Language Behaviour Culture,self,True,False,False
+2015,main_s4,Journal of Politeness Research-Language Behaviour Culture,self,True,False,False
+2015,main_s4311_rep,Journal of Politeness Research-Language Behaviour Culture,self,True,False,False
+2015,main_s4311_t1a,Journal of Politeness Research-Language Behaviour Culture,self,True,False,False
+2015,type_issn_ja50,Journal of Politeness Research-Language Behaviour Culture,self,True,False,False
+2015,main,Methods of Information in Medicine,stacking,True,True,True
+2015,main_s1,Methods of Information in Medicine,stacking,True,True,True
+2015,main_s2,Methods of Information in Medicine,stacking,True,True,True
+2015,main_s3,Methods of Information in Medicine,stacking,True,True,True
+2015,main_s4,Methods of Information in Medicine,stacking,True,True,True
+2015,main_s4311_rep,Methods of Information in Medicine,stacking,True,True,True
+2015,main_s4311_t1a,Methods of Information in Medicine,stacking,True,True,True
+2015,type_issn_ja50,Methods of Information in Medicine,stacking,True,True,True
+2015,main,Regular & Chaotic Dynamics,self,True,False,False
+2015,main_s1,Regular & Chaotic Dynamics,self,True,False,False
+2015,main_s2,Regular & Chaotic Dynamics,self,True,False,False
+2015,main_s3,Regular & Chaotic Dynamics,self,True,False,False
+2015,main_s4,Regular & Chaotic Dynamics,self,True,False,False
+2015,main_s4311_rep,Regular & Chaotic Dynamics,self,True,False,False
+2015,main_s4311_t1a,Regular & Chaotic Dynamics,self,True,False,False
+2015,type_issn_ja50,Regular & Chaotic Dynamics,self,True,False,False
+2018,main,Journal of Seismic Exploration,stacking,False,False,False
+2018,main_s1,Journal of Seismic Exploration,stacking,False,False,False
+2018,main_s2,Journal of Seismic Exploration,stacking,False,False,False
+2018,main_s3,Journal of Seismic Exploration,stacking,False,False,False
+2018,main_s4,Journal of Seismic Exploration,stacking,False,False,False
+2018,main_s4311_rep,Journal of Seismic Exploration,stacking,False,False,False
+2018,main_s4311_t1a,Journal of Seismic Exploration,stacking,False,False,False
+2018,type_issn_ja50,Journal of Seismic Exploration,stacking,False,False,False
+2018,main,Nanoscience and Nanotechnology Letters,stacking,True,False,False
+2018,main_s1,Nanoscience and Nanotechnology Letters,stacking,True,False,False
+2018,main_s2,Nanoscience and Nanotechnology Letters,stacking,True,False,False
+2018,main_s3,Nanoscience and Nanotechnology Letters,stacking,True,False,False
+2018,main_s4,Nanoscience and Nanotechnology Letters,stacking,True,False,False
+2018,main_s4311_rep,Nanoscience and Nanotechnology Letters,stacking,True,False,False
+2018,main_s4311_t1a,Nanoscience and Nanotechnology Letters,stacking,True,False,False
+2018,type_issn_ja50,Nanoscience and Nanotechnology Letters,stacking,True,False,False
+2018,main,Journal of Biobased Materials and Bioenergy,stacking,True,False,False
+2018,main_s1,Journal of Biobased Materials and Bioenergy,stacking,True,False,False
+2018,main_s2,Journal of Biobased Materials and Bioenergy,stacking,True,False,False
+2018,main_s3,Journal of Biobased Materials and Bioenergy,stacking,True,False,False
+2018,main_s4,Journal of Biobased Materials and Bioenergy,stacking,True,False,False
+2018,main_s4311_rep,Journal of Biobased Materials and Bioenergy,stacking,True,False,False
+2018,main_s4311_t1a,Journal of Biobased Materials and Bioenergy,stacking,True,False,False
+2018,type_issn_ja50,Journal of Biobased Materials and Bioenergy,stacking,True,False,False
+2018,main,Bone Research,stacking (expression of concern),True,False,False
+2018,main_s1,Bone Research,stacking (expression of concern),True,False,False
+2018,main_s2,Bone Research,stacking (expression of concern),True,False,False
+2018,main_s3,Bone Research,stacking (expression of concern),True,False,False
+2018,main_s4,Bone Research,stacking (expression of concern),True,False,False
+2018,main_s4311_rep,Bone Research,stacking (expression of concern),True,False,False
+2018,main_s4311_t1a,Bone Research,stacking (expression of concern),True,False,False
+2018,type_issn_ja50,Bone Research,stacking (expression of concern),True,False,False
+2018,main,Acta Geologica Sinica-English Edition,self,True,False,False
+2018,main_s1,Acta Geologica Sinica-English Edition,self,True,False,False
+2018,main_s2,Acta Geologica Sinica-English Edition,self,True,False,False
+2018,main_s3,Acta Geologica Sinica-English Edition,self,True,False,False
+2018,main_s4,Acta Geologica Sinica-English Edition,self,True,False,False
+2018,main_s4311_rep,Acta Geologica Sinica-English Edition,self,True,False,False
+2018,main_s4311_t1a,Acta Geologica Sinica-English Edition,self,True,False,False
+2018,type_issn_ja50,Acta Geologica Sinica-English Edition,self,True,False,False
+2018,main,Hispania-A Journal Devoted to the Teaching of Spanish and Portuguese,self,True,False,False
+2018,main_s1,Hispania-A Journal Devoted to the Teaching of Spanish and Portuguese,self,True,False,False
+2018,main_s2,Hispania-A Journal Devoted to the Teaching of Spanish and Portuguese,self,True,False,False
+2018,main_s3,Hispania-A Journal Devoted to the Teaching of Spanish and Portuguese,self,True,False,False
+2018,main_s4,Hispania-A Journal Devoted to the Teaching of Spanish and Portuguese,self,True,False,False
+2018,main_s4311_rep,Hispania-A Journal Devoted to the Teaching of Spanish and Portuguese,self,True,False,False
+2018,main_s4311_t1a,Hispania-A Journal Devoted to the Teaching of Spanish and Portuguese,self,True,False,False
+2018,type_issn_ja50,Hispania-A Journal Devoted to the Teaching of Spanish and Portuguese,self,True,False,False
+2018,main,International Journal of Civil Engineering,self,True,False,False
+2018,main_s1,International Journal of Civil Engineering,self,True,False,False
+2018,main_s2,International Journal of Civil Engineering,self,True,False,False
+2018,main_s3,International Journal of Civil Engineering,self,True,False,False
+2018,main_s4,International Journal of Civil Engineering,self,True,False,False
+2018,main_s4311_rep,International Journal of Civil Engineering,self,True,False,False
+2018,main_s4311_t1a,International Journal of Civil Engineering,self,True,False,False
+2018,type_issn_ja50,International Journal of Civil Engineering,self,True,False,False
+2018,main,International Journal of Mobile Communications,self,True,False,False
+2018,main_s1,International Journal of Mobile Communications,self,True,False,False
+2018,main_s2,International Journal of Mobile Communications,self,True,False,False
+2018,main_s3,International Journal of Mobile Communications,self,True,False,False
+2018,main_s4,International Journal of Mobile Communications,self,True,False,False
+2018,main_s4311_rep,International Journal of Mobile Communications,self,True,False,False
+2018,main_s4311_t1a,International Journal of Mobile Communications,self,True,False,False
+2018,type_issn_ja50,International Journal of Mobile Communications,self,True,False,False
+2018,main,Journal of Applied Geophysics,stacking,True,False,False
+2018,main_s1,Journal of Applied Geophysics,stacking,True,False,False
+2018,main_s2,Journal of Applied Geophysics,stacking,True,False,False
+2018,main_s3,Journal of Applied Geophysics,stacking,True,False,False
+2018,main_s4,Journal of Applied Geophysics,stacking,True,False,False
+2018,main_s4311_rep,Journal of Applied Geophysics,stacking,True,False,False
+2018,main_s4311_t1a,Journal of Applied Geophysics,stacking,True,False,False
+2018,type_issn_ja50,Journal of Applied Geophysics,stacking,True,False,False
+2018,main,Journal of Biomedical Nanotechnology,stacking,True,False,False
+2018,main_s1,Journal of Biomedical Nanotechnology,stacking,True,False,False
+2018,main_s2,Journal of Biomedical Nanotechnology,stacking,True,False,False
+2018,main_s3,Journal of Biomedical Nanotechnology,stacking,True,False,False
+2018,main_s4,Journal of Biomedical Nanotechnology,stacking,True,False,False
+2018,main_s4311_rep,Journal of Biomedical Nanotechnology,stacking,True,False,False
+2018,main_s4311_t1a,Journal of Biomedical Nanotechnology,stacking,True,False,False
+2018,type_issn_ja50,Journal of Biomedical Nanotechnology,stacking,True,False,False
+2018,main,Journal of Cardiac Surgery,self,True,False,False
+2018,main_s1,Journal of Cardiac Surgery,self,True,False,False
+2018,main_s2,Journal of Cardiac Surgery,self,True,False,False
+2018,main_s3,Journal of Cardiac Surgery,self,True,False,False
+2018,main_s4,Journal of Cardiac Surgery,self,True,False,False
+2018,main_s4311_rep,Journal of Cardiac Surgery,self,True,False,False
+2018,main_s4311_t1a,Journal of Cardiac Surgery,self,True,False,False
+2018,type_issn_ja50,Journal of Cardiac Surgery,self,True,False,False
+2018,main,Journal of Geophysics and Engineering,stacking,True,False,False
+2018,main_s1,Journal of Geophysics and Engineering,stacking,True,False,False
+2018,main_s2,Journal of Geophysics and Engineering,stacking,True,False,False
+2018,main_s3,Journal of Geophysics and Engineering,stacking,True,False,False
+2018,main_s4,Journal of Geophysics and Engineering,stacking,True,False,False
+2018,main_s4311_rep,Journal of Geophysics and Engineering,stacking,True,False,False
+2018,main_s4311_t1a,Journal of Geophysics and Engineering,stacking,True,False,False
+2018,type_issn_ja50,Journal of Geophysics and Engineering,stacking,True,False,False
+2018,main,Journal of Low Frequency Noise Vibration and Active Control,self,True,False,False
+2018,main_s1,Journal of Low Frequency Noise Vibration and Active Control,self,True,False,False
+2018,main_s2,Journal of Low Frequency Noise Vibration and Active Control,self,True,False,False
+2018,main_s3,Journal of Low Frequency Noise Vibration and Active Control,self,True,False,False
+2018,main_s4,Journal of Low Frequency Noise Vibration and Active Control,self,True,False,False
+2018,main_s4311_rep,Journal of Low Frequency Noise Vibration and Active Control,self,True,False,False
+2018,main_s4311_t1a,Journal of Low Frequency Noise Vibration and Active Control,self,True,False,False
+2018,type_issn_ja50,Journal of Low Frequency Noise Vibration and Active Control,self,True,False,False
+2018,main,Journal of Nonlinear Optical Physics & Materials,self,True,False,False
+2018,main_s1,Journal of Nonlinear Optical Physics & Materials,self,True,False,False
+2018,main_s2,Journal of Nonlinear Optical Physics & Materials,self,True,False,False
+2018,main_s3,Journal of Nonlinear Optical Physics & Materials,self,True,False,False
+2018,main_s4,Journal of Nonlinear Optical Physics & Materials,self,True,False,False
+2018,main_s4311_rep,Journal of Nonlinear Optical Physics & Materials,self,True,False,False
+2018,main_s4311_t1a,Journal of Nonlinear Optical Physics & Materials,self,True,False,False
+2018,type_issn_ja50,Journal of Nonlinear Optical Physics & Materials,self,True,False,False
+2018,main,Maritime Policy & Management,self,True,False,False
+2018,main_s1,Maritime Policy & Management,self,True,False,False
+2018,main_s2,Maritime Policy & Management,self,True,False,False
+2018,main_s3,Maritime Policy & Management,self,True,False,False
+2018,main_s4,Maritime Policy & Management,self,True,False,False
+2018,main_s4311_rep,Maritime Policy & Management,self,True,False,False
+2018,main_s4311_t1a,Maritime Policy & Management,self,True,False,False
+2018,type_issn_ja50,Maritime Policy & Management,self,True,False,False
+2018,main,Ophthalmic Epidemiology,self,True,False,False
+2018,main_s1,Ophthalmic Epidemiology,self,True,False,False
+2018,main_s2,Ophthalmic Epidemiology,self,True,False,False
+2018,main_s3,Ophthalmic Epidemiology,self,True,False,False
+2018,main_s4,Ophthalmic Epidemiology,self,True,False,False
+2018,main_s4311_rep,Ophthalmic Epidemiology,self,True,False,False
+2018,main_s4311_t1a,Ophthalmic Epidemiology,self,True,False,False
+2018,type_issn_ja50,Ophthalmic Epidemiology,self,True,False,False
+2018,main,Training and Education in Professional Psychology,self,True,False,False
+2018,main_s1,Training and Education in Professional Psychology,self,True,False,False
+2018,main_s2,Training and Education in Professional Psychology,self,True,False,False
+2018,main_s3,Training and Education in Professional Psychology,self,True,False,False
+2018,main_s4,Training and Education in Professional Psychology,self,True,False,False
+2018,main_s4311_rep,Training and Education in Professional Psychology,self,True,False,False
+2018,main_s4311_t1a,Training and Education in Professional Psychology,self,True,False,False
+2018,type_issn_ja50,Training and Education in Professional Psychology,self,True,False,False
+2019,main,Acta Cardiologica Sinica,self,False,False,False
+2019,main_s1,Acta Cardiologica Sinica,self,False,False,False
+2019,main_s2,Acta Cardiologica Sinica,self,False,False,False
+2019,main_s3,Acta Cardiologica Sinica,self,False,False,False
+2019,main_s4,Acta Cardiologica Sinica,self,False,False,False
+2019,main_s4311_rep,Acta Cardiologica Sinica,self,False,False,False
+2019,main_s4311_t1a,Acta Cardiologica Sinica,self,False,False,False
+2019,type_issn_ja50,Acta Cardiologica Sinica,self,False,False,False
+2019,main,Adicciones,self,True,False,False
+2019,main_s1,Adicciones,self,True,False,False
+2019,main_s2,Adicciones,self,True,False,False
+2019,main_s3,Adicciones,self,True,False,False
+2019,main_s4,Adicciones,self,True,False,False
+2019,main_s4311_rep,Adicciones,self,True,False,False
+2019,main_s4311_t1a,Adicciones,self,True,False,False
+2019,type_issn_ja50,Adicciones,self,True,False,False
+2019,main,Aerosol and Air Quality Research,self,True,False,False
+2019,main_s1,Aerosol and Air Quality Research,self,True,False,False
+2019,main_s2,Aerosol and Air Quality Research,self,True,False,False
+2019,main_s3,Aerosol and Air Quality Research,self,True,False,False
+2019,main_s4,Aerosol and Air Quality Research,self,True,False,False
+2019,main_s4311_rep,Aerosol and Air Quality Research,self,True,False,False
+2019,main_s4311_t1a,Aerosol and Air Quality Research,self,True,False,False
+2019,type_issn_ja50,Aerosol and Air Quality Research,self,True,False,False
+2019,main,Aging Male,self,True,False,False
+2019,main_s1,Aging Male,self,True,False,False
+2019,main_s2,Aging Male,self,True,False,False
+2019,main_s3,Aging Male,self,True,False,False
+2019,main_s4,Aging Male,self,True,False,False
+2019,main_s4311_rep,Aging Male,self,True,False,False
+2019,main_s4311_t1a,Aging Male,self,True,False,False
+2019,type_issn_ja50,Aging Male,self,True,False,False
+2019,main,American Journal of Pharmaceutical Education,self,True,False,False
+2019,main_s1,American Journal of Pharmaceutical Education,self,True,False,False
+2019,main_s2,American Journal of Pharmaceutical Education,self,True,False,False
+2019,main_s3,American Journal of Pharmaceutical Education,self,True,False,False
+2019,main_s4,American Journal of Pharmaceutical Education,self,True,False,False
+2019,main_s4311_rep,American Journal of Pharmaceutical Education,self,True,False,False
+2019,main_s4311_t1a,American Journal of Pharmaceutical Education,self,True,False,False
+2019,type_issn_ja50,American Journal of Pharmaceutical Education,self,True,False,False
+2019,main,Body Image,self,True,False,False
+2019,main_s1,Body Image,self,True,False,False
+2019,main_s2,Body Image,self,True,False,False
+2019,main_s3,Body Image,self,True,False,False
+2019,main_s4,Body Image,self,True,False,False
+2019,main_s4311_rep,Body Image,self,True,False,False
+2019,main_s4311_t1a,Body Image,self,True,False,False
+2019,type_issn_ja50,Body Image,self,True,False,False
+2019,main,Business Ethics,self,True,False,False
+2019,main_s1,Business Ethics,self,True,False,False
+2019,main_s2,Business Ethics,self,True,False,False
+2019,main_s3,Business Ethics,self,True,False,False
+2019,main_s4,Business Ethics,self,True,False,False
+2019,main_s4311_rep,Business Ethics,self,True,False,False
+2019,main_s4311_t1a,Business Ethics,self,True,False,False
+2019,type_issn_ja50,Business Ethics,self,True,False,False
+2019,main,Cellulose Chemistry and Technology,self,True,False,False
+2019,main_s1,Cellulose Chemistry and Technology,self,True,False,False
+2019,main_s2,Cellulose Chemistry and Technology,self,True,False,False
+2019,main_s3,Cellulose Chemistry and Technology,self,True,False,False
+2019,main_s4,Cellulose Chemistry and Technology,self,True,False,False
+2019,main_s4311_rep,Cellulose Chemistry and Technology,self,True,False,False
+2019,main_s4311_t1a,Cellulose Chemistry and Technology,self,True,False,False
+2019,type_issn_ja50,Cellulose Chemistry and Technology,self,True,False,False
+2019,main,CNS & Neurological Disorders-Drug Targets,self,True,False,False
+2019,main_s1,CNS & Neurological Disorders-Drug Targets,self,True,False,False
+2019,main_s2,CNS & Neurological Disorders-Drug Targets,self,True,False,False
+2019,main_s3,CNS & Neurological Disorders-Drug Targets,self,True,False,False
+2019,main_s4,CNS & Neurological Disorders-Drug Targets,self,True,False,False
+2019,main_s4311_rep,CNS & Neurological Disorders-Drug Targets,self,True,False,False
+2019,main_s4311_t1a,CNS & Neurological Disorders-Drug Targets,self,True,False,False
+2019,type_issn_ja50,CNS & Neurological Disorders-Drug Targets,self,True,False,False
+2019,main,Cognitive Computation,self,True,False,False
+2019,main_s1,Cognitive Computation,self,True,False,False
+2019,main_s2,Cognitive Computation,self,True,False,False
+2019,main_s3,Cognitive Computation,self,True,False,False
+2019,main_s4,Cognitive Computation,self,True,False,False
+2019,main_s4311_rep,Cognitive Computation,self,True,False,False
+2019,main_s4311_t1a,Cognitive Computation,self,True,False,False
+2019,type_issn_ja50,Cognitive Computation,self,True,False,False
+2019,main,Cognitive Neurodynamics,self,True,False,False
+2019,main_s1,Cognitive Neurodynamics,self,True,False,False
+2019,main_s2,Cognitive Neurodynamics,self,True,False,False
+2019,main_s3,Cognitive Neurodynamics,self,True,False,False
+2019,main_s4,Cognitive Neurodynamics,self,True,False,False
+2019,main_s4311_rep,Cognitive Neurodynamics,self,True,False,False
+2019,main_s4311_t1a,Cognitive Neurodynamics,self,True,False,False
+2019,type_issn_ja50,Cognitive Neurodynamics,self,True,False,False
+2019,main,Cognitive Neuropsychology,self,True,False,False
+2019,main_s1,Cognitive Neuropsychology,self,True,False,False
+2019,main_s2,Cognitive Neuropsychology,self,True,False,False
+2019,main_s3,Cognitive Neuropsychology,self,True,False,False
+2019,main_s4,Cognitive Neuropsychology,self,True,False,False
+2019,main_s4311_rep,Cognitive Neuropsychology,self,True,False,False
+2019,main_s4311_t1a,Cognitive Neuropsychology,self,True,False,False
+2019,type_issn_ja50,Cognitive Neuropsychology,self,True,False,False
+2019,main,Current Genetics,self,True,False,False
+2019,main_s1,Current Genetics,self,True,False,False
+2019,main_s2,Current Genetics,self,True,False,False
+2019,main_s3,Current Genetics,self,True,False,False
+2019,main_s4,Current Genetics,self,True,False,False
+2019,main_s4311_rep,Current Genetics,self,True,False,False
+2019,main_s4311_t1a,Current Genetics,self,True,False,False
+2019,type_issn_ja50,Current Genetics,self,True,False,False
+2019,main,Environmental Engineering and Management Journal,self,True,False,False
+2019,main_s1,Environmental Engineering and Management Journal,self,True,False,False
+2019,main_s2,Environmental Engineering and Management Journal,self,True,False,False
+2019,main_s3,Environmental Engineering and Management Journal,self,True,False,False
+2019,main_s4,Environmental Engineering and Management Journal,self,True,False,False
+2019,main_s4311_rep,Environmental Engineering and Management Journal,self,True,False,False
+2019,main_s4311_t1a,Environmental Engineering and Management Journal,self,True,False,False
+2019,type_issn_ja50,Environmental Engineering and Management Journal,self,True,False,False
+2019,main,Fish & Shellfish Immunology,self,True,False,False
+2019,main_s1,Fish & Shellfish Immunology,self,True,False,False
+2019,main_s2,Fish & Shellfish Immunology,self,True,False,False
+2019,main_s3,Fish & Shellfish Immunology,self,True,False,False
+2019,main_s4,Fish & Shellfish Immunology,self,True,False,False
+2019,main_s4311_rep,Fish & Shellfish Immunology,self,True,False,False
+2019,main_s4311_t1a,Fish & Shellfish Immunology,self,True,False,False
+2019,type_issn_ja50,Fish & Shellfish Immunology,self,True,False,False
+2019,main,Food and Agricultural Immunology,self,True,False,False
+2019,main_s1,Food and Agricultural Immunology,self,True,False,False
+2019,main_s2,Food and Agricultural Immunology,self,True,False,False
+2019,main_s3,Food and Agricultural Immunology,self,True,False,False
+2019,main_s4,Food and Agricultural Immunology,self,True,False,False
+2019,main_s4311_rep,Food and Agricultural Immunology,self,True,False,False
+2019,main_s4311_t1a,Food and Agricultural Immunology,self,True,False,False
+2019,type_issn_ja50,Food and Agricultural Immunology,self,True,False,False
+2019,main,Forensic Science International-Genetics,self,True,False,False
+2019,main_s1,Forensic Science International-Genetics,self,True,False,False
+2019,main_s2,Forensic Science International-Genetics,self,True,False,False
+2019,main_s3,Forensic Science International-Genetics,self,True,False,False
+2019,main_s4,Forensic Science International-Genetics,self,True,False,False
+2019,main_s4311_rep,Forensic Science International-Genetics,self,True,False,False
+2019,main_s4311_t1a,Forensic Science International-Genetics,self,True,False,False
+2019,type_issn_ja50,Forensic Science International-Genetics,self,True,False,False
+2019,main,GeroScience,self,True,False,False
+2019,main_s1,GeroScience,self,True,False,False
+2019,main_s2,GeroScience,self,True,False,False
+2019,main_s3,GeroScience,self,True,False,False
+2019,main_s4,GeroScience,self,True,False,False
+2019,main_s4311_rep,GeroScience,self,True,False,False
+2019,main_s4311_t1a,GeroScience,self,True,False,False
+2019,type_issn_ja50,GeroScience,self,True,False,False
+2019,main,IEEE Transactions on Applied Superconductivity,self,True,False,False
+2019,main_s1,IEEE Transactions on Applied Superconductivity,self,True,False,False
+2019,main_s2,IEEE Transactions on Applied Superconductivity,self,True,False,False
+2019,main_s3,IEEE Transactions on Applied Superconductivity,self,True,False,False
+2019,main_s4,IEEE Transactions on Applied Superconductivity,self,True,False,False
+2019,main_s4311_rep,IEEE Transactions on Applied Superconductivity,self,True,False,False
+2019,main_s4311_t1a,IEEE Transactions on Applied Superconductivity,self,True,False,False
+2019,type_issn_ja50,IEEE Transactions on Applied Superconductivity,self,True,False,False
+2019,main,Industria Textila,self,True,False,False
+2019,main_s1,Industria Textila,self,True,False,False
+2019,main_s2,Industria Textila,self,True,False,False
+2019,main_s3,Industria Textila,self,True,False,False
+2019,main_s4,Industria Textila,self,True,False,False
+2019,main_s4311_rep,Industria Textila,self,True,False,False
+2019,main_s4311_t1a,Industria Textila,self,True,False,False
+2019,type_issn_ja50,Industria Textila,self,True,False,False
+2019,main,International Journal of Medicinal Mushrooms,self,True,False,False
+2019,main_s1,International Journal of Medicinal Mushrooms,self,True,False,False
+2019,main_s2,International Journal of Medicinal Mushrooms,self,True,False,False
+2019,main_s3,International Journal of Medicinal Mushrooms,self,True,False,False
+2019,main_s4,International Journal of Medicinal Mushrooms,self,True,False,False
+2019,main_s4311_rep,International Journal of Medicinal Mushrooms,self,True,False,False
+2019,main_s4311_t1a,International Journal of Medicinal Mushrooms,self,True,False,False
+2019,type_issn_ja50,International Journal of Medicinal Mushrooms,self,True,False,False
+2019,main,International Journal of Systematic and Evolutionary Microbiology,self,True,False,False
+2019,main_s1,International Journal of Systematic and Evolutionary Microbiology,self,True,False,False
+2019,main_s2,International Journal of Systematic and Evolutionary Microbiology,self,True,False,False
+2019,main_s3,International Journal of Systematic and Evolutionary Microbiology,self,True,False,False
+2019,main_s4,International Journal of Systematic and Evolutionary Microbiology,self,True,False,False
+2019,main_s4311_rep,International Journal of Systematic and Evolutionary Microbiology,self,True,False,False
+2019,main_s4311_t1a,International Journal of Systematic and Evolutionary Microbiology,self,True,False,False
+2019,type_issn_ja50,International Journal of Systematic and Evolutionary Microbiology,self,True,False,False
+2019,main,Journal of Biomolecular Structure & Dynamics,self,True,False,False
+2019,main_s1,Journal of Biomolecular Structure & Dynamics,self,True,False,False
+2019,main_s2,Journal of Biomolecular Structure & Dynamics,self,True,False,False
+2019,main_s3,Journal of Biomolecular Structure & Dynamics,self,True,False,False
+2019,main_s4,Journal of Biomolecular Structure & Dynamics,self,True,False,False
+2019,main_s4311_rep,Journal of Biomolecular Structure & Dynamics,self,True,False,False
+2019,main_s4311_t1a,Journal of Biomolecular Structure & Dynamics,self,True,False,False
+2019,type_issn_ja50,Journal of Biomolecular Structure & Dynamics,self,True,False,False
+2019,main,Journal of Environmental and Engineering Geophysics,self,True,False,False
+2019,main_s1,Journal of Environmental and Engineering Geophysics,self,True,False,False
+2019,main_s2,Journal of Environmental and Engineering Geophysics,self,True,False,False
+2019,main_s3,Journal of Environmental and Engineering Geophysics,self,True,False,False
+2019,main_s4,Journal of Environmental and Engineering Geophysics,self,True,False,False
+2019,main_s4311_rep,Journal of Environmental and Engineering Geophysics,self,True,False,False
+2019,main_s4311_t1a,Journal of Environmental and Engineering Geophysics,self,True,False,False
+2019,type_issn_ja50,Journal of Environmental and Engineering Geophysics,self,True,False,False
+2019,main,Journal of the Experimental Analysis of Behavior,self,True,False,False
+2019,main_s1,Journal of the Experimental Analysis of Behavior,self,True,False,False
+2019,main_s2,Journal of the Experimental Analysis of Behavior,self,True,False,False
+2019,main_s3,Journal of the Experimental Analysis of Behavior,self,True,False,False
+2019,main_s4,Journal of the Experimental Analysis of Behavior,self,True,False,False
+2019,main_s4311_rep,Journal of the Experimental Analysis of Behavior,self,True,False,False
+2019,main_s4311_t1a,Journal of the Experimental Analysis of Behavior,self,True,False,False
+2019,type_issn_ja50,Journal of the Experimental Analysis of Behavior,self,True,False,False
+2019,main,Journal of Human Evolution,self,True,False,False
+2019,main_s1,Journal of Human Evolution,self,True,False,False
+2019,main_s2,Journal of Human Evolution,self,True,False,False
+2019,main_s3,Journal of Human Evolution,self,True,False,False
+2019,main_s4,Journal of Human Evolution,self,True,False,False
+2019,main_s4311_rep,Journal of Human Evolution,self,True,False,False
+2019,main_s4311_t1a,Journal of Human Evolution,self,True,False,False
+2019,type_issn_ja50,Journal of Human Evolution,self,True,False,False
+2019,main,Journal of Medical Biochemistry,self,True,False,False
+2019,main_s1,Journal of Medical Biochemistry,self,True,False,False
+2019,main_s2,Journal of Medical Biochemistry,self,True,False,False
+2019,main_s3,Journal of Medical Biochemistry,self,True,False,False
+2019,main_s4,Journal of Medical Biochemistry,self,True,False,False
+2019,main_s4311_rep,Journal of Medical Biochemistry,self,True,False,False
+2019,main_s4311_t1a,Journal of Medical Biochemistry,self,True,False,False
+2019,type_issn_ja50,Journal of Medical Biochemistry,self,True,False,False
+2019,main,Marine Biotechnology,self,True,False,False
+2019,main_s1,Marine Biotechnology,self,True,False,False
+2019,main_s2,Marine Biotechnology,self,True,False,False
+2019,main_s3,Marine Biotechnology,self,True,False,False
+2019,main_s4,Marine Biotechnology,self,True,False,False
+2019,main_s4311_rep,Marine Biotechnology,self,True,False,False
+2019,main_s4311_t1a,Marine Biotechnology,self,True,False,False
+2019,type_issn_ja50,Marine Biotechnology,self,True,False,False
+2019,main,Microbes and Environments,self,True,False,False
+2019,main_s1,Microbes and Environments,self,True,False,False
+2019,main_s2,Microbes and Environments,self,True,False,False
+2019,main_s3,Microbes and Environments,self,True,False,False
+2019,main_s4,Microbes and Environments,self,True,False,False
+2019,main_s4311_rep,Microbes and Environments,self,True,False,False
+2019,main_s4311_t1a,Microbes and Environments,self,True,False,False
+2019,type_issn_ja50,Microbes and Environments,self,True,False,False
+2019,main,Pakistan Journal of Zoology,self,True,False,False
+2019,main_s1,Pakistan Journal of Zoology,self,True,False,False
+2019,main_s2,Pakistan Journal of Zoology,self,True,False,False
+2019,main_s3,Pakistan Journal of Zoology,self,True,False,False
+2019,main_s4,Pakistan Journal of Zoology,self,True,False,False
+2019,main_s4311_rep,Pakistan Journal of Zoology,self,True,False,False
+2019,main_s4311_t1a,Pakistan Journal of Zoology,self,True,False,False
+2019,type_issn_ja50,Pakistan Journal of Zoology,self,True,False,False
+2019,main,Rejuvenation Research,self,True,False,False
+2019,main_s1,Rejuvenation Research,self,True,False,False
+2019,main_s2,Rejuvenation Research,self,True,False,False
+2019,main_s3,Rejuvenation Research,self,True,False,False
+2019,main_s4,Rejuvenation Research,self,True,False,False
+2019,main_s4311_rep,Rejuvenation Research,self,True,False,False
+2019,main_s4311_t1a,Rejuvenation Research,self,True,False,False
+2019,type_issn_ja50,Rejuvenation Research,self,True,False,False
+2019,main,Xenotransplantation,self,True,False,False
+2019,main_s1,Xenotransplantation,self,True,False,False
+2019,main_s2,Xenotransplantation,self,True,False,False
+2019,main_s3,Xenotransplantation,self,True,False,False
+2019,main_s4,Xenotransplantation,self,True,False,False
+2019,main_s4311_rep,Xenotransplantation,self,True,False,False
+2019,main_s4311_t1a,Xenotransplantation,self,True,False,False
+2019,type_issn_ja50,Xenotransplantation,self,True,False,False
+2019,main,Zootaxa,self,True,False,False
+2019,main_s1,Zootaxa,self,True,False,False
+2019,main_s2,Zootaxa,self,True,False,False
+2019,main_s3,Zootaxa,self,True,False,False
+2019,main_s4,Zootaxa,self,True,False,False
+2019,main_s4311_rep,Zootaxa,self,True,False,False
+2019,main_s4311_t1a,Zootaxa,self,True,False,False
+2019,type_issn_ja50,Zootaxa,self,True,False,False
+2020,main,Archivos Latinoamericanos de Nutricion,stacking,True,False,False
+2020,main_s1,Archivos Latinoamericanos de Nutricion,stacking,True,False,False
+2020,main_s2,Archivos Latinoamericanos de Nutricion,stacking,True,False,False
+2020,main_s3,Archivos Latinoamericanos de Nutricion,stacking,True,False,False
+2020,main_s4,Archivos Latinoamericanos de Nutricion,stacking,True,False,False
+2020,main_s4311_rep,Archivos Latinoamericanos de Nutricion,stacking,True,False,False
+2020,main_s4311_t1a,Archivos Latinoamericanos de Nutricion,stacking,True,False,False
+2020,type_issn_ja50,Archivos Latinoamericanos de Nutricion,stacking,True,False,False
+2020,main,Journal of Intelligent & Fuzzy Systems,stacking,True,False,False
+2020,main_s1,Journal of Intelligent & Fuzzy Systems,stacking,True,False,False
+2020,main_s2,Journal of Intelligent & Fuzzy Systems,stacking,True,False,False
+2020,main_s3,Journal of Intelligent & Fuzzy Systems,stacking,True,False,False
+2020,main_s4,Journal of Intelligent & Fuzzy Systems,stacking,True,False,False
+2020,main_s4311_rep,Journal of Intelligent & Fuzzy Systems,stacking,True,False,False
+2020,main_s4311_t1a,Journal of Intelligent & Fuzzy Systems,stacking,True,False,False
+2020,type_issn_ja50,Journal of Intelligent & Fuzzy Systems,stacking,True,False,False
+2020,main,Materials Express,stacking,True,False,False
+2020,main_s1,Materials Express,stacking,True,False,False
+2020,main_s2,Materials Express,stacking,True,False,False
+2020,main_s3,Materials Express,stacking,True,False,False
+2020,main_s4,Materials Express,stacking,True,False,False
+2020,main_s4311_rep,Materials Express,stacking,True,False,False
+2020,main_s4311_t1a,Materials Express,stacking,True,False,False
+2020,type_issn_ja50,Materials Express,stacking,True,False,False
+2020,main,Hellenic Journal of Cardiology,self,True,False,False
+2020,main_s1,Hellenic Journal of Cardiology,self,True,False,False
+2020,main_s2,Hellenic Journal of Cardiology,self,True,False,False
+2020,main_s3,Hellenic Journal of Cardiology,self,True,False,False
+2020,main_s4,Hellenic Journal of Cardiology,self,True,False,False
+2020,main_s4311_rep,Hellenic Journal of Cardiology,self,True,False,False
+2020,main_s4311_t1a,Hellenic Journal of Cardiology,self,True,False,False
+2020,type_issn_ja50,Hellenic Journal of Cardiology,self,True,False,False
+2020,main,International Journal of Engine Research,self,True,False,False
+2020,main_s1,International Journal of Engine Research,self,True,False,False
+2020,main_s2,International Journal of Engine Research,self,True,False,False
+2020,main_s3,International Journal of Engine Research,self,True,False,False
+2020,main_s4,International Journal of Engine Research,self,True,False,False
+2020,main_s4311_rep,International Journal of Engine Research,self,True,False,False
+2020,main_s4311_t1a,International Journal of Engine Research,self,True,False,False
+2020,type_issn_ja50,International Journal of Engine Research,self,True,False,False
+2020,main,Journal of Biomolecular Structure and Dynamics,self,True,False,False
+2020,main_s1,Journal of Biomolecular Structure and Dynamics,self,True,False,False
+2020,main_s2,Journal of Biomolecular Structure and Dynamics,self,True,False,False
+2020,main_s3,Journal of Biomolecular Structure and Dynamics,self,True,False,False
+2020,main_s4,Journal of Biomolecular Structure and Dynamics,self,True,False,False
+2020,main_s4311_rep,Journal of Biomolecular Structure and Dynamics,self,True,False,False
+2020,main_s4311_t1a,Journal of Biomolecular Structure and Dynamics,self,True,False,False
+2020,type_issn_ja50,Journal of Biomolecular Structure and Dynamics,self,True,False,False
+2020,main,Journal of Enhanced Heat Transfer,self,True,False,False
+2020,main_s1,Journal of Enhanced Heat Transfer,self,True,False,False
+2020,main_s2,Journal of Enhanced Heat Transfer,self,True,False,False
+2020,main_s3,Journal of Enhanced Heat Transfer,self,True,False,False
+2020,main_s4,Journal of Enhanced Heat Transfer,self,True,False,False
+2020,main_s4311_rep,Journal of Enhanced Heat Transfer,self,True,False,False
+2020,main_s4311_t1a,Journal of Enhanced Heat Transfer,self,True,False,False
+2020,type_issn_ja50,Journal of Enhanced Heat Transfer,self,True,False,False
+2020,main,Journal of Family and Economic Issues,self,True,False,False
+2020,main_s1,Journal of Family and Economic Issues,self,True,False,False
+2020,main_s2,Journal of Family and Economic Issues,self,True,False,False
+2020,main_s3,Journal of Family and Economic Issues,self,True,False,False
+2020,main_s4,Journal of Family and Economic Issues,self,True,False,False
+2020,main_s4311_rep,Journal of Family and Economic Issues,self,True,False,False
+2020,main_s4311_t1a,Journal of Family and Economic Issues,self,True,False,False
+2020,type_issn_ja50,Journal of Family and Economic Issues,self,True,False,False
+2020,main,Liquid Crystals,self,True,False,False
+2020,main_s1,Liquid Crystals,self,True,False,False
+2020,main_s2,Liquid Crystals,self,True,False,False
+2020,main_s3,Liquid Crystals,self,True,False,False
+2020,main_s4,Liquid Crystals,self,True,False,False
+2020,main_s4311_rep,Liquid Crystals,self,True,False,False
+2020,main_s4311_t1a,Liquid Crystals,self,True,False,False
+2020,type_issn_ja50,Liquid Crystals,self,True,False,False
+2020,main,Mechanics Based Design of Structures and Machines,self,True,False,False
+2020,main_s1,Mechanics Based Design of Structures and Machines,self,True,False,False
+2020,main_s2,Mechanics Based Design of Structures and Machines,self,True,False,False
+2020,main_s3,Mechanics Based Design of Structures and Machines,self,True,False,False
+2020,main_s4,Mechanics Based Design of Structures and Machines,self,True,False,False
+2020,main_s4311_rep,Mechanics Based Design of Structures and Machines,self,True,False,False
+2020,main_s4311_t1a,Mechanics Based Design of Structures and Machines,self,True,False,False
+2020,type_issn_ja50,Mechanics Based Design of Structures and Machines,self,True,False,False
+2021,main,Chinese Journal of Organic Chemistry,self,True,False,False
+2021,main_s1,Chinese Journal of Organic Chemistry,self,True,False,False
+2021,main_s2,Chinese Journal of Organic Chemistry,self,True,False,False
+2021,main_s3,Chinese Journal of Organic Chemistry,self,True,False,False
+2021,main_s4,Chinese Journal of Organic Chemistry,self,True,False,False
+2021,main_s4311_rep,Chinese Journal of Organic Chemistry,self,True,False,False
+2021,main_s4311_t1a,Chinese Journal of Organic Chemistry,self,True,False,False
+2021,type_issn_ja50,Chinese Journal of Organic Chemistry,self,True,False,False
+2021,main,Connection Science,self,True,False,False
+2021,main_s1,Connection Science,self,True,False,False
+2021,main_s2,Connection Science,self,True,False,False
+2021,main_s3,Connection Science,self,True,False,False
+2021,main_s4,Connection Science,self,True,False,False
+2021,main_s4311_rep,Connection Science,self,True,False,False
+2021,main_s4311_t1a,Connection Science,self,True,False,False
+2021,type_issn_ja50,Connection Science,self,True,False,False
+2021,main,Indian Journal of Microbiology,self,True,False,False
+2021,main_s1,Indian Journal of Microbiology,self,True,False,False
+2021,main_s2,Indian Journal of Microbiology,self,True,False,False
+2021,main_s3,Indian Journal of Microbiology,self,True,False,False
+2021,main_s4,Indian Journal of Microbiology,self,True,False,False
+2021,main_s4311_rep,Indian Journal of Microbiology,self,True,False,False
+2021,main_s4311_t1a,Indian Journal of Microbiology,self,True,False,False
+2021,type_issn_ja50,Indian Journal of Microbiology,self,True,False,False
+2021,main,Allergy,warning_self_stacking,True,False,False
+2021,main_s1,Allergy,warning_self_stacking,True,False,False
+2021,main_s2,Allergy,warning_self_stacking,True,False,False
+2021,main_s3,Allergy,warning_self_stacking,True,False,False
+2021,main_s4,Allergy,warning_self_stacking,True,False,False
+2021,main_s4311_rep,Allergy,warning_self_stacking,True,False,False
+2021,main_s4311_t1a,Allergy,warning_self_stacking,True,False,False
+2021,type_issn_ja50,Allergy,warning_self_stacking,True,False,False
+2021,main,American Journal Of Respiratory And Critical Care Medicine,warning_self_stacking,True,False,False
+2021,main_s1,American Journal Of Respiratory And Critical Care Medicine,warning_self_stacking,True,False,False
+2021,main_s2,American Journal Of Respiratory And Critical Care Medicine,warning_self_stacking,True,False,False
+2021,main_s3,American Journal Of Respiratory And Critical Care Medicine,warning_self_stacking,True,False,False
+2021,main_s4,American Journal Of Respiratory And Critical Care Medicine,warning_self_stacking,True,False,False
+2021,main_s4311_rep,American Journal Of Respiratory And Critical Care Medicine,warning_self_stacking,True,False,False
+2021,main_s4311_t1a,American Journal Of Respiratory And Critical Care Medicine,warning_self_stacking,True,False,False
+2021,type_issn_ja50,American Journal Of Respiratory And Critical Care Medicine,warning_self_stacking,True,False,False
+2021,main,Clinical And Experimental Allergy,warning_self_stacking,True,False,False
+2021,main_s1,Clinical And Experimental Allergy,warning_self_stacking,True,False,False
+2021,main_s2,Clinical And Experimental Allergy,warning_self_stacking,True,False,False
+2021,main_s3,Clinical And Experimental Allergy,warning_self_stacking,True,False,False
+2021,main_s4,Clinical And Experimental Allergy,warning_self_stacking,True,False,False
+2021,main_s4311_rep,Clinical And Experimental Allergy,warning_self_stacking,True,False,False
+2021,main_s4311_t1a,Clinical And Experimental Allergy,warning_self_stacking,True,False,False
+2021,type_issn_ja50,Clinical And Experimental Allergy,warning_self_stacking,True,False,False
+2021,main,Experimental Dermatology,warning_self_stacking,True,False,False
+2021,main_s1,Experimental Dermatology,warning_self_stacking,True,False,False
+2021,main_s2,Experimental Dermatology,warning_self_stacking,True,False,False
+2021,main_s3,Experimental Dermatology,warning_self_stacking,True,False,False
+2021,main_s4,Experimental Dermatology,warning_self_stacking,True,False,False
+2021,main_s4311_rep,Experimental Dermatology,warning_self_stacking,True,False,False
+2021,main_s4311_t1a,Experimental Dermatology,warning_self_stacking,True,False,False
+2021,type_issn_ja50,Experimental Dermatology,warning_self_stacking,True,False,False
+2021,main,Hla,warning_self_stacking,True,True,True
+2021,main_s1,Hla,warning_self_stacking,True,True,True
+2021,main_s2,Hla,warning_self_stacking,True,True,True
+2021,main_s3,Hla,warning_self_stacking,True,False,False
+2021,main_s4,Hla,warning_self_stacking,True,True,True
+2021,main_s4311_rep,Hla,warning_self_stacking,True,True,True
+2021,main_s4311_t1a,Hla,warning_self_stacking,True,True,True
+2021,type_issn_ja50,Hla,warning_self_stacking,True,True,True
+2021,main,Resuscitation,warning_self_stacking,True,False,False
+2021,main_s1,Resuscitation,warning_self_stacking,True,False,False
+2021,main_s2,Resuscitation,warning_self_stacking,True,False,False
+2021,main_s3,Resuscitation,warning_self_stacking,True,False,False
+2021,main_s4,Resuscitation,warning_self_stacking,True,False,False
+2021,main_s4311_rep,Resuscitation,warning_self_stacking,True,False,False
+2021,main_s4311_t1a,Resuscitation,warning_self_stacking,True,False,False
+2021,type_issn_ja50,Resuscitation,warning_self_stacking,True,False,False
+2022,main,Bioinspired Biomimetic and Nanobiomaterials,stacking,True,False,False
+2022,main_s1,Bioinspired Biomimetic and Nanobiomaterials,stacking,True,False,False
+2022,main_s2,Bioinspired Biomimetic and Nanobiomaterials,stacking,True,False,False
+2022,main_s3,Bioinspired Biomimetic and Nanobiomaterials,stacking,True,False,False
+2022,main_s4,Bioinspired Biomimetic and Nanobiomaterials,stacking,True,False,False
+2022,main_s4311_rep,Bioinspired Biomimetic and Nanobiomaterials,stacking,True,False,False
+2022,main_s4311_t1a,Bioinspired Biomimetic and Nanobiomaterials,stacking,True,False,False
+2022,type_issn_ja50,Bioinspired Biomimetic and Nanobiomaterials,stacking,True,False,False
+2022,main,Genetika-Belgrade,stacking,True,False,False
+2022,main_s1,Genetika-Belgrade,stacking,True,False,False
+2022,main_s2,Genetika-Belgrade,stacking,True,False,False
+2022,main_s3,Genetika-Belgrade,stacking,True,False,False
+2022,main_s4,Genetika-Belgrade,stacking,True,False,False
+2022,main_s4311_rep,Genetika-Belgrade,stacking,True,False,False
+2022,main_s4311_t1a,Genetika-Belgrade,stacking,True,False,False
+2022,type_issn_ja50,Genetika-Belgrade,stacking,True,False,False
+2022,main,Bioscience Research,stacking,False,False,False
+2022,main_s1,Bioscience Research,stacking,False,False,False
+2022,main_s2,Bioscience Research,stacking,False,False,False
+2022,main_s3,Bioscience Research,stacking,False,False,False
+2022,main_s4,Bioscience Research,stacking,False,False,False
+2022,main_s4311_rep,Bioscience Research,stacking,False,False,False
+2022,main_s4311_t1a,Bioscience Research,stacking,False,False,False
+2022,type_issn_ja50,Bioscience Research,stacking,False,False,False
+2022,main,Marketing Theory,self,True,False,False
+2022,main_s1,Marketing Theory,self,True,False,False
+2022,main_s2,Marketing Theory,self,True,False,False
+2022,main_s3,Marketing Theory,self,True,False,False
+2022,main_s4,Marketing Theory,self,True,False,False
+2022,main_s4311_rep,Marketing Theory,self,True,False,False
+2022,main_s4311_t1a,Marketing Theory,self,True,False,False
+2022,type_issn_ja50,Marketing Theory,self,True,False,False
+2023,main,Annals of Financial Economics,stacking,True,False,False
+2023,main_s1,Annals of Financial Economics,stacking,True,False,False
+2023,main_s2,Annals of Financial Economics,stacking,True,False,False
+2023,main_s3,Annals of Financial Economics,stacking,True,False,False
+2023,main_s4,Annals of Financial Economics,stacking,True,False,False
+2023,main_s4311_rep,Annals of Financial Economics,stacking,True,False,False
+2023,main_s4311_t1a,Annals of Financial Economics,stacking,True,False,False
+2023,type_issn_ja50,Annals of Financial Economics,stacking,True,False,False
+2023,main,Climate Change Economics,stacking,True,False,False
+2023,main_s1,Climate Change Economics,stacking,True,False,False
+2023,main_s2,Climate Change Economics,stacking,True,False,False
+2023,main_s3,Climate Change Economics,stacking,True,False,False
+2023,main_s4,Climate Change Economics,stacking,True,False,False
+2023,main_s4311_rep,Climate Change Economics,stacking,True,False,False
+2023,main_s4311_t1a,Climate Change Economics,stacking,True,False,False
+2023,type_issn_ja50,Climate Change Economics,stacking,True,False,False
+2023,main,Cuadernos de Economia - Spain,stacking,False,False,False
+2023,main_s1,Cuadernos de Economia - Spain,stacking,False,False,False
+2023,main_s2,Cuadernos de Economia - Spain,stacking,False,False,False
+2023,main_s3,Cuadernos de Economia - Spain,stacking,False,False,False
+2023,main_s4,Cuadernos de Economia - Spain,stacking,False,False,False
+2023,main_s4311_rep,Cuadernos de Economia - Spain,stacking,False,False,False
+2023,main_s4311_t1a,Cuadernos de Economia - Spain,stacking,False,False,False
+2023,type_issn_ja50,Cuadernos de Economia - Spain,stacking,False,False,False
+2023,main,Granular Computing,stacking,True,False,False
+2023,main_s1,Granular Computing,stacking,True,False,False
+2023,main_s2,Granular Computing,stacking,True,False,False
+2023,main_s3,Granular Computing,stacking,True,False,False
+2023,main_s4,Granular Computing,stacking,True,False,False
+2023,main_s4311_rep,Granular Computing,stacking,True,False,False
+2023,main_s4311_t1a,Granular Computing,stacking,True,False,False
+2023,type_issn_ja50,Granular Computing,stacking,True,False,False
+2023,main,Minerva Medica,stacking,True,False,False
+2023,main_s1,Minerva Medica,stacking,True,False,False
+2023,main_s2,Minerva Medica,stacking,True,False,False
+2023,main_s3,Minerva Medica,stacking,True,False,False
+2023,main_s4,Minerva Medica,stacking,True,False,False
+2023,main_s4311_rep,Minerva Medica,stacking,True,False,False
+2023,main_s4311_t1a,Minerva Medica,stacking,True,False,False
+2023,type_issn_ja50,Minerva Medica,stacking,True,False,False
+2023,main,Panminerva Medica,stacking,True,False,False
+2023,main_s1,Panminerva Medica,stacking,True,False,False
+2023,main_s2,Panminerva Medica,stacking,True,False,False
+2023,main_s3,Panminerva Medica,stacking,True,False,False
+2023,main_s4,Panminerva Medica,stacking,True,False,False
+2023,main_s4311_rep,Panminerva Medica,stacking,True,False,False
+2023,main_s4311_t1a,Panminerva Medica,stacking,True,False,False
+2023,type_issn_ja50,Panminerva Medica,stacking,True,False,False
+2023,main,Ukrainian Journal of Physical Optics,stacking,True,False,False
+2023,main_s1,Ukrainian Journal of Physical Optics,stacking,True,False,False
+2023,main_s2,Ukrainian Journal of Physical Optics,stacking,True,False,False
+2023,main_s3,Ukrainian Journal of Physical Optics,stacking,True,False,False
+2023,main_s4,Ukrainian Journal of Physical Optics,stacking,True,False,False
+2023,main_s4311_rep,Ukrainian Journal of Physical Optics,stacking,True,False,False
+2023,main_s4311_t1a,Ukrainian Journal of Physical Optics,stacking,True,False,False
+2023,type_issn_ja50,Ukrainian Journal of Physical Optics,stacking,True,False,False
+2023,main,Activities Adaptation & Aging,self,True,False,False
+2023,main_s1,Activities Adaptation & Aging,self,True,False,False
+2023,main_s2,Activities Adaptation & Aging,self,True,False,False
+2023,main_s3,Activities Adaptation & Aging,self,True,False,False
+2023,main_s4,Activities Adaptation & Aging,self,True,False,False
+2023,main_s4311_rep,Activities Adaptation & Aging,self,True,False,False
+2023,main_s4311_t1a,Activities Adaptation & Aging,self,True,False,False
+2023,type_issn_ja50,Activities Adaptation & Aging,self,True,False,False
+2023,main,Engineering Technology & Applied Science Research,self,True,False,False
+2023,main_s1,Engineering Technology & Applied Science Research,self,True,False,False
+2023,main_s2,Engineering Technology & Applied Science Research,self,True,False,False
+2023,main_s3,Engineering Technology & Applied Science Research,self,True,False,False
+2023,main_s4,Engineering Technology & Applied Science Research,self,True,False,False
+2023,main_s4311_rep,Engineering Technology & Applied Science Research,self,True,False,False
+2023,main_s4311_t1a,Engineering Technology & Applied Science Research,self,True,False,False
+2023,type_issn_ja50,Engineering Technology & Applied Science Research,self,True,False,False
+2023,main,Environmental Science and Pollution Research,stacking,True,False,False
+2023,main_s1,Environmental Science and Pollution Research,stacking,True,False,False
+2023,main_s2,Environmental Science and Pollution Research,stacking,True,False,False
+2023,main_s3,Environmental Science and Pollution Research,stacking,True,False,False
+2023,main_s4,Environmental Science and Pollution Research,stacking,True,False,False
+2023,main_s4311_rep,Environmental Science and Pollution Research,stacking,True,False,False
+2023,main_s4311_t1a,Environmental Science and Pollution Research,stacking,True,False,False
+2023,type_issn_ja50,Environmental Science and Pollution Research,stacking,True,False,False
+2023,main,Exploratory Animal and Medical Research,self,True,False,False
+2023,main_s1,Exploratory Animal and Medical Research,self,True,False,False
+2023,main_s2,Exploratory Animal and Medical Research,self,True,False,False
+2023,main_s3,Exploratory Animal and Medical Research,self,True,False,False
+2023,main_s4,Exploratory Animal and Medical Research,self,True,False,False
+2023,main_s4311_rep,Exploratory Animal and Medical Research,self,True,False,False
+2023,main_s4311_t1a,Exploratory Animal and Medical Research,self,True,False,False
+2023,type_issn_ja50,Exploratory Animal and Medical Research,self,True,False,False
+2023,main,Gazzetta Medica Italiana Archivio per le Scienze Mediche,stacking,True,False,True
+2023,main_s1,Gazzetta Medica Italiana Archivio per le Scienze Mediche,stacking,True,False,True
+2023,main_s2,Gazzetta Medica Italiana Archivio per le Scienze Mediche,stacking,True,False,True
+2023,main_s3,Gazzetta Medica Italiana Archivio per le Scienze Mediche,stacking,True,False,True
+2023,main_s4,Gazzetta Medica Italiana Archivio per le Scienze Mediche,stacking,True,False,True
+2023,main_s4311_rep,Gazzetta Medica Italiana Archivio per le Scienze Mediche,stacking,True,False,True
+2023,main_s4311_t1a,Gazzetta Medica Italiana Archivio per le Scienze Mediche,stacking,True,False,True
+2023,type_issn_ja50,Gazzetta Medica Italiana Archivio per le Scienze Mediche,stacking,True,False,True
+2023,main,Information Sciences,stacking,True,False,False
+2023,main_s1,Information Sciences,stacking,True,False,False
+2023,main_s2,Information Sciences,stacking,True,False,False
+2023,main_s3,Information Sciences,stacking,True,False,False
+2023,main_s4,Information Sciences,stacking,True,False,False
+2023,main_s4311_rep,Information Sciences,stacking,True,False,False
+2023,main_s4311_t1a,Information Sciences,stacking,True,False,False
+2023,type_issn_ja50,Information Sciences,stacking,True,False,False
+2023,main,Library Hi Tech,self,True,False,False
+2023,main_s1,Library Hi Tech,self,True,False,False
+2023,main_s2,Library Hi Tech,self,True,False,False
+2023,main_s3,Library Hi Tech,self,True,False,False
+2023,main_s4,Library Hi Tech,self,True,False,False
+2023,main_s4311_rep,Library Hi Tech,self,True,False,False
+2023,main_s4311_t1a,Library Hi Tech,self,True,False,False
+2023,type_issn_ja50,Library Hi Tech,self,True,False,False
+2023,main,Regional Statistics,self,True,False,False
+2023,main_s1,Regional Statistics,self,True,False,False
+2023,main_s2,Regional Statistics,self,True,False,False
+2023,main_s3,Regional Statistics,self,True,False,False
+2023,main_s4,Regional Statistics,self,True,False,False
+2023,main_s4311_rep,Regional Statistics,self,True,False,False
+2023,main_s4311_t1a,Regional Statistics,self,True,False,False
+2023,type_issn_ja50,Regional Statistics,self,True,False,False
+2023,main,Resources Policy,stacking,True,False,False
+2023,main_s1,Resources Policy,stacking,True,False,False
+2023,main_s2,Resources Policy,stacking,True,False,False
+2023,main_s3,Resources Policy,stacking,True,False,False
+2023,main_s4,Resources Policy,stacking,True,False,False
+2023,main_s4311_rep,Resources Policy,stacking,True,False,False
+2023,main_s4311_t1a,Resources Policy,stacking,True,False,False
+2023,type_issn_ja50,Resources Policy,stacking,True,False,False
+2023,main,SOCAR Proceedings,self,True,False,False
+2023,main_s1,SOCAR Proceedings,self,True,False,False
+2023,main_s2,SOCAR Proceedings,self,True,False,False
+2023,main_s3,SOCAR Proceedings,self,True,False,False
+2023,main_s4,SOCAR Proceedings,self,True,False,False
+2023,main_s4311_rep,SOCAR Proceedings,self,True,False,False
+2023,main_s4311_t1a,SOCAR Proceedings,self,True,False,False
+2023,type_issn_ja50,SOCAR Proceedings,self,True,False,False

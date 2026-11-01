@@ -1,0 +1,29 @@
+{
+  "run_id": "c12_cidre_20261031_01",
+  "script": "c12_cidre.py",
+  "script_sha256": "b5b24fac1eeb6b69ada7aad4a46d1ba2fcbc7c1a399c19a746e2ceab225df57c",
+  "cidre_paper_sha256": "c005822730b1cf8fb9613a6d5fe61c40467dfe75df482bca492e46853366c69c",
+  "src_run": "c6_full_20261031_02",
+  "match_run": "c10_match_20261031_03",
+  "years": [
+    2020
+  ],
+  "tags": [
+    "main"
+  ],
+  "workers": 1,
+  "params": {
+    "theta": 0.15,
+    "theta_w": 50,
+    "alpha": 0.01,
+    "citing_journal_only": true
+  },
+  "blocks_sha256": {
+    "main": "6e9470caf26cfcf5c6175b64955d01c61ea2991a118003eaad714a563f705ffd"
+  },
+  "seconds_total": 35.9,
+  "python": "3.11.18",
+  "duckdb": "1.5.6",
+  "pandas": "2.3.3",
+  "numpy": "2.4.6"
+}

@@ -1,0 +1,49 @@
+# c01_journal_graph: build yearly journal->journal citation counts (JCR window) from the OpenCitations Jan-2024 snapshot.
+experiment: c01_journal_graph
+scope: all_journals              # C3 decision 2026-10-28: all journals (stacking cases are outside biomedicine)
+data:
+  dataset_doi: 10.13012/B2IDB-5216575_V1
+  edges: open_citations_jan2024_iid_el.csv.gz   # integer-ID edge list (13.3 GB)
+  pubs: open_citations_jan2024_pubs.csv.gz      # iid -> venue (journal OMID + ISSN), pub_year, type (8.44 GB)
+journal:
+  id: venue_omid                 # parsed from the "venue" column, e.g. "[omid:br/065043507 issn:1000-324X]"
+counting:                        # decision 2026-10-28: follow Clarivate's JIF definition as closely as the data allows
+  citing_types: all              # numerator: citations from any item; citing items without a journal are kept (citing_j = null)
+  cited_types: all               # numerator: citations to any item of journal B published in t-1, t-2
+  citable_types: ["journal article"]   # denominator proxy; OpenCitations does not split article/review/editorial. TODO(verify) effect
+  citing_journal_only: true      # decision 2026-10-31 (user): scores count only citing items with a journal (closer to Clarivate,
+                                 # which counts citations from indexed sources); the c6 tables keep all citing items, and
+                                 # c9_scores.py without --citing-journal-only is the sensitivity (RESULTS_LOG 2026-10-31)
+jcr_window:
+  citing_years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023]   # 2015-2019 overlap CIDRE; 2020-2022 out-of-sample; 2023 exploratory
+  cited_offsets: [1, 2]          # cited items published in t-1 and t-2
+run:
+  mode: sample                   # sample (laptop, C5b) | full (Azure, C6)
+  sample_lines: 5000000          # per input file, for the laptop prototype
+  engine: duckdb
+seed: 4311
+cidre:                           # paper settings (Kojaku et al. 2021, Methods); implementation in cidre_paper.py
+  theta: 0.15
+  theta_w: 50                    # groups with fewer within-group citations (self-loops excluded) are removed
+  alpha: 0.01                    # Benjamini-Hochberg
+  min_expected_weight: 1         # lambda clipped at 1 (eq. 6)
+  condition1_recent_share: 0.5   # > half of i->j citations go to papers from t-1, t-2 (needs W_all)
+  blocks:
+    method: graph-tool minimize_blockmodel_dl, degree-corrected, non-hierarchical (Peixoto 2017)
+    aggregate_years: all         # decision 2026-10-28: all years in the snapshot (paper: 2000-2019)
+journal_rules:                   # which venues are journal nodes (decision 2026-10-31, c6_journalrule_20261031_01)
+  main:                          # the venue's own record has type 'journal', and it has an ISSN
+    type_journal: true
+    issn: true
+  type_issn_ja50:                # sensitivity: main + at least half of its items are journal articles
+    type_journal: true
+    issn: true
+    min_ja_share: 0.5
+c10:                             # fidelity check and ranking; fixed 2026-10-31 BEFORE the run (RESULTS_LOG "C10 pre-registration")
+  scores_main: c9_scores_20261031_02         # citing_journal_only
+  scores_sensitivity: c9_scores_20261031_01  # all citing items
+  min_citable: 20                # journal-years with fewer citable items are not ranked on JIF-based scores
+  min_citable_sensitivity: [10, 50]
+  min_num: 20                    # journal-years with fewer numerator citations are not ranked
+  pass_abs_pp: 10                # a reproduced percentage passes if within +-10 percentage points of Clarivate's
+  pass_top_share: 0.01           # a suppressed journal "ranks" if in the top 1% of its year on the relevant score

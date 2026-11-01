@@ -1,0 +1,25 @@
+{
+  "edges": {
+    "path": "../../data/samples/open_citations_jan2024_iid_el.prefix.csv",
+    "bytes": 48092055,
+    "sha256": "6276f4758d272ee80836a29f0a16b3476b1a5baad156965e733bc2948cb5f006"
+  },
+  "pubs": {
+    "path": "../../data/samples/open_citations_jan2024_pubs.prefix.csv",
+    "bytes": 35984919,
+    "sha256": "417a6bdd441e1f5fe13b81f0d50405ed4868cafab7c3797bff8430d57056c1e5"
+  },
+  "config_sha256": "afa5f5f3d1a0777cb3b710219e1109f26a04fc6c9e7c7eb2c8553cbc0936767c",
+  "python": "3.10.9",
+  "duckdb": "1.5.6",
+  "stage": "inputs",
+  "seconds": 0.4,
+  "peak_rss_mb_so_far": 164.7,
+  "limits": {
+    "threads": 2,
+    "memory_limit": "1GB",
+    "temp_directory": "/home/hossein/Desktop/Stack of Software engineer/PAPER/Future_Research/C_citation_stacking/data/work/c6_local_sample_20261028_01/duckdb_tmp",
+    "max_temp_directory_size": "2GB"
+  },
+  "finished": "2026-10-28 20:15:50"
+}

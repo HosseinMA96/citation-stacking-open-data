@@ -1,0 +1,116 @@
+{
+  "run_id": "c5b_sample_20261028_02",
+  "script": "c5b_prototype.py",
+  "config": "config.yaml",
+  "config_sha256": "ce00f464d1a4829bbfe725131fc7b7adf85777e28864cd423ff3526ae761226e",
+  "python": "3.10.9",
+  "duckdb": "1.5.6",
+  "duckdb_memory_limit": "4GB",
+  "inputs": {
+    "edges": {
+      "source": "open_citations_jan2024_iid_el.csv.gz.crdownload",
+      "snapshot": "open_citations_jan2024_iid_el.csv.gz.prefix",
+      "snapshot_sha256": "d26384bbe06f0b11d0d55e7f3d2c76fe9f62b86d4a760f08aad2216935fdde46",
+      "compressed_bytes_read": 19542647,
+      "decompressed_bytes_kept": 48092055,
+      "lines_kept_incl_header": 2683008,
+      "dropped_partial_line_bytes": 9,
+      "gzip_truncated": true,
+      "seconds": 0.3,
+      "csv": "open_citations_jan2024_iid_el.prefix.csv",
+      "csv_sha256": "6276f4758d272ee80836a29f0a16b3476b1a5baad156965e733bc2948cb5f006"
+    },
+    "pubs": {
+      "source": "open_citations_jan2024_pubs.csv.gz.crdownload",
+      "snapshot": "open_citations_jan2024_pubs.csv.gz.prefix",
+      "snapshot_sha256": "398af8bee997a582688c6bc1be94f58f6e0ecbc93472f50fa0fd037de1ac2b21",
+      "compressed_bytes_read": 9660696,
+      "decompressed_bytes_kept": 35984919,
+      "lines_kept_incl_header": 81581,
+      "dropped_partial_line_bytes": 202,
+      "gzip_truncated": true,
+      "seconds": 0.2,
+      "csv": "open_citations_jan2024_pubs.prefix.csv",
+      "csv_sha256": "417a6bdd441e1f5fe13b81f0d50405ed4868cafab7c3797bff8430d57056c1e5"
+    }
+  },
+  "counts": {
+    "edges_rows": 2683007,
+    "edges_distinct": 2683007,
+    "edges_self_loops": 0,
+    "edges_iid_min_max": [
+      136,
+      107054079
+    ],
+    "pubs_rows": 81580,
+    "pubs_bad_iid": 0,
+    "pubs_distinct_iid": 81580,
+    "pubs_iid_min_max": [
+      1701300,
+      100323819
+    ],
+    "pubs_with_venue_text": 65822,
+    "pubs_with_venue_omid": 65822,
+    "pubs_with_issn": 54768,
+    "pubs_with_year": 70949,
+    "pubs_type_counts": {
+      "journal article": 56060,
+      "proceedings": 7093,
+      "proceedings article": 6340,
+      "book chapter": 5096,
+      "<null>": 2651,
+      "dataset": 1768,
+      "book": 1482,
+      "web content": 449,
+      "reference book": 214,
+      "reference entry": 136,
+      "report": 103,
+      "journal": 69,
+      "dissertation": 59,
+      "book section": 21,
+      "book series": 21,
+      "peer_review": 6,
+      "computer program": 5,
+      "standard": 5,
+      "book part": 2
+    },
+    "venues_distinct_omid": 9035,
+    "venues_omid_with_multiple_issn_sets": 0,
+    "jpubs_rows": 54156,
+    "edges_citing_in_pubs_sample": 2157,
+    "edges_cited_in_pubs_sample": 2378,
+    "edges_both_in_jpubs": 22,
+    "jcr_pairs": 3,
+    "jcr_citations": 4,
+    "jcr_self_citations": 4,
+    "jcr_by_year": {
+      "2017": {
+        "pairs": 2,
+        "citations": 2
+      },
+      "2018": {
+        "pairs": 1,
+        "citations": 2
+      }
+    }
+  },
+  "timings_s": {
+    "load_edges": 0.18,
+    "load_pubs": 0.09,
+    "join": 0.01,
+    "aggregate": 0.0,
+    "total": 1.31
+  },
+  "venue_unparsed_examples": [],
+  "full_run_estimate": {
+    "edges": {
+      "sample_fraction_of_file": 0.0015,
+      "est_full_rows": 1825954953
+    },
+    "pubs": {
+      "sample_fraction_of_file": 0.0011,
+      "est_full_rows": 71271800
+    }
+  },
+  "peak_rss_mb": 253.7
+}

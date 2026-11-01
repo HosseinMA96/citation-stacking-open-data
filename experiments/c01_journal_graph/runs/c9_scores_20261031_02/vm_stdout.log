@@ -1,0 +1,437 @@
+{
+ "src": "c6_full_20261031_02",
+ "journal_rule": "main",
+ "rule": {
+  "type_journal": true,
+  "issn": true
+ },
+ "years": [
+  2015,
+  2016,
+  2017,
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023
+ ],
+ "pair_min_eff": 10,
+ "citing_journal_only": true,
+ "seconds_scores": 13.1,
+ "pair_rows": 1725765,
+ "by_year": {
+  "2015": {
+   "journals": 29687,
+   "journals_num_ge_20": 15468,
+   "journals_citable_0": 76,
+   "num_total": 10025812,
+   "num_p50_p90_p99_num_ge_20": [
+    120.0,
+    1261.0,
+    8191.59
+   ],
+   "self_share_p50_p90_p99_num_ge_20": [
+    0.071,
+    0.2558,
+    0.6
+   ],
+   "jif_proxy_p50_p90_p99_num_ge_20": [
+    1.1989,
+    3.6778,
+    10.537
+   ],
+   "top_donor_share_of_num_p50_p90_p99_num_ge_20": [
+    0.0667,
+    0.1636,
+    0.4054
+   ],
+   "top_donor_out_share_p50_p90_p99_num_ge_20": [
+    0.0068,
+    0.0802,
+    0.4199
+   ],
+   "donor_hhi_p50_p90_p99_num_ge_20": [
+    0.0258,
+    0.0833,
+    0.2693
+   ],
+   "reciprocity_p50_p90_p99_num_ge_20": [
+    0.2282,
+    0.4731,
+    0.6825
+   ],
+   "burst_log2_p50_p90_p99_num_ge_20": null
+  },
+  "2016": {
+   "journals": 32353,
+   "journals_num_ge_20": 16327,
+   "journals_citable_0": 73,
+   "num_total": 10693224,
+   "num_p50_p90_p99_num_ge_20": [
+    118.0,
+    1273.4,
+    8544.64
+   ],
+   "self_share_p50_p90_p99_num_ge_20": [
+    0.0695,
+    0.2564,
+    0.5949
+   ],
+   "jif_proxy_p50_p90_p99_num_ge_20": [
+    1.2256,
+    3.7143,
+    11.0
+   ],
+   "top_donor_share_of_num_p50_p90_p99_num_ge_20": [
+    0.0658,
+    0.1613,
+    0.4228
+   ],
+   "top_donor_out_share_p50_p90_p99_num_ge_20": [
+    0.0067,
+    0.0831,
+    0.5
+   ],
+   "donor_hhi_p50_p90_p99_num_ge_20": [
+    0.0254,
+    0.082,
+    0.2881
+   ],
+   "reciprocity_p50_p90_p99_num_ge_20": [
+    0.2209,
+    0.4596,
+    0.6639
+   ],
+   "burst_log2_p50_p90_p99_num_ge_20": [
+    0.1432,
+    1.0809,
+    5.2757
+   ]
+  },
+  "2017": {
+   "journals": 35128,
+   "journals_num_ge_20": 16985,
+   "journals_citable_0": 61,
+   "num_total": 11295827,
+   "num_p50_p90_p99_num_ge_20": [
+    122.0,
+    1270.4,
+    8695.96
+   ],
+   "self_share_p50_p90_p99_num_ge_20": [
+    0.0643,
+    0.2409,
+    0.5903
+   ],
+   "jif_proxy_p50_p90_p99_num_ge_20": [
+    1.2558,
+    3.7557,
+    10.9902
+   ],
+   "top_donor_share_of_num_p50_p90_p99_num_ge_20": [
+    0.0645,
+    0.16,
+    0.4033
+   ],
+   "top_donor_out_share_p50_p90_p99_num_ge_20": [
+    0.0065,
+    0.0794,
+    0.4286
+   ],
+   "donor_hhi_p50_p90_p99_num_ge_20": [
+    0.0245,
+    0.0795,
+    0.28
+   ],
+   "reciprocity_p50_p90_p99_num_ge_20": [
+    0.2133,
+    0.4663,
+    0.6699
+   ],
+   "burst_log2_p50_p90_p99_num_ge_20": [
+    0.1285,
+    1.0842,
+    5.1293
+   ]
+  },
+  "2018": {
+   "journals": 38942,
+   "journals_num_ge_20": 18141,
+   "journals_citable_0": 73,
+   "num_total": 12097982,
+   "num_p50_p90_p99_num_ge_20": [
+    120.0,
+    1234.0,
+    8581.0
+   ],
+   "self_share_p50_p90_p99_num_ge_20": [
+    0.0599,
+    0.2381,
+    0.6222
+   ],
+   "jif_proxy_p50_p90_p99_num_ge_20": [
+    1.2566,
+    3.7576,
+    10.8383
+   ],
+   "top_donor_share_of_num_p50_p90_p99_num_ge_20": [
+    0.0645,
+    0.16,
+    0.4263
+   ],
+   "top_donor_out_share_p50_p90_p99_num_ge_20": [
+    0.006,
+    0.0755,
+    0.4
+   ],
+   "donor_hhi_p50_p90_p99_num_ge_20": [
+    0.0244,
+    0.0797,
+    0.3018
+   ],
+   "reciprocity_p50_p90_p99_num_ge_20": [
+    0.2,
+    0.4607,
+    0.6729
+   ],
+   "burst_log2_p50_p90_p99_num_ge_20": [
+    0.1604,
+    1.1699,
+    5.0
+   ]
+  },
+  "2019": {
+   "journals": 43141,
+   "journals_num_ge_20": 19338,
+   "journals_citable_0": 77,
+   "num_total": 13800726,
+   "num_p50_p90_p99_num_ge_20": [
+    122.0,
+    1314.0,
+    9268.56
+   ],
+   "self_share_p50_p90_p99_num_ge_20": [
+    0.0548,
+    0.2227,
+    0.6075
+   ],
+   "jif_proxy_p50_p90_p99_num_ge_20": [
+    1.3504,
+    4.0308,
+    11.2667
+   ],
+   "top_donor_share_of_num_p50_p90_p99_num_ge_20": [
+    0.0645,
+    0.1538,
+    0.4
+   ],
+   "top_donor_out_share_p50_p90_p99_num_ge_20": [
+    0.0051,
+    0.07,
+    0.4167
+   ],
+   "donor_hhi_p50_p90_p99_num_ge_20": [
+    0.024,
+    0.075,
+    0.2847
+   ],
+   "reciprocity_p50_p90_p99_num_ge_20": [
+    0.1945,
+    0.456,
+    0.6716
+   ],
+   "burst_log2_p50_p90_p99_num_ge_20": [
+    0.2385,
+    1.2524,
+    5.0444
+   ]
+  },
+  "2020": {
+   "journals": 47959,
+   "journals_num_ge_20": 20648,
+   "journals_citable_0": 69,
+   "num_total": 16438818,
+   "num_p50_p90_p99_num_ge_20": [
+    127.0,
+    1436.0,
+    10766.68
+   ],
+   "self_share_p50_p90_p99_num_ge_20": [
+    0.0511,
+    0.2126,
+    0.5909
+   ],
+   "jif_proxy_p50_p90_p99_num_ge_20": [
+    1.4667,
+    4.4444,
+    12.6985
+   ],
+   "top_donor_share_of_num_p50_p90_p99_num_ge_20": [
+    0.0649,
+    0.155,
+    0.381
+   ],
+   "top_donor_out_share_p50_p90_p99_num_ge_20": [
+    0.0037,
+    0.0649,
+    0.3801
+   ],
+   "donor_hhi_p50_p90_p99_num_ge_20": [
+    0.0236,
+    0.0754,
+    0.2651
+   ],
+   "reciprocity_p50_p90_p99_num_ge_20": [
+    0.197,
+    0.4613,
+    0.6832
+   ],
+   "burst_log2_p50_p90_p99_num_ge_20": [
+    0.2883,
+    1.3103,
+    5.2095
+   ]
+  },
+  "2021": {
+   "journals": 53288,
+   "journals_num_ge_20": 22848,
+   "journals_citable_0": 70,
+   "num_total": 21272492,
+   "num_p50_p90_p99_num_ge_20": [
+    132.0,
+    1614.3,
+    13030.49
+   ],
+   "self_share_p50_p90_p99_num_ge_20": [
+    0.0444,
+    0.195,
+    0.5508
+   ],
+   "jif_proxy_p50_p90_p99_num_ge_20": [
+    1.6122,
+    5.006,
+    15.273
+   ],
+   "top_donor_share_of_num_p50_p90_p99_num_ge_20": [
+    0.0654,
+    0.1548,
+    0.3913
+   ],
+   "top_donor_out_share_p50_p90_p99_num_ge_20": [
+    0.0021,
+    0.0519,
+    0.3084
+   ],
+   "donor_hhi_p50_p90_p99_num_ge_20": [
+    0.0229,
+    0.075,
+    0.2653
+   ],
+   "reciprocity_p50_p90_p99_num_ge_20": [
+    0.1965,
+    0.4606,
+    0.6973
+   ],
+   "burst_log2_p50_p90_p99_num_ge_20": [
+    0.3755,
+    1.5689,
+    5.7814
+   ]
+  },
+  "2022": {
+   "journals": 55561,
+   "journals_num_ge_20": 23587,
+   "journals_citable_0": 57,
+   "num_total": 23218188,
+   "num_p50_p90_p99_num_ge_20": [
+    132.0,
+    1688.0,
+    14586.56
+   ],
+   "self_share_p50_p90_p99_num_ge_20": [
+    0.0416,
+    0.1856,
+    0.5547
+   ],
+   "jif_proxy_p50_p90_p99_num_ge_20": [
+    1.7,
+    5.0201,
+    14.3086
+   ],
+   "top_donor_share_of_num_p50_p90_p99_num_ge_20": [
+    0.0645,
+    0.1481,
+    0.3779
+   ],
+   "top_donor_out_share_p50_p90_p99_num_ge_20": [
+    0.0018,
+    0.0498,
+    0.3333
+   ],
+   "donor_hhi_p50_p90_p99_num_ge_20": [
+    0.0222,
+    0.0703,
+    0.2457
+   ],
+   "reciprocity_p50_p90_p99_num_ge_20": [
+    0.1984,
+    0.4565,
+    0.6885
+   ],
+   "burst_log2_p50_p90_p99_num_ge_20": [
+    0.1204,
+    1.1578,
+    5.5567
+   ]
+  },
+  "2023": {
+   "journals": 39355,
+   "journals_num_ge_20": 18806,
+   "journals_citable_0": 38,
+   "num_total": 15865341,
+   "num_p50_p90_p99_num_ge_20": [
+    136.0,
+    1413.0,
+    12773.55
+   ],
+   "self_share_p50_p90_p99_num_ge_20": [
+    0.0488,
+    0.193,
+    0.5526
+   ],
+   "jif_proxy_p50_p90_p99_num_ge_20": [
+    1.3333,
+    3.6992,
+    11.22
+   ],
+   "top_donor_share_of_num_p50_p90_p99_num_ge_20": [
+    0.0625,
+    0.1389,
+    0.3448
+   ],
+   "top_donor_out_share_p50_p90_p99_num_ge_20": [
+    0.0026,
+    0.0551,
+    0.3333
+   ],
+   "donor_hhi_p50_p90_p99_num_ge_20": [
+    0.0219,
+    0.0663,
+    0.2347
+   ],
+   "reciprocity_p50_p90_p99_num_ge_20": [
+    0.2192,
+    0.4744,
+    0.7057
+   ],
+   "burst_log2_p50_p90_p99_num_ge_20": [
+    -0.6124,
+    0.2065,
+    4.858
+   ]
+  }
+ },
+ "seconds_total": 13.5,
+ "peak_rss_mb": 5657.0
+}

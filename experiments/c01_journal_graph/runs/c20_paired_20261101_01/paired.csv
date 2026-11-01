@@ -1,0 +1,7 @@
+rule_a,rule_b,listed,a_flagged,b_flagged,both,only_a,only_b,mcnemar_exact_p_two_sided
+variant_main,baseline_rate_main,28,10,3,2,8,1,0.0390625
+variant_main,baseline_rate_k7,28,10,2,1,9,1,0.021484375
+variant_main,baseline_015_w50,28,10,7,6,4,1,0.375
+variant_k7,baseline_rate_main,28,9,3,2,7,1,0.0703125
+variant_k7,baseline_rate_k7,28,9,2,1,8,1,0.0390625
+variant_k7,baseline_015_w50,28,9,7,5,4,2,0.6875

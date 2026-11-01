@@ -1,0 +1,18 @@
+{
+  "run_id": "c6_full_20261031_01",
+  "seed": 4311,
+  "min_strength": 0,
+  "journals": 300831,
+  "edges": 1647130,
+  "weight": 6813240,
+  "self_loops": 11056,
+  "load_seconds": 0.6,
+  "input_sha256": "8bd0674b3fbcfe340ce5b02e1c5de63ca08895ead7472a13bdcea6f36f48cb44",
+  "graph_tool": "3.9",
+  "omp_threads": "8",
+  "blocks": 676,
+  "description_length": 14869290.683409294,
+  "fit_seconds": 199.4,
+  "peak_rss_mb": 2652.8,
+  "output_sha256": "ab74bc67a5f8f2dcf40793748ec50493171fcedc5f1a80746f9c9e4091031637"
+}

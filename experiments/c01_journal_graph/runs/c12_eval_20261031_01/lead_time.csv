@@ -1,0 +1,42 @@
+journal,kind,t,first_listed_data_year,years_before_first_listing,r,e,s_in,top_donor_name_if_labeled
+Applied Clinical Informatics,stacking,2015,2015,0,0.2900763358778626,76.0,262.0,Methods of Information in Medicine
+Chinese Journal of Organic Chemistry,self,2017,2021,4,0.1611253196930946,63.0,391.0,
+Chinese Journal of Organic Chemistry,self,2018,2021,3,0.2045977011494253,89.0,435.0,
+Climate Change Economics,stacking,2023,2023,0,0.3231707317073171,53.0,164.0,Environmental Science and Pollution Research
+Cognitive Neurodynamics,self,2021,2019,-2,0.1887201735357917,87.0,461.0,
+Forensic Toxicology,self,2017,2015,-2,0.1916376306620209,55.0,287.0,
+Granular Computing,stacking,2016,2023,7,0.4513274336283185,51.0,113.0,Information Sciences
+Granular Computing,stacking,2017,2023,6,0.4642857142857143,260.0,560.0,Information Sciences
+Granular Computing,stacking,2018,2023,5,0.4767857142857143,267.0,560.0,Journal of Intelligent & Fuzzy Systems
+Granular Computing,stacking,2019,2023,4,0.3144654088050314,150.0,477.0,Information Sciences
+Granular Computing,stacking,2020,2023,3,0.2078651685393258,74.0,356.0,Information Sciences
+Industria Textila,self,2022,2019,-3,0.2409090909090909,53.0,220.0,
+International Journal of Polymer Analysis and Characterization,self,2017,2016,-1,0.2576419213973799,59.0,229.0,
+Journal of Applied Fluid Mechanics,self,2018,2016,-2,0.1642651296829971,57.0,347.0,
+Journal of Biomedical Nanotechnology,stacking,2015,2018,3,0.2124079915878023,404.0,1902.0,
+Journal of Intelligent & Fuzzy Systems,stacking,2022,2020,-2,0.2797040169133192,1323.0,4730.0,
+Journal of Low Frequency Noise Vibration and Active Control,self,2020,2018,-2,0.1809744779582366,78.0,431.0,
+Journal of Low Frequency Noise Vibration and Active Control,self,2021,2018,-3,0.1885714285714285,66.0,350.0,
+Journal of Low Frequency Noise Vibration and Active Control,self,2022,2018,-4,0.2751677852348993,82.0,298.0,
+Journal of Low Frequency Noise Vibration and Active Control,self,2023,2018,-5,0.1792452830188679,76.0,424.0,
+Journal of Non-Equilibrium Thermodynamics,self,2022,2015,-7,0.2300242130750605,95.0,413.0,
+Journal of Non-Equilibrium Thermodynamics,self,2023,2015,-8,0.4510869565217391,83.0,184.0,
+Korean Journal of Metals and Materials,stacking,2015,2016,1,0.532608695652174,98.0,184.0,
+Korean Journal of Metals and Materials,stacking,2016,2016,0,0.6766169154228856,136.0,201.0,
+Korean Journal of Metals and Materials,stacking,2017,2016,-1,0.5536723163841808,98.0,177.0,
+Liver Cancer,stacking,2015,2017,2,0.3716814159292035,168.0,452.0,DIGESTIVE DISEASES
+Liver Cancer,stacking,2016,2017,1,0.3415977961432507,124.0,363.0,DIGESTIVE DISEASES
+Liver Cancer,stacking,2017,2017,0,0.4885057471264368,255.0,522.0,DIGESTIVE DISEASES
+Liver Cancer,stacking,2020,2017,-3,0.1611208406304728,92.0,571.0,
+Materials Express,stacking,2021,2020,-1,0.2377450980392156,97.0,408.0,
+Mechanics Based Design of Structures and Machines,self,2020,2020,0,0.1671701913393756,166.0,993.0,
+Mechanics Based Design of Structures and Machines,self,2021,2020,-1,0.2681564245810056,384.0,1432.0,
+Mechanics Based Design of Structures and Machines,self,2022,2020,-2,0.1697936210131332,181.0,1066.0,
+Minerva Medica,stacking,2020,2023,3,0.1888544891640866,61.0,323.0,
+Panminerva Medica,stacking,2019,2023,4,0.3367875647668393,65.0,193.0,
+Panminerva Medica,stacking,2020,2023,3,0.2659176029962546,71.0,267.0,Minerva Medica
+Regular & Chaotic Dynamics,self,2015,2015,0,0.2236286919831223,53.0,237.0,
+Translational Stroke Research,stacking,2016,2016,0,0.1869618696186961,152.0,813.0,
+Translational Stroke Research,stacking,2017,2016,-1,0.1603325415676959,135.0,842.0,
+Ukrainian Journal of Physical Optics,stacking,2022,2023,1,0.6936936936936937,77.0,111.0,Optik
+Ukrainian Journal of Physical Optics,stacking,2023,2023,0,0.826890756302521,492.0,595.0,Optik

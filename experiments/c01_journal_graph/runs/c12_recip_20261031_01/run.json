@@ -1,0 +1,36 @@
+{
+  "run_id": "c12_recip_20261031_01",
+  "script": "c12_recipient.py",
+  "script_sha256": "52222deab7e8738a9978615b0ac1b9a56c4738cb09ab64c819db715a7aa9eb40",
+  "cidre_paper_sha256": "c005822730b1cf8fb9613a6d5fe61c40467dfe75df482bca492e46853366c69c",
+  "src_run": "c6_full_20261031_02",
+  "match_run": "c10_match_20261031_03",
+  "years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "tags": [
+    "main",
+    "main_s1",
+    "main_s2",
+    "main_s3",
+    "main_s4",
+    "main_s4311_rep",
+    "main_s4311_t1a",
+    "type_issn_ja50"
+  ],
+  "params": {
+    "theta": 0.15,
+    "theta_w": 50,
+    "alpha": 0.01
+  },
+  "seconds_total": 678.5,
+  "python": "3.11.18"
+}

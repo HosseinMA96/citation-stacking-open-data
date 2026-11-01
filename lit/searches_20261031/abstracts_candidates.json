@@ -1,0 +1,122 @@
+{
+ "10.57760/sciencedb.014qs": {
+  "title": "Detecting Citation Stacking with OpenAlex Open Data",
+  "year": 2026,
+  "authors": "Qilin Zhang",
+  "abstract": "A replication study on citation manipulation detection using open data from the OpenAlex database.Using the full OpenAlex snapshot as the data source, the study extracted—via stream processing—5.747 million papers and their 145 million citations (from the entire database) across 1,057 journals in the fields of chemistry, materials science, and nanoscience. Taking 16 pairs of \"citation stacking\" cases identified by Clarivate between 2018 and 2025 as positive samples, the study compared 15 detection methods—categorized into single-signal and combined-decision approaches—under conditions of equal false-positive rates, and conducted simulations of evasion attacks involving injected citations within real citation networks.Includes sample data, code, and a data dictionary. Does not include the full raw data (codes of scripts are available for downloading).",
+  "type": "dataset",
+  "source": "ScienceDB"
+ },
+ "10.48550/arxiv.2605.11930": {
+  "title": "Citation Cliques in Low Impact Journals",
+  "year": 2026,
+  "authors": "Panagiotis-Alexios Spanakis, Grigorios Alexandrou, Diomidis D. Spinellis",
+  "abstract": "This exploratory study examines how low-impact journals, defined through subject-normalized Eigenfactor percentiles, are associated with denser and more reciprocating patterns of author-to-author citations. Using Crossref records, we assign journals to broad subject areas, compute subject-specific Eigenfactor scores, propagate venue quality to works and authors, match authors in low- (Case) versus high-influence (Control) venues by subject and h5, and analyze citation edges for cohesion and anomalies. Across a 10% sample of 9,431 matched pairs, authors in low-impact venues exhibit significantly higher cohesion: 6.7x higher co-author citation rates and 4.7x higher reciprocity in the aggregate Case-Control comparison. A subject-aware hybrid detection pipeline flags 277 outliers with 93.5% Case purity; these outliers display an 11x clique-strength lift relative to non-outliers, revealing a stark \"Two Worlds\" segregation (r = 0.71) where low-impact venues operate as closed citation economies. The largest detected component (n = 23) displays a hub-and-spoke topology in which peripheral \"Sycophants\" funnel citations to central \"Beneficiaries\" through coordinated bursts, confirming a directed flow imbalance rather than reciprocal exchange among equals. Overall, cohesion, rather than broad asymmetry, accounts for the main Case-Control differences, suggesting that low-impact venues foster segregated, inward-looking citation economies that distort bibliometric indicators.",
+  "type": "preprint",
+  "source": "arXiv (Cornell University)"
+ },
+ "10.48550/arxiv.2608.10774": {
+  "title": "A Graph Approach to the Academic Publishing Network: A Heterogeneous Model and Structural Screening over OpenAlex Open Data",
+  "year": 2026,
+  "authors": "Robert Samarek, Radek Martinek",
+  "abstract": "The academic publishing ecosystem is a vast, heterogeneous network of works, authors, institutions, journals, and topics. Traditional scientometrics reduces it to isolated tabular indicators (h-index, Impact Factor) that ignore topological context and are not designed to capture coordinated illegitimate practices. Building on our companion review, which proposed graph analysis of publishing integrity, this paper implements that approach. We define a heterogeneous multivariate graph model over OpenAlex open data (seven node types, seven edge types) and a methodology based on projections (citation and co-authorship networks), interpretable structural metrics, community detection, and three screening detectors of anomalous publishing patterns. We deliberately avoid binary classification: detectors return ranked candidates with explicit structural evidence for human assessment. On the institutional corpus of VSB - Technical University of Ostrava (2020-2025) with its one-hop citation neighbourhood, community detection recovers real research groups, centralities identify cross-disciplinary bridges, and the screenings flag dense co-authorship cliques, locally closed citation loops, and thematically isolated venues. On a second, venue-centric corpus with external ground truth (journals delisted by Scopus and DOAJ) and size-matched controls, a naive case-control design yields seemingly strong but spurious detectors (a prominence confound), whereas after matching the only robust signal is the breadth of disciplinary scope (AUC 0.70); an open graph-based prestige measure (PageRank over the journal citation network) tracks a JIF proxy while being an order of magnitude more resistant to citation gaming than count-based indicators. We release the method as the open-source library apnet with a reproducible CLI workflow and a web interface; the analysis runs on commodity hardware in minutes.",
+  "type": "preprint",
+  "source": "arXiv (Cornell University)"
+ },
+ "10.2139/ssrn.6088971": {
+  "title": "Correcting Citation Inflation via Bayesian Knowledge Integration: A Scalable Framework Validated on OpenAlex Data",
+  "year": 2026,
+  "authors": "Sami Rashid Mohammed Shibah",
+  "abstract": "",
+  "type": "preprint",
+  "source": "SSRN Electronic Journal"
+ },
+ "10.1145/3383583.3398531": {
+  "title": "Unsupervised Anomaly Detection in Journal-Level Citation Networks",
+  "year": 2020,
+  "authors": "Baani Leen Kaur Jolly, Lavina Jain, Debajyoti Bera, Tanmoy Chakraborty",
+  "abstract": "Journal Impact Factor is a popular metric for determining the quality of a journal in academia. The number of citations received by a journal is a crucial factor in determining the impact factor, which may be misused in multiple ways. Therefore, it is crucial to detect citation anomalies for further identifying manipulation and inflation of impact factor. Citation network models the citation relationship between journals in terms of a directed graph. Detecting anomalies in the citation network is a challenging task which has several applications in spotting citation cartels and citation stack and understanding the intentions behind the citations.",
+  "type": "conference-paper",
+  "source": "ACM/IEEE Joint Conference on Digital Libraries"
+ },
+ "10.1080/08989621.2022.2071154": {
+  "title": "A bibliometric investigation of the journals that were repeatedly suppressed from Clarivate’s Journal Citation Reports",
+  "year": 2022,
+  "authors": "Salim Moussa",
+  "abstract": "Journals indexed by Clarivate are temporarily suppressed from the Journal Citation Reports (JCR) if their Journal Impact Factor (JIF) scores are distorted through excessive self-citations or citation stacking with other journals. This paper reports the results of a bibliometric investigation that covers the 18 journals that were suppressed three or more times from the JCR. Results indicate that these 18 journals were repeatedly and exclusively suppressed for being excessive self-citers. Together, these 18 journals totaled 65 suppressions. Two of these 18 journals have lost the status of a JIF-carrying journal. One has changed its title to start as a new. Of the 16 journals that are still included in the JCR, 12 (four) have significantly (slightly) reduced their self-citation rates. Two of these journals are, however, experiencing what the author calls a cycle of suppression. Upon further examination, it turned out that one of these 18 journals is currently using JIF boosting stratagems not yet banished by Clarivate.",
+  "type": "article",
+  "source": "Accountability in Research"
+ },
+ "10.30481/lis.2019.58392": {
+  "title": "Suppression of Scholarly Journals: A Case Study of Journal Citation Reports during 2010 to 2014",
+  "year": 2019,
+  "authors": "Mohammadamin Erfanmanesh, Ronak Hamzei, Amirhosein Rajabzadeh Assarha",
+  "abstract": "Objective: Journals indexed by the Clarivate Analytics’ Web of Science (WOS) are temporarily suppressed from the Journal Citation Reports, if they manipulate their impact factor and present extreme outliers in citation behavior through excessive self-citations and citation stacking with other journals. The current research aims to investigate the different characteristics of the suppressed journals by Clarivate Analytics, in a five-year time span (from 2010 to 2014). Methodology: The current study is an applied research in terms of objectives while it is a descriptive study in terms of data analysis and conducted using scientometric indicators. Research population comprised of 225 suppressed journals from the Journal Citation Reports during 2010-2014. Data was collected from the Journal Citation Reports and Web of Science. Findings: Results of the study revealed that at least one journal from 177 different subject categories were suppressed during 2010 to 2014. The highest number of title suppressions was belonging to electronics and electrical engineering, management and artificial intelligence. Of the interesting findings of the research is the low presence of medical journals in the suppressed lists. Investigating the share of world countries showed that the United States, United Kingdom, the Netherlands and Germany had the greatest number of suppressions. 41.3 percent and 38.2 percent of the journals were suppressed for one and two years, respectively. Moreover, 65 percent of the suppressed journals were ranked in the first and second quartiles of their subject categories a year before suppression. Even some journals were the first journals in their categorical ranking of JCR before suppression. Conclusion: In the five-year period of this study, 32 countries were engaged in journal suppression by having at least one suppressed journal. Notably, the most frequent language of the suppressed journals was English that can be interpreted and about half of the suppressed journals belonged to authoritative international publications like Sage, Wiley-Blackwell, Taylor and Francis, Springer and Routledge. Of course, almost 80 percent of the suppressed titles could meet the Clarivate Analytics criteria again and remove the suppression after two years.Considering the fact that two Iranian journals had the record of suppression, awareness of the researchers and journals’ editorial board members of the country as well as regular monitoring of the journals’ citation performance may avoid occurrence of suppressions in the future.",
+  "type": "article",
+  "source": "DOAJ (DOAJ: Directory of Open Access Journals)"
+ },
+ "10.1371/journal.pone.0153730": {
+  "title": "From Excessive Journal Self-Cites to Citation Stacking: Analysis of Journal Self-Citation Kinetics in Search for Journals, Which Boost Their Scientometric Indicators",
+  "year": 2016,
+  "authors": "Petr Heneberg",
+  "abstract": "Bibliometric indicators increasingly affect careers, funding, and reputation of individuals, their institutions and journals themselves. In contrast to author self-citations, little is known about kinetics of journal self-citations. Here we hypothesized that they may show a generalizable pattern within particular research fields or across multiple fields. We thus analyzed self-cites to 60 journals from three research fields (multidisciplinary sciences, parasitology, and information science). We also hypothesized that the kinetics of journal self-citations and citations received from other journals of the same publisher may differ from foreign citations. We analyzed the journals published the American Association for the Advancement of Science, Nature Publishing Group, and Editura Academiei Române. We found that although the kinetics of journal self-cites is generally faster compared to foreign cites, it shows some field-specific characteristics. Particularly in information science journals, the initial increase in a share of journal self-citations during post-publication year 0 was completely absent. Self-promoting journal self-citations of top-tier journals have rather indirect but negligible direct effects on bibliometric indicators, affecting just the immediacy index and marginally increasing the impact factor itself as long as the affected journals are well established in their fields. In contrast, other forms of journal self-citations and citation stacking may severely affect the impact factor, or other citation-based indices. We identified here a network consisting of three Romanian physics journals Proceedings of the Romanian Academy, Series A, Romanian Journal of Physics, and Romanian Reports in Physics, which displayed low to moderate ratio of journal self-citations, but which multiplied recently their impact factors, and were mutually responsible for 55.9%, 64.7% and 63.3% of citations within the impact factor calculation window to the three journals, respectively. They did not receive nearly any network self-cites prior impact factor calculation window, and their network self-cites decreased sharply after the impact factor calculation window. Journal self-citations and citation stacking requires increased attention and elimination from citation indices.",
+  "type": "article",
+  "source": "PLoS ONE"
+ },
+ "10.1007/s11192-026-05586-1": {
+  "title": "Citation distance matters: towards a new metric for evaluating journal impact",
+  "year": 2026,
+  "authors": "Kate Barnes, Ahmed Bannour, Levente Török, Roland Molontay",
+  "abstract": "Abstract Traditional metrics for evaluating scientific quality often assume that highly cited research is inherently better, without considering the quality or origin of those citations. In this study, we examine whether citations from more distant sources in the journal citation network are indicative of higher impact. We define and compare five measures of citation distance and assess their relationship with journal impact. Our results show that journals receiving citations from farther in the network tend to have greater scientific influence. Validating our findings against two expert-driven rankings—the Norwegian Register and JUFO Finnish Journal Classification—as well as the SCImago algorithmic ranking, we find that highly ranked journals generally exhibit longer average incoming citation distances. Conversely, journals flagged for anomalous citation behavior in journal citation reports (JCR) tend to have shorter citation distances. Additionally, by weighting the journal impact factor (JIF) with the citation lengths, we improve upon its ability to distinguish top-tier journals from lower-ranked ones, while also recognizing the long-range effect (LRE) as an independent dimension that reflects the broader, cross-disciplinary reach of journals.",
+  "type": "article",
+  "source": "Scientometrics"
+ },
+ "10.1007/978-3-032-36871-3_3": {
+  "title": "Detecting Citation Cartels: A Preliminary Review",
+  "year": 2026,
+  "authors": "Ewa Łyko, Adrianna Kozierkiewicz",
+  "abstract": "",
+  "type": "conference-paper",
+  "source": "Lecture notes in computer science"
+ },
+ "10.1007/978-3-031-96196-0_7": {
+  "title": "Detecting Anomalous Self-citations Using Citation Network Analysis and LLMs",
+  "year": 2025,
+  "authors": "Farhaan Ebadulla, Gaurav BV, H. Manoj, Arti Arya",
+  "abstract": "",
+  "type": "conference-paper",
+  "source": "Communications in computer and information science"
+ },
+ "10.1038/s41559-020-01359-y": {
+  "title": "The dilemma of self-citation in taxonomy",
+  "year": 2020,
+  "authors": "Douglas Zeppelini, Ana Dal Molin, Carlos José Einicker Lamas, Carlos Eduardo Sarmiento",
+  "abstract": "",
+  "type": "article",
+  "source": "Nature Ecology & Evolution"
+ },
+ "10.1016/j.joi.2021.101221": {
+  "title": "Self-Citation Patterns of Journals Indexed in the Journal Citation Reports",
+  "year": 2021,
+  "authors": "Zehra Taşkın, Güleda Doğan, Emanuel Kulczycki, Alesia Zuccala",
+  "abstract": "Self-citation patterns of 1,104 journals indexed in the 2018 edition of the Journal Citation Reports were examined to assess the possibility of underlying rank manipulations. The journals included in this study were all found to have a self-citation rate of more than 25%. Our research shows that by excluding self-citation rates, the rank of journals with a high impact factor are not affected; however, for other journals, the removal of even a single self-citation can cause significant rank changes. Self-citation patterns are typical for local language journals as well as journals from upper-middle-income European countries. Impact factors used in research performance evaluations should be used more carefully, particularly when variables such as journal size, publication language, publisher country, and subject area correlate with self-citation rates.",
+  "type": "article",
+  "source": "Journal of Informetrics"
+ },
+ "10.1007/s11192-025-05293-3": {
+  "title": "Reference coverage analysis of OpenAlex compared to Web of Science and Scopus",
+  "year": 2025,
+  "authors": "Jack H. Culbert, Anne Hobert, Najko Jahn, Nick Haupka",
+  "abstract": "Abstract OpenAlex is a promising open source of scholarly metadata, and competitor to established proprietary sources, such as the Web of Science and Scopus. As OpenAlex provides its data freely and openly, it permits researchers to perform bibliometric studies that can be reproduced in the community without licensing barriers. However, as OpenAlex is a rapidly evolving source and the data contained within is expanding and also quickly changing, the question naturally arises as to the trustworthiness of its data. In this report, we will study the reference coverage and selected metadata within each database and compare them with each other to help address this open question in bibliometrics. In our large-scale study, we demonstrate that, when restricted to a cleaned dataset of 16.8 million recent publications shared by all three databases, OpenAlex has average source reference numbers and internal coverage rates comparable to both Web of Science and Scopus. We further analyse the metadata in OpenAlex, the Web of Science and Scopus by journal, finding a similarity in the distribution of source reference counts in the Web of Science and Scopus as compared to OpenAlex. We also demonstrate that the comparison of other core metadata covered by OpenAlex shows mixed results when broken down by journal, where OpenAlex captures more ORCID identifiers, fewer abstracts and a similar number of Open Access status indicators per article when compared to both the Web of Science and Scopus.",
+  "type": "article",
+  "source": "Scientometrics"
+ },
+ "10.48550/arxiv.1807.10804": {
+  "title": "On Good and Bad Intentions behind Anomalous Citation Patterns among Journals in Computer Sciences",
+  "year": 2018,
+  "authors": "Joyita Chakraborty, Dinesh Kumar Pradhan, Hridoy Sankar Dutta, Subrata Nandi",
+  "abstract": "Scientific journals are an important choice of publication venue for most authors. Publishing in prestigious journal plays a decisive role for authors in hiring and promotions. In last decade, citation pressure has become intact for all scientific entities more than ever before. Unethical publication practices has started to manipulate widely used performance metric such as \"impact factor\" for journals and citation based indices for authors. This threatens the integrity of scientific quality and takes away deserved credit of legitimate authors and their authentic publications. In this paper we extract all possible anomalous citation patterns between journals from a Computer Science bibliographic dataset which contains more than 2,500 journals. Apart from excessive self-citations, we mostly focus on finding several patterns between two or more journals such as bi-directional mutual citations, chains, triangles, mesh, cartel relationships. On a macroscopic scale, the motivation is to understand the nature of these patterns by modeling how journals mutually interact through citations. On microscopic level, we differentiate between possible intentions (good or bad) behind such patterns. We see whether such patterns prevail for long period or during any specific time duration. For abnormal citation behavior, we study the nature of sudden inflation in impact factor of journals on a time basis which may occur due to addition of irrelevant and superfluous citations in such closed pattern interaction. We also study possible influences such as abrupt increase in paper count due to the presence of self-referential papers or duplicate manuscripts, author self-citation, author co-authorship network, author-editor network, publication houses etc. The entire study is done to question the reliability of existing bibliometrics, and hence, it is an urgent need to curtail their usage or redefine them.",
+  "type": "preprint",
+  "source": "arXiv (Cornell University)"
+ }
+}

@@ -1,0 +1,21 @@
+journal,partner,metric,scores,clarivate,ours,num,pair_eff,pair_prev,diff_pp,pass
+Archivos Latinoamericanos de Nutricion,Journal of Intelligent & Fuzzy Systems,donor_pct_jif_numerator,scores_main,67.0,70.0,10.0,7.0,,3.0,True
+Archivos Latinoamericanos de Nutricion,Journal of Intelligent & Fuzzy Systems,donor_pct_jif_numerator,scores_sensitivity,67.0,70.0,10.0,7.0,,3.0,True
+Archivos Latinoamericanos de Nutricion,Journal of Intelligent & Fuzzy Systems,pct_exchange_to_jif_years,pairs (counting-independent),99.0,100.0,,7.0,7.0,1.0,True
+Materials Express,Nanoscience and Nanotechnology Letters,donor_pct_jif_numerator,scores_main,23.0,0.0,235.0,0.0,,-23.0,False
+Materials Express,Nanoscience and Nanotechnology Letters,donor_pct_jif_numerator,scores_sensitivity,23.0,0.0,235.0,0.0,,-23.0,False
+Materials Express,Nanoscience and Nanotechnology Letters,pct_exchange_to_jif_years,pairs (counting-independent),84.0,,,0.0,0.0,,False
+Hellenic Journal of Cardiology,,self_cites_pct_jif_numerator,scores_main,50.0,57.54,325.0,,,7.54,True
+Hellenic Journal of Cardiology,,self_cites_pct_jif_numerator,scores_sensitivity,50.0,57.19,327.0,,,7.19,True
+International Journal of Engine Research,,self_cites_pct_jif_numerator,scores_main,55.0,40.58,584.0,,,-14.42,False
+International Journal of Engine Research,,self_cites_pct_jif_numerator,scores_sensitivity,55.0,40.58,584.0,,,-14.42,False
+Journal of Biomolecular Structure and Dynamics,,self_cites_pct_jif_numerator,scores_main,45.0,36.93,2166.0,,,-8.07,True
+Journal of Biomolecular Structure and Dynamics,,self_cites_pct_jif_numerator,scores_sensitivity,45.0,36.45,2195.0,,,-8.55,True
+Journal of Enhanced Heat Transfer,,self_cites_pct_jif_numerator,scores_main,50.0,0.0,44.0,,,-50.0,False
+Journal of Enhanced Heat Transfer,,self_cites_pct_jif_numerator,scores_sensitivity,50.0,0.0,44.0,,,-50.0,False
+Journal of Family and Economic Issues,,self_cites_pct_jif_numerator,scores_main,47.0,33.24,361.0,,,-13.76,False
+Journal of Family and Economic Issues,,self_cites_pct_jif_numerator,scores_sensitivity,47.0,33.06,363.0,,,-13.94,False
+Liquid Crystals,,self_cites_pct_jif_numerator,scores_main,54.0,47.53,1437.0,,,-6.47,True
+Liquid Crystals,,self_cites_pct_jif_numerator,scores_sensitivity,54.0,47.5,1438.0,,,-6.5,True
+Mechanics Based Design of Structures and Machines,,self_cites_pct_jif_numerator,scores_main,61.0,55.94,1001.0,,,-5.06,True
+Mechanics Based Design of Structures and Machines,,self_cites_pct_jif_numerator,scores_sensitivity,61.0,55.94,1001.0,,,-5.06,True

@@ -1,0 +1,20 @@
+{
+  "src": "c6_full_20261031_02",
+  "fits": 9,
+  "best_fit_by_description_length": "main",
+  "blocks_range_rule_main": [
+    2131,
+    2912
+  ],
+  "nmi_rule_main_pairs": [
+    0.762,
+    0.7732,
+    1.0
+  ],
+  "ari_rule_main_pairs": [
+    0.4313,
+    0.4778,
+    1.0
+  ],
+  "note": "[min, median, max] over pairs of rule-main fits"
+}

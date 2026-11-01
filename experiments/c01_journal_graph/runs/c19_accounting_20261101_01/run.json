@@ -1,0 +1,12 @@
+{
+  "run_id": "c19_accounting_20261101_01",
+  "script": "c19_accounting.py",
+  "script_sha256": "4dcc3acba361a14a270f42f2a1b061e87158418d5205d0bec9ec4ca7937d78a1",
+  "labels": "suppressions_v2.csv",
+  "fidelity": "c10_fidelity_20261031_02",
+  "covsplit": "c10_covsplit_20261031_01",
+  "eval": "c12_eval_20261031_01",
+  "basesize": "c17_basesize_20261101_01",
+  "oos": "c16_oos_20261101_01",
+  "python": "3.10.9"
+}

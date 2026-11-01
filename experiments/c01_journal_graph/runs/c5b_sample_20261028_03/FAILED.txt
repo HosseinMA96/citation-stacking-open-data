@@ -1,0 +1,1 @@
+FAILED: KeyError compressed_bytes_read in full-run estimate (reused CSV path). Fixed in script; rerun as c5b_sample_20261028_04.

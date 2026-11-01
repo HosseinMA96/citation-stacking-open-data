@@ -1,0 +1,84 @@
+{
+  "rows": 14261311,
+  "eff": 42420362,
+  "prev": 248380606,
+  "eff_self": 1432386,
+  "eff_citing_without_journal": 35607122,
+  "t_min": 1844,
+  "t_max": 9999,
+  "by_year_2010_2024": {
+    "2010": {
+      "pairs": 378283,
+      "eff": 1000237
+    },
+    "2011": {
+      "pairs": 408287,
+      "eff": 1098811
+    },
+    "2012": {
+      "pairs": 473535,
+      "eff": 1241849
+    },
+    "2013": {
+      "pairs": 524307,
+      "eff": 1445219
+    },
+    "2014": {
+      "pairs": 553306,
+      "eff": 1578625
+    },
+    "2015": {
+      "pairs": 594500,
+      "eff": 1586592
+    },
+    "2016": {
+      "pairs": 644863,
+      "eff": 1583899
+    },
+    "2017": {
+      "pairs": 671410,
+      "eff": 1696320
+    },
+    "2018": {
+      "pairs": 742384,
+      "eff": 1850206
+    },
+    "2019": {
+      "pairs": 837770,
+      "eff": 2425998
+    },
+    "2020": {
+      "pairs": 945939,
+      "eff": 2727670
+    },
+    "2021": {
+      "pairs": 1091611,
+      "eff": 3625578
+    },
+    "2022": {
+      "pairs": 1223962,
+      "eff": 3533947
+    },
+    "2023": {
+      "pairs": 847907,
+      "eff": 2463507
+    },
+    "2024": {
+      "pairs": 11829,
+      "eff": 8958
+    }
+  },
+  "output_bytes": 94194613,
+  "jcr_years_rows": 7600346,
+  "jcr_years_bytes": 47966096,
+  "stage": "pairs",
+  "seconds": 57.0,
+  "peak_rss_mb_so_far": 9490.0,
+  "limits": {
+    "threads": 8,
+    "memory_limit": "48GB",
+    "temp_directory": "/home/azureuser/c/data/work/c6_full_20261031_01/duckdb_tmp",
+    "max_temp_directory_size": "150GB"
+  },
+  "finished": "2026-10-31 03:34:41"
+}

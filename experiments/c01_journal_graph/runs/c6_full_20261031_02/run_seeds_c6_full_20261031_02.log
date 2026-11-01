@@ -1,0 +1,298 @@
+2026-10-31T06:21:19Z start c6_full_20261031_02 rule main seeds: 1 2 3 4 4311; gt threads 8
+2026-10-31T06:21:19Z main_s1: start
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/draw/cairo_draw.py:34: RuntimeWarning: Error importing cairo. Graph drawing will not work.
+  warnings.warn(msg, RuntimeWarning)
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/draw/cairo_draw.py:34: RuntimeWarning: Error importing cairo. Graph drawing will not work.
+  warnings.warn(msg, RuntimeWarning)
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/draw/cairo_draw.py:34: RuntimeWarning: Error importing cairo. Graph drawing will not work.
+  warnings.warn(msg, RuntimeWarning)
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/all.py:39: RuntimeWarning: Error importing draw module, proceeding nevertheless: No module named 'cairo'
+  warnings.warn(msg, RuntimeWarning)
+{
+ "run_id": "c6_full_20261031_02",
+ "seed": 1,
+ "min_strength": 0,
+ "journal_rule": "main",
+ "rule": {
+  "type_journal": true,
+  "issn": true
+ },
+ "journals_in_rule": 92779,
+ "agg_edges_before_rule": 39508367,
+ "agg_weight_before_rule": 285746820,
+ "journals": 85437,
+ "edges": 20656119,
+ "weight": 258255814,
+ "self_loops": 37305,
+ "load_seconds": 8.2,
+ "input_sha256": "bc0fb8290f988cb6123595e26b73cef7f202379f17534985ccda0e8923be4615",
+ "graph_tool": "3.9",
+ "omp_threads": "8",
+ "blocks": 2548,
+ "description_length": 149467357.55852816,
+ "fit_seconds": 1118.0,
+ "peak_rss_mb": 16304.9,
+ "output_sha256": "48644cb5e05c11e7440c3a7e35dfb6d82c57fcd65b378b49e9087d59e3eba22d"
+}
+	Command being timed: "/home/azureuser/mamba/envs/c-gt/bin/python c6_blocks.py --run-id c6_full_20261031_02 --journal-rule main --seed 1 --tag main_s1"
+	User time (seconds): 6994.01
+	System time (seconds): 208.59
+	Percent of CPU this job got: 630%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 19:02.29
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 16696188
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 380
+	Minor (reclaiming a frame) page faults: 88774972
+	Voluntary context switches: 2606826
+	Involuntary context switches: 48370
+	Swaps: 0
+	File system inputs: 2640792
+	File system outputs: 1296
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+2026-10-31T06:40:21Z main_s1: done
+2026-10-31T06:40:21Z main_s2: start
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/draw/cairo_draw.py:34: RuntimeWarning: Error importing cairo. Graph drawing will not work.
+  warnings.warn(msg, RuntimeWarning)
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/draw/cairo_draw.py:34: RuntimeWarning: Error importing cairo. Graph drawing will not work.
+  warnings.warn(msg, RuntimeWarning)
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/draw/cairo_draw.py:34: RuntimeWarning: Error importing cairo. Graph drawing will not work.
+  warnings.warn(msg, RuntimeWarning)
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/all.py:39: RuntimeWarning: Error importing draw module, proceeding nevertheless: No module named 'cairo'
+  warnings.warn(msg, RuntimeWarning)
+{
+ "run_id": "c6_full_20261031_02",
+ "seed": 2,
+ "min_strength": 0,
+ "journal_rule": "main",
+ "rule": {
+  "type_journal": true,
+  "issn": true
+ },
+ "journals_in_rule": 92779,
+ "agg_edges_before_rule": 39508367,
+ "agg_weight_before_rule": 285746820,
+ "journals": 85437,
+ "edges": 20656119,
+ "weight": 258255814,
+ "self_loops": 37305,
+ "load_seconds": 5.8,
+ "input_sha256": "bc0fb8290f988cb6123595e26b73cef7f202379f17534985ccda0e8923be4615",
+ "graph_tool": "3.9",
+ "omp_threads": "8",
+ "blocks": 2131,
+ "description_length": 150946514.80773968,
+ "fit_seconds": 1020.9,
+ "peak_rss_mb": 16276.0,
+ "output_sha256": "1f4f8186fc3196b5534c79a69b2686492eeb47a67b3e1af87c976119a791e562"
+}
+	Command being timed: "/home/azureuser/mamba/envs/c-gt/bin/python c6_blocks.py --run-id c6_full_20261031_02 --journal-rule main --seed 2 --tag main_s2"
+	User time (seconds): 6302.82
+	System time (seconds): 196.77
+	Percent of CPU this job got: 632%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 17:08.40
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 16666588
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 86169882
+	Voluntary context switches: 2515599
+	Involuntary context switches: 43680
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1288
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+2026-10-31T06:57:30Z main_s2: done
+2026-10-31T06:57:30Z main_s3: start
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/draw/cairo_draw.py:34: RuntimeWarning: Error importing cairo. Graph drawing will not work.
+  warnings.warn(msg, RuntimeWarning)
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/draw/cairo_draw.py:34: RuntimeWarning: Error importing cairo. Graph drawing will not work.
+  warnings.warn(msg, RuntimeWarning)
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/draw/cairo_draw.py:34: RuntimeWarning: Error importing cairo. Graph drawing will not work.
+  warnings.warn(msg, RuntimeWarning)
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/all.py:39: RuntimeWarning: Error importing draw module, proceeding nevertheless: No module named 'cairo'
+  warnings.warn(msg, RuntimeWarning)
+{
+ "run_id": "c6_full_20261031_02",
+ "seed": 3,
+ "min_strength": 0,
+ "journal_rule": "main",
+ "rule": {
+  "type_journal": true,
+  "issn": true
+ },
+ "journals_in_rule": 92779,
+ "agg_edges_before_rule": 39508367,
+ "agg_weight_before_rule": 285746820,
+ "journals": 85437,
+ "edges": 20656119,
+ "weight": 258255814,
+ "self_loops": 37305,
+ "load_seconds": 5.7,
+ "input_sha256": "bc0fb8290f988cb6123595e26b73cef7f202379f17534985ccda0e8923be4615",
+ "graph_tool": "3.9",
+ "omp_threads": "8",
+ "blocks": 2912,
+ "description_length": 148451083.59459665,
+ "fit_seconds": 1029.3,
+ "peak_rss_mb": 16256.9,
+ "output_sha256": "5749d814fffecfb042e1072aca42f03d736be0ea12d5dbdc86ae1126e1d44668"
+}
+	Command being timed: "/home/azureuser/mamba/envs/c-gt/bin/python c6_blocks.py --run-id c6_full_20261031_02 --journal-rule main --seed 3 --tag main_s3"
+	User time (seconds): 6621.87
+	System time (seconds): 176.21
+	Percent of CPU this job got: 655%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 17:16.57
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 16647052
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 76019370
+	Voluntary context switches: 2975932
+	Involuntary context switches: 45227
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+2026-10-31T07:14:46Z main_s3: done
+2026-10-31T07:14:46Z main_s4: start
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/draw/cairo_draw.py:34: RuntimeWarning: Error importing cairo. Graph drawing will not work.
+  warnings.warn(msg, RuntimeWarning)
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/draw/cairo_draw.py:34: RuntimeWarning: Error importing cairo. Graph drawing will not work.
+  warnings.warn(msg, RuntimeWarning)
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/draw/cairo_draw.py:34: RuntimeWarning: Error importing cairo. Graph drawing will not work.
+  warnings.warn(msg, RuntimeWarning)
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/all.py:39: RuntimeWarning: Error importing draw module, proceeding nevertheless: No module named 'cairo'
+  warnings.warn(msg, RuntimeWarning)
+{
+ "run_id": "c6_full_20261031_02",
+ "seed": 4,
+ "min_strength": 0,
+ "journal_rule": "main",
+ "rule": {
+  "type_journal": true,
+  "issn": true
+ },
+ "journals_in_rule": 92779,
+ "agg_edges_before_rule": 39508367,
+ "agg_weight_before_rule": 285746820,
+ "journals": 85437,
+ "edges": 20656119,
+ "weight": 258255814,
+ "self_loops": 37305,
+ "load_seconds": 5.6,
+ "input_sha256": "bc0fb8290f988cb6123595e26b73cef7f202379f17534985ccda0e8923be4615",
+ "graph_tool": "3.9",
+ "omp_threads": "8",
+ "blocks": 2459,
+ "description_length": 148911296.54931208,
+ "fit_seconds": 1049.0,
+ "peak_rss_mb": 16380.3,
+ "output_sha256": "9d1e97a182aaefe7939cd887320d3a885f9daf1cfaf27b7f33d571cabd9a2602"
+}
+	Command being timed: "/home/azureuser/mamba/envs/c-gt/bin/python c6_blocks.py --run-id c6_full_20261031_02 --journal-rule main --seed 4 --tag main_s4"
+	User time (seconds): 6464.25
+	System time (seconds): 201.62
+	Percent of CPU this job got: 631%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 17:36.18
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 16773476
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 93639016
+	Voluntary context switches: 2731041
+	Involuntary context switches: 48215
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1288
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+2026-10-31T07:32:22Z main_s4: done
+2026-10-31T07:32:22Z main_s4311_rep: start
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/draw/cairo_draw.py:34: RuntimeWarning: Error importing cairo. Graph drawing will not work.
+  warnings.warn(msg, RuntimeWarning)
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/draw/cairo_draw.py:34: RuntimeWarning: Error importing cairo. Graph drawing will not work.
+  warnings.warn(msg, RuntimeWarning)
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/draw/cairo_draw.py:34: RuntimeWarning: Error importing cairo. Graph drawing will not work.
+  warnings.warn(msg, RuntimeWarning)
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/all.py:39: RuntimeWarning: Error importing draw module, proceeding nevertheless: No module named 'cairo'
+  warnings.warn(msg, RuntimeWarning)
+{
+ "run_id": "c6_full_20261031_02",
+ "seed": 4311,
+ "min_strength": 0,
+ "journal_rule": "main",
+ "rule": {
+  "type_journal": true,
+  "issn": true
+ },
+ "journals_in_rule": 92779,
+ "agg_edges_before_rule": 39508367,
+ "agg_weight_before_rule": 285746820,
+ "journals": 85437,
+ "edges": 20656119,
+ "weight": 258255814,
+ "self_loops": 37305,
+ "load_seconds": 5.8,
+ "input_sha256": "bc0fb8290f988cb6123595e26b73cef7f202379f17534985ccda0e8923be4615",
+ "graph_tool": "3.9",
+ "omp_threads": "8",
+ "blocks": 2533,
+ "description_length": 148774984.52155855,
+ "fit_seconds": 1052.1,
+ "peak_rss_mb": 16407.5,
+ "output_sha256": "c6ae445a12de8f28b1c627ec007b79f2c135c3160223f23c61089345e605752b"
+}
+	Command being timed: "/home/azureuser/mamba/envs/c-gt/bin/python c6_blocks.py --run-id c6_full_20261031_02 --journal-rule main --seed 4311 --tag main_s4311_rep"
+	User time (seconds): 6685.72
+	System time (seconds): 182.81
+	Percent of CPU this job got: 648%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 17:39.53
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 16801240
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 76339514
+	Voluntary context switches: 2352560
+	Involuntary context switches: 45720
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1296
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+2026-10-31T07:50:02Z main_s4311_rep: done
+2026-10-31T07:50:02Z all done
+2026-10-31T07:50:02Z run_seeds exit code 0

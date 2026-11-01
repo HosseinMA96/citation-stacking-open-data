@@ -1,0 +1,11 @@
+flag_set,kind,base_journals,base_rate,listed,listed_flagged,enrichment,enrichment_ci95,p_one_sided,flagged_before_first_listing
+variant_main,stacking,29611,0.03418,28,10,10.45,"[np.float64(6.06), np.float64(15.85)]",1.6186806380709515e-08,6.0
+variant_main,self,29611,0.03418,85,10,3.44,"[np.float64(1.91), np.float64(5.95)]",0.0006549330426162673,
+variant_k7,stacking,29611,0.0231,28,9,13.91,"[np.float64(7.76), np.float64(21.93)]",8.683587891411982e-09,5.0
+variant_k7,self,29611,0.0231,85,7,3.57,"[np.float64(1.75), np.float64(6.94)]",0.0036019326839059206,
+baseline_rate_main,stacking,29611,0.03418,28,3,3.13,"[np.float64(1.09), np.float64(7.96)]",0.06932193727207464,1.0
+baseline_rate_main,self,29611,0.03418,85,2,0.69,"[np.float64(0.19), np.float64(2.39)]",0.7914469670259019,
+baseline_rate_k7,stacking,29611,0.02182,28,2,3.27,"[np.float64(0.91), np.float64(10.38)]",0.12403526080988755,0.0
+baseline_rate_k7,self,29611,0.02182,85,2,1.08,"[np.float64(0.3), np.float64(3.75)]",0.5558824083726367,
+baseline_015_w50,stacking,29611,0.02982,28,7,8.38,"[np.float64(4.25), np.float64(14.54)]",1.4284381938572927e-05,5.0
+baseline_015_w50,self,29611,0.02982,85,8,3.16,"[np.float64(1.63), np.float64(5.86)]",0.003919481261190447,

@@ -1,0 +1,27 @@
+{
+  "run_id": "c15_figures_20261031_02",
+  "script": "c15_figures.py",
+  "script_sha256": "dc069698762e1c9bb719bd09686689f036dbd7fc27cca1e34ac103ef291598e8",
+  "inputs": [
+    "c10_covsplit_20261031_01/fidelity_with_coverage.csv",
+    "c12_consensus_20261031_01/enrichment.csv",
+    "c12_diag_20261031_01/pairs.csv",
+    "c12_eval_20261031_01/lead_time.csv",
+    "c12_stab_20261031_01/pairwise.csv",
+    "c13_anatomy_20261031_01/pairs.csv",
+    "c6_blockstab_20261031_02/pairwise.csv",
+    "c9_scores_20261031_01/coverage_by_year.csv"
+  ],
+  "outputs_dir": "paper/figures",
+  "outputs_sha256": {
+    "F1_coverage_by_year": "0a3556589f613a6428c41ba9285d709bd4a90cdfbb2c5cb7718ff5baf1edbd4e",
+    "F2_fidelity": "fede1d3e76767b3f4c97af0eeef92e1be73721c24321ea017733a92896b731bf",
+    "F3_cidre_peeling": "00dad7cbadacfac776b4d70d7a6caede5fe16a6876ea2b724ac0ddfe3d60c469",
+    "F4_enrichment": "d0bda66db856503daedf8efe33b125b5bc8d2f116d20a10c5b340d5c06374656",
+    "F5_lead_time": "51c59c33ba19b9c3145b671ce0e732e2684fb971061cc7d5bbd800f33bcb2d28",
+    "F6_stability": "a4192f316cc68ea229c7541401e708af144536d24fbf2e35bb30e32c4428173a",
+    "F7_anatomy": "c5c2b1ac4296e011d38c4e40bfcb811274a1a8ef347fc24af00406e47ed8326e"
+  },
+  "matplotlib": "3.1.3",
+  "python": "3.10.9"
+}

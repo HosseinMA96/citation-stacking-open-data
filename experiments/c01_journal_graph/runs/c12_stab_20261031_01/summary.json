@@ -1,0 +1,22 @@
+{
+  "cidre_member_jaccard": [
+    0.425,
+    0.8506,
+    1.0
+  ],
+  "cidre_group_recovery": [
+    0.7944,
+    0.9338,
+    1.0
+  ],
+  "variant_flag_jaccard": [
+    0.5042,
+    0.6186,
+    0.7195
+  ],
+  "note": "[min, median, max] over 21 partition pairs x 9 years",
+  "core_share_median": {
+    "cidre": 0.6744,
+    "variant": 0.32
+  }
+}

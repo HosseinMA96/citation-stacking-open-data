@@ -1,0 +1,19 @@
+{
+  "run_id": "c17_basesize_20261101_01",
+  "script": "c17_baseline_size.py",
+  "script_sha256": "84c3b426a7d6feedad28d5995fb9049780574318f7527452aa83d04b0bd9bbc0",
+  "scores": "c9_scores_20261031_02",
+  "recip": "c12_recip_20261031_01",
+  "consensus": "c12_consensus_20261031_01",
+  "src": "c6_full_20261031_02",
+  "match": "c10_match_20261031_05",
+  "labels": "suppressions_v2.csv",
+  "labels_sha256": "58b9899765c5c4cf948ccf714452e1515a15834af314fbf768ec405e2e8d381c",
+  "design_cases": [
+    "Climate Change Economics",
+    "Ukrainian Journal for Physical Optics",
+    "Ukrainian Journal of Physical Optics"
+  ],
+  "seed": 4311,
+  "python": "3.10.9"
+}

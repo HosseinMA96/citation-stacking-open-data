@@ -1,0 +1,1 @@
+Superseded by c7_covgap_20261031_02 (same queries plus cross.csv; same script with one added query). Kept for the record; RESULTS_LOG 2026-10-31.

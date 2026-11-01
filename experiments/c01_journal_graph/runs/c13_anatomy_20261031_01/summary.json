@@ -1,0 +1,81 @@
+{
+  "pairs_by_group": {
+    "control_flagged": 678,
+    "flagged": 226,
+    "control_named": 15,
+    "named": 5
+  },
+  "seconds": 57.4,
+  "comparisons": {
+    "named|top1_share": {
+      "n_target": 5,
+      "n_control": 15,
+      "median_target": 0.1236,
+      "median_control": 0.0964,
+      "mannwhitney_p": 0.965030500508369
+    },
+    "named|top10pct_share": {
+      "n_target": 5,
+      "n_control": 15,
+      "median_target": 0.236,
+      "median_control": 0.2785,
+      "mannwhitney_p": 0.1741161472000684
+    },
+    "named|gini": {
+      "n_target": 5,
+      "n_control": 15,
+      "median_target": 0.1287,
+      "median_control": 0.1857,
+      "mannwhitney_p": 0.5687160100478728
+    },
+    "named|cites_per_item": {
+      "n_target": 5,
+      "n_control": 15,
+      "median_target": 3.75,
+      "median_control": 1.303,
+      "mannwhitney_p": 0.2730589857615532
+    },
+    "named|title_cosine_mean": {
+      "n_target": 5,
+      "n_control": 15,
+      "median_target": 0.0906,
+      "median_control": 0.1385,
+      "mannwhitney_p": 0.06659314852129246
+    },
+    "flagged|top1_share": {
+      "n_target": 226,
+      "n_control": 678,
+      "median_target": 0.1,
+      "median_control": 0.0714,
+      "mannwhitney_p": 5.295888092397513e-06
+    },
+    "flagged|top10pct_share": {
+      "n_target": 226,
+      "n_control": 678,
+      "median_target": 0.2407,
+      "median_control": 0.2373,
+      "mannwhitney_p": 0.354923662065077
+    },
+    "flagged|gini": {
+      "n_target": 226,
+      "n_control": 678,
+      "median_target": 0.2522,
+      "median_control": 0.1809,
+      "mannwhitney_p": 1.496951844798156e-08
+    },
+    "flagged|cites_per_item": {
+      "n_target": 226,
+      "n_control": 678,
+      "median_target": 1.9759,
+      "median_control": 1.2812,
+      "mannwhitney_p": 2.514118078362436e-27
+    },
+    "flagged|title_cosine_mean": {
+      "n_target": 226,
+      "n_control": 678,
+      "median_target": 0.0843,
+      "median_control": 0.1334,
+      "mannwhitney_p": 1.2485727022501395e-24
+    }
+  }
+}

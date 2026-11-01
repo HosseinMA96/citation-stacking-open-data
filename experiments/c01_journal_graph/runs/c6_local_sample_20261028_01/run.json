@@ -1,0 +1,193 @@
+{
+  "run_id": "c6_local_sample_20261028_01",
+  "script": "c6_full_run.py",
+  "stages": {
+    "inputs": {
+      "edges": {
+        "path": "../../data/samples/open_citations_jan2024_iid_el.prefix.csv",
+        "bytes": 48092055,
+        "sha256": "6276f4758d272ee80836a29f0a16b3476b1a5baad156965e733bc2948cb5f006"
+      },
+      "pubs": {
+        "path": "../../data/samples/open_citations_jan2024_pubs.prefix.csv",
+        "bytes": 35984919,
+        "sha256": "417a6bdd441e1f5fe13b81f0d50405ed4868cafab7c3797bff8430d57056c1e5"
+      },
+      "config_sha256": "afa5f5f3d1a0777cb3b710219e1109f26a04fc6c9e7c7eb2c8553cbc0936767c",
+      "python": "3.10.9",
+      "duckdb": "1.5.6",
+      "stage": "inputs",
+      "seconds": 0.4,
+      "peak_rss_mb_so_far": 164.7,
+      "limits": {
+        "threads": 2,
+        "memory_limit": "1GB",
+        "temp_directory": "/home/hossein/Desktop/Stack of Software engineer/PAPER/Future_Research/C_citation_stacking/data/work/c6_local_sample_20261028_01/duckdb_tmp",
+        "max_temp_directory_size": "2GB"
+      },
+      "finished": "2026-10-28 20:15:50"
+    },
+    "pubs": {
+      "rows": 81580,
+      "distinct_iid": 81580,
+      "bad_iid": 0,
+      "with_year": 70949,
+      "with_venue_omid": 65822,
+      "with_issn": 54768,
+      "parse_rejects": 0,
+      "reject_examples": [],
+      "type_counts": {
+        "journal article": 56060,
+        "proceedings": 7093,
+        "proceedings article": 6340,
+        "book chapter": 5096,
+        "<null>": 2651,
+        "dataset": 1768,
+        "book": 1482,
+        "web content": 449,
+        "reference book": 214,
+        "reference entry": 136,
+        "report": 103,
+        "journal": 69,
+        "dissertation": 59,
+        "book series": 21,
+        "book section": 21,
+        "peer_review": 6,
+        "computer program": 5,
+        "standard": 5,
+        "book part": 2
+      },
+      "output": "/home/hossein/Desktop/Stack of Software engineer/PAPER/Future_Research/C_citation_stacking/data/work/c6_local_sample_20261028_01/pubs_slim.parquet",
+      "output_bytes": 359542,
+      "stage": "pubs",
+      "seconds": 0.2,
+      "peak_rss_mb_so_far": 190.1,
+      "limits": {
+        "threads": 2,
+        "memory_limit": "1GB",
+        "temp_directory": "/home/hossein/Desktop/Stack of Software engineer/PAPER/Future_Research/C_citation_stacking/data/work/c6_local_sample_20261028_01/duckdb_tmp",
+        "max_temp_directory_size": "2GB"
+      },
+      "finished": "2026-10-28 20:15:50"
+    },
+    "journals": {
+      "venue_omids": 9035,
+      "journals": 9031,
+      "journals_from_merged_omids": 1,
+      "omids_in_merged_journals": 5,
+      "largest_merge": 5,
+      "output": "/home/hossein/Desktop/Stack of Software engineer/PAPER/Future_Research/C_citation_stacking/data/work/c6_local_sample_20261028_01/pubs_j.parquet",
+      "stage": "journals",
+      "seconds": 0.9,
+      "peak_rss_mb_so_far": 217.5,
+      "limits": {
+        "threads": 2,
+        "memory_limit": "1GB",
+        "temp_directory": "/home/hossein/Desktop/Stack of Software engineer/PAPER/Future_Research/C_citation_stacking/data/work/c6_local_sample_20261028_01/duckdb_tmp",
+        "max_temp_directory_size": "2GB"
+      },
+      "finished": "2026-10-28 20:15:51"
+    },
+    "edges": {
+      "rows": 2683007,
+      "output": "/home/hossein/Desktop/Stack of Software engineer/PAPER/Future_Research/C_citation_stacking/data/work/c6_local_sample_20261028_01/edges.parquet",
+      "output_bytes": 16486674,
+      "stage": "edges",
+      "seconds": 0.4,
+      "peak_rss_mb_so_far": 241.3,
+      "limits": {
+        "threads": 2,
+        "memory_limit": "1GB",
+        "temp_directory": "/home/hossein/Desktop/Stack of Software engineer/PAPER/Future_Research/C_citation_stacking/data/work/c6_local_sample_20261028_01/duckdb_tmp",
+        "max_temp_directory_size": "2GB"
+      },
+      "finished": "2026-10-28 20:15:51"
+    },
+    "coverage": {
+      "edges": 2683007,
+      "both_ends_journal": 22,
+      "share_both_ends_journal": 8e-06,
+      "stage": "coverage",
+      "seconds": 0.1,
+      "peak_rss_mb_so_far": 241.3,
+      "limits": {
+        "threads": 2,
+        "memory_limit": "1GB",
+        "temp_directory": "/home/hossein/Desktop/Stack of Software engineer/PAPER/Future_Research/C_citation_stacking/data/work/c6_local_sample_20261028_01/duckdb_tmp",
+        "max_temp_directory_size": "2GB"
+      },
+      "finished": "2026-10-28 20:15:51"
+    },
+    "pairs": {
+      "rows": 12,
+      "eff": 9,
+      "prev": 17,
+      "eff_self": 9,
+      "eff_citing_without_journal": null,
+      "t_min": 1987,
+      "t_max": 2018,
+      "by_year_2010_2024": {
+        "2013": {
+          "pairs": 1,
+          "eff": 0
+        },
+        "2016": {
+          "pairs": 1,
+          "eff": 0
+        },
+        "2017": {
+          "pairs": 2,
+          "eff": 2
+        },
+        "2018": {
+          "pairs": 2,
+          "eff": 2
+        }
+      },
+      "output_bytes": 855,
+      "stage": "pairs",
+      "seconds": 0.1,
+      "peak_rss_mb_so_far": 241.3,
+      "limits": {
+        "threads": 2,
+        "memory_limit": "1GB",
+        "temp_directory": "/home/hossein/Desktop/Stack of Software engineer/PAPER/Future_Research/C_citation_stacking/data/work/c6_local_sample_20261028_01/duckdb_tmp",
+        "max_temp_directory_size": "2GB"
+      },
+      "finished": "2026-10-28 20:15:51"
+    },
+    "citable": {
+      "rows": 10180,
+      "stage": "citable",
+      "seconds": 0.0,
+      "peak_rss_mb_so_far": 241.3,
+      "limits": {
+        "threads": 2,
+        "memory_limit": "1GB",
+        "temp_directory": "/home/hossein/Desktop/Stack of Software engineer/PAPER/Future_Research/C_citation_stacking/data/work/c6_local_sample_20261028_01/duckdb_tmp",
+        "max_temp_directory_size": "2GB"
+      },
+      "finished": "2026-10-28 20:15:51"
+    },
+    "agg": {
+      "aggregate_years": "all",
+      "edges": 6,
+      "weight": 9.0,
+      "citing_journals": 6,
+      "cited_journals": 6,
+      "self_loops": 6,
+      "stage": "agg",
+      "seconds": 0.0,
+      "peak_rss_mb_so_far": 241.3,
+      "limits": {
+        "threads": 2,
+        "memory_limit": "1GB",
+        "temp_directory": "/home/hossein/Desktop/Stack of Software engineer/PAPER/Future_Research/C_citation_stacking/data/work/c6_local_sample_20261028_01/duckdb_tmp",
+        "max_temp_directory_size": "2GB"
+      },
+      "finished": "2026-10-28 20:15:51"
+    }
+  },
+  "total_seconds_this_session": 2.0,
+  "peak_rss_mb": 241.3
+}

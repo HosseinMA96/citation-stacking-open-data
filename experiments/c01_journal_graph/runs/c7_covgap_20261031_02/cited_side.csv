@@ -1,0 +1,187 @@
+t,cited_in_pubs,cited_year,cited_journal,cited_type,edges
+2014,true,true,true,journal article,64491899
+2014,true,true,true,proceedings article,1088856
+2014,true,true,true,book chapter,829179
+2014,true,true,false,book,797277
+2014,true,true,false,journal article,377437
+2014,true,false,false,,174645
+2014,true,true,true,book,146631
+2014,true,false,true,proceedings article,132887
+2014,true,false,true,book chapter,93593
+2014,true,true,false,report,56428
+2014,true,true,false,,52963
+2014,true,true,true,reference entry,34635
+2014,true,true,true,,20404
+2014,true,true,false,dataset,14238
+2014,true,true,false,reference book,12256
+2014,true,true,true,dataset,8360
+2014,true,true,false,web content,7645
+2014,true,false,false,journal,7269
+2014,true,false,true,,4279
+2014,true,false,false,book,4098
+2014,true,true,true,series,2732
+2014,true,false,true,dataset,2350
+2014,true,true,false,proceedings,2298
+2014,true,false,false,standard,1918
+2014,true,true,false,book chapter,1828
+2014,true,false,false,dissertation,1003
+2014,true,true,true,reference book,674
+2014,true,false,true,reference entry,436
+2014,true,false,false,book series,431
+2014,true,true,false,dissertation,339
+2014,true,true,true,journal,183
+2014,true,true,true,book section,181
+2014,true,false,false,proceedings,107
+2014,true,true,true,book part,54
+2014,true,true,false,standard,47
+2014,true,false,true,journal,40
+2014,true,true,true,proceedings,37
+2014,true,true,true,report,32
+2014,true,false,true,book section,22
+2014,true,true,false,peer_review,19
+2014,true,false,true,book part,18
+2014,true,true,false,computer program,17
+2014,true,false,false,series,11
+2014,true,false,true,journal article,9
+2014,true,false,false,book set,4
+2018,true,true,true,journal article,83649823
+2018,true,false,false,,17951293
+2018,true,true,false,dataset,1803472
+2018,true,true,true,proceedings article,1673312
+2018,true,true,true,book chapter,1168308
+2018,true,true,false,book,1119421
+2018,true,true,false,journal article,538851
+2018,true,true,true,book,191300
+2018,true,false,true,proceedings article,112764
+2018,true,false,true,book chapter,93296
+2018,true,true,false,report,73849
+2018,true,true,false,,61997
+2018,true,true,true,reference entry,30288
+2018,true,true,true,,27510
+2018,true,true,false,web content,25616
+2018,true,true,false,reference book,18075
+2018,true,true,true,dataset,10614
+2018,true,false,false,journal,9945
+2018,true,false,true,,7345
+2018,true,false,false,book,5282
+2018,true,true,false,proceedings,3667
+2018,true,true,true,series,3293
+2018,true,false,false,standard,2726
+2018,true,true,false,book chapter,2703
+2018,true,false,true,dataset,2516
+2018,true,false,false,dissertation,1842
+2018,true,false,false,book series,1151
+2018,true,true,true,reference book,689
+2018,true,true,false,dissertation,611
+2018,true,false,true,reference entry,569
+2018,true,true,true,journal,290
+2018,true,true,false,peer_review,220
+2018,true,true,false,computer program,120
+2018,true,false,false,series,98
+2018,true,true,true,book part,89
+2018,true,false,false,proceedings,79
+2018,true,true,true,proceedings,79
+2018,true,true,false,standard,60
+2018,true,true,true,report,56
+2018,true,false,true,journal,47
+2018,true,false,true,book section,34
+2018,true,true,true,book section,20
+2018,true,false,true,book part,17
+2018,true,false,true,journal article,12
+2018,true,false,false,book set,6
+2018,true,false,false,dataset,1
+2020,true,true,true,journal article,114929648
+2020,true,false,false,,37275534
+2020,true,true,false,dataset,3704435
+2020,true,true,true,proceedings article,2076209
+2020,true,true,true,book chapter,1631441
+2020,true,true,false,book,1598289
+2020,true,true,false,journal article,1316813
+2020,true,true,true,book,247347
+2020,true,true,false,,163174
+2020,true,true,false,web content,119469
+2020,true,false,true,book chapter,103670
+2020,true,true,false,report,86093
+2020,true,false,true,proceedings article,82900
+2020,true,true,true,,40265
+2020,true,true,true,reference entry,33841
+2020,true,true,false,reference book,23233
+2020,true,true,true,dataset,17229
+2020,true,false,true,,8440
+2020,true,false,false,journal,7604
+2020,true,false,false,book,6330
+2020,true,false,false,dissertation,5725
+2020,true,false,false,standard,5377
+2020,true,true,false,proceedings,4646
+2020,true,true,true,series,3529
+2020,true,true,false,book chapter,3077
+2020,true,true,false,peer_review,2893
+2020,true,false,true,dataset,2679
+2020,true,false,false,book series,994
+2020,true,false,true,reference entry,845
+2020,true,true,true,reference book,823
+2020,true,true,false,dissertation,777
+2020,true,true,true,journal,313
+2020,true,true,false,computer program,255
+2020,true,true,true,report,166
+2020,true,true,false,standard,148
+2020,true,false,false,series,146
+2020,true,true,true,proceedings,113
+2020,true,true,true,book part,91
+2020,true,false,true,book part,75
+2020,true,false,false,proceedings,73
+2020,true,true,true,book section,55
+2020,true,false,true,journal,28
+2020,true,false,true,book section,24
+2020,true,false,false,book set,19
+2020,true,false,true,journal article,18
+2020,true,true,false,journal,2
+2020,true,false,false,dataset,1
+2022,true,true,true,journal article,130046864
+2022,true,true,true,proceedings article,2863301
+2022,true,true,true,book chapter,2019997
+2022,true,true,false,book,1256266
+2022,true,false,false,,551087
+2022,true,true,false,journal article,335972
+2022,true,true,true,book,252937
+2022,true,true,false,web content,150687
+2022,true,false,true,book chapter,95692
+2022,true,true,false,report,91600
+2022,true,false,true,proceedings article,84462
+2022,true,true,true,,50416
+2022,true,true,false,,38859
+2022,true,true,true,reference entry,35504
+2022,true,true,false,dataset,31965
+2022,true,true,false,reference book,24890
+2022,true,true,true,dataset,18508
+2022,true,false,false,journal,9584
+2022,true,false,true,,7516
+2022,true,false,false,standard,6744
+2022,true,false,false,book,6216
+2022,true,true,true,series,4967
+2022,true,false,false,dissertation,4917
+2022,true,true,false,proceedings,3921
+2022,true,true,false,book chapter,2400
+2022,true,true,false,peer_review,1697
+2022,true,false,true,dataset,1176
+2022,true,false,false,book series,996
+2022,true,true,true,report,715
+2022,true,true,true,reference book,501
+2022,true,false,true,reference entry,485
+2022,true,true,false,computer program,311
+2022,true,true,true,journal,291
+2022,true,false,false,series,254
+2022,true,true,false,dissertation,176
+2022,true,true,false,standard,148
+2022,true,true,true,book part,133
+2022,true,false,false,proceedings,113
+2022,true,true,true,proceedings,104
+2022,true,true,true,book section,68
+2022,true,false,false,book set,32
+2022,true,false,true,book section,27
+2022,true,false,true,book part,22
+2022,true,false,true,journal article,15
+2022,true,false,true,journal,8
+2022,true,true,false,data management plan,3
+2022,true,true,false,proceedings article,3
+2022,true,true,false,journal,1

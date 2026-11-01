@@ -1,0 +1,59 @@
+% Paper C, SCIENTOMETRICS version (Springer Nature sn-jnl v3.1, Dec 2024; sn-basic author-year).
+% Text comes from ../../content/ (central version); only layout and journal-specific placement live here.
+% Journal rules (submission guidelines, checked 2026-10-31): abstract 150-250 words; 4-6 keywords; author-year
+% citations; no length limit stated; "Declarations" before the references (Funding, Competing interests, Ethics,
+% Consent, Data/Code availability, Author contributions); LLM use documented in the Methods section.
+% Build: tectonic -X compile main.tex   (option pdflatex only skips breakurl; the engine is XeTeX)
+\documentclass[pdflatex,sn-basic]{sn-jnl}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+\graphicspath{{../../figures/}}
+\input{../../content/meta}
+\raggedbottom
+
+\begin{document}
+
+\title[\papershorttitle]{\papertitle}
+
+\author*[1]{\fnm{Hossein} \sur{Mohasel Arjomandi}}\email{hosseinm@microsoft.com}
+% sn-jnl reserves * for the corresponding author; the disclaimer uses the template's second mark (dagger)
+\equalcont{The views expressed in this article are the author's own and do not necessarily reflect those of Microsoft.}
+\affil*[1]{\orgname{Microsoft}, \orgaddress{\city{Redmond}, \state{WA}, \country{USA}}}
+
+\abstract{\input{../../content/abstract}}
+
+\keywords{\paperkeywords}
+
+\maketitle
+
+\input{../../content/intro}
+\input{../../content/related}
+\input{../../content/methods}
+% Springer Nature: "Use of an LLM should be properly documented in the Methods section."
+\subsection{Use of generative AI}\label{sec:ai-use}
+\input{../../content/ai_use}
+\input{../../content/results}
+\input{../../content/discussion}
+\input{../../content/conclusions}
+
+\backmatter
+
+\section*{Declarations}\label{sec:availability}
+
+\begin{itemize}
+\item \textbf{Funding:} No funding was received for this work.
+\item \textbf{Competing interests:} The author has no competing interests to declare.
+\item \textbf{Ethics approval and consent to participate:} Not applicable.
+\item \textbf{Consent for publication:} Not applicable.
+\item \textbf{Data availability:} \input{../../content/availability}
+\item \textbf{Code availability:} See Data availability.
+\item \textbf{Author contributions:} Hossein Mohasel Arjomandi is the sole author and designed the study, ran the analyses and wrote the manuscript.
+\end{itemize}
+
+\bibliography{../../refs}
+
+\end{document}

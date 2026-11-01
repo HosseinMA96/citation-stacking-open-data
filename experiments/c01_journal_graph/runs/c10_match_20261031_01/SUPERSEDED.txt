@@ -1,0 +1,1 @@
+Superseded by c10_match_20261031_02: queries containing '&' returned no Crossref records and accents were not normalized (6 false misses). RESULTS_LOG 2026-10-31.

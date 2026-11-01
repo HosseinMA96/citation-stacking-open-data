@@ -1,0 +1,17 @@
+{
+  "baseline_rate_main": {
+    "X": 0.43396226415094347,
+    "target_rate": 0.034176488467123706,
+    "achieved_rate": 0.034176488467123706
+  },
+  "baseline_rate_k7": {
+    "X": 0.5000000000000001,
+    "target_rate": 0.023099523825605348,
+    "achieved_rate": 0.02181621694640505
+  },
+  "baseline_015_w50": {
+    "X": 0.15,
+    "min_top_eff": 50,
+    "achieved_rate": 0.029819999324575328
+  }
+}

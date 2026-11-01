@@ -1,0 +1,94 @@
+2026-10-31T03:25:31Z start c6_full_20261031_01; threads 8, mem 48GB, gt threads 8
+[2026-10-31 03:25:37] start run c6_full_20261031_01; limits {'threads': 8, 'memory_limit': '48GB', 'temp_directory': '/home/azureuser/c/data/work/c6_full_20261031_01/duckdb_tmp', 'max_temp_directory_size': '150GB'}; work /home/azureuser/c/data/work/c6_full_20261031_01
+[2026-10-31 03:25:37] stage inputs: start
+[2026-10-31 03:25:56] stage inputs: done in 19.4 s; {"edges": {"path": "/home/azureuser/c/data/raw/open_citations_jan2024_iid_el.csv.gz", "bytes": 14309784846, "sha256": "40faa8bb7762f0042e5e901278cc2269e43a5cb28fada1e093ed254a0df66ca7"}, "pubs": {"path": "/home/azureuser/c/data/raw/open_citations_jan2024_pubs.csv.gz", "bytes": 9064662339, "sha256": "c071228e4d4f5dfca381c7d32f986dad87bf0712b1b039fd6afb314d0a921e14"}, "config_sha256": "afa5f5f3d1a0777cb3b710219e1109f26a04fc6c9e7c7eb2c8553cbc0936767c", "python": "3.11.18", "duckdb": "1.5.6", "stage": "inputs", "seconds": 19.4, "peak_rss_mb_so_far": 178.4, "limits": {"threads": 8, "memory_limit": 
+[2026-10-31 03:25:56] stage pubs: start
+[2026-10-31 03:28:17] stage pubs: done in 140.8 s; {"rows": 107030533, "distinct_iid": 107030533, "bad_iid": 0, "with_year": 94207184, "with_venue_omid": 12668256, "with_issn": 10860688, "parse_rejects": 0, "reject_examples": [], "type_counts": {"journal article": 76804859, "book chapter": 6867143, "proceedings": 5408661, "proceedings article": 5370804, "book": 5090653, "<null>": 3578123, "dataset": 2011101, "journal": 624129, "web content": 455087, "report": 300608, "reference book": 206791, "reference entry": 189218, "dissertation": 46278, "book series": 32975, "standard": 14045, "book section": 11452, "series": 8968, "peer_review": 4677, "b
+[2026-10-31 03:28:17] stage journals: start
+[2026-10-31 03:29:28] stage journals: done in 71.0 s; {"venue_omids": 1376068, "journals": 1375857, "journals_from_merged_omids": 78, "omids_in_merged_journals": 289, "largest_merge": 22, "output": "/home/azureuser/c/data/work/c6_full_20261031_01/pubs_j.parquet", "stage": "journals", "seconds": 71.0, "peak_rss_mb_so_far": 2019.7, "limits": {"threads": 8, "memory_limit": "48GB", "temp_directory": "/home/azureuser/c/data/work/c6_full_20261031_01/duckdb_tmp", "max_temp_directory_size": "150GB"}, "finished": "2026-10-31 03:29:28"}
+[2026-10-31 03:29:28] stage edges: start
+[2026-10-31 03:32:32] stage edges: done in 184.0 s; {"rows": 1962840983, "output": "/home/azureuser/c/data/work/c6_full_20261031_01/edges.parquet", "output_bytes": 12062739011, "stage": "edges", "seconds": 184.0, "peak_rss_mb_so_far": 2019.7, "limits": {"threads": 8, "memory_limit": "48GB", "temp_directory": "/home/azureuser/c/data/work/c6_full_20261031_01/duckdb_tmp", "max_temp_directory_size": "150GB"}, "finished": "2026-10-31 03:32:32"}
+[2026-10-31 03:32:32] stage coverage: start
+[2026-10-31 03:33:44] stage coverage: done in 72.2 s; {"edges": 1962840983, "both_ends_journal": 38057938, "share_both_ends_journal": 0.019389, "stage": "coverage", "seconds": 72.2, "peak_rss_mb_so_far": 9490.0, "limits": {"threads": 8, "memory_limit": "48GB", "temp_directory": "/home/azureuser/c/data/work/c6_full_20261031_01/duckdb_tmp", "max_temp_directory_size": "150GB"}, "finished": "2026-10-31 03:33:44"}
+[2026-10-31 03:33:44] stage pairs: start
+[2026-10-31 03:34:41] stage pairs: done in 57.0 s; {"rows": 14261311, "eff": 42420362, "prev": 248380606, "eff_self": 1432386, "eff_citing_without_journal": 35607122, "t_min": 1844, "t_max": 9999, "by_year_2010_2024": {"2010": {"pairs": 378283, "eff": 1000237}, "2011": {"pairs": 408287, "eff": 1098811}, "2012": {"pairs": 473535, "eff": 1241849}, "2013": {"pairs": 524307, "eff": 1445219}, "2014": {"pairs": 553306, "eff": 1578625}, "2015": {"pairs": 594500, "eff": 1586592}, "2016": {"pairs": 644863, "eff": 1583899}, "2017": {"pairs": 671410, "eff": 1696320}, "2018": {"pairs": 742384, "eff": 1850206}, "2019": {"pairs": 837770, "eff": 2425998}, "2
+[2026-10-31 03:34:41] stage citable: start
+[2026-10-31 03:34:42] stage citable: done in 0.4 s; {"rows": 1508906, "stage": "citable", "seconds": 0.4, "peak_rss_mb_so_far": 9490.0, "limits": {"threads": 8, "memory_limit": "48GB", "temp_directory": "/home/azureuser/c/data/work/c6_full_20261031_01/duckdb_tmp", "max_temp_directory_size": "150GB"}, "finished": "2026-10-31 03:34:42"}
+[2026-10-31 03:34:42] stage agg: start
+[2026-10-31 03:34:42] stage agg: done in 0.2 s; {"aggregate_years": "all", "edges": 1647130, "weight": 6813240.0, "citing_journals": 218301, "cited_journals": 129730, "self_loops": 11056, "stage": "agg", "seconds": 0.2, "peak_rss_mb_so_far": 9490.0, "limits": {"threads": 8, "memory_limit": "48GB", "temp_directory": "/home/azureuser/c/data/work/c6_full_20261031_01/duckdb_tmp", "max_temp_directory_size": "150GB"}, "finished": "2026-10-31 03:34:42"}
+[2026-10-31 03:34:42] run complete; peak RSS 9490.0 MB
+	Command being timed: "/home/azureuser/mamba/envs/c-gt/bin/python c6_full_run.py --run-id c6_full_20261031_01 --edges /home/azureuser/c/data/raw/open_citations_jan2024_iid_el.csv.gz --pubs /home/azureuser/c/data/raw/open_citations_jan2024_pubs.csv.gz"
+	User time (seconds): 2015.25
+	System time (seconds): 38.07
+	Percent of CPU this job got: 372%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:10.97
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9717788
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 212
+	Minor (reclaiming a frame) page faults: 9912215
+	Voluntary context switches: 19556
+	Involuntary context switches: 14592
+	Swaps: 0
+	File system inputs: 761192
+	File system outputs: 24989384
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/draw/cairo_draw.py:34: RuntimeWarning: Error importing cairo. Graph drawing will not work.
+  warnings.warn(msg, RuntimeWarning)
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/draw/cairo_draw.py:34: RuntimeWarning: Error importing cairo. Graph drawing will not work.
+  warnings.warn(msg, RuntimeWarning)
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/draw/cairo_draw.py:34: RuntimeWarning: Error importing cairo. Graph drawing will not work.
+  warnings.warn(msg, RuntimeWarning)
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/all.py:39: RuntimeWarning: Error importing draw module, proceeding nevertheless: No module named 'cairo'
+  warnings.warn(msg, RuntimeWarning)
+{
+ "run_id": "c6_full_20261031_01",
+ "seed": 4311,
+ "min_strength": 0,
+ "journals": 300831,
+ "edges": 1647130,
+ "weight": 6813240,
+ "self_loops": 11056,
+ "load_seconds": 0.6,
+ "input_sha256": "8bd0674b3fbcfe340ce5b02e1c5de63ca08895ead7472a13bdcea6f36f48cb44",
+ "graph_tool": "3.9",
+ "omp_threads": "8",
+ "blocks": 676,
+ "description_length": 14869290.683409294,
+ "fit_seconds": 199.4,
+ "peak_rss_mb": 2652.8,
+ "output_sha256": "ab74bc67a5f8f2dcf40793748ec50493171fcedc5f1a80746f9c9e4091031637"
+}
+	Command being timed: "/home/azureuser/mamba/envs/c-gt/bin/python c6_blocks.py --run-id c6_full_20261031_01"
+	User time (seconds): 1117.67
+	System time (seconds): 129.22
+	Percent of CPU this job got: 601%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:27.32
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2716484
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 170
+	Minor (reclaiming a frame) page faults: 12578602
+	Voluntary context switches: 972681
+	Involuntary context switches: 8676
+	Swaps: 0
+	File system inputs: 1449392
+	File system outputs: 4232
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+2026-10-31T03:38:10Z all done. On the laptop: vm/vmctl.sh fetch c6_full_20261031_01
+2026-10-31T03:38:10Z run_all exit code 0
+/dev/root       247G   39G  209G  16% /

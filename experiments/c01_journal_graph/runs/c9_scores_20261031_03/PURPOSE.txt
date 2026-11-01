@@ -1,0 +1,1 @@
+Reproduction check of c9_scores_20261031_01 with the current c9_scores.py (default counting, --no-coverage). Result: all columns identical except donor_hhi, max abs diff 4.4e-16 (parallel float summation order); pair_scores.parquet byte-identical. RESULTS_LOG 2026-10-31.

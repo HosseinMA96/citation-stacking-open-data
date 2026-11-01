@@ -1,0 +1,43 @@
+% Central Paper C content (journal-neutral). Edit here; journal wrappers in ../journals/ only \input these files.
+% Every number traces to ../../FINDINGS.md.
+\section{Introduction}\label{sec:intro}
+
+The Journal Impact Factor (JIF) counts the citations a journal receives in one year to the items it published in the
+two previous years. Because the JIF still shapes hiring, funding and journal choice, some journals inflate it, either
+by citing themselves or by receiving concentrated citations from a partner journal, a practice known as citation
+stacking \citep{heneberg2016stacking,vannoorden2013brazil,wilhite2012coercive,chorus2016coercive}. Each year Clarivate
+withholds the JIF of journals whose citation patterns it judges anomalous and publishes the list, with key figures
+such as the share of self-citations in the JIF numerator or the share of a recipient's numerator that comes from one
+donor \citep{moussa2022suppressed,taskin2021selfcitation}.
+
+These decisions rest on Web of Science data, which outsiders cannot inspect. Open citation data now make independent
+checks possible in principle: OpenCitations releases citation links under open licences
+\citep{peroni2020opencitations,heibi2019coci}, and its Meta collection gives the bibliographic records behind them
+\citep{massari2024meta}. Whether these data are good enough for integrity work is less clear. Coverage comparisons
+show that open sources approach the large commercial indexes on average
+\citep{martinmartin2021coverage,visser2021comparison,culbert2025openalex}, but an average says little about the small,
+specific sets of journals that suppressions concern.
+
+The best-known open method for this task is CIDRE \citep{kojaku2021cidre}. It removes citations that a degree-corrected
+stochastic block model can explain, scores journals as donors and recipients of the remaining ``excessive''
+citations, and keeps groups of journals that pass a threshold. On Microsoft Academic Graph data it found 12 of 22
+groups that Clarivate had suspended, and community detection found none.
+
+Three questions are addressed. First, how faithfully do fully open data reproduce the figures Clarivate publishes, and where
+and why do they fail? Second, does CIDRE, run as published, detect the stacking cases Clarivate listed after its
+own validation period, and if not, why? Third, what do the excess citations look like at the level of individual
+papers? The contributions are:
+\begin{itemize}
+  \item a primary-source label set of Clarivate suppressions for data years 2015--2023 and an audit of open-data
+        fidelity against Clarivate's published self-citation and stacking figures, with the failures traced to
+        publishers' reference deposit and to a data-citation artifact;
+  \item a diagnosis of a structural blind spot in CIDRE: its group-building step drops large donor journals, so the
+        pattern Clarivate most often reports, a large journal feeding a small one, cannot form a group;
+  \item a recipient-centric reading of CIDRE's own excessive-edge test that flags listed stacking journals well above
+        chance, also against size-matched controls and plain baselines, sometimes years before the listing, with a
+        pre-specified evidence check of its flags and a prospective check on the 2024--2025 lists;
+  \item an analysis of the sensitivity of CIDRE to its stochastic null-model partition, and a paper-level anatomy of
+        flagged journal pairs.
+\end{itemize}
+All analyses run on public data; code, run logs and checksums are released (Section~\ref{sec:availability}).
+

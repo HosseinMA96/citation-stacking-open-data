@@ -1,0 +1,38 @@
+{
+  "rows": 12,
+  "eff": 9,
+  "prev": 17,
+  "eff_self": 9,
+  "eff_citing_without_journal": null,
+  "t_min": 1987,
+  "t_max": 2018,
+  "by_year_2010_2024": {
+    "2013": {
+      "pairs": 1,
+      "eff": 0
+    },
+    "2016": {
+      "pairs": 1,
+      "eff": 0
+    },
+    "2017": {
+      "pairs": 2,
+      "eff": 2
+    },
+    "2018": {
+      "pairs": 2,
+      "eff": 2
+    }
+  },
+  "output_bytes": 855,
+  "stage": "pairs",
+  "seconds": 0.1,
+  "peak_rss_mb_so_far": 241.3,
+  "limits": {
+    "threads": 2,
+    "memory_limit": "1GB",
+    "temp_directory": "/home/hossein/Desktop/Stack of Software engineer/PAPER/Future_Research/C_citation_stacking/data/work/c6_local_sample_20261028_01/duckdb_tmp",
+    "max_temp_directory_size": "2GB"
+  },
+  "finished": "2026-10-28 20:15:51"
+}

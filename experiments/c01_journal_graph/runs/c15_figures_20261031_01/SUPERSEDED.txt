@@ -1,0 +1,1 @@
+Superseded by c15_figures_20261031_02: F7 left panel changed from top-10% share (no difference) to citations per citing paper. PDFs in paper/figures are those of _02.

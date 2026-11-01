@@ -1,0 +1,405 @@
+% Paper C, draft v0.1 (2026-10-31). Every number traces to FINDINGS.md -> run folder -> file.
+% Venue not chosen yet: neutral article class; port to the journal template later.
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{fontspec} % compiled with Tectonic (XeTeX); Unicode in refs.bib
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[hidelinks]{hyperref}
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+\graphicspath{{figures/}}
+
+\title{Can open citation data detect citation stacking?\\
+An audit against Clarivate's journal suppressions}
+\author{\todo{authors}}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Clarivate suppresses journals from the Journal Citation Reports when self-citations or concentrated citations from
+another journal (``citation stacking'') distort their Journal Impact Factor. Its data are closed, so independent
+checks need open citation data. We audit how far fully open data can reproduce and anticipate these decisions. We
+built yearly journal citation networks from the OpenCitations snapshot of January 2024 (1.96 billion citations;
+85,437 journals) and compared them with Clarivate's suppression lists for data years 2015--2023, collected from
+primary sources. Where a journal's reference lists are present, open data reproduce Clarivate's published
+self-citation shares within ten percentage points for 36 of 50 journals; the failures follow publishers that do not
+deposit references with Crossref, which also hides several stacking donors entirely. Open data contain a further
+artifact: biodiversity data downloads registered with DataCite inflate naive impact-factor numerators of taxonomy
+journals. The leading open method for stacking groups, CIDRE, detects none of 15 named Clarivate pairs. A
+diagnosis shows why: it flags the stacking citations but drops large donor journals, so a big journal feeding a small
+one never forms a group. A recipient-centric reading of CIDRE's own test, with its parameters unchanged, flags
+journals later listed for stacking 10 to 14 times more often than other journals, sometimes years before the
+listing; flagged journal pairs show more citations per citing paper and weaker topical similarity than matched pairs.
+Open data can support such audits, provided coverage gaps and their sources are reported alongside the results.
+\end{abstract}
+
+\noindent\textbf{Keywords:} citation stacking; journal self-citation; Journal Impact Factor; OpenCitations;
+research integrity; anomaly detection; stochastic block model
+
+% ---------------------------------------------------------------------------------------------------------------
+\section{Introduction}\label{sec:intro}
+
+The Journal Impact Factor (JIF) counts the citations a journal receives in one year to the items it published in the
+two previous years. Because the JIF still shapes hiring, funding and journal choice, some journals inflate it, either
+by citing themselves or by receiving concentrated citations from a partner journal, a practice known as citation
+stacking \cite{heneberg2016stacking,vannoorden2013brazil,wilhite2012coercive,chorus2016coercive}. Each year Clarivate
+withholds the JIF of journals whose citation patterns it judges anomalous and publishes the list, with key figures
+such as the share of self-citations in the JIF numerator or the share of a recipient's numerator that comes from one
+donor \cite{moussa2022suppressed,taskin2021selfcitation}.
+
+These decisions rest on Web of Science data, which outsiders cannot inspect. Open citation data now make independent
+checks possible in principle: OpenCitations releases citation links under open licences
+\cite{peroni2020opencitations,heibi2019coci}, and its Meta collection gives the bibliographic records behind them
+\cite{massari2024meta}. Whether these data are good enough for integrity work is less clear. Coverage comparisons
+show that open sources approach the large commercial indexes on average
+\cite{martinmartin2021coverage,visser2021comparison,culbert2025openalex}, but an average says little about the small,
+specific sets of journals that suppressions concern.
+
+The best-known open method for this task is CIDRE \cite{kojaku2021cidre}. It removes citations that a degree-corrected
+stochastic block model can explain, scores journals as donors and recipients of the remaining ``excessive''
+citations, and keeps groups of journals that pass a threshold. On Microsoft Academic Graph data it found 12 of 22
+groups that Clarivate had suspended, and community detection found none.
+
+We ask three questions. First, how faithfully do fully open data reproduce the figures Clarivate publishes, and where
+and why do they fail? Second, does CIDRE, run as published, detect the stacking cases Clarivate listed after its
+own validation period, and if not, why? Third, what do the excess citations look like at the level of individual
+papers? Our contributions are:
+\begin{itemize}
+  \item a primary-source label set of Clarivate suppressions for data years 2015--2023 and an audit of open-data
+        fidelity against Clarivate's published self-citation and stacking figures, with the failures traced to
+        publishers' reference deposit and to a data-citation artifact;
+  \item a diagnosis of a structural blind spot in CIDRE: its group-building step drops large donor journals, so the
+        pattern Clarivate most often reports, a large journal feeding a small one, cannot form a group;
+  \item a recipient-centric reading of CIDRE's own excessive-edge test that flags listed stacking journals well above
+        chance, sometimes years before the listing, with a pre-specified evidence check of its flags;
+  \item an analysis of the sensitivity of CIDRE to its stochastic null-model partition, and a paper-level anatomy of
+        flagged journal pairs.
+\end{itemize}
+All analyses run on public data; code, run logs and checksums are released (Section~\ref{sec:availability}).
+
+% ---------------------------------------------------------------------------------------------------------------
+\section{Related work}\label{sec:related}
+
+\paragraph{Journal self-citation and citation stacking.}
+Coercive and excessive journal self-citation have been documented by surveys and large-scale analyses
+\cite{wilhite2012coercive,chorus2016coercive,taskin2021selfcitation}. Heneberg traced how excessive self-citation can
+shift into citation stacking between journals \cite{heneberg2016stacking}, and a Brazilian citation scheme drew wide
+attention to stacking in 2013 \cite{vannoorden2013brazil}. Repeated suppressions from the Journal Citation Reports
+have been analysed bibliometrically \cite{moussa2022suppressed}.
+
+\paragraph{Detecting anomalous citation groups.}
+Fister et al.\ proposed searching citation networks for cartels \cite{fister2016cartels}, and unsupervised anomaly
+detection has been applied to journal-level networks \cite{jolly2020anomaly}. CIDRE \cite{kojaku2021cidre} is the
+reference method for journal groups validated against Clarivate's decisions. Paper-level approaches use graph learning
+\cite{liu2022tnnls}, and recent work combines journal and paper levels in heterogeneous graphs \cite{liu2026isf}.
+Barnes et al.\ show that journals flagged in the Journal Citation Reports receive citations from closer parts of the
+journal network \cite{barnes2026distance}.
+
+\paragraph{Open data.}
+Coverage of OpenCitations and other open sources has been compared with commercial indexes
+\cite{martinmartin2021coverage,visser2021comparison,culbert2025openalex}, but not, to our knowledge, in terms of what it
+means for detecting citation manipulation. Concurrent work by Zhang \cite{zhang2026openalex}, released as a dataset
+with code, compares 15 detection methods on OpenAlex for 1,057 journals in chemistry, materials science and
+nanoscience, using 16 Clarivate stacking pairs from 2018--2025. We differ in data source (OpenCitations), scope (all
+fields), the fidelity audit against Clarivate's published figures, the coverage diagnosis, and the analysis of
+CIDRE's mechanism.
+
+% ---------------------------------------------------------------------------------------------------------------
+\section{Data and methods}\label{sec:methods}
+
+\subsection{Citation data and journals}
+We use the parsed OpenCitations snapshot of January 2024 released through the Illinois Data Bank
+\cite{arjomandi2024dataset}, with 1,962,840,983 citation links between integer-identified publications. Journal
+(venue) assignments come from the OpenCitations Meta CSV dump \cite{ocmeta2024dump,massari2024meta}, joined on the
+publication identifier; venue records are merged when they share an ISSN. Of 76.8 million journal articles,
+72,720,703 obtain their venue from Meta, 388,394 from the venue field of the parsed file, and 3,695,762 have none. A
+venue counts as a journal if its own Meta record has type \emph{journal} and it has an ISSN; this rule keeps 92,779
+venues, of which 85,437 appear in the citation network. A stricter rule that also requires at least half of the
+venue's items to be journal articles is used as a sensitivity check. Processing used DuckDB \cite{raasveldt2019duckdb}.
+
+\subsection{JIF-window counts and journal scores}
+For a citing year $t$, let $c(A\!\to\!B,t)$ be the number of citations from items of journal $A$ published in $t$ to
+items of journal $B$ published in $t-1$ or $t-2$, the JIF window. We count citing items of any type but, following
+Clarivate's practice of counting citations from indexed sources, only citing items that have a journal; including
+citing items without a journal is a sensitivity analysis. For each recipient journal $B$ and year $t$ we compute the
+numerator $n_B(t)=\sum_A c(A\!\to\!B,t)$, the self-citation share $c(B\!\to\!B,t)/n_B(t)$, a JIF proxy dividing $n_B(t)$
+by $B$'s journal articles from $t-1$ and $t-2$, and the share of $n_B(t)$ from its largest external donor.
+
+\subsection{Labels: Clarivate suppressions 2015--2023}
+We rebuilt the suppression lists from primary Clarivate material: the ``Suppressed Titles 2007--2017'' spreadsheet
+(data years 2015--2017: journal, year and type), the Journal Citation Reports help pages for the 2019, 2022, 2023 and
+2024 releases (archived copies), the 2020 release page and a copy of the 2021 release list. The resulting table has 144
+rows: 98 self-citation suppressions, of which 60 come with a published self-citation share, 11 stacking journals
+without named partners (2015--2017), 17 named recipient--donor pairs with Clarivate's two stacking figures, one
+expression of concern with three donors, and six ``suppression warnings'' that we exclude. Journals were matched to
+our venues by ISSN taken from Crossref journal records, with a documented alias or ISSN choice where titles were
+ambiguous; 131 of 138 names matched.
+
+\subsection{Fidelity measures}
+Clarivate reports, for self-citation cases, the percentage of self-citations in the JIF numerator and, for stacking
+pairs, the donor's percentage of the recipient's JIF numerator and the ``percentage exchange to JIF years'', the share
+of all donor-to-recipient citations in year $t$ that go to the JIF window \todo{verify the verbatim JCR wording}. We
+compute the same quantities; for the exchange share our denominator counts cited years before $t$, so the estimate is
+an upper bound. We fixed in advance that a figure counts as reproduced if it lies within $\pm10$ percentage points,
+and that a listed journal ``ranks'' if it is in the top 1\% of its year on the relevant share.
+
+\subsection{CIDRE}
+We implemented CIDRE as described by Kojaku et al.\ \cite{kojaku2021cidre}, wrapping the authors' package and closing
+three gaps between package and paper: condition 1 (more than half of the $A\!\to\!B$ citations in year $t$ go to the
+JIF window), the minimum of $\theta_w=50$ within-group citations, and a compatibility fix. An edge is excessive if it
+meets condition 1 and its weight is significant under a Poisson test against the expected weight from a
+degree-corrected stochastic block model, with Benjamini--Hochberg correction at $\alpha=0.01$
+\cite{benjamini1995}. A journal's donor (recipient) score is the share of its outgoing (incoming) citations that are
+excessive within the current group; journals whose donor and recipient scores are both below $\theta=0.15$ are
+removed iteratively, and the remaining weakly connected components are the groups. The block model was fitted once on
+the network aggregated over all years with graph-tool's nonparametric inference
+\cite{peixoto2017nonparametric,peixoto2014graphtool}. Detection follows the paper's rule: a Clarivate group is detected
+if at least half of a CIDRE group's journals and at least two journals are shared.
+
+The block-model fit is stochastic. We therefore fitted seven partitions of the main journal network (five seeds, a
+repeat of the configuration seed, and a single-threaded fit) and one of the stricter journal rule, and ran CIDRE on
+every year from 2015 to 2023 with each.
+
+\subsection{A recipient-centric reading of CIDRE}
+Clarivate's stacking criterion is recipient-centric: a recipient that depends on one donor for a large share of its
+numerator. CIDRE's excessive-edge test can be read the same way, without the group step. For journal $j$ in year
+$t$, let $e_j$ be the number of excessive citations it receives (self-citations excluded) and $s_j$ its in-strength.
+We flag $j$ if $e_j/s_j \ge \theta$ and $e_j \ge \theta_w$, with CIDRE's own $\theta=0.15$ and $\theta_w=50$. This
+variant was designed after we diagnosed CIDRE's misses on two 2023 cases (Section~\ref{sec:res-cidre}); those two
+journals are therefore excluded from every evaluation in which they could favour it. Because flags vary between
+partitions, we also report consensus flags present in at least $k$ of the seven partitions. We evaluate the variant by
+enrichment: the share of listed journals ever flagged in 2015--2023 compared with the share of all journals with at
+least 20 numerator citations in some year, with a one-sided binomial test.
+
+\subsection{Paper-level anatomy and evidence check}
+For flagged recipients and their largest excessive donor, and for named Clarivate pairs, we collect the citing papers
+behind the pair's window citations and compute the citations per citing paper, the Gini coefficient of citations
+over citing papers, and the shares coming from the single top citing paper and from the top 10\% of citing papers. We
+compare titles of citing and cited papers by TF--IDF cosine similarity. Each pair receives up to three controls from
+the same year with 0.8 to 1.25 times its window citations, both journals in the journal rule, and a recipient never
+flagged. As a structured evidence check, fixed before the sample was drawn, we record three public indicators per
+pair: either journal appears in Clarivate's lists; recipient and donor share a Crossref publisher; or the top 10\% of
+citing papers carry at least half of the pair's citations.
+
+\subsection{Reproducibility}
+Every analysis is a script that writes a run folder with its parameters, input and output checksums and log, and the
+decisions and pass criteria were recorded in a lab notebook before the corresponding runs. We distinguish
+pre-specified from post hoc analyses throughout.
+
+% ---------------------------------------------------------------------------------------------------------------
+\section{Results}\label{sec:results}
+
+\subsection{What open data contain}\label{sec:res-coverage}
+In citing years up to 2014, 99.5\% of citation links have a citing item with a journal; this share falls to 69.3\%
+in 2020 and recovers to 97.6\% in 2022 (Fig.~\ref{fig:coverage}). The dip is caused by one source. In 2020, 221,918 of
+the 230,438 citing items typed \emph{dataset} without a journal (96.3\%) carry DOIs of the Global Biodiversity
+Information Facility (prefix 10.15468, registered with DataCite): occurrence downloads whose reference lists cite the
+datasets and taxonomic publications the records come from. These are legitimate data citations, but they are not the
+journal citations Clarivate counts. Had they been counted, they would form 12.8\%, 14.4\% and 11.2\% of the JIF-window
+numerator in 2019, 2020 and 2021, concentrated in a few taxonomy journals: in 2020, 99.8\% of the numerator of
+\emph{Zootaxa} would come from such items, giving a JIF proxy above 600. Restricting citing items to those with a
+journal removes the artifact; including them changes the JIF proxy noticeably only in 2019--2021 (correlation with the
+main version 0.70--0.90, against at least 0.99 in other years).
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.6\linewidth]{F1_coverage_by_year.pdf}
+\caption{Share of citation links whose citing item has a journal, whose both items have a journal, and whose both
+items are journals under the journal rule, by citing year. The 2015--2021 dip is due to GBIF occurrence-download
+records registered with DataCite.}
+\label{fig:coverage}
+\end{figure}
+
+\subsection{Fidelity to Clarivate's published figures}\label{sec:res-fidelity}
+Whether open data reproduce Clarivate's figures depends mainly on whether the citing journal's reference lists are in
+OpenCitations (Fig.~\ref{fig:fidelity}). When they are, our self-citation share lies within $\pm10$ percentage points
+of Clarivate's for 36 of 50 journals, with a median absolute difference of 4.6 points and a median signed difference
+of $-2.8$ points. When they are absent, our share is zero and none of seven journals passes. For stacking pairs whose
+donor has references and the pair has citations in our data (five pairs), the donor's share of the recipient's
+numerator is reproduced for four and the exchange share for four. Many stacking donors in Clarivate's lists, however,
+have no references in OpenCitations at all.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.55\linewidth]{F2_fidelity.pdf}
+\caption{Clarivate's published percentages against ours, by whether the citing journal's (self-citation) or donor's
+(stacking) reference lists are present in OpenCitations. The band marks $\pm10$ percentage points.}
+\label{fig:fidelity}
+\end{figure}
+
+The missing references are not random. For the journals whose references are absent, the median share of their DOIs
+with deposited reference lists in Crossref is zero (zero for eight of eleven), against 0.96 for journals whose
+references are present. The journals of one publisher that deposits references today began only recently (backfile
+coverage around 5\%). These blind spots include donors in several Clarivate stacking cases.
+
+On ranks, 59 of 85 self-citation suppressions (69\%) lie in the top 5\% of their year by self-citation share, with a
+median percentile of 3.1\%, but only 9 are in the top 1\%. The criterion we fixed in advance for data year 2020,
+at least half of the suppressed journals in the top 1\%, was not met (0 of 8); we report this as recorded.
+
+\subsection{CIDRE on open data}\label{sec:res-cidre}
+CIDRE finds between 11 and 32 groups per year, typically of three to five journals. It detects none of the 15 named
+Clarivate pairs from 2018--2023 for which both journals are matched, in any of the eight partitions, and no recipient
+or donor of these pairs is in any CIDRE group in its year. Some misses are due to data: the donor has no references in
+OpenCitations, or the pair has too few citations to reach $\theta_w$. Two 2023 pairs, however, are well covered and
+still missed.
+
+For these, a stage-by-stage diagnosis shows the mechanism (Fig.~\ref{fig:peeling}). The stacking edge passes CIDRE's
+test: 99.5\% (Optik to Ukrainian Journal of Physical Optics) and 85.5\% (Environmental Science and Pollution Research
+to Climate Change Economics) of the donor's citations to the recipient fall in the JIF window, and the edges are
+significant against the block model. The recipients' scores, 0.83 and 0.32, are well above $\theta$. But the donors are
+large journals whose stacking citations are a small part of their output: their donor scores are 0.057 and 0.035.
+Since CIDRE removes a journal when both of its scores are below $\theta$, the donor is removed, the recipient's score
+falls to zero, and no group remains. The CIDRE paper motivates $\theta=0.15$ on the recipient side, noting that all
+recipients suspended by Clarivate received at least 15\% of their citations from donors \cite{kojaku2021cidre}, but
+applies the same threshold to donors.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.6\linewidth]{F3_cidre_peeling.pdf}
+\caption{Why CIDRE misses two well-covered 2023 stacking pairs: the recipients' scores exceed $\theta$, but the large
+donors' scores do not, so the group-building step removes the donors.}
+\label{fig:peeling}
+\end{figure}
+
+CIDRE does find stacking between small journals. In 2015 one of its groups consists exactly of Applied Clinical
+Informatics and Methods of Information in Medicine, and in 2017 one consists exactly of Liver Cancer and Digestive
+Diseases; in each case both journals were suppressed for stacking in that year, although Clarivate's spreadsheet for
+those years does not name the pairs.
+
+\subsection{The recipient-centric reading}\label{sec:res-variant}
+Over 2015--2023, the variant flags 12 of 30 stacking-listed journals (40\%), against 3.4\% of all journals with at
+least 20 numerator citations in some year: an enrichment of 11.7 ($p=1.2\times10^{-10}$). Without the two journals
+used to design it, 10 of 28 are flagged (10.5-fold, $p=1.6\times10^{-8}$), and across partitions and size thresholds
+the enrichment ranges from 5.7 to 10.5 ($p\le1.1\times10^{-5}$). For self-citation-listed journals the enrichment is
+weaker and not robust across partitions (1.3 to 3.4), as expected for a measure of external citations.
+
+Requiring flags to appear in more partitions lowers the base rate faster than the hit rate (Fig.~\ref{fig:enrichment}).
+With flags present in all seven partitions, 2.3\% of journals are ever flagged, against 9 of 28 stacking-listed
+journals: a 13.9-fold enrichment ($p=8.7\times10^{-9}$). Because the consensus rule was chosen after seeing these
+results, we report all three levels.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.6\linewidth]{F4_enrichment.pdf}
+\caption{Share of listed journals ever flagged by the recipient-centric reading in 2015--2023, against the base rate,
+by the number of partitions required (design cases excluded). Labels give the enrichment for stacking-listed journals.}
+\label{fig:enrichment}
+\end{figure}
+
+Eight listed journals were flagged before their first listing (Fig.~\ref{fig:leadtime}). Granular Computing was
+flagged in every year from 2016 to 2020, three to seven years before its 2023 listing, with Information Sciences, its
+donor in Clarivate's list, as the largest excessive donor in four of those years. Panminerva Medica and Minerva Medica
+were flagged three to four years before their 2023 listing, Liver Cancer one to two years before 2017 (largest
+excessive donor Digestive Diseases), and Ukrainian Journal of Physical Optics in 2022 (donor Optik).
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.6\linewidth]{F5_lead_time.pdf}
+\caption{Years in which listed journals were flagged (dots) and their first Clarivate listing (bars), partition
+\emph{main}.}
+\label{fig:leadtime}
+\end{figure}
+
+In the pre-specified evidence check on 196 randomly sampled consensus flags and 196 matched controls, 28.1\% of flagged
+pairs carry at least one independent indicator against 6.1\% of controls ($p=6.2\times10^{-9}$, Fisher's exact
+test). The most frequent indicator is a shared publisher of recipient and donor (19.4\% against 6.1\%); 5.1\% of
+flagged pairs have a donor in Clarivate's lists and 5.6\% have strongly concentrated citations, against none of the
+controls. These shares are a lower bound on the precision of the flags, not an estimate of it.
+
+\subsection{Paper-level anatomy}\label{sec:res-anatomy}
+Flagged pairs differ from matched controls in how their citations arise (Fig.~\ref{fig:anatomy}). Each citing paper
+cites the recipient 1.98 times on median, against 1.28 ($p=2.5\times10^{-27}$, Mann--Whitney), and citations are more
+unevenly spread over citing papers (Gini 0.25 against 0.18, $p=1.5\times10^{-8}$). The share from the top 10\% of
+citing papers does not differ ($p=0.35$): the pattern is many papers each citing a little too often rather than a few
+papers with long reference lists. Cited and citing titles are less similar in flagged pairs (TF--IDF cosine 0.084
+against 0.133, $p=1.2\times10^{-24}$). Since excessive edges are defined against the block model, flagged pairs might
+simply join more distant fields; in fact 27.9\% of flagged pairs share a block against 0.6\% of controls, and within
+cross-block pairs the differences remain (cosine 0.084 against 0.133, $p=1.2\times10^{-17}$; citations per citing
+paper 2.00 against 1.28). For the five named Clarivate pairs with citations the sample is too small for conclusions.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.6\linewidth]{F7_anatomy.pdf}
+\caption{Citations per citing paper (log scale) and citing--cited title similarity for named Clarivate pairs, flagged
+pairs and their matched controls.}
+\label{fig:anatomy}
+\end{figure}
+
+\subsection{Sensitivity to the block-model partition}\label{sec:res-stability}
+With eight threads, block-model fits are not reproducible from a seed: six fits of the same network give 2,131 to 2,912
+blocks, with pairwise normalized mutual information of 0.76--0.78 and adjusted Rand index \cite{hubert1985ari} of
+0.44--0.54. Two single-threaded fits with the same seed give identical partitions, so the variation comes from the
+parallel search. CIDRE's groups depend much less on the partition than the partitions themselves agree: the median
+Jaccard similarity of group members between partitions is 0.85, and 93\% of groups have a counterpart (Fig.~\ref{fig:stability}).
+The variant's flags are less stable (median Jaccard 0.62), which motivates the consensus rule.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.6\linewidth]{F6_stability.pdf}
+\caption{Agreement between fits: block-model partitions (ARI, NMI), CIDRE group members (Jaccard) and group recovery,
+and the variant's flags (Jaccard).}
+\label{fig:stability}
+\end{figure}
+
+% ---------------------------------------------------------------------------------------------------------------
+\section{Discussion}\label{sec:discussion}
+
+\paragraph{What open data can and cannot show.}
+Open citation data reproduce Clarivate's self-citation figures closely when reference lists are present, so open
+audits of journal citation behaviour are feasible. But the gaps sit where integrity questions arise: some publishers
+deposit no references, and several of the donors behind Clarivate's stacking cases are among them. An open audit can
+therefore not conclude that a journal shows no anomaly when its citing partners are absent from the data; coverage
+of the relevant journals should be reported alongside any result. Data citations from repositories, such as GBIF
+downloads, are a second, newer source of distortion for anyone computing impact-factor-like indicators from open
+data.
+
+\paragraph{Why CIDRE misses Clarivate-style stacking.}
+CIDRE was designed to find groups whose members exchange excessive citations, and it does find stacking between small
+journals. Its symmetric threshold, however, requires a donor to devote a substantial share of its own citations to the
+group. In the stacking cases Clarivate reported in 2023, large journals fed small ones, and CIDRE flags the edge but
+discards the group. This is a property of the method, not of the data: it appears with well-covered donors. A
+recipient-centric reading of the same test recovers listed stacking journals far above chance and often before
+listing, at the cost of flagging about 2--5\% of journals over nine years, depending on the consensus level.
+
+\paragraph{What the flags mean.}
+The flags mark anomalous citation patterns, not misconduct. Many have benign explanations, such as a society journal
+and its companion, editorial preferences, or regional communities. The evidence check shows that flagged pairs carry
+independent indicators far more often than matched pairs, and the paper-level anatomy shows that their citations are
+spread over many papers that cite the recipient repeatedly and are topically further from it. Flags are candidates for
+expert review, not verdicts.
+
+\paragraph{Limitations.}
+Clarivate names few stacking pairs, so recall figures rest on a small number of cases, and our enrichment results rely
+on 28 to 30 stacking-listed journals. The recipient-centric reading and its consensus rule were chosen after part of
+the evaluation; we excluded the cases used in the design and report all variants, but a test on future suppression
+lists is needed. The evidence check is a lower bound on precision. Clarivate's exact formulas and thresholds are not
+public, and our exchange share is an upper bound. Crossref coverage statistics describe the present, not the state at
+the time of the snapshot. Title similarity uses TF--IDF on titles only, and controls are matched on year and volume,
+not on field.
+
+% ---------------------------------------------------------------------------------------------------------------
+\section{Conclusions}\label{sec:conclusions}
+Fully open citation data can reproduce much of what Clarivate publishes about its journal suppressions, and they can
+anticipate some of its stacking decisions. Two conditions matter: auditors must check that the relevant reference
+lists are present, and methods must match the pattern they target. A large journal feeding a small one is invisible to
+CIDRE's group definition but visible to a recipient-centric reading of the same statistical test. We release the
+labels, code and run records so that the audit can be repeated on new suppression lists.
+
+\section*{Data and code availability}\label{sec:availability}
+Citation data: \cite{arjomandi2024dataset}; venue metadata: \cite{ocmeta2024dump}. Suppression labels with their
+archived Clarivate sources, all scripts, configuration, run logs and checksums: \todo{repository URL and DOI}.
+
+\section*{Declaration of generative AI use}
+\todo{statement according to the chosen journal's policy}
+
+\section*{Acknowledgements}
+\todo{acknowledgements}
+
+\bibliographystyle{unsrtnat}
+\bibliography{refs}
+\end{document}

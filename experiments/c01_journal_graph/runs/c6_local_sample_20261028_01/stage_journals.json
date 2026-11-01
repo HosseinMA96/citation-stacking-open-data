@@ -1,0 +1,18 @@
+{
+  "venue_omids": 9035,
+  "journals": 9031,
+  "journals_from_merged_omids": 1,
+  "omids_in_merged_journals": 5,
+  "largest_merge": 5,
+  "output": "/home/hossein/Desktop/Stack of Software engineer/PAPER/Future_Research/C_citation_stacking/data/work/c6_local_sample_20261028_01/pubs_j.parquet",
+  "stage": "journals",
+  "seconds": 0.9,
+  "peak_rss_mb_so_far": 217.5,
+  "limits": {
+    "threads": 2,
+    "memory_limit": "1GB",
+    "temp_directory": "/home/hossein/Desktop/Stack of Software engineer/PAPER/Future_Research/C_citation_stacking/data/work/c6_local_sample_20261028_01/duckdb_tmp",
+    "max_temp_directory_size": "2GB"
+  },
+  "finished": "2026-10-28 20:15:51"
+}

@@ -1,0 +1,11 @@
+flag_set,kind,listed,listed_flagged,controls,controls_flagged,listed_rate,control_rate,matched_enrichment,ci95_cluster_bootstrap,bootstrap_valid
+variant_main,stacking,28,10,280,20,0.3571,0.0714,5.0,"[np.float64(2.67), np.float64(10.91)]",10000
+variant_k7,stacking,28,9,280,13,0.3214,0.0464,6.92,"[np.float64(3.08), np.float64(17.14)]",9999
+baseline_rate_main,stacking,28,3,280,6,0.1071,0.0214,5.0,"[np.float64(0.0), np.float64(30.0)]",9854
+baseline_rate_k7,stacking,28,2,280,6,0.0714,0.0214,3.33,"[np.float64(0.0), np.float64(20.0)]",9848
+baseline_015_w50,stacking,28,7,280,14,0.25,0.05,5.0,"[np.float64(1.67), np.float64(12.86)]",10000
+variant_main,self,85,10,850,60,0.1176,0.0706,1.67,"[np.float64(0.74), np.float64(3.1)]",10000
+variant_k7,self,85,7,850,44,0.0824,0.0518,1.59,"[np.float64(0.54), np.float64(3.18)]",10000
+baseline_rate_main,self,85,2,850,26,0.0235,0.0306,0.77,"[np.float64(0.0), np.float64(2.31)]",10000
+baseline_rate_k7,self,85,2,850,16,0.0235,0.0188,1.25,"[np.float64(0.0), np.float64(4.0)]",10000
+baseline_015_w50,self,85,8,850,44,0.0941,0.0518,1.82,"[np.float64(0.68), np.float64(3.49)]",10000

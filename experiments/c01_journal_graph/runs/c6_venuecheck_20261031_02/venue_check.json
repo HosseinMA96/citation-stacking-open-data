@@ -1,0 +1,157 @@
+{
+  "rows": 107030533,
+  "formats": {
+    "bare_link": 75654386,
+    "empty": 18707891,
+    "bracket_omid": 12668256
+  },
+  "format_examples": {
+    "bracket_omid": [
+      "Acta Polymerica Sinica [omid:br/066046160 issn:1000-3304]",
+      "2017 IEEE International Conference On Robotics And Biomimetics (ROBIO) [omid:br/06602728822]",
+      "Plants [omid:br/068046248 issn:2223-7747 doi:10.3390/plants]"
+    ],
+    "bare_link": [],
+    "other": []
+  },
+  "formats_journal_articles": {
+    "bare_link": 64566267,
+    "bracket_omid": 10770391,
+    "empty": 1468201
+  },
+  "overlap": {
+    "distinct_venue_omids": 14023903,
+    "seen_in_bracket": 1376068,
+    "seen_as_link": 12668837,
+    "seen_both": 21002
+  },
+  "link_only_targets_by_type": {
+    "<no row>": 5533447,
+    "proceedings": 4546662,
+    "book": 2308424,
+    "reference book": 161096,
+    "journal": 72739,
+    "book series": 25235,
+    "series": 232
+  },
+  "journal_article_link_targets": [
+    {
+      "target_type": "<no row>",
+      "target_venue_format": "<no row>",
+      "articles": 57899535
+    },
+    {
+      "target_type": "journal",
+      "target_venue_format": "empty",
+      "articles": 6653491
+    },
+    {
+      "target_type": "journal",
+      "target_venue_format": "bare_link",
+      "articles": 12212
+    },
+    {
+      "target_type": "journal",
+      "target_venue_format": "bracket_omid",
+      "articles": 682
+    },
+    {
+      "target_type": "book series",
+      "target_venue_format": "empty",
+      "articles": 327
+    },
+    {
+      "target_type": "<no row>",
+      "target_venue_format": "empty",
+      "articles": 17
+    },
+    {
+      "target_type": "series",
+      "target_venue_format": "empty",
+      "articles": 3
+    }
+  ],
+  "link_target_examples": [],
+  "type_counts_all_rows": {
+    "journal article": 76804859,
+    "book chapter": 6867143,
+    "proceedings": 5408661,
+    "proceedings article": 5370804,
+    "book": 5090653,
+    "<null>": 3578123,
+    "dataset": 2011101,
+    "journal": 624129,
+    "web content": 455087,
+    "report": 300608,
+    "reference book": 206791,
+    "reference entry": 189218,
+    "dissertation": 46278,
+    "book series": 32975,
+    "standard": 14045,
+    "book section": 11452,
+    "series": 8968,
+    "peer_review": 4677,
+    "book part": 2633,
+    "computer program": 2277,
+    "book set": 47,
+    "data management plan": 4
+  },
+  "by_year_journal_articles": {
+    "2013": {
+      "rows": 2318424,
+      "venue_old_rule": 349027,
+      "venue_either_form": 2289020
+    },
+    "2014": {
+      "rows": 2416311,
+      "venue_old_rule": 350158,
+      "venue_either_form": 2383925
+    },
+    "2015": {
+      "rows": 2491441,
+      "venue_old_rule": 349034,
+      "venue_either_form": 2458537
+    },
+    "2016": {
+      "rows": 2589219,
+      "venue_old_rule": 373212,
+      "venue_either_form": 2555144
+    },
+    "2017": {
+      "rows": 2678188,
+      "venue_old_rule": 367897,
+      "venue_either_form": 2640806
+    },
+    "2018": {
+      "rows": 2814202,
+      "venue_old_rule": 405148,
+      "venue_either_form": 2772862
+    },
+    "2019": {
+      "rows": 2979780,
+      "venue_old_rule": 417563,
+      "venue_either_form": 2938358
+    },
+    "2020": {
+      "rows": 3287842,
+      "venue_old_rule": 455556,
+      "venue_either_form": 3241640
+    },
+    "2021": {
+      "rows": 3415671,
+      "venue_old_rule": 489950,
+      "venue_either_form": 3396061
+    },
+    "2022": {
+      "rows": 3287770,
+      "venue_old_rule": 452779,
+      "venue_either_form": 3277910
+    },
+    "2023": {
+      "rows": 2352802,
+      "venue_old_rule": 324427,
+      "venue_either_form": 2350703
+    }
+  },
+  "seconds": 188.1
+}

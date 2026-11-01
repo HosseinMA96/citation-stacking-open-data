@@ -1,0 +1,14 @@
+{
+  "run_id": "c13_strat_20261031_01",
+  "script": "c13_stratify.py",
+  "script_sha256": "f351f68939ce317009049a093a31205e8461807c573f3c4986c94eed2f22d829",
+  "anatomy_run": "c13_anatomy_20261031_01",
+  "src_run": "c6_full_20261031_02",
+  "same_block_share": {
+    "control_flagged": 0.0059,
+    "control_named": 0.0,
+    "flagged": 0.2788,
+    "named": 0.2
+  },
+  "python": "3.10.9"
+}

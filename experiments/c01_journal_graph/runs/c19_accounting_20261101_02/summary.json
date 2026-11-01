@@ -1,0 +1,19 @@
+{
+  "sensitivity_without_only_v2": {
+    "dropped_rows": [
+      "2018 Ophthalmic Epidemiology",
+      "2019 American Journal of Pharmaceutical Education",
+      "2019 Cognitive Computation",
+      "2019 Cognitive Neurodynamics",
+      "2019 Cognitive Neuropsychology",
+      "2019 International Journal of Systematic and Evolutionary Microbiology",
+      "2019 Journal of Human Evolution",
+      "2019 Journal of the Experimental Analysis of Behavior",
+      "2019 Zootaxa"
+    ],
+    "ranks_top5": "55/76",
+    "ranks_top1": "9/76",
+    "ranks_median_pct": 0.029745,
+    "fidelity_self_pass": "28/48"
+  }
+}

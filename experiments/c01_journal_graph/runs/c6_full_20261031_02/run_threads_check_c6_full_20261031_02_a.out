@@ -1,0 +1,57 @@
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/draw/cairo_draw.py:34: RuntimeWarning: Error importing cairo. Graph drawing will not work.
+  warnings.warn(msg, RuntimeWarning)
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/draw/cairo_draw.py:34: RuntimeWarning: Error importing cairo. Graph drawing will not work.
+  warnings.warn(msg, RuntimeWarning)
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/draw/cairo_draw.py:34: RuntimeWarning: Error importing cairo. Graph drawing will not work.
+  warnings.warn(msg, RuntimeWarning)
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/all.py:39: RuntimeWarning: Error importing draw module, proceeding nevertheless: No module named 'cairo'
+  warnings.warn(msg, RuntimeWarning)
+{
+ "run_id": "c6_full_20261031_02",
+ "seed": 4311,
+ "min_strength": 0,
+ "journal_rule": "main",
+ "rule": {
+  "type_journal": true,
+  "issn": true
+ },
+ "journals_in_rule": 92779,
+ "agg_edges_before_rule": 39508367,
+ "agg_weight_before_rule": 285746820,
+ "journals": 85437,
+ "edges": 20656119,
+ "weight": 258255814,
+ "self_loops": 37305,
+ "load_seconds": 7.6,
+ "input_sha256": "bc0fb8290f988cb6123595e26b73cef7f202379f17534985ccda0e8923be4615",
+ "graph_tool": "3.9",
+ "omp_threads": "1",
+ "blocks": 2675,
+ "description_length": 148601925.25725698,
+ "fit_seconds": 4565.7,
+ "peak_rss_mb": 15956.3,
+ "output_sha256": "0edc2ec19197b11d6b6c0b0a8b44d01617e8328938c50407410604d7723470ce"
+}
+	Command being timed: "/home/azureuser/mamba/envs/c-gt/bin/python c6_blocks.py --run-id c6_full_20261031_02 --journal-rule main --seed 4311 --tag main_s4311_t1a"
+	User time (seconds): 4384.90
+	System time (seconds): 189.78
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:16:27
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 16339216
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 344
+	Minor (reclaiming a frame) page faults: 91722801
+	Voluntary context switches: 3429
+	Involuntary context switches: 17943
+	Swaps: 0
+	File system inputs: 1324280
+	File system outputs: 1312
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,7 @@
+SUPERSEDED 2026-10-31. Kept unchanged as a record; do not use for analysis.
+The run completed (exit 0, all checksums OK), but the pubs stage read a venue only from the
+"Name [omid:br/... issn:...]" form. In the parsed pubs file, 64.6M of 76.8M journal articles give the
+venue as a bare link https://w3id.org/oc/meta/br/<id>, and for 57.9M of them that id has no row in
+the pubs file (most likely a journal issue or volume; the file has no issue/volume rows). The journal
+network here therefore covers a ~23% subset of journal articles (both_ends_journal = 1.9% of edges).
+Evidence: runs/c6_venuecheck_20261031_01 and _02 (script c6_venue_check.py). See RESULTS_LOG.md 2026-10-31.

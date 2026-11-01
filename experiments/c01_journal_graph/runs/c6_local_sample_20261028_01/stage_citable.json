@@ -1,0 +1,13 @@
+{
+  "rows": 10180,
+  "stage": "citable",
+  "seconds": 0.0,
+  "peak_rss_mb_so_far": 241.3,
+  "limits": {
+    "threads": 2,
+    "memory_limit": "1GB",
+    "temp_directory": "/home/hossein/Desktop/Stack of Software engineer/PAPER/Future_Research/C_citation_stacking/data/work/c6_local_sample_20261028_01/duckdb_tmp",
+    "max_temp_directory_size": "2GB"
+  },
+  "finished": "2026-10-28 20:15:51"
+}

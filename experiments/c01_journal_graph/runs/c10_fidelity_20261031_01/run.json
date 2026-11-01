@@ -1,0 +1,16 @@
+{
+  "run_id": "c10_fidelity_20261031_01",
+  "script": "c10_fidelity.py",
+  "script_sha256": "198de4f4b17fe762c5cbcf8c7631643202cc0589832ac489f3318625ef01a80e",
+  "config_sha256": "72864530c906616d53f583ee84b4465aed5b2195b1f2b8d07e646bede6a6b82c",
+  "suppressions_sha256": "40a37bb0ef80dddce2da945ab87efbebf3050a93b53072cf48d7e0b004d80a62",
+  "src_run": "c6_full_20261031_02",
+  "match_run": "c10_match_20261031_03",
+  "scores": {
+    "scores_main": "c9_scores_20261031_02",
+    "scores_sensitivity": "c9_scores_20261031_01"
+  },
+  "python": "3.10.9",
+  "duckdb": "1.5.6",
+  "pandas": "2.3.3"
+}

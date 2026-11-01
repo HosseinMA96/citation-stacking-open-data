@@ -1,0 +1,28 @@
+{
+  "run_id": "c10_fidelity_20261031_02",
+  "script": "c10_fidelity.py",
+  "script_sha256": "7bb247505e039355e8d2dacc025cf82302abc6c1795bb1b3cddd0938d99b147f",
+  "config_sha256": "72864530c906616d53f583ee84b4465aed5b2195b1f2b8d07e646bede6a6b82c",
+  "labels": "suppressions_v2.csv",
+  "labels_sha256": "58b9899765c5c4cf948ccf714452e1515a15834af314fbf768ec405e2e8d381c",
+  "fidelity_years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "src_run": "c6_full_20261031_02",
+  "match_run": "c10_match_20261031_05",
+  "scores": {
+    "scores_main": "c9_scores_20261031_02",
+    "scores_sensitivity": "c9_scores_20261031_01"
+  },
+  "python": "3.10.9",
+  "duckdb": "1.5.6",
+  "pandas": "2.3.3"
+}

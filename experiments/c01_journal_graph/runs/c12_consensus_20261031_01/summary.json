@@ -1,0 +1,42 @@
+{
+  "flagged_journal_years_by_k": {
+    "1": 2843,
+    "4": 1609,
+    "7": 958
+  },
+  "stacking_no_design": [
+    {
+      "min_partitions": 1,
+      "base_rate": 0.05393,
+      "base_flagged": 1597,
+      "listed": 28,
+      "listed_flagged": 10,
+      "listed_rate": 0.3571,
+      "enrichment": 6.62,
+      "p_one_sided": 1.1094037219435597e-06,
+      "listed_flagged_before_first_listing": 8
+    },
+    {
+      "min_partitions": 4,
+      "base_rate": 0.03485,
+      "base_flagged": 1032,
+      "listed": 28,
+      "listed_flagged": 10,
+      "listed_rate": 0.3571,
+      "enrichment": 10.25,
+      "p_one_sided": 1.9463541766118117e-08,
+      "listed_flagged_before_first_listing": 7
+    },
+    {
+      "min_partitions": 7,
+      "base_rate": 0.0231,
+      "base_flagged": 684,
+      "listed": 28,
+      "listed_flagged": 9,
+      "listed_rate": 0.3214,
+      "enrichment": 13.91,
+      "p_one_sided": 8.683587891411982e-09,
+      "listed_flagged_before_first_listing": 5
+    }
+  ]
+}

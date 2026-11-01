@@ -1,0 +1,7 @@
+2026-10-31T06:21:54Z auto-shutdown moved 0700->0930 UTC for the seed fits (restore after)
+2026-10-31T07:55:48Z auto-shutdown restored to 0700 UTC after seed fits
+2026-10-31T14:21:33Z start: 6c single-thread check (run_threads_check.sh)
+2026-10-31T14:29:19Z start: c9_scores_20261031_01 on the VM (tmux c9, 5 threads, 18GB) alongside the 1-thread fits
+2026-10-31T15:40:34Z 6c fits collected; VM deallocated
+2026-10-31T16:23:19Z C12/C12b runs done; VM deallocated
+2026-10-31T21:53:39Z R2/R6 done; VM deallocated

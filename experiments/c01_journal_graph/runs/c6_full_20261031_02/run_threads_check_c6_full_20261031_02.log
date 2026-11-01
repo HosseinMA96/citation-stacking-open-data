@@ -1,0 +1,7 @@
+2026-10-31T14:21:02Z start c6_full_20261031_02 rule main seed 4311; gt threads 1; two fits side by side
+2026-10-31T14:21:02Z main_s4311_t1b: start
+2026-10-31T14:21:02Z main_s4311_t1a: start
+2026-10-31T15:37:29Z main_s4311_t1a: done, exit 0
+2026-10-31T15:38:11Z main_s4311_t1b: done, exit 0
+2026-10-31T15:38:11Z all done
+2026-10-31T15:38:11Z run_threads_check exit code 0

@@ -1,0 +1,28 @@
+% Central Paper C content (journal-neutral). Edit here; journal wrappers in ../journals/ only \input these files.
+% Every number traces to ../../FINDINGS.md.
+\section{Related work}\label{sec:related}
+
+\paragraph{Journal self-citation and citation stacking.}
+Coercive and excessive journal self-citation have been documented by surveys and large-scale analyses
+\citep{wilhite2012coercive,chorus2016coercive,taskin2021selfcitation}. Heneberg traced how excessive self-citation can
+shift into citation stacking between journals \citep{heneberg2016stacking}, and a Brazilian citation scheme drew wide
+attention to stacking in 2013 \citep{vannoorden2013brazil}. Repeated suppressions from the Journal Citation Reports
+have been analysed bibliometrically \citep{moussa2022suppressed}.
+
+\paragraph{Detecting anomalous citation groups.}
+\citet{fister2016cartels} proposed searching citation networks for cartels, and unsupervised anomaly
+detection has been applied to journal-level networks \citep{jolly2020anomaly}. CIDRE \citep{kojaku2021cidre} is the
+reference method for journal groups validated against Clarivate's decisions. Paper-level approaches use graph learning
+\citep{liu2022tnnls}, and recent work combines journal and paper levels in heterogeneous graphs \citep{liu2026isf}.
+\citet{barnes2026distance} show that journals flagged in the Journal Citation Reports receive citations from closer parts of the
+journal network.
+
+\paragraph{Open data.}
+Coverage of OpenCitations and other open sources has been compared with commercial indexes
+\citep{martinmartin2021coverage,visser2021comparison,culbert2025openalex}, but not, to our knowledge, in terms of what it
+means for detecting citation manipulation. Concurrent work by \citet{zhang2026openalex}, released as a dataset
+with code, compares 15 detection methods on OpenAlex for 1,057 journals in chemistry, materials science and
+nanoscience, using 16 Clarivate stacking pairs from 2018--2025. We differ in data source (OpenCitations), scope (all
+fields), the fidelity audit against Clarivate's published figures, the coverage diagnosis, and the analysis of
+CIDRE's mechanism.
+

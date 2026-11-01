@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "scores_main": "c9_scores_20261031_02",
+    "scores_sensitivity": "c9_scores_20261031_01",
+    "min_citable": 20,
+    "min_citable_sensitivity": [
+      10,
+      50
+    ],
+    "min_num": 20,
+    "pass_abs_pp": 10,
+    "pass_top_share": 0.01
+  },
+  "fidelity_pass": {
+    "pairs (counting-independent)": "1/2",
+    "scores_main": "5/9",
+    "scores_sensitivity": "5/9"
+  },
+  "checkpoint_2020": {
+    "journals": 8,
+    "rank_top": 0,
+    "signal": false
+  },
+  "ranks_top_by_year_main": {
+    "2020": "0/8",
+    "2022": "0/1",
+    "2023": "1/2"
+  }
+}

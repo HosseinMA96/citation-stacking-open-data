@@ -1,0 +1,27 @@
+{"t": 2020, "tag": "main", "journals": 85437, "edges": 3651746, "weight": 15361187.0, "groups": 27, "seconds": 35.8, "peak_rss_mb": 15208.7}
+      t   tag                               recipient                                   donor  detected groups
+0  2020  main  Archivos Latinoamericanos de Nutricion  Journal of Intelligent & Fuzzy Systems     False       
+1  2020  main                       Materials Express  Nanoscience and Nanotechnology Letters     False       
+	Command being timed: "/home/azureuser/mamba/envs/c-gt/bin/python c12_cidre.py --src c6_full_20261031_02 --match c10_match_20261031_03 --years 2020 --tags main --run-id c12_cidre_20261031_01"
+	User time (seconds): 29.98
+	System time (seconds): 8.00
+	Percent of CPU this job got: 102%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:37.22
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 15573748
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 2354929
+	Voluntary context switches: 3030
+	Involuntary context switches: 206
+	Swaps: 0
+	File system inputs: 2296312
+	File system outputs: 80
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

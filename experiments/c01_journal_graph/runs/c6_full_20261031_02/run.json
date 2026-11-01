@@ -1,0 +1,285 @@
+{
+  "run_id": "c6_full_20261031_02",
+  "script": "c6_full_run.py",
+  "stages": {
+    "inputs": {
+      "edges": {
+        "path": "/home/azureuser/c/data/raw/open_citations_jan2024_iid_el.csv.gz",
+        "bytes": 14309784846,
+        "sha256": "40faa8bb7762f0042e5e901278cc2269e43a5cb28fada1e093ed254a0df66ca7"
+      },
+      "pubs": {
+        "path": "/home/azureuser/c/data/raw/open_citations_jan2024_pubs.csv.gz",
+        "bytes": 9064662339,
+        "sha256": "c071228e4d4f5dfca381c7d32f986dad87bf0712b1b039fd6afb314d0a921e14"
+      },
+      "meta": {
+        "path": "/home/azureuser/c/data/raw/meta_csv",
+        "files": 28255,
+        "bytes": 47856709624,
+        "sha256_of_per_file_sha256": "2260c33579ffa6a1dad22f8afb7fa124f2c9614b5ec9037cbb07fb1f79ddb126"
+      },
+      "config_sha256": "afa5f5f3d1a0777cb3b710219e1109f26a04fc6c9e7c7eb2c8553cbc0936767c",
+      "python": "3.11.18",
+      "duckdb": "1.5.6",
+      "stage": "inputs",
+      "seconds": 236.8,
+      "peak_rss_mb_so_far": 178.5,
+      "limits": {
+        "threads": 8,
+        "memory_limit": "48GB",
+        "temp_directory": "/home/azureuser/c/data/work/c6_full_20261031_02/duckdb_tmp",
+        "max_temp_directory_size": "150GB"
+      },
+      "finished": "2026-10-31 04:17:18"
+    },
+    "meta": {
+      "used": true,
+      "rows": 107067700,
+      "with_omid": 107067700,
+      "distinct_omid": 107067700,
+      "with_venue_omid": 88323047,
+      "distinct_venue_omid": 9238083,
+      "with_issn": 75918803,
+      "omids_with_several_venues": 0,
+      "parse_rejects": 0,
+      "output": "/home/azureuser/c/data/work/c6_full_20261031_02/meta_venue.parquet",
+      "output_bytes": 766926872,
+      "stage": "meta",
+      "seconds": 77.8,
+      "peak_rss_mb_so_far": 29063.2,
+      "limits": {
+        "threads": 8,
+        "memory_limit": "48GB",
+        "temp_directory": "/home/azureuser/c/data/work/c6_full_20261031_02/duckdb_tmp",
+        "max_temp_directory_size": "150GB"
+      },
+      "finished": "2026-10-31 04:18:36"
+    },
+    "pubs": {
+      "rows": 107030533,
+      "distinct_iid": 107030533,
+      "bad_iid": 0,
+      "with_year": 94207184,
+      "with_venue_omid": 87072784,
+      "with_issn": 74943795,
+      "parse_rejects": 0,
+      "reject_examples": [],
+      "type_counts": {
+        "journal article": 76804859,
+        "book chapter": 6867143,
+        "proceedings": 5408661,
+        "proceedings article": 5370804,
+        "book": 5090653,
+        "<null>": 3578123,
+        "dataset": 2011101,
+        "journal": 624129,
+        "web content": 455087,
+        "report": 300608,
+        "reference book": 206791,
+        "reference entry": 189218,
+        "dissertation": 46278,
+        "book series": 32975,
+        "standard": 14045,
+        "book section": 11452,
+        "series": 8968,
+        "peer_review": 4677,
+        "book part": 2633,
+        "computer program": 2277,
+        "book set": 47,
+        "data management plan": 4
+      },
+      "venue_source": {
+        "all_rows": {
+          "meta": 86684382,
+          "none": 19957749,
+          "pubs_bracket": 388402
+        },
+        "journal_articles": {
+          "meta": 72720703,
+          "none": 3695762,
+          "pubs_bracket": 388394
+        },
+        "journal_articles_omid_in_meta": 72720703,
+        "rows_meta_vs_bracket_disagree": 212519
+      },
+      "output": "/home/azureuser/c/data/work/c6_full_20261031_02/pubs_slim.parquet",
+      "output_bytes": 848509089,
+      "stage": "pubs",
+      "seconds": 143.2,
+      "peak_rss_mb_so_far": 29063.2,
+      "limits": {
+        "threads": 8,
+        "memory_limit": "48GB",
+        "temp_directory": "/home/azureuser/c/data/work/c6_full_20261031_02/duckdb_tmp",
+        "max_temp_directory_size": "150GB"
+      },
+      "finished": "2026-10-31 04:20:59"
+    },
+    "journals": {
+      "venue_omids": 9007672,
+      "journals": 9006164,
+      "journals_from_merged_omids": 963,
+      "omids_in_merged_journals": 2471,
+      "largest_merge": 50,
+      "output": "/home/azureuser/c/data/work/c6_full_20261031_02/pubs_j.parquet",
+      "stage": "journals",
+      "seconds": 380.9,
+      "peak_rss_mb_so_far": 29063.2,
+      "limits": {
+        "threads": 8,
+        "memory_limit": "48GB",
+        "temp_directory": "/home/azureuser/c/data/work/c6_full_20261031_02/duckdb_tmp",
+        "max_temp_directory_size": "150GB"
+      },
+      "finished": "2026-10-31 04:27:20"
+    },
+    "edges": {
+      "rows": 1962840983,
+      "output": "/home/azureuser/c/data/work/c6_full_20261031_02/edges.parquet",
+      "output_bytes": 12062784637,
+      "stage": "edges",
+      "seconds": 161.2,
+      "peak_rss_mb_so_far": 29063.2,
+      "limits": {
+        "threads": 8,
+        "memory_limit": "48GB",
+        "temp_directory": "/home/azureuser/c/data/work/c6_full_20261031_02/duckdb_tmp",
+        "max_temp_directory_size": "150GB"
+      },
+      "finished": "2026-10-31 04:30:01"
+    },
+    "coverage": {
+      "edges": 1962840983,
+      "both_ends_journal": 1737256883,
+      "share_both_ends_journal": 0.885073,
+      "stage": "coverage",
+      "seconds": 63.5,
+      "peak_rss_mb_so_far": 29063.2,
+      "limits": {
+        "threads": 8,
+        "memory_limit": "48GB",
+        "temp_directory": "/home/azureuser/c/data/work/c6_full_20261031_02/duckdb_tmp",
+        "max_temp_directory_size": "150GB"
+      },
+      "finished": "2026-10-31 04:31:05"
+    },
+    "pairs": {
+      "rows": 295796747,
+      "eff": 295254339,
+      "prev": 1724170877,
+      "eff_self": 28993648,
+      "eff_citing_without_journal": 9507519,
+      "t_min": 1800,
+      "t_max": 9999,
+      "by_year_2010_2024": {
+        "2010": {
+          "pairs": 8325893,
+          "eff": 7320617
+        },
+        "2011": {
+          "pairs": 9148196,
+          "eff": 8011832
+        },
+        "2012": {
+          "pairs": 10164665,
+          "eff": 8511174
+        },
+        "2013": {
+          "pairs": 11122511,
+          "eff": 9226509
+        },
+        "2014": {
+          "pairs": 12211710,
+          "eff": 9888022
+        },
+        "2015": {
+          "pairs": 13010945,
+          "eff": 10494873
+        },
+        "2016": {
+          "pairs": 14480544,
+          "eff": 11217130
+        },
+        "2017": {
+          "pairs": 15537364,
+          "eff": 11959691
+        },
+        "2018": {
+          "pairs": 16610729,
+          "eff": 12968122
+        },
+        "2019": {
+          "pairs": 19026904,
+          "eff": 16539561
+        },
+        "2020": {
+          "pairs": 21160090,
+          "eff": 19967082
+        },
+        "2021": {
+          "pairs": 23802546,
+          "eff": 24858457
+        },
+        "2022": {
+          "pairs": 25314822,
+          "eff": 24662422
+        },
+        "2023": {
+          "pairs": 18987776,
+          "eff": 17021651
+        },
+        "2024": {
+          "pairs": 123794,
+          "eff": 62228
+        }
+      },
+      "output_bytes": 2169056883,
+      "jcr_years_rows": 167931720,
+      "jcr_years_bytes": 1174793853,
+      "stage": "pairs",
+      "seconds": 180.4,
+      "peak_rss_mb_so_far": 47630.7,
+      "limits": {
+        "threads": 8,
+        "memory_limit": "48GB",
+        "temp_directory": "/home/azureuser/c/data/work/c6_full_20261031_02/duckdb_tmp",
+        "max_temp_directory_size": "150GB"
+      },
+      "finished": "2026-10-31 04:34:05"
+    },
+    "citable": {
+      "rows": 9251126,
+      "stage": "citable",
+      "seconds": 1.6,
+      "peak_rss_mb_so_far": 47630.7,
+      "limits": {
+        "threads": 8,
+        "memory_limit": "48GB",
+        "temp_directory": "/home/azureuser/c/data/work/c6_full_20261031_02/duckdb_tmp",
+        "max_temp_directory_size": "150GB"
+      },
+      "finished": "2026-10-31 04:34:07"
+    },
+    "agg": {
+      "aggregate_years": "all",
+      "edges": 39508367,
+      "weight": 285746820.0,
+      "citing_journals": 3761337,
+      "cited_journals": 2712341,
+      "self_loops": 38758,
+      "stage": "agg",
+      "seconds": 4.1,
+      "peak_rss_mb_so_far": 47630.7,
+      "limits": {
+        "threads": 8,
+        "memory_limit": "48GB",
+        "temp_directory": "/home/azureuser/c/data/work/c6_full_20261031_02/duckdb_tmp",
+        "max_temp_directory_size": "150GB"
+      },
+      "finished": "2026-10-31 04:34:11"
+    }
+  },
+  "total_seconds_this_session": 1249.6,
+  "peak_rss_mb": 47630.7
+}

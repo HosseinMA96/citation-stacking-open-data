@@ -1,0 +1,147 @@
+{
+  "run_id": "cidre_toy_20261028_01",
+  "script": "cidre_toy_check.py",
+  "seed": 4311,
+  "cidre_version": "0.0.1",
+  "networkx": "3.4.2",
+  "toy": {
+    "N": 200,
+    "K": 4,
+    "total_citations": 12344.0,
+    "planted": {
+      "cartel": [
+        5,
+        60,
+        115
+      ],
+      "decoy": [
+        10,
+        160
+      ],
+      "small": [
+        20,
+        130
+      ]
+    }
+  },
+  "checks": {
+    "package_runs_unpatched": false,
+    "package_error": "module 'networkx' has no attribute 'from_scipy_sparse_matrix'",
+    "wrapper_equals_package_without_extras": true,
+    "package_groups": [
+      [
+        5,
+        60,
+        115
+      ],
+      [
+        10,
+        160
+      ]
+    ],
+    "pvalues_match_eq5_eq6_max_abs_diff": 1.1102230246251565e-15,
+    "paper_setup": {
+      "groups": [
+        [
+          5,
+          60,
+          115
+        ]
+      ],
+      "within_citations": [
+        340.0
+      ],
+      "seconds": 0.01,
+      "cartel_detected": true,
+      "decoy_detected": false,
+      "small_detected": false
+    },
+    "no_condition1": {
+      "groups": [
+        [
+          5,
+          60,
+          115
+        ],
+        [
+          10,
+          160
+        ]
+      ],
+      "within_citations": [
+        340.0,
+        150.0
+      ],
+      "seconds": 0.007,
+      "cartel_detected": true,
+      "decoy_detected": true,
+      "small_detected": false
+    },
+    "no_theta_w": {
+      "groups": [
+        [
+          5,
+          60,
+          115
+        ]
+      ],
+      "within_citations": [
+        340.0
+      ],
+      "seconds": 0.006,
+      "cartel_detected": true,
+      "decoy_detected": false,
+      "small_detected": false
+    },
+    "single_block_null": {
+      "groups": [
+        [
+          5,
+          60,
+          115
+        ],
+        [
+          6,
+          13,
+          16,
+          28,
+          35,
+          43,
+          45
+        ],
+        [
+          54,
+          55,
+          61,
+          65,
+          72,
+          88,
+          97,
+          99
+        ],
+        [
+          152,
+          159,
+          163,
+          171,
+          183,
+          186,
+          193
+        ]
+      ],
+      "within_citations": [
+        340.0,
+        222.0,
+        255.0,
+        133.0
+      ],
+      "seconds": 0.009,
+      "cartel_detected": true,
+      "decoy_detected": false,
+      "small_detected": false
+    },
+    "paper_setup_as_expected": true,
+    "condition1_excludes_decoy": true,
+    "theta_w_removes_small": false
+  }
+}

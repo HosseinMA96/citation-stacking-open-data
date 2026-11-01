@@ -1,0 +1,37 @@
+{
+  "n_flagged": 226,
+  "n_control": 226,
+  "publisher_found_share": 0.9624,
+  "I1_listed": {
+    "flagged": "40/226",
+    "control": "0/226",
+    "flagged_share": 0.177,
+    "control_share": 0.0,
+    "odds_ratio": Infinity,
+    "fisher_p": 2.7375405625418204e-13
+  },
+  "I2_same_publisher": {
+    "flagged": "47/226",
+    "control": "13/226",
+    "flagged_share": 0.208,
+    "control_share": 0.0575,
+    "odds_ratio": 4.3021057155135365,
+    "fisher_p": 2.8300644456644816e-06
+  },
+  "I3_concentrated": {
+    "flagged": "13/226",
+    "control": "0/226",
+    "flagged_share": 0.0575,
+    "control_share": 0.0,
+    "odds_ratio": Infinity,
+    "fisher_p": 0.00020443423245432651
+  },
+  "any": {
+    "flagged": "85/226",
+    "control": "13/226",
+    "flagged_share": 0.3761,
+    "control_share": 0.0575,
+    "odds_ratio": 9.877250409165303,
+    "fisher_p": 2.7250523958883422e-17
+  }
+}

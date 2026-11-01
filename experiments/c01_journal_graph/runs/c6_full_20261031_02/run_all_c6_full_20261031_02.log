@@ -1,0 +1,53 @@
+2026-10-31T04:13:21Z start c6_full_20261031_02; threads 8, mem 48GB, gt threads 8
+[2026-10-31 04:13:21] start run c6_full_20261031_02; limits {'threads': 8, 'memory_limit': '48GB', 'temp_directory': '/home/azureuser/c/data/work/c6_full_20261031_02/duckdb_tmp', 'max_temp_directory_size': '150GB'}; work /home/azureuser/c/data/work/c6_full_20261031_02
+[2026-10-31 04:13:21] stage inputs: start
+[2026-10-31 04:17:18] stage inputs: done in 236.8 s; {"edges": {"path": "/home/azureuser/c/data/raw/open_citations_jan2024_iid_el.csv.gz", "bytes": 14309784846, "sha256": "40faa8bb7762f0042e5e901278cc2269e43a5cb28fada1e093ed254a0df66ca7"}, "pubs": {"path": "/home/azureuser/c/data/raw/open_citations_jan2024_pubs.csv.gz", "bytes": 9064662339, "sha256": "c071228e4d4f5dfca381c7d32f986dad87bf0712b1b039fd6afb314d0a921e14"}, "meta": {"path": "/home/azureuser/c/data/raw/meta_csv", "files": 28255, "bytes": 47856709624, "sha256_of_per_file_sha256": "2260c33579ffa6a1dad22f8afb7fa124f2c9614b5ec9037cbb07fb1f79ddb126"}, "config_sha256": "afa5f5f3d1a0777cb3b71
+[2026-10-31 04:17:18] stage meta: start
+[2026-10-31 04:18:36] stage meta: done in 77.8 s; {"used": true, "rows": 107067700, "with_omid": 107067700, "distinct_omid": 107067700, "with_venue_omid": 88323047, "distinct_venue_omid": 9238083, "with_issn": 75918803, "omids_with_several_venues": 0, "parse_rejects": 0, "output": "/home/azureuser/c/data/work/c6_full_20261031_02/meta_venue.parquet", "output_bytes": 766926872, "stage": "meta", "seconds": 77.8, "peak_rss_mb_so_far": 29063.2, "limits": {"threads": 8, "memory_limit": "48GB", "temp_directory": "/home/azureuser/c/data/work/c6_full_20261031_02/duckdb_tmp", "max_temp_directory_size": "150GB"}, "finished": "2026-10-31 04:18:36"}
+[2026-10-31 04:18:36] stage pubs: start
+[2026-10-31 04:20:59] stage pubs: done in 143.2 s; {"rows": 107030533, "distinct_iid": 107030533, "bad_iid": 0, "with_year": 94207184, "with_venue_omid": 87072784, "with_issn": 74943795, "parse_rejects": 0, "reject_examples": [], "type_counts": {"journal article": 76804859, "book chapter": 6867143, "proceedings": 5408661, "proceedings article": 5370804, "book": 5090653, "<null>": 3578123, "dataset": 2011101, "journal": 624129, "web content": 455087, "report": 300608, "reference book": 206791, "reference entry": 189218, "dissertation": 46278, "book series": 32975, "standard": 14045, "book section": 11452, "series": 8968, "peer_review": 4677, "b
+[2026-10-31 04:20:59] stage journals: start
+[2026-10-31 04:27:20] stage journals: done in 380.9 s; {"venue_omids": 9007672, "journals": 9006164, "journals_from_merged_omids": 963, "omids_in_merged_journals": 2471, "largest_merge": 50, "output": "/home/azureuser/c/data/work/c6_full_20261031_02/pubs_j.parquet", "stage": "journals", "seconds": 380.9, "peak_rss_mb_so_far": 29063.2, "limits": {"threads": 8, "memory_limit": "48GB", "temp_directory": "/home/azureuser/c/data/work/c6_full_20261031_02/duckdb_tmp", "max_temp_directory_size": "150GB"}, "finished": "2026-10-31 04:27:20"}
+[2026-10-31 04:27:20] stage edges: start
+[2026-10-31 04:30:01] stage edges: done in 161.2 s; {"rows": 1962840983, "output": "/home/azureuser/c/data/work/c6_full_20261031_02/edges.parquet", "output_bytes": 12062784637, "stage": "edges", "seconds": 161.2, "peak_rss_mb_so_far": 29063.2, "limits": {"threads": 8, "memory_limit": "48GB", "temp_directory": "/home/azureuser/c/data/work/c6_full_20261031_02/duckdb_tmp", "max_temp_directory_size": "150GB"}, "finished": "2026-10-31 04:30:01"}
+[2026-10-31 04:30:01] stage coverage: start
+[2026-10-31 04:31:05] stage coverage: done in 63.5 s; {"edges": 1962840983, "both_ends_journal": 1737256883, "share_both_ends_journal": 0.885073, "stage": "coverage", "seconds": 63.5, "peak_rss_mb_so_far": 29063.2, "limits": {"threads": 8, "memory_limit": "48GB", "temp_directory": "/home/azureuser/c/data/work/c6_full_20261031_02/duckdb_tmp", "max_temp_directory_size": "150GB"}, "finished": "2026-10-31 04:31:05"}
+[2026-10-31 04:31:05] stage pairs: start
+[2026-10-31 04:34:05] stage pairs: done in 180.4 s; {"rows": 295796747, "eff": 295254339, "prev": 1724170877, "eff_self": 28993648, "eff_citing_without_journal": 9507519, "t_min": 1800, "t_max": 9999, "by_year_2010_2024": {"2010": {"pairs": 8325893, "eff": 7320617}, "2011": {"pairs": 9148196, "eff": 8011832}, "2012": {"pairs": 10164665, "eff": 8511174}, "2013": {"pairs": 11122511, "eff": 9226509}, "2014": {"pairs": 12211710, "eff": 9888022}, "2015": {"pairs": 13010945, "eff": 10494873}, "2016": {"pairs": 14480544, "eff": 11217130}, "2017": {"pairs": 15537364, "eff": 11959691}, "2018": {"pairs": 16610729, "eff": 12968122}, "2019": {"pairs": 1902
+[2026-10-31 04:34:05] stage citable: start
+[2026-10-31 04:34:07] stage citable: done in 1.6 s; {"rows": 9251126, "stage": "citable", "seconds": 1.6, "peak_rss_mb_so_far": 47630.7, "limits": {"threads": 8, "memory_limit": "48GB", "temp_directory": "/home/azureuser/c/data/work/c6_full_20261031_02/duckdb_tmp", "max_temp_directory_size": "150GB"}, "finished": "2026-10-31 04:34:07"}
+[2026-10-31 04:34:07] stage agg: start
+[2026-10-31 04:34:11] stage agg: done in 4.1 s; {"aggregate_years": "all", "edges": 39508367, "weight": 285746820.0, "citing_journals": 3761337, "cited_journals": 2712341, "self_loops": 38758, "stage": "agg", "seconds": 4.1, "peak_rss_mb_so_far": 47630.7, "limits": {"threads": 8, "memory_limit": "48GB", "temp_directory": "/home/azureuser/c/data/work/c6_full_20261031_02/duckdb_tmp", "max_temp_directory_size": "150GB"}, "finished": "2026-10-31 04:34:11"}
+[2026-10-31 04:34:12] run complete; peak RSS 47630.7 MB
+	Command being timed: "/home/azureuser/mamba/envs/c-gt/bin/python c6_full_run.py --run-id c6_full_20261031_02 --edges /home/azureuser/c/data/raw/open_citations_jan2024_iid_el.csv.gz --pubs /home/azureuser/c/data/raw/open_citations_jan2024_pubs.csv.gz --meta /home/azureuser/c/data/raw/meta_csv"
+	User time (seconds): 3369.56
+	System time (seconds): 160.61
+	Percent of CPU this job got: 281%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 20:51.95
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 48773884
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 166
+	Minor (reclaiming a frame) page faults: 39925443
+	Voluntary context switches: 107567
+	Involuntary context switches: 37543
+	Swaps: 0
+	File system inputs: 114145272
+	File system outputs: 63541920
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/draw/cairo_draw.py:34: RuntimeWarning: Error importing cairo. Graph drawing will not work.
+  warnings.warn(msg, RuntimeWarning)
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/draw/cairo_draw.py:34: RuntimeWarning: Error importing cairo. Graph drawing will not work.
+  warnings.warn(msg, RuntimeWarning)
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/draw/cairo_draw.py:34: RuntimeWarning: Error importing cairo. Graph drawing will not work.
+  warnings.warn(msg, RuntimeWarning)
+/home/azureuser/mamba/envs/c-gt/lib/python3.11/site-packages/graph_tool/all.py:39: RuntimeWarning: Error importing draw module, proceeding nevertheless: No module named 'cairo'
+  warnings.warn(msg, RuntimeWarning)
+2026-10-31T04:45:49Z block fit stopped by hand (network includes non-journal venues; see RESULTS_LOG)

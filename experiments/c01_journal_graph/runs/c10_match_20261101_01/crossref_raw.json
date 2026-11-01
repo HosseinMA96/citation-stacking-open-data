@@ -1,0 +1,7522 @@
+{
+ "ALEX ENG J": [],
+ "ARCH GERONTOL GERIAT": [
+  {
+   "last-status-check-time": 1791253296339,
+   "counts": {
+    "current-dois": 6,
+    "backfile-dois": 22,
+    "total-dois": 28
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2020,
+      13
+     ],
+     [
+      2023,
+      5
+     ],
+     [
+      2024,
+      3
+     ],
+     [
+      2021,
+      3
+     ],
+     [
+      2025,
+      2
+     ],
+     [
+      2026,
+      1
+     ],
+     [
+      2022,
+      1
+     ]
+    ]
+   },
+   "publisher": "Peertechz Publications Private Limited",
+   "coverage": {
+    "affiliations-current": 0.0,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 0.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 0.7727272727272727,
+    "funders-current": 0.0,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 0.0,
+    "orcids-backfile": 0.1818181818181818,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 1.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.8333333333333333,
+    "similarity-checking-backfile": 0.7727272727272727,
+    "references-backfile": 0.9545454545454545,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 1.0,
+    "licenses-current": 0.0,
+    "award-numbers-current": 0.0,
+    "abstracts-backfile": 0.2727272727272727,
+    "resource-links-current": 0.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 1.0,
+    "references-current": 0.6666666666666667
+   },
+   "title": "Archive of Gerontology and Geriatrics Research",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791253296339,
+     "affiliations": 0.0,
+     "abstracts": 0.4137931034482759,
+     "orcids": 0.3103448275862069,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.5862068965517241,
+     "references": 0.8620689655172414,
+     "funders": 0.0,
+     "similarity-checking": 0.5862068965517241,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.9655172413793103,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791253296339,
+     "affiliations": 0.0,
+     "abstracts": 0.2727272727272727,
+     "orcids": 0.1818181818181818,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.7727272727272727,
+     "references": 0.9545454545454545,
+     "funders": 0.0,
+     "similarity-checking": 0.7727272727272727,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 1.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791253296339,
+     "affiliations": 0.0,
+     "abstracts": 1.0,
+     "orcids": 0.8333333333333333,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.6666666666666667,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 1.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": true,
+    "deposits-orcids-current": true,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": true,
+    "deposits-similarity-checking-backfile": true,
+    "deposits-award-numbers-current": false,
+    "deposits-resource-links-current": false,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": true,
+    "deposits-affiliations-current": false,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": false,
+    "deposits-references-backfile": true,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": true,
+    "deposits-licenses-backfile": true,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": true,
+    "deposits-resource-links-backfile": false,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": true,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": true,
+    "deposits-similarity-checking-current": false,
+    "deposits-licenses-current": false
+   },
+   "ISSN": [
+    "2690-0807"
+   ],
+   "issn-type": [
+    {
+     "type": "electronic",
+     "value": "2690-0807"
+    }
+   ]
+  },
+  {
+   "last-status-check-time": 1793377648818,
+   "counts": {
+    "current-dois": 992,
+    "backfile-dois": 5363,
+    "total-dois": 6355
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2024,
+      336
+     ],
+     [
+      2025,
+      332
+     ],
+     [
+      2012,
+      308
+     ],
+     [
+      2026,
+      297
+     ],
+     [
+      2023,
+      277
+     ],
+     [
+      2020,
+      266
+     ],
+     [
+      2009,
+      252
+     ],
+     [
+      2011,
+      241
+     ],
+     [
+      2021,
+      238
+     ],
+     [
+      2022,
+      218
+     ],
+     [
+      2010,
+      205
+     ],
+     [
+      2018,
+      203
+     ],
+     [
+      2019,
+      182
+     ],
+     [
+      2017,
+      178
+     ],
+     [
+      2014,
+      175
+     ],
+     [
+      2015,
+      171
+     ],
+     [
+      2016,
+      166
+     ],
+     [
+      1996,
+      165
+     ],
+     [
+      2013,
+      153
+     ],
+     [
+      2004,
+      144
+     ],
+     [
+      2007,
+      136
+     ],
+     [
+      1998,
+      126
+     ],
+     [
+      2002,
+      122
+     ],
+     [
+      2001,
+      120
+     ],
+     [
+      1992,
+      105
+     ],
+     [
+      1994,
+      96
+     ],
+     [
+      2008,
+      83
+     ],
+     [
+      1995,
+      79
+     ],
+     [
+      1990,
+      79
+     ],
+     [
+      2005,
+      78
+     ],
+     [
+      1997,
+      78
+     ],
+     [
+      2006,
+      76
+     ],
+     [
+      1989,
+      74
+     ],
+     [
+      2003,
+      68
+     ],
+     [
+      2000,
+      67
+     ],
+     [
+      1991,
+      62
+     ],
+     [
+      1993,
+      52
+     ],
+     [
+      1985,
+      48
+     ],
+     [
+      1999,
+      44
+     ],
+     [
+      1986,
+      43
+     ],
+     [
+      1987,
+      42
+     ],
+     [
+      1982,
+      40
+     ],
+     [
+      1984,
+      39
+     ],
+     [
+      1983,
+      33
+     ],
+     [
+      1988,
+      31
+     ],
+     [
+      2027,
+      27
+     ]
+    ]
+   },
+   "publisher": "Elsevier",
+   "coverage": {
+    "affiliations-current": 0.0,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 0.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.001008064516129032,
+    "funders-backfile": 0.1786313630430729,
+    "licenses-backfile": 0.9798620175275033,
+    "funders-current": 0.5231854838709677,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 1.0,
+    "orcids-backfile": 0.1348126048853254,
+    "funder-ror-ids-current": 0.001008064516129032,
+    "update-policies-current": 1.0,
+    "ror-ids-backfile": 0.001305239604698863,
+    "orcids-current": 0.6985887096774194,
+    "similarity-checking-backfile": 0.0,
+    "references-backfile": 0.885698303188514,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.1046056311765803,
+    "update-policies-backfile": 0.4089129218720865,
+    "licenses-current": 1.0,
+    "award-numbers-current": 0.3669354838709677,
+    "abstracts-backfile": 0.0,
+    "resource-links-current": 1.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.001305239604698863,
+    "abstracts-current": 0.0,
+    "references-current": 0.9576612903225806
+   },
+   "title": "Archives of Gerontology and Geriatrics",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1793377648818,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.222816679779701,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.9830055074744296,
+     "references": 0.8969315499606609,
+     "funders": 0.2324154209284028,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.001258851298190401,
+     "award-numbers": 0.1455546813532651,
+     "ror-ids": 0.001258851298190401,
+     "update-policies": 0.5011801730920535,
+     "resource-links": 1.0,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1793377648818,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.1348126048853254,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.9798620175275033,
+     "references": 0.885698303188514,
+     "funders": 0.1786313630430729,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.001305239604698863,
+     "award-numbers": 0.1046056311765803,
+     "ror-ids": 0.001305239604698863,
+     "update-policies": 0.4089129218720865,
+     "resource-links": 1.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1793377648818,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.6985887096774194,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 1.0,
+     "references": 0.9576612903225806,
+     "funders": 0.5231854838709677,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.001008064516129032,
+     "award-numbers": 0.3669354838709677,
+     "ror-ids": 0.001008064516129032,
+     "update-policies": 1.0,
+     "resource-links": 1.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": false,
+    "deposits-orcids-current": true,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": true,
+    "deposits-similarity-checking-backfile": false,
+    "deposits-award-numbers-current": true,
+    "deposits-resource-links-current": true,
+    "deposits-ror-ids-current": true,
+    "deposits-articles": true,
+    "deposits-affiliations-current": false,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": true,
+    "deposits-references-backfile": true,
+    "deposits-funder-ror-ids-current": true,
+    "deposits-ror-ids-backfile": true,
+    "deposits-abstracts-backfile": false,
+    "deposits-licenses-backfile": true,
+    "deposits-award-numbers-backfile": true,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": true,
+    "deposits-resource-links-backfile": true,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": true,
+    "deposits-funders-backfile": true,
+    "deposits-funder-ror-ids-backfile": true,
+    "deposits-update-policies-current": true,
+    "deposits-similarity-checking-current": false,
+    "deposits-licenses-current": true
+   },
+   "ISSN": [
+    "0167-4943"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "0167-4943"
+    }
+   ]
+  },
+  {
+   "last-status-check-time": 1791257671817,
+   "counts": {
+    "current-dois": 324,
+    "backfile-dois": 0,
+    "total-dois": 324
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2025,
+      116
+     ],
+     [
+      2026,
+      104
+     ],
+     [
+      2024,
+      104
+     ]
+    ]
+   },
+   "publisher": "Elsevier",
+   "coverage": {
+    "affiliations-current": 0.0,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 0.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 0.0,
+    "funders-current": 0.3024691358024691,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 0.0,
+    "orcids-backfile": 0.0,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 1.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.8271604938271605,
+    "similarity-checking-backfile": 0.0,
+    "references-backfile": 0.0,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 0.0,
+    "licenses-current": 1.0,
+    "award-numbers-current": 0.1728395061728395,
+    "abstracts-backfile": 0.0,
+    "resource-links-current": 1.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.0,
+    "references-current": 0.9783950617283951
+   },
+   "title": "Archives of Gerontology and Geriatrics Plus",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791257671817,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.8271604938271605,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 1.0,
+     "references": 0.9783950617283951,
+     "funders": 0.3024691358024691,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.1728395061728395,
+     "ror-ids": 0.0,
+     "update-policies": 1.0,
+     "resource-links": 1.0,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791257671817,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791257671817,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.8271604938271605,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 1.0,
+     "references": 0.9783950617283951,
+     "funders": 0.3024691358024691,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.1728395061728395,
+     "ror-ids": 0.0,
+     "update-policies": 1.0,
+     "resource-links": 1.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": false,
+    "deposits-orcids-current": true,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": false,
+    "deposits-similarity-checking-backfile": false,
+    "deposits-award-numbers-current": true,
+    "deposits-resource-links-current": true,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": true,
+    "deposits-affiliations-current": false,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": true,
+    "deposits-references-backfile": false,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": false,
+    "deposits-licenses-backfile": false,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": true,
+    "deposits-resource-links-backfile": false,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": false,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": true,
+    "deposits-similarity-checking-current": false,
+    "deposits-licenses-current": true
+   },
+   "ISSN": [
+    "2950-3078"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "2950-3078"
+    }
+   ]
+  }
+ ],
+ "Action Learning": [
+  {
+   "last-status-check-time": 1791247065614,
+   "counts": {
+    "current-dois": 139,
+    "backfile-dois": 777,
+    "total-dois": 916
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2014,
+      56
+     ],
+     [
+      2025,
+      53
+     ],
+     [
+      2022,
+      51
+     ],
+     [
+      2016,
+      49
+     ],
+     [
+      2015,
+      48
+     ],
+     [
+      2020,
+      46
+     ],
+     [
+      2017,
+      45
+     ],
+     [
+      2011,
+      44
+     ],
+     [
+      2026,
+      43
+     ],
+     [
+      2024,
+      43
+     ],
+     [
+      2023,
+      43
+     ],
+     [
+      2018,
+      42
+     ],
+     [
+      2013,
+      42
+     ],
+     [
+      2012,
+      42
+     ],
+     [
+      2021,
+      40
+     ],
+     [
+      2019,
+      39
+     ],
+     [
+      2010,
+      36
+     ],
+     [
+      2009,
+      36
+     ],
+     [
+      2008,
+      30
+     ],
+     [
+      2004,
+      24
+     ],
+     [
+      2007,
+      23
+     ],
+     [
+      2005,
+      21
+     ],
+     [
+      2006,
+      20
+     ]
+    ]
+   },
+   "publisher": "Informa UK (Taylor & Francis)",
+   "coverage": {
+    "affiliations-current": 0.841726618705036,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 1.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.02574002574002574,
+    "licenses-backfile": 0.02702702702702703,
+    "funders-current": 0.07194244604316546,
+    "affiliations-backfile": 0.462033462033462,
+    "resource-links-backfile": 0.001287001287001287,
+    "orcids-backfile": 0.0682110682110682,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 1.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.1438848920863309,
+    "similarity-checking-backfile": 1.0,
+    "references-backfile": 0.752895752895753,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.01415701415701416,
+    "update-policies-backfile": 0.5907335907335907,
+    "licenses-current": 0.381294964028777,
+    "award-numbers-current": 0.04316546762589928,
+    "abstracts-backfile": 0.0,
+    "resource-links-current": 0.2230215827338129,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.0,
+    "references-current": 0.7266187050359711
+   },
+   "title": "Action Learning Research and Practice",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791247065614,
+     "affiliations": 0.519650655021834,
+     "abstracts": 0.0,
+     "orcids": 0.0796943231441048,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.08078602620087336,
+     "references": 0.7489082969432314,
+     "funders": 0.03275109170305677,
+     "similarity-checking": 1.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0185589519650655,
+     "ror-ids": 0.0,
+     "update-policies": 0.6528384279475983,
+     "resource-links": 0.03493449781659389,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791247065614,
+     "affiliations": 0.462033462033462,
+     "abstracts": 0.0,
+     "orcids": 0.0682110682110682,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.02702702702702703,
+     "references": 0.752895752895753,
+     "funders": 0.02574002574002574,
+     "similarity-checking": 1.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.01415701415701416,
+     "ror-ids": 0.0,
+     "update-policies": 0.5907335907335907,
+     "resource-links": 0.001287001287001287,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791247065614,
+     "affiliations": 0.841726618705036,
+     "abstracts": 0.0,
+     "orcids": 0.1438848920863309,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.381294964028777,
+     "references": 0.7266187050359711,
+     "funders": 0.07194244604316546,
+     "similarity-checking": 1.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.04316546762589928,
+     "ror-ids": 0.0,
+     "update-policies": 1.0,
+     "resource-links": 0.2230215827338129,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": false,
+    "deposits-orcids-current": true,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": true,
+    "deposits-update-policies-backfile": true,
+    "deposits-similarity-checking-backfile": true,
+    "deposits-award-numbers-current": true,
+    "deposits-resource-links-current": true,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": true,
+    "deposits-affiliations-current": true,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": true,
+    "deposits-references-backfile": true,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": false,
+    "deposits-licenses-backfile": true,
+    "deposits-award-numbers-backfile": true,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": true,
+    "deposits-resource-links-backfile": true,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": true,
+    "deposits-funders-backfile": true,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": true,
+    "deposits-similarity-checking-current": true,
+    "deposits-licenses-current": true
+   },
+   "ISSN": [
+    "1476-7333",
+    "1476-7341"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "1476-7333"
+    },
+    {
+     "type": "electronic",
+     "value": "1476-7341"
+    }
+   ]
+  },
+  {
+   "last-status-check-time": 1791261570908,
+   "counts": {
+    "current-dois": 0,
+    "backfile-dois": 0,
+    "total-dois": 0
+   },
+   "breakdowns": {
+    "dois-by-issued-year": []
+   },
+   "publisher": "VirtualRealia.org",
+   "coverage": {
+    "affiliations-current": 0.0,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 0.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 0.0,
+    "funders-current": 0.0,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 0.0,
+    "orcids-backfile": 0.0,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 0.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.0,
+    "similarity-checking-backfile": 0.0,
+    "references-backfile": 0.0,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 0.0,
+    "licenses-current": 0.0,
+    "award-numbers-current": 0.0,
+    "abstracts-backfile": 0.0,
+    "resource-links-current": 0.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.0,
+    "references-current": 0.0
+   },
+   "title": "Unpacking Learning Action Cell A Systematic Review of Challenges and Opportunities of Key Players In Basic Education",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791261570908,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791261570908,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791261570908,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": false,
+    "deposits-orcids-current": false,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": false,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": false,
+    "deposits-similarity-checking-backfile": false,
+    "deposits-award-numbers-current": false,
+    "deposits-resource-links-current": false,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": false,
+    "deposits-affiliations-current": false,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": false,
+    "deposits-references-backfile": false,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": false,
+    "deposits-licenses-backfile": false,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": false,
+    "deposits-resource-links-backfile": false,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": false,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": false,
+    "deposits-similarity-checking-current": false,
+    "deposits-licenses-current": false
+   },
+   "ISSN": [],
+   "issn-type": []
+  },
+  {
+   "last-status-check-time": 1791262716233,
+   "counts": {
+    "current-dois": 0,
+    "backfile-dois": 0,
+    "total-dois": 0
+   },
+   "breakdowns": {
+    "dois-by-issued-year": []
+   },
+   "publisher": "Chendur Publishing House",
+   "coverage": {
+    "affiliations-current": 0.0,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 0.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 0.0,
+    "funders-current": 0.0,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 0.0,
+    "orcids-backfile": 0.0,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 0.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.0,
+    "similarity-checking-backfile": 0.0,
+    "references-backfile": 0.0,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 0.0,
+    "licenses-current": 0.0,
+    "award-numbers-current": 0.0,
+    "abstracts-backfile": 0.0,
+    "resource-links-current": 0.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.0,
+    "references-current": 0.0
+   },
+   "title": "Humanistic Leadership in AI-Enabled Organizations The 4A Framework of Learning Attitude Soul and Action for Responsible Performance",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791262716233,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791262716233,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791262716233,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": false,
+    "deposits-orcids-current": false,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": false,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": false,
+    "deposits-similarity-checking-backfile": false,
+    "deposits-award-numbers-current": false,
+    "deposits-resource-links-current": false,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": false,
+    "deposits-affiliations-current": false,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": false,
+    "deposits-references-backfile": false,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": false,
+    "deposits-licenses-backfile": false,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": false,
+    "deposits-resource-links-backfile": false,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": false,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": false,
+    "deposits-similarity-checking-current": false,
+    "deposits-licenses-current": false
+   },
+   "ISSN": [],
+   "issn-type": []
+  }
+ ],
+ "Advances and Applications in Discrete Mathematics": [
+  {
+   "last-status-check-time": 1791250828121,
+   "counts": {
+    "current-dois": 153,
+    "backfile-dois": 395,
+    "total-dois": 548
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2023,
+      64
+     ],
+     [
+      2021,
+      64
+     ],
+     [
+      2026,
+      56
+     ],
+     [
+      2024,
+      52
+     ],
+     [
+      2022,
+      52
+     ],
+     [
+      2019,
+      48
+     ],
+     [
+      2025,
+      45
+     ],
+     [
+      2020,
+      45
+     ],
+     [
+      2017,
+      35
+     ],
+     [
+      2018,
+      34
+     ],
+     [
+      2016,
+      28
+     ],
+     [
+      2015,
+      25
+     ]
+    ]
+   },
+   "publisher": "Pushpa Publishing House",
+   "coverage": {
+    "affiliations-current": 0.0130718954248366,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 0.9934640522875817,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.006535947712418301,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 0.0,
+    "funders-current": 0.0,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 0.0,
+    "orcids-backfile": 0.0,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 0.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.0,
+    "similarity-checking-backfile": 1.0,
+    "references-backfile": 0.0,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 0.0,
+    "licenses-current": 0.2483660130718954,
+    "award-numbers-current": 0.0,
+    "abstracts-backfile": 0.01518987341772152,
+    "resource-links-current": 0.2483660130718954,
+    "affiliation-ror-ids-current": 0.006535947712418301,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.7843137254901961,
+    "references-current": 0.08496732026143791
+   },
+   "title": "Advances and Applications in Discrete Mathematics",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791250828121,
+     "affiliations": 0.00364963503649635,
+     "abstracts": 0.2299270072992701,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.001824817518248175,
+     "licenses": 0.06934306569343066,
+     "references": 0.02372262773722628,
+     "funders": 0.0,
+     "similarity-checking": 0.9981751824817519,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.001824817518248175,
+     "update-policies": 0.0,
+     "resource-links": 0.06934306569343066,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791250828121,
+     "affiliations": 0.0,
+     "abstracts": 0.01518987341772152,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 1.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791250828121,
+     "affiliations": 0.0130718954248366,
+     "abstracts": 0.7843137254901961,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.006535947712418301,
+     "licenses": 0.2483660130718954,
+     "references": 0.08496732026143791,
+     "funders": 0.0,
+     "similarity-checking": 0.9934640522875817,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.006535947712418301,
+     "update-policies": 0.0,
+     "resource-links": 0.2483660130718954,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": true,
+    "deposits-orcids-current": false,
+    "deposits-affiliation-ror-ids-current": true,
+    "deposits": true,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": false,
+    "deposits-similarity-checking-backfile": true,
+    "deposits-award-numbers-current": false,
+    "deposits-resource-links-current": true,
+    "deposits-ror-ids-current": true,
+    "deposits-articles": true,
+    "deposits-affiliations-current": true,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": false,
+    "deposits-references-backfile": false,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": true,
+    "deposits-licenses-backfile": false,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": true,
+    "deposits-resource-links-backfile": false,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": false,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": false,
+    "deposits-similarity-checking-current": true,
+    "deposits-licenses-current": true
+   },
+   "ISSN": [
+    "0974-1658",
+    "3049-2157"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "0974-1658"
+    },
+    {
+     "type": "electronic",
+     "value": "3049-2157"
+    }
+   ]
+  }
+ ],
+ "Aestimum": [
+  {
+   "last-status-check-time": 1791255758894,
+   "counts": {
+    "current-dois": 51,
+    "backfile-dois": 1660,
+    "total-dois": 1711
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2009,
+      1354
+     ],
+     [
+      2013,
+      63
+     ],
+     [
+      2025,
+      30
+     ],
+     [
+      2007,
+      30
+     ],
+     [
+      2012,
+      28
+     ],
+     [
+      2016,
+      27
+     ],
+     [
+      2021,
+      22
+     ],
+     [
+      2011,
+      21
+     ],
+     [
+      2010,
+      19
+     ],
+     [
+      2020,
+      14
+     ],
+     [
+      2017,
+      14
+     ],
+     [
+      2019,
+      13
+     ],
+     [
+      2018,
+      13
+     ],
+     [
+      2024,
+      12
+     ],
+     [
+      2023,
+      11
+     ],
+     [
+      2015,
+      11
+     ],
+     [
+      2026,
+      9
+     ],
+     [
+      2022,
+      9
+     ],
+     [
+      2014,
+      9
+     ],
+     [
+      1987,
+      1
+     ],
+     [
+      1973,
+      1
+     ]
+    ]
+   },
+   "publisher": "Firenze University Press",
+   "coverage": {
+    "affiliations-current": 0.0,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 1.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.003012048192771084,
+    "licenses-backfile": 0.03855421686746988,
+    "funders-current": 0.05882352941176471,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 1.0,
+    "orcids-backfile": 0.0108433734939759,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 0.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.7254901960784313,
+    "similarity-checking-backfile": 1.0,
+    "references-backfile": 0.001204819277108434,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.003012048192771084,
+    "update-policies-backfile": 0.0,
+    "licenses-current": 1.0,
+    "award-numbers-current": 0.05882352941176471,
+    "abstracts-backfile": 0.2078313253012048,
+    "resource-links-current": 1.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.9215686274509804,
+    "references-current": 0.6862745098039216
+   },
+   "title": "Aestimum",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791255758894,
+     "affiliations": 0.0,
+     "abstracts": 0.2291057860900058,
+     "orcids": 0.03214494447691409,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.06721215663354763,
+     "references": 0.02162478082992402,
+     "funders": 0.00467562828755114,
+     "similarity-checking": 1.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.00467562828755114,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 1.0,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791255758894,
+     "affiliations": 0.0,
+     "abstracts": 0.2078313253012048,
+     "orcids": 0.0108433734939759,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.03855421686746988,
+     "references": 0.001204819277108434,
+     "funders": 0.003012048192771084,
+     "similarity-checking": 1.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.003012048192771084,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 1.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791255758894,
+     "affiliations": 0.0,
+     "abstracts": 0.9215686274509804,
+     "orcids": 0.7254901960784313,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 1.0,
+     "references": 0.6862745098039216,
+     "funders": 0.05882352941176471,
+     "similarity-checking": 1.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.05882352941176471,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 1.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": true,
+    "deposits-orcids-current": true,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": false,
+    "deposits-similarity-checking-backfile": true,
+    "deposits-award-numbers-current": true,
+    "deposits-resource-links-current": true,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": true,
+    "deposits-affiliations-current": false,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": true,
+    "deposits-references-backfile": true,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": true,
+    "deposits-licenses-backfile": true,
+    "deposits-award-numbers-backfile": true,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": true,
+    "deposits-resource-links-backfile": true,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": true,
+    "deposits-funders-backfile": true,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": false,
+    "deposits-similarity-checking-current": true,
+    "deposits-licenses-current": true
+   },
+   "ISSN": [
+    "1592-6117",
+    "1724-2118"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "1592-6117"
+    },
+    {
+     "type": "electronic",
+     "value": "1724-2118"
+    }
+   ]
+  }
+ ],
+ "Aging Medicine and Healthcare": [
+  {
+   "last-status-check-time": 1791253700494,
+   "counts": {
+    "current-dois": 133,
+    "backfile-dois": 154,
+    "total-dois": 287
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2025,
+      55
+     ],
+     [
+      2026,
+      40
+     ],
+     [
+      2024,
+      38
+     ],
+     [
+      2023,
+      37
+     ],
+     [
+      2022,
+      35
+     ],
+     [
+      2021,
+      33
+     ],
+     [
+      2020,
+      29
+     ],
+     [
+      2019,
+      20
+     ]
+    ]
+   },
+   "publisher": "Ovid Technologies (Wolters Kluwer) - Medknow Publications",
+   "coverage": {
+    "affiliations-current": 0.3007518796992481,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 0.3007518796992481,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 0.0,
+    "funders-current": 0.0,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 0.0,
+    "orcids-backfile": 0.006493506493506494,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 0.3007518796992481,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.0,
+    "similarity-checking-backfile": 0.0,
+    "references-backfile": 0.0,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 0.0,
+    "licenses-current": 0.2180451127819549,
+    "award-numbers-current": 0.0,
+    "abstracts-backfile": 0.0,
+    "resource-links-current": 0.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.2631578947368421,
+    "references-current": 0.3007518796992481
+   },
+   "title": "Aging Medicine and Healthcare",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791253700494,
+     "affiliations": 0.1388888888888889,
+     "abstracts": 0.1215277777777778,
+     "orcids": 0.003472222222222222,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.1006944444444444,
+     "references": 0.1388888888888889,
+     "funders": 0.0,
+     "similarity-checking": 0.1388888888888889,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.1388888888888889,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791253700494,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.006493506493506494,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791253700494,
+     "affiliations": 0.3007518796992481,
+     "abstracts": 0.2631578947368421,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.2180451127819549,
+     "references": 0.3007518796992481,
+     "funders": 0.0,
+     "similarity-checking": 0.3007518796992481,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.3007518796992481,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": true,
+    "deposits-orcids-current": false,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": false,
+    "deposits-similarity-checking-backfile": false,
+    "deposits-award-numbers-current": false,
+    "deposits-resource-links-current": false,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": true,
+    "deposits-affiliations-current": true,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": false,
+    "deposits-references-backfile": false,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": false,
+    "deposits-licenses-backfile": false,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": true,
+    "deposits-resource-links-backfile": false,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": true,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": true,
+    "deposits-similarity-checking-current": true,
+    "deposits-licenses-current": true
+   },
+   "ISSN": [
+    "2663-8851",
+    "2663-8851"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "2663-8851"
+    },
+    {
+     "type": "electronic",
+     "value": "2663-8851"
+    }
+   ]
+  },
+  {
+   "last-status-check-time": 1791253702344,
+   "counts": {
+    "current-dois": 0,
+    "backfile-dois": 0,
+    "total-dois": 0
+   },
+   "breakdowns": {
+    "dois-by-issued-year": []
+   },
+   "publisher": "Full Universe Integrated Marketing Ltd",
+   "coverage": {
+    "affiliations-current": 0.0,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 0.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 0.0,
+    "funders-current": 0.0,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 0.0,
+    "orcids-backfile": 0.0,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 0.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.0,
+    "similarity-checking-backfile": 0.0,
+    "references-backfile": 0.0,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 0.0,
+    "licenses-current": 0.0,
+    "award-numbers-current": 0.0,
+    "abstracts-backfile": 0.0,
+    "resource-links-current": 0.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.0,
+    "references-current": 0.0
+   },
+   "title": "Aging Medicine and Healthcare (Journal of Clinical Gerontology & Geriatrics)",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791253702344,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791253702344,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791253702344,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": false,
+    "deposits-orcids-current": false,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": false,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": false,
+    "deposits-similarity-checking-backfile": false,
+    "deposits-award-numbers-current": false,
+    "deposits-resource-links-current": false,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": false,
+    "deposits-affiliations-current": false,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": false,
+    "deposits-references-backfile": false,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": false,
+    "deposits-licenses-backfile": false,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": false,
+    "deposits-resource-links-backfile": false,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": false,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": false,
+    "deposits-similarity-checking-current": false,
+    "deposits-licenses-current": false
+   },
+   "ISSN": [],
+   "issn-type": []
+  }
+ ],
+ "Annals of Phytomedicine-an International Journal": [
+  {
+   "last-status-check-time": 1791251923005,
+   "counts": {
+    "current-dois": 549,
+    "backfile-dois": 823,
+    "total-dois": 1372
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2024,
+      265
+     ],
+     [
+      2023,
+      235
+     ],
+     [
+      2022,
+      218
+     ],
+     [
+      2025,
+      196
+     ],
+     [
+      2021,
+      146
+     ],
+     [
+      2026,
+      88
+     ],
+     [
+      2020,
+      61
+     ],
+     [
+      2019,
+      50
+     ],
+     [
+      2018,
+      49
+     ],
+     [
+      2017,
+      40
+     ],
+     [
+      2016,
+      24
+     ]
+    ]
+   },
+   "publisher": "Ukaaz Publications",
+   "coverage": {
+    "affiliations-current": 0.0,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 0.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 0.0,
+    "funders-current": 0.0,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 0.0,
+    "orcids-backfile": 0.0,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 0.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.0,
+    "similarity-checking-backfile": 0.0,
+    "references-backfile": 0.0,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 0.0,
+    "licenses-current": 0.0,
+    "award-numbers-current": 0.0,
+    "abstracts-backfile": 0.001215066828675577,
+    "resource-links-current": 0.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.00546448087431694,
+    "references-current": 0.0
+   },
+   "title": "Annals of Phytomedicine An International Journal",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791251923005,
+     "affiliations": 0.0,
+     "abstracts": 0.002911208151382824,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791251923005,
+     "affiliations": 0.0,
+     "abstracts": 0.001215066828675577,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791251923005,
+     "affiliations": 0.0,
+     "abstracts": 0.00546448087431694,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": true,
+    "deposits-orcids-current": false,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": false,
+    "deposits-similarity-checking-backfile": false,
+    "deposits-award-numbers-current": false,
+    "deposits-resource-links-current": false,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": true,
+    "deposits-affiliations-current": false,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": false,
+    "deposits-references-backfile": false,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": true,
+    "deposits-licenses-backfile": false,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": false,
+    "deposits-resource-links-backfile": false,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": false,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": false,
+    "deposits-similarity-checking-current": false,
+    "deposits-licenses-current": false
+   },
+   "ISSN": [
+    "2278-9839",
+    "2393-9885"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "2278-9839"
+    },
+    {
+     "type": "electronic",
+     "value": "2393-9885"
+    }
+   ]
+  }
+ ],
+ "Applied Organometallic Chemistry": [
+  {
+   "last-status-check-time": 1793376861061,
+   "counts": {
+    "current-dois": 1371,
+    "backfile-dois": 8346,
+    "total-dois": 9717
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2020,
+      741
+     ],
+     [
+      2019,
+      693
+     ],
+     [
+      2024,
+      620
+     ],
+     [
+      2025,
+      556
+     ],
+     [
+      2017,
+      525
+     ],
+     [
+      2018,
+      520
+     ],
+     [
+      2022,
+      445
+     ],
+     [
+      2021,
+      435
+     ],
+     [
+      2023,
+      369
+     ],
+     [
+      2005,
+      315
+     ],
+     [
+      2016,
+      287
+     ],
+     [
+      2000,
+      218
+     ],
+     [
+      2001,
+      207
+     ],
+     [
+      1998,
+      207
+     ],
+     [
+      2026,
+      195
+     ],
+     [
+      2003,
+      187
+     ],
+     [
+      2014,
+      177
+     ],
+     [
+      2007,
+      176
+     ],
+     [
+      1999,
+      175
+     ],
+     [
+      2015,
+      170
+     ],
+     [
+      1997,
+      169
+     ],
+     [
+      2004,
+      165
+     ],
+     [
+      2012,
+      152
+     ],
+     [
+      2010,
+      151
+     ],
+     [
+      2006,
+      151
+     ],
+     [
+      2013,
+      146
+     ],
+     [
+      2008,
+      145
+     ],
+     [
+      1996,
+      142
+     ],
+     [
+      2002,
+      140
+     ],
+     [
+      2009,
+      135
+     ],
+     [
+      2011,
+      125
+     ],
+     [
+      1995,
+      113
+     ],
+     [
+      1994,
+      113
+     ],
+     [
+      1993,
+      112
+     ],
+     [
+      1992,
+      104
+     ],
+     [
+      1988,
+      93
+     ],
+     [
+      1991,
+      92
+     ],
+     [
+      1990,
+      90
+     ],
+     [
+      1989,
+      83
+     ],
+     [
+      1987,
+      78
+     ]
+    ]
+   },
+   "publisher": "Wiley (John Wiley & Sons)",
+   "coverage": {
+    "affiliations-current": 0.937272064186725,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 0.973741794310722,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.2536544452432303,
+    "licenses-backfile": 0.976875149772346,
+    "funders-current": 0.4493070751276441,
+    "affiliations-backfile": 0.5230050323508267,
+    "resource-links-backfile": 0.944045051521687,
+    "orcids-backfile": 0.4060627845674575,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 0.973741794310722,
+    "ror-ids-backfile": 0.0001198178768272226,
+    "orcids-current": 0.8935083880379285,
+    "similarity-checking-backfile": 0.9358974358974359,
+    "references-backfile": 0.8296189791516894,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.2046489336208962,
+    "update-policies-backfile": 0.3598130841121495,
+    "licenses-current": 0.973741794310722,
+    "award-numbers-current": 0.4091903719912473,
+    "abstracts-backfile": 0.7600047927150732,
+    "resource-links-current": 0.2968636032093363,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0001198178768272226,
+    "abstracts-current": 0.962800875273523,
+    "references-current": 0.937272064186725
+   },
+   "title": "Applied Organometallic Chemistry",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1793376861061,
+     "affiliations": 0.5813953488372093,
+     "abstracts": 0.7885367359539,
+     "orcids": 0.4747890512451122,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.9763325787199012,
+     "references": 0.8447211360362215,
+     "funders": 0.2812307059065651,
+     "similarity-checking": 0.9412430541263634,
+     "funder-ror-ids": 0.0001029018316526034,
+     "award-numbers": 0.2334842560197572,
+     "ror-ids": 0.0001029018316526034,
+     "update-policies": 0.4463881457089936,
+     "resource-links": 0.8526445770734719,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1793376861061,
+     "affiliations": 0.5230050323508267,
+     "abstracts": 0.7600047927150732,
+     "orcids": 0.4060627845674575,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.976875149772346,
+     "references": 0.8296189791516894,
+     "funders": 0.2536544452432303,
+     "similarity-checking": 0.9358974358974359,
+     "funder-ror-ids": 0.0001198178768272226,
+     "award-numbers": 0.2046489336208962,
+     "ror-ids": 0.0001198178768272226,
+     "update-policies": 0.3598130841121495,
+     "resource-links": 0.944045051521687,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1793376861061,
+     "affiliations": 0.937272064186725,
+     "abstracts": 0.962800875273523,
+     "orcids": 0.8935083880379285,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.973741794310722,
+     "references": 0.937272064186725,
+     "funders": 0.4493070751276441,
+     "similarity-checking": 0.973741794310722,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.4091903719912473,
+     "ror-ids": 0.0,
+     "update-policies": 0.973741794310722,
+     "resource-links": 0.2968636032093363,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": true,
+    "deposits-orcids-current": true,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": true,
+    "deposits-update-policies-backfile": true,
+    "deposits-similarity-checking-backfile": true,
+    "deposits-award-numbers-current": true,
+    "deposits-resource-links-current": true,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": true,
+    "deposits-affiliations-current": true,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": true,
+    "deposits-references-backfile": true,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": true,
+    "deposits-abstracts-backfile": true,
+    "deposits-licenses-backfile": true,
+    "deposits-award-numbers-backfile": true,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": true,
+    "deposits-resource-links-backfile": true,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": true,
+    "deposits-funders-backfile": true,
+    "deposits-funder-ror-ids-backfile": true,
+    "deposits-update-policies-current": true,
+    "deposits-similarity-checking-current": true,
+    "deposits-licenses-current": true
+   },
+   "ISSN": [
+    "0268-2605",
+    "1099-0739"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "0268-2605"
+    },
+    {
+     "type": "electronic",
+     "value": "1099-0739"
+    }
+   ]
+  }
+ ],
+ "Asian Journal of Agriculture and Biology": [
+  {
+   "last-status-check-time": 1791254436411,
+   "counts": {
+    "current-dois": 171,
+    "backfile-dois": 233,
+    "total-dois": 404
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2025,
+      80
+     ],
+     [
+      2021,
+      71
+     ],
+     [
+      2020,
+      62
+     ],
+     [
+      2023,
+      57
+     ],
+     [
+      2024,
+      46
+     ],
+     [
+      2026,
+      45
+     ],
+     [
+      2022,
+      42
+     ],
+     [
+      2018,
+      1
+     ]
+    ]
+   },
+   "publisher": "Asian Journal of Agriculture and Biology",
+   "coverage": {
+    "affiliations-current": 0.0,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 0.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 0.0,
+    "funders-current": 0.0,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 0.0,
+    "orcids-backfile": 0.0,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 0.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.0,
+    "similarity-checking-backfile": 0.0,
+    "references-backfile": 0.0,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 0.0,
+    "licenses-current": 0.0,
+    "award-numbers-current": 0.0,
+    "abstracts-backfile": 0.0,
+    "resource-links-current": 0.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.0,
+    "references-current": 0.0
+   },
+   "title": "Asian Journal of Agriculture and Biology",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791254436411,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791254436411,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791254436411,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": false,
+    "deposits-orcids-current": false,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": false,
+    "deposits-similarity-checking-backfile": false,
+    "deposits-award-numbers-current": false,
+    "deposits-resource-links-current": false,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": true,
+    "deposits-affiliations-current": false,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": false,
+    "deposits-references-backfile": false,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": false,
+    "deposits-licenses-backfile": false,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": false,
+    "deposits-resource-links-backfile": false,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": false,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": false,
+    "deposits-similarity-checking-current": false,
+    "deposits-licenses-current": false
+   },
+   "ISSN": [
+    "2307-8553"
+   ],
+   "issn-type": [
+    {
+     "type": "electronic",
+     "value": "2307-8553"
+    }
+   ]
+  }
+ ],
+ "Avances en Ciencias e Ingenieria": [],
+ "Balneo and PRM Research Journal": [
+  {
+   "last-status-check-time": 1791255382771,
+   "counts": {
+    "current-dois": 430,
+    "backfile-dois": 263,
+    "total-dois": 693
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2025,
+      181
+     ],
+     [
+      2023,
+      136
+     ],
+     [
+      2024,
+      125
+     ],
+     [
+      2026,
+      124
+     ],
+     [
+      2021,
+      69
+     ],
+     [
+      2022,
+      57
+     ],
+     [
+      2020,
+      1
+     ]
+    ]
+   },
+   "publisher": "Romanian Association of Balneology",
+   "coverage": {
+    "affiliations-current": 0.9744186046511628,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 0.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.004651162790697674,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 0.003802281368821293,
+    "funders-current": 0.0,
+    "affiliations-backfile": 0.9543726235741445,
+    "resource-links-backfile": 0.0,
+    "orcids-backfile": 0.01140684410646388,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 0.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.0,
+    "similarity-checking-backfile": 0.0,
+    "references-backfile": 0.9467680608365019,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 0.0,
+    "licenses-current": 0.0,
+    "award-numbers-current": 0.0,
+    "abstracts-backfile": 0.9505703422053232,
+    "resource-links-current": 0.0,
+    "affiliation-ror-ids-current": 0.004651162790697674,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.9744186046511628,
+    "references-current": 0.972093023255814
+   },
+   "title": "Balneo and PRM Research Journal",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791255382771,
+     "affiliations": 0.9654178674351584,
+     "abstracts": 0.9639769452449568,
+     "orcids": 0.004322766570605187,
+     "affiliation-ror-ids": 0.002881844380403458,
+     "licenses": 0.001440922190201729,
+     "references": 0.9610951008645533,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.002881844380403458,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791255382771,
+     "affiliations": 0.9543726235741445,
+     "abstracts": 0.9505703422053232,
+     "orcids": 0.01140684410646388,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.003802281368821293,
+     "references": 0.9467680608365019,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791255382771,
+     "affiliations": 0.9744186046511628,
+     "abstracts": 0.9744186046511628,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.004651162790697674,
+     "licenses": 0.0,
+     "references": 0.972093023255814,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.004651162790697674,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": true,
+    "deposits-orcids-current": false,
+    "deposits-affiliation-ror-ids-current": true,
+    "deposits": true,
+    "deposits-affiliations-backfile": true,
+    "deposits-update-policies-backfile": false,
+    "deposits-similarity-checking-backfile": false,
+    "deposits-award-numbers-current": false,
+    "deposits-resource-links-current": false,
+    "deposits-ror-ids-current": true,
+    "deposits-articles": true,
+    "deposits-affiliations-current": true,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": false,
+    "deposits-references-backfile": true,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": true,
+    "deposits-licenses-backfile": true,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": true,
+    "deposits-resource-links-backfile": false,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": true,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": false,
+    "deposits-similarity-checking-current": false,
+    "deposits-licenses-current": false
+   },
+   "ISSN": [
+    "2734-844X",
+    "2734-8458"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "2734-844X"
+    },
+    {
+     "type": "electronic",
+     "value": "2734-8458"
+    }
+   ]
+  }
+ ],
+ "Chemical Methodologies": [
+  {
+   "last-status-check-time": 1791252549760,
+   "counts": {
+    "current-dois": 0,
+    "backfile-dois": 15,
+    "total-dois": 15
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2017,
+      15
+     ]
+    ]
+   },
+   "publisher": "eJournalPlus",
+   "coverage": {
+    "affiliations-current": 0.0,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 0.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 0.0,
+    "funders-current": 0.0,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 0.0,
+    "orcids-backfile": 0.0,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 0.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.0,
+    "similarity-checking-backfile": 1.0,
+    "references-backfile": 0.0,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 1.0,
+    "licenses-current": 0.0,
+    "award-numbers-current": 0.0,
+    "abstracts-backfile": 0.0,
+    "resource-links-current": 0.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.0,
+    "references-current": 0.0
+   },
+   "title": "Chemical Methodologies",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791252549760,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 1.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 1.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791252549760,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 1.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 1.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791252549760,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": false,
+    "deposits-orcids-current": false,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": true,
+    "deposits-similarity-checking-backfile": true,
+    "deposits-award-numbers-current": false,
+    "deposits-resource-links-current": false,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": true,
+    "deposits-affiliations-current": false,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": false,
+    "deposits-references-backfile": false,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": false,
+    "deposits-licenses-backfile": false,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": false,
+    "deposits-resource-links-backfile": false,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": false,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": false,
+    "deposits-similarity-checking-current": false,
+    "deposits-licenses-current": false
+   },
+   "ISSN": [
+    "2588-4344"
+   ],
+   "issn-type": [
+    {
+     "type": "electronic",
+     "value": "2588-4344"
+    }
+   ]
+  },
+  {
+   "last-status-check-time": 1791253953376,
+   "counts": {
+    "current-dois": 0,
+    "backfile-dois": 54,
+    "total-dois": 54
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2020,
+      33
+     ],
+     [
+      2019,
+      21
+     ]
+    ]
+   },
+   "publisher": "Sami Publishing Company",
+   "coverage": {
+    "affiliations-current": 0.0,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 0.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 0.0,
+    "funders-current": 0.0,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 0.0,
+    "orcids-backfile": 0.05555555555555556,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 0.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.0,
+    "similarity-checking-backfile": 0.9444444444444444,
+    "references-backfile": 0.0,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 0.0,
+    "licenses-current": 0.0,
+    "award-numbers-current": 0.0,
+    "abstracts-backfile": 0.0,
+    "resource-links-current": 0.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.0,
+    "references-current": 0.0
+   },
+   "title": "Chemical Methodologies",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791253953376,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.05454545454545455,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.9272727272727272,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791253953376,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.05555555555555556,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.9444444444444444,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791253953376,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": false,
+    "deposits-orcids-current": false,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": false,
+    "deposits-similarity-checking-backfile": true,
+    "deposits-award-numbers-current": false,
+    "deposits-resource-links-current": false,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": true,
+    "deposits-affiliations-current": false,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": false,
+    "deposits-references-backfile": false,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": false,
+    "deposits-licenses-backfile": false,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": false,
+    "deposits-resource-links-backfile": false,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": true,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": false,
+    "deposits-similarity-checking-current": false,
+    "deposits-licenses-current": false
+   },
+   "ISSN": [
+    "2645-7776"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "2645-7776"
+    }
+   ]
+  }
+ ],
+ "Clinical Hemorheology and Microcirculation": [
+  {
+   "last-status-check-time": 1791250927383,
+   "counts": {
+    "current-dois": 208,
+    "backfile-dois": 3430,
+    "total-dois": 3638
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2016,
+      228
+     ],
+     [
+      2017,
+      186
+     ],
+     [
+      2021,
+      164
+     ],
+     [
+      2019,
+      140
+     ],
+     [
+      2018,
+      140
+     ],
+     [
+      2020,
+      139
+     ],
+     [
+      2013,
+      128
+     ],
+     [
+      1988,
+      128
+     ],
+     [
+      2014,
+      127
+     ],
+     [
+      2024,
+      125
+     ],
+     [
+      2015,
+      121
+     ],
+     [
+      2011,
+      116
+     ],
+     [
+      2023,
+      114
+     ],
+     [
+      2010,
+      112
+     ],
+     [
+      1989,
+      112
+     ],
+     [
+      2022,
+      108
+     ],
+     [
+      1994,
+      108
+     ],
+     [
+      2012,
+      101
+     ],
+     [
+      1992,
+      101
+     ],
+     [
+      2009,
+      99
+     ],
+     [
+      1985,
+      95
+     ],
+     [
+      2008,
+      90
+     ],
+     [
+      1987,
+      89
+     ],
+     [
+      1996,
+      88
+     ],
+     [
+      1986,
+      87
+     ],
+     [
+      1982,
+      80
+     ],
+     [
+      1995,
+      79
+     ],
+     [
+      1993,
+      78
+     ],
+     [
+      1984,
+      73
+     ],
+     [
+      1991,
+      70
+     ],
+     [
+      2025,
+      61
+     ],
+     [
+      1981,
+      58
+     ],
+     [
+      1983,
+      55
+     ],
+     [
+      2026,
+      22
+     ],
+     [
+      1998,
+      16
+     ]
+    ]
+   },
+   "publisher": "SAGE Publications",
+   "coverage": {
+    "affiliations-current": 0.9903846153846154,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 1.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.004807692307692308,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 0.5192419825072886,
+    "funders-current": 0.07211538461538462,
+    "affiliations-backfile": 0.8658892128279883,
+    "resource-links-backfile": 0.5084548104956268,
+    "orcids-backfile": 0.009912536443148687,
+    "funder-ror-ids-current": 0.004807692307692308,
+    "update-policies-current": 0.625,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.2451923076923077,
+    "similarity-checking-backfile": 0.9994169096209913,
+    "references-backfile": 0.3463556851311953,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 0.1909620991253644,
+    "licenses-current": 0.6442307692307692,
+    "award-numbers-current": 0.05288461538461538,
+    "abstracts-backfile": 0.4845481049562682,
+    "resource-links-current": 0.625,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.8125,
+    "references-current": 0.8173076923076923
+   },
+   "title": "Clinical Hemorheology and Microcirculation",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791250927383,
+     "affiliations": 0.8730071467839472,
+     "abstracts": 0.5032985156679494,
+     "orcids": 0.02336448598130841,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.5263881253435954,
+     "references": 0.3732820230896097,
+     "funders": 0.004123144584936778,
+     "similarity-checking": 0.999450247388675,
+     "funder-ror-ids": 0.0002748763056624519,
+     "award-numbers": 0.003023639362286971,
+     "ror-ids": 0.0002748763056624519,
+     "update-policies": 0.2157778999450247,
+     "resource-links": 0.5151181968114349,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791250927383,
+     "affiliations": 0.8658892128279883,
+     "abstracts": 0.4845481049562682,
+     "orcids": 0.009912536443148687,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.5192419825072886,
+     "references": 0.3463556851311953,
+     "funders": 0.0,
+     "similarity-checking": 0.9994169096209913,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.1909620991253644,
+     "resource-links": 0.5084548104956268,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791250927383,
+     "affiliations": 0.9903846153846154,
+     "abstracts": 0.8125,
+     "orcids": 0.2451923076923077,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.6442307692307692,
+     "references": 0.8173076923076923,
+     "funders": 0.07211538461538462,
+     "similarity-checking": 1.0,
+     "funder-ror-ids": 0.004807692307692308,
+     "award-numbers": 0.05288461538461538,
+     "ror-ids": 0.004807692307692308,
+     "update-policies": 0.625,
+     "resource-links": 0.625,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": true,
+    "deposits-orcids-current": true,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": true,
+    "deposits-update-policies-backfile": true,
+    "deposits-similarity-checking-backfile": true,
+    "deposits-award-numbers-current": true,
+    "deposits-resource-links-current": true,
+    "deposits-ror-ids-current": true,
+    "deposits-articles": true,
+    "deposits-affiliations-current": true,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": true,
+    "deposits-references-backfile": true,
+    "deposits-funder-ror-ids-current": true,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": true,
+    "deposits-licenses-backfile": true,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": true,
+    "deposits-resource-links-backfile": true,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": true,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": true,
+    "deposits-similarity-checking-current": true,
+    "deposits-licenses-current": true
+   },
+   "ISSN": [
+    "1386-0291",
+    "1875-8622"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "1386-0291"
+    },
+    {
+     "type": "electronic",
+     "value": "1875-8622"
+    }
+   ]
+  }
+ ],
+ "Genetic Resources and Crop Evolution": [
+  {
+   "last-status-check-time": 1793378152204,
+   "counts": {
+    "current-dois": 1127,
+    "backfile-dois": 4671,
+    "total-dois": 5798
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2024,
+      484
+     ],
+     [
+      2025,
+      373
+     ],
+     [
+      2023,
+      303
+     ],
+     [
+      2026,
+      270
+     ],
+     [
+      2021,
+      231
+     ],
+     [
+      2022,
+      213
+     ],
+     [
+      2006,
+      204
+     ],
+     [
+      2005,
+      197
+     ],
+     [
+      2020,
+      193
+     ],
+     [
+      2007,
+      179
+     ],
+     [
+      2012,
+      161
+     ],
+     [
+      2015,
+      146
+     ],
+     [
+      2019,
+      140
+     ],
+     [
+      2010,
+      140
+     ],
+     [
+      2014,
+      139
+     ],
+     [
+      2011,
+      134
+     ],
+     [
+      2018,
+      129
+     ],
+     [
+      2016,
+      123
+     ],
+     [
+      2017,
+      121
+     ],
+     [
+      2013,
+      120
+     ],
+     [
+      2009,
+      106
+     ],
+     [
+      2008,
+      96
+     ],
+     [
+      2003,
+      94
+     ],
+     [
+      2004,
+      82
+     ],
+     [
+      2000,
+      79
+     ],
+     [
+      1999,
+      77
+     ],
+     [
+      1998,
+      76
+     ],
+     [
+      2001,
+      72
+     ],
+     [
+      1996,
+      69
+     ],
+     [
+      2002,
+      67
+     ],
+     [
+      1997,
+      58
+     ],
+     [
+      1995,
+      51
+     ],
+     [
+      1988,
+      44
+     ],
+     [
+      1981,
+      44
+     ],
+     [
+      1972,
+      40
+     ],
+     [
+      1963,
+      30
+     ],
+     [
+      1987,
+      28
+     ],
+     [
+      1966,
+      28
+     ],
+     [
+      1965,
+      28
+     ],
+     [
+      1989,
+      27
+     ],
+     [
+      1967,
+      27
+     ],
+     [
+      1986,
+      26
+     ],
+     [
+      1969,
+      26
+     ],
+     [
+      1962,
+      26
+     ],
+     [
+      1994,
+      25
+     ],
+     [
+      1993,
+      25
+     ],
+     [
+      1985,
+      25
+     ],
+     [
+      1990,
+      24
+     ],
+     [
+      1992,
+      22
+     ],
+     [
+      1978,
+      22
+     ],
+     [
+      1964,
+      22
+     ],
+     [
+      1973,
+      21
+     ],
+     [
+      1970,
+      21
+     ],
+     [
+      1968,
+      21
+     ],
+     [
+      1956,
+      21
+     ],
+     [
+      1961,
+      20
+     ],
+     [
+      1979,
+      19
+     ],
+     [
+      1982,
+      18
+     ],
+     [
+      1977,
+      18
+     ],
+     [
+      1976,
+      18
+     ],
+     [
+      1959,
+      18
+     ],
+     [
+      1975,
+      17
+     ],
+     [
+      1953,
+      16
+     ],
+     [
+      1960,
+      15
+     ],
+     [
+      1958,
+      15
+     ],
+     [
+      1957,
+      14
+     ],
+     [
+      1955,
+      14
+     ],
+     [
+      1954,
+      14
+     ],
+     [
+      1980,
+      12
+     ],
+     [
+      1983,
+      10
+     ],
+     [
+      1974,
+      10
+     ]
+    ]
+   },
+   "publisher": "Springer-Verlag",
+   "coverage": {
+    "affiliations-current": 0.0,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 1.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.01064773735581189,
+    "funders-backfile": 0.1796189252836652,
+    "licenses-backfile": 0.9918646970670092,
+    "funders-current": 0.4551907719609583,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 0.9918646970670092,
+    "orcids-backfile": 0.2074502247912653,
+    "funder-ror-ids-current": 0.01064773735581189,
+    "update-policies-current": 1.0,
+    "ror-ids-backfile": 0.0008563476771569257,
+    "orcids-current": 0.3966282165039929,
+    "similarity-checking-backfile": 0.9976450438878185,
+    "references-backfile": 0.9332048811817598,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.1383001498608435,
+    "update-policies-backfile": 0.3832155855277243,
+    "licenses-current": 1.0,
+    "award-numbers-current": 0.323868677905945,
+    "abstracts-backfile": 0.02033825733247699,
+    "resource-links-current": 1.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0008563476771569257,
+    "abstracts-current": 0.1259982253771074,
+    "references-current": 0.966282165039929
+   },
+   "title": "Genetic Resources and Crop Evolution",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1793378152204,
+     "affiliations": 0.0,
+     "abstracts": 0.04086911536471805,
+     "orcids": 0.2441800310398345,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.9932747025349198,
+     "references": 0.9394723228142783,
+     "funders": 0.2331436454561131,
+     "similarity-checking": 0.9979306777030523,
+     "funder-ror-ids": 0.002759096395930333,
+     "award-numbers": 0.1743404035178479,
+     "ror-ids": 0.002759096395930333,
+     "update-policies": 0.5030177616830488,
+     "resource-links": 0.9932747025349198,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1793378152204,
+     "affiliations": 0.0,
+     "abstracts": 0.02033825733247699,
+     "orcids": 0.2074502247912653,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.9918646970670092,
+     "references": 0.9332048811817598,
+     "funders": 0.1796189252836652,
+     "similarity-checking": 0.9976450438878185,
+     "funder-ror-ids": 0.0008563476771569257,
+     "award-numbers": 0.1383001498608435,
+     "ror-ids": 0.0008563476771569257,
+     "update-policies": 0.3832155855277243,
+     "resource-links": 0.9918646970670092,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1793378152204,
+     "affiliations": 0.0,
+     "abstracts": 0.1259982253771074,
+     "orcids": 0.3966282165039929,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 1.0,
+     "references": 0.966282165039929,
+     "funders": 0.4551907719609583,
+     "similarity-checking": 1.0,
+     "funder-ror-ids": 0.01064773735581189,
+     "award-numbers": 0.323868677905945,
+     "ror-ids": 0.01064773735581189,
+     "update-policies": 1.0,
+     "resource-links": 1.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": true,
+    "deposits-orcids-current": true,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": true,
+    "deposits-similarity-checking-backfile": true,
+    "deposits-award-numbers-current": true,
+    "deposits-resource-links-current": true,
+    "deposits-ror-ids-current": true,
+    "deposits-articles": true,
+    "deposits-affiliations-current": false,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": true,
+    "deposits-references-backfile": true,
+    "deposits-funder-ror-ids-current": true,
+    "deposits-ror-ids-backfile": true,
+    "deposits-abstracts-backfile": true,
+    "deposits-licenses-backfile": true,
+    "deposits-award-numbers-backfile": true,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": true,
+    "deposits-resource-links-backfile": true,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": true,
+    "deposits-funders-backfile": true,
+    "deposits-funder-ror-ids-backfile": true,
+    "deposits-update-policies-current": true,
+    "deposits-similarity-checking-current": true,
+    "deposits-licenses-current": true
+   },
+   "ISSN": [
+    "0925-9864",
+    "1573-5109"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "0925-9864"
+    },
+    {
+     "type": "electronic",
+     "value": "1573-5109"
+    }
+   ]
+  }
+ ],
+ "INT J ENG GEOSCI": [],
+ "Indian Journal of Biochemistry & Biophysics": [
+  {
+   "last-status-check-time": 1791256629700,
+   "counts": {
+    "current-dois": 279,
+    "backfile-dois": 355,
+    "total-dois": 634
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2022,
+      123
+     ],
+     [
+      2025,
+      119
+     ],
+     [
+      2026,
+      94
+     ],
+     [
+      2020,
+      85
+     ],
+     [
+      2023,
+      83
+     ],
+     [
+      2024,
+      66
+     ],
+     [
+      2021,
+      64
+     ]
+    ]
+   },
+   "publisher": "CSIR-National Institute of Science Communication and Policy Research (NIScPR)",
+   "coverage": {
+    "affiliations-current": 0.0,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 0.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 0.0,
+    "funders-current": 0.0,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 0.0,
+    "orcids-backfile": 0.0,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 0.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.0,
+    "similarity-checking-backfile": 0.0,
+    "references-backfile": 0.0,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 0.0,
+    "licenses-current": 0.0,
+    "award-numbers-current": 0.0,
+    "abstracts-backfile": 0.0,
+    "resource-links-current": 0.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.1792114695340502,
+    "references-current": 0.0
+   },
+   "title": "Indian Journal of Biochemistry and Biophysics",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791256629700,
+     "affiliations": 0.0,
+     "abstracts": 0.07874015748031496,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791256629700,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791256629700,
+     "affiliations": 0.0,
+     "abstracts": 0.1792114695340502,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": true,
+    "deposits-orcids-current": false,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": false,
+    "deposits-similarity-checking-backfile": false,
+    "deposits-award-numbers-current": false,
+    "deposits-resource-links-current": false,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": true,
+    "deposits-affiliations-current": false,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": false,
+    "deposits-references-backfile": false,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": false,
+    "deposits-licenses-backfile": false,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": false,
+    "deposits-resource-links-backfile": false,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": false,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": false,
+    "deposits-similarity-checking-current": false,
+    "deposits-licenses-current": false
+   },
+   "ISSN": [
+    "0301-1208",
+    "0975-0959"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "0301-1208"
+    },
+    {
+     "type": "electronic",
+     "value": "0975-0959"
+    }
+   ]
+  }
+ ],
+ "International Journal of Power and Energy Systems": [
+  {
+   "last-status-check-time": 1791247401460,
+   "counts": {
+    "current-dois": 0,
+    "backfile-dois": 4,
+    "total-dois": 4
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2004,
+      4
+     ]
+    ]
+   },
+   "publisher": "ACTA Press",
+   "coverage": {
+    "affiliations-current": 0.0,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 0.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 0.0,
+    "funders-current": 0.0,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 0.0,
+    "orcids-backfile": 0.0,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 0.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.0,
+    "similarity-checking-backfile": 0.0,
+    "references-backfile": 1.0,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 0.0,
+    "licenses-current": 0.0,
+    "award-numbers-current": 0.0,
+    "abstracts-backfile": 0.0,
+    "resource-links-current": 0.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.0,
+    "references-current": 0.0
+   },
+   "title": "International Journal of Power and Energy Systems",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791247401460,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.8,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791247401460,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 1.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791247401460,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": false,
+    "deposits-orcids-current": false,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": false,
+    "deposits-similarity-checking-backfile": false,
+    "deposits-award-numbers-current": false,
+    "deposits-resource-links-current": false,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": true,
+    "deposits-affiliations-current": false,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": false,
+    "deposits-references-backfile": true,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": false,
+    "deposits-licenses-backfile": false,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": false,
+    "deposits-resource-links-backfile": false,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": false,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": false,
+    "deposits-similarity-checking-current": false,
+    "deposits-licenses-current": false
+   },
+   "ISSN": [
+    "1078-3466"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "1078-3466"
+    }
+   ]
+  },
+  {
+   "last-status-check-time": 1791255847395,
+   "counts": {
+    "current-dois": 0,
+    "backfile-dois": 7,
+    "total-dois": 7
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2022,
+      5
+     ],
+     [
+      2021,
+      2
+     ]
+    ]
+   },
+   "publisher": "International Engineering and Science Publications (IES)",
+   "coverage": {
+    "affiliations-current": 0.0,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 0.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 0.0,
+    "funders-current": 0.0,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 0.0,
+    "orcids-backfile": 0.1428571428571429,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 0.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.0,
+    "similarity-checking-backfile": 0.0,
+    "references-backfile": 0.7142857142857143,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 0.0,
+    "licenses-current": 0.0,
+    "award-numbers-current": 0.0,
+    "abstracts-backfile": 0.8571428571428571,
+    "resource-links-current": 0.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.0,
+    "references-current": 0.0
+   },
+   "title": "International Journal of Energy and Power Systems",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791255847395,
+     "affiliations": 0.0,
+     "abstracts": 0.75,
+     "orcids": 0.125,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.625,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791255847395,
+     "affiliations": 0.0,
+     "abstracts": 0.8571428571428571,
+     "orcids": 0.1428571428571429,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.7142857142857143,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791255847395,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": false,
+    "deposits-orcids-current": false,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": false,
+    "deposits-similarity-checking-backfile": false,
+    "deposits-award-numbers-current": false,
+    "deposits-resource-links-current": false,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": true,
+    "deposits-affiliations-current": false,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": false,
+    "deposits-references-backfile": true,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": true,
+    "deposits-licenses-backfile": false,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": false,
+    "deposits-resource-links-backfile": false,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": true,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": false,
+    "deposits-similarity-checking-current": false,
+    "deposits-licenses-current": false
+   },
+   "ISSN": [
+    "2789-3766",
+    "2789-3766"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "2789-3766"
+    },
+    {
+     "type": "electronic",
+     "value": "2789-3766"
+    }
+   ]
+  },
+  {
+   "last-status-check-time": 1791260086599,
+   "counts": {
+    "current-dois": 0,
+    "backfile-dois": 0,
+    "total-dois": 0
+   },
+   "breakdowns": {
+    "dois-by-issued-year": []
+   },
+   "publisher": "IAEME Publication",
+   "coverage": {
+    "affiliations-current": 0.0,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 0.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 0.0,
+    "funders-current": 0.0,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 0.0,
+    "orcids-backfile": 0.0,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 0.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.0,
+    "similarity-checking-backfile": 0.0,
+    "references-backfile": 0.0,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 0.0,
+    "licenses-current": 0.0,
+    "award-numbers-current": 0.0,
+    "abstracts-backfile": 0.0,
+    "resource-links-current": 0.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.0,
+    "references-current": 0.0
+   },
+   "title": "INTERNATIONAL JOURNAL OF ELECTRICAL POWER AND ENERGY SYSTEMS",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791260086599,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791260086599,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791260086599,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": false,
+    "deposits-orcids-current": false,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": false,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": false,
+    "deposits-similarity-checking-backfile": false,
+    "deposits-award-numbers-current": false,
+    "deposits-resource-links-current": false,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": false,
+    "deposits-affiliations-current": false,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": false,
+    "deposits-references-backfile": false,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": false,
+    "deposits-licenses-backfile": false,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": false,
+    "deposits-resource-links-backfile": false,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": false,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": false,
+    "deposits-similarity-checking-current": false,
+    "deposits-licenses-current": false
+   },
+   "ISSN": [],
+   "issn-type": []
+  },
+  {
+   "last-status-check-time": 1791260587303,
+   "counts": {
+    "current-dois": 0,
+    "backfile-dois": 0,
+    "total-dois": 0
+   },
+   "breakdowns": {
+    "dois-by-issued-year": []
+   },
+   "publisher": "MAT Journals",
+   "coverage": {
+    "affiliations-current": 0.0,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 0.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 0.0,
+    "funders-current": 0.0,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 0.0,
+    "orcids-backfile": 0.0,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 0.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.0,
+    "similarity-checking-backfile": 0.0,
+    "references-backfile": 0.0,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 0.0,
+    "licenses-current": 0.0,
+    "award-numbers-current": 0.0,
+    "abstracts-backfile": 0.0,
+    "resource-links-current": 0.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.0,
+    "references-current": 0.0
+   },
+   "title": "International Journal of Renewable Energy and Electrical Power Systems",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791260587303,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791260587303,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791260587303,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": false,
+    "deposits-orcids-current": false,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": false,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": false,
+    "deposits-similarity-checking-backfile": false,
+    "deposits-award-numbers-current": false,
+    "deposits-resource-links-current": false,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": false,
+    "deposits-affiliations-current": false,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": false,
+    "deposits-references-backfile": false,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": false,
+    "deposits-licenses-backfile": false,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": false,
+    "deposits-resource-links-backfile": false,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": false,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": false,
+    "deposits-similarity-checking-current": false,
+    "deposits-licenses-current": false
+   },
+   "ISSN": [],
+   "issn-type": []
+  },
+  {
+   "title": "International Journal of Renewable Energy and Electrical Power Systems",
+   "publisher": "MAT Journals",
+   "ISSN": [
+    "3139-437X"
+   ],
+   "issn-type": [
+    {
+     "value": "3139-437X",
+     "type": "print"
+    }
+   ],
+   "subjects": []
+  }
+ ],
+ "International Journal of e-Health And Medical Communications": [
+  {
+   "last-status-check-time": 1791248632478,
+   "counts": {
+    "current-dois": 16,
+    "backfile-dois": 383,
+    "total-dois": 399
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2021,
+      71
+     ],
+     [
+      2013,
+      30
+     ],
+     [
+      2010,
+      30
+     ],
+     [
+      2020,
+      28
+     ],
+     [
+      2019,
+      28
+     ],
+     [
+      2014,
+      28
+     ],
+     [
+      2011,
+      26
+     ],
+     [
+      2012,
+      25
+     ],
+     [
+      2022,
+      24
+     ],
+     [
+      2018,
+      24
+     ],
+     [
+      2015,
+      23
+     ],
+     [
+      2017,
+      22
+     ],
+     [
+      2016,
+      21
+     ],
+     [
+      2025,
+      7
+     ],
+     [
+      2024,
+      5
+     ],
+     [
+      2026,
+      4
+     ],
+     [
+      2023,
+      3
+     ]
+    ]
+   },
+   "publisher": "IGI Global Scientific Publishing",
+   "coverage": {
+    "affiliations-current": 0.8125,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 0.8125,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 0.1932114882506527,
+    "funders-current": 0.0,
+    "affiliations-backfile": 0.8015665796344648,
+    "resource-links-backfile": 0.0,
+    "orcids-backfile": 0.2349869451697128,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 0.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.75,
+    "similarity-checking-backfile": 0.8511749347258486,
+    "references-backfile": 0.5456919060052219,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 0.0,
+    "licenses-current": 0.8125,
+    "award-numbers-current": 0.0,
+    "abstracts-backfile": 0.8511749347258486,
+    "resource-links-current": 0.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.8125,
+    "references-current": 0.8125
+   },
+   "title": "International Journal of E-Health and Medical Communications",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791248632478,
+     "affiliations": 0.7673860911270983,
+     "abstracts": 0.8129496402877698,
+     "orcids": 0.2446043165467626,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.2086330935251799,
+     "references": 0.5323741007194245,
+     "funders": 0.0,
+     "similarity-checking": 0.8129496402877698,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791248632478,
+     "affiliations": 0.8015665796344648,
+     "abstracts": 0.8511749347258486,
+     "orcids": 0.2349869451697128,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.1932114882506527,
+     "references": 0.5456919060052219,
+     "funders": 0.0,
+     "similarity-checking": 0.8511749347258486,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791248632478,
+     "affiliations": 0.8125,
+     "abstracts": 0.8125,
+     "orcids": 0.75,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.8125,
+     "references": 0.8125,
+     "funders": 0.0,
+     "similarity-checking": 0.8125,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": true,
+    "deposits-orcids-current": true,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": true,
+    "deposits-update-policies-backfile": false,
+    "deposits-similarity-checking-backfile": true,
+    "deposits-award-numbers-current": false,
+    "deposits-resource-links-current": false,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": true,
+    "deposits-affiliations-current": true,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": false,
+    "deposits-references-backfile": true,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": true,
+    "deposits-licenses-backfile": true,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": true,
+    "deposits-resource-links-backfile": false,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": true,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": false,
+    "deposits-similarity-checking-current": true,
+    "deposits-licenses-current": true
+   },
+   "ISSN": [
+    "1947-315X",
+    "1947-3168"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "1947-315X"
+    },
+    {
+     "type": "electronic",
+     "value": "1947-3168"
+    }
+   ]
+  }
+ ],
+ "Jordan Journal of Mechanical and Industrial Engineering": [
+  {
+   "last-status-check-time": 1791257117977,
+   "counts": {
+    "current-dois": 180,
+    "backfile-dois": 62,
+    "total-dois": 242
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2024,
+      75
+     ],
+     [
+      2025,
+      68
+     ],
+     [
+      2023,
+      61
+     ],
+     [
+      2026,
+      37
+     ],
+     [
+      2009,
+      1
+     ]
+    ]
+   },
+   "publisher": "Engineering Faculty, The Hashemite University",
+   "coverage": {
+    "affiliations-current": 0.0,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 0.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 0.0,
+    "funders-current": 0.0,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 0.0,
+    "orcids-backfile": 0.0,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 0.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.0,
+    "similarity-checking-backfile": 0.0,
+    "references-backfile": 0.0,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 0.0,
+    "licenses-current": 0.0,
+    "award-numbers-current": 0.0,
+    "abstracts-backfile": 0.0,
+    "resource-links-current": 0.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.06111111111111111,
+    "references-current": 0.0
+   },
+   "title": "Jordan Journal of Mechanical and Industrial Engineering",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791257117977,
+     "affiliations": 0.0,
+     "abstracts": 0.04471544715447154,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791257117977,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791257117977,
+     "affiliations": 0.0,
+     "abstracts": 0.06111111111111111,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": true,
+    "deposits-orcids-current": false,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": false,
+    "deposits-similarity-checking-backfile": false,
+    "deposits-award-numbers-current": false,
+    "deposits-resource-links-current": false,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": true,
+    "deposits-affiliations-current": false,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": false,
+    "deposits-references-backfile": false,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": false,
+    "deposits-licenses-backfile": false,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": false,
+    "deposits-resource-links-backfile": false,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": false,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": false,
+    "deposits-similarity-checking-current": false,
+    "deposits-licenses-current": false
+   },
+   "ISSN": [
+    "1995-6665",
+    "1995-6665"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "1995-6665"
+    },
+    {
+     "type": "electronic",
+     "value": "1995-6665"
+    }
+   ]
+  }
+ ],
+ "Journal of Earthquake and Tsunami": [
+  {
+   "last-status-check-time": 1791247827586,
+   "counts": {
+    "current-dois": 120,
+    "backfile-dois": 508,
+    "total-dois": 628
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2013,
+      45
+     ],
+     [
+      2022,
+      44
+     ],
+     [
+      2024,
+      41
+     ],
+     [
+      2025,
+      40
+     ],
+     [
+      2026,
+      39
+     ],
+     [
+      2019,
+      38
+     ],
+     [
+      2020,
+      36
+     ],
+     [
+      2018,
+      36
+     ],
+     [
+      2016,
+      35
+     ],
+     [
+      2017,
+      31
+     ],
+     [
+      2011,
+      31
+     ],
+     [
+      2012,
+      30
+     ],
+     [
+      2023,
+      27
+     ],
+     [
+      2010,
+      26
+     ],
+     [
+      2014,
+      24
+     ],
+     [
+      2009,
+      24
+     ],
+     [
+      2021,
+      23
+     ],
+     [
+      2015,
+      20
+     ],
+     [
+      2007,
+      20
+     ],
+     [
+      2008,
+      18
+     ]
+    ]
+   },
+   "publisher": "World Scientific",
+   "coverage": {
+    "affiliations-current": 0.975,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 1.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.01666666666666667,
+    "funders-backfile": 0.1397637795275591,
+    "licenses-backfile": 0.0,
+    "funders-current": 0.4666666666666667,
+    "affiliations-backfile": 0.9586614173228346,
+    "resource-links-backfile": 0.0,
+    "orcids-backfile": 0.1181102362204724,
+    "funder-ror-ids-current": 0.01666666666666667,
+    "update-policies-current": 0.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.9416666666666667,
+    "similarity-checking-backfile": 1.0,
+    "references-backfile": 0.9271653543307087,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.1397637795275591,
+    "update-policies-backfile": 0.0,
+    "licenses-current": 0.0,
+    "award-numbers-current": 0.4666666666666667,
+    "abstracts-backfile": 0.9291338582677166,
+    "resource-links-current": 0.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.975,
+    "references-current": 0.9666666666666667
+   },
+   "title": "Journal of Earthquake and Tsunami",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791247827586,
+     "affiliations": 0.9617834394904459,
+     "abstracts": 0.9378980891719745,
+     "orcids": 0.2754777070063694,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.9347133757961783,
+     "funders": 0.2022292993630573,
+     "similarity-checking": 1.0,
+     "funder-ror-ids": 0.003184713375796178,
+     "award-numbers": 0.2022292993630573,
+     "ror-ids": 0.003184713375796178,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791247827586,
+     "affiliations": 0.9586614173228346,
+     "abstracts": 0.9291338582677166,
+     "orcids": 0.1181102362204724,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.9271653543307087,
+     "funders": 0.1397637795275591,
+     "similarity-checking": 1.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.1397637795275591,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791247827586,
+     "affiliations": 0.975,
+     "abstracts": 0.975,
+     "orcids": 0.9416666666666667,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.9666666666666667,
+     "funders": 0.4666666666666667,
+     "similarity-checking": 1.0,
+     "funder-ror-ids": 0.01666666666666667,
+     "award-numbers": 0.4666666666666667,
+     "ror-ids": 0.01666666666666667,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": true,
+    "deposits-orcids-current": true,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": true,
+    "deposits-update-policies-backfile": false,
+    "deposits-similarity-checking-backfile": true,
+    "deposits-award-numbers-current": true,
+    "deposits-resource-links-current": false,
+    "deposits-ror-ids-current": true,
+    "deposits-articles": true,
+    "deposits-affiliations-current": true,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": true,
+    "deposits-references-backfile": true,
+    "deposits-funder-ror-ids-current": true,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": true,
+    "deposits-licenses-backfile": false,
+    "deposits-award-numbers-backfile": true,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": true,
+    "deposits-resource-links-backfile": false,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": true,
+    "deposits-funders-backfile": true,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": false,
+    "deposits-similarity-checking-current": true,
+    "deposits-licenses-current": false
+   },
+   "ISSN": [
+    "1793-4311",
+    "1793-7116"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "1793-4311"
+    },
+    {
+     "type": "electronic",
+     "value": "1793-7116"
+    }
+   ]
+  }
+ ],
+ "Journal of Mind and Medical Sciences": [
+  {
+   "last-status-check-time": 1791252148126,
+   "counts": {
+    "current-dois": 139,
+    "backfile-dois": 331,
+    "total-dois": 470
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2024,
+      71
+     ],
+     [
+      2019,
+      51
+     ],
+     [
+      2025,
+      45
+     ],
+     [
+      2021,
+      45
+     ],
+     [
+      2018,
+      44
+     ],
+     [
+      2020,
+      41
+     ],
+     [
+      2023,
+      40
+     ],
+     [
+      2022,
+      37
+     ],
+     [
+      2017,
+      28
+     ],
+     [
+      2015,
+      25
+     ],
+     [
+      2026,
+      23
+     ],
+     [
+      2016,
+      20
+     ]
+    ]
+   },
+   "publisher": "MDPI AG",
+   "coverage": {
+    "affiliations-current": 0.4892086330935252,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 0.4892086330935252,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 0.0,
+    "funders-current": 0.09352517985611511,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 0.0,
+    "orcids-backfile": 0.0,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 0.4892086330935252,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.4460431654676259,
+    "similarity-checking-backfile": 0.0,
+    "references-backfile": 0.0,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 0.0,
+    "licenses-current": 0.4892086330935252,
+    "award-numbers-current": 0.06474820143884892,
+    "abstracts-backfile": 0.2054380664652568,
+    "resource-links-current": 0.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.4892086330935252,
+    "references-current": 0.4892086330935252
+   },
+   "title": "Journal of Mind and Medical Sciences",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791252148126,
+     "affiliations": 0.1446808510638298,
+     "abstracts": 0.2893617021276596,
+     "orcids": 0.1319148936170213,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.1446808510638298,
+     "references": 0.1446808510638298,
+     "funders": 0.02765957446808511,
+     "similarity-checking": 0.1446808510638298,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.01914893617021277,
+     "ror-ids": 0.0,
+     "update-policies": 0.1446808510638298,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791252148126,
+     "affiliations": 0.0,
+     "abstracts": 0.2054380664652568,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791252148126,
+     "affiliations": 0.4892086330935252,
+     "abstracts": 0.4892086330935252,
+     "orcids": 0.4460431654676259,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.4892086330935252,
+     "references": 0.4892086330935252,
+     "funders": 0.09352517985611511,
+     "similarity-checking": 0.4892086330935252,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.06474820143884892,
+     "ror-ids": 0.0,
+     "update-policies": 0.4892086330935252,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": true,
+    "deposits-orcids-current": true,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": false,
+    "deposits-similarity-checking-backfile": false,
+    "deposits-award-numbers-current": true,
+    "deposits-resource-links-current": false,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": true,
+    "deposits-affiliations-current": true,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": true,
+    "deposits-references-backfile": false,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": true,
+    "deposits-licenses-backfile": false,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": true,
+    "deposits-resource-links-backfile": false,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": false,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": true,
+    "deposits-similarity-checking-current": true,
+    "deposits-licenses-current": true
+   },
+   "ISSN": [
+    "2601-4920",
+    "2392-7674"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "2601-4920"
+    },
+    {
+     "type": "electronic",
+     "value": "2392-7674"
+    }
+   ]
+  }
+ ],
+ "Lobachevskii Journal of Mathematics": [
+  {
+   "last-status-check-time": 1791248002369,
+   "counts": {
+    "current-dois": 1387,
+    "backfile-dois": 2608,
+    "total-dois": 3995
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2024,
+      572
+     ],
+     [
+      2025,
+      547
+     ],
+     [
+      2023,
+      525
+     ],
+     [
+      2021,
+      377
+     ],
+     [
+      2022,
+      370
+     ],
+     [
+      2020,
+      286
+     ],
+     [
+      2026,
+      268
+     ],
+     [
+      2019,
+      238
+     ],
+     [
+      2018,
+      188
+     ],
+     [
+      2017,
+      140
+     ],
+     [
+      2016,
+      90
+     ],
+     [
+      2015,
+      65
+     ],
+     [
+      2011,
+      60
+     ],
+     [
+      2014,
+      50
+     ],
+     [
+      2013,
+      50
+     ],
+     [
+      2012,
+      48
+     ],
+     [
+      2010,
+      43
+     ],
+     [
+      2009,
+      43
+     ],
+     [
+      2008,
+      35
+     ]
+    ]
+   },
+   "publisher": "Pleiades Publishing",
+   "coverage": {
+    "affiliations-current": 0.0,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 1.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 1.0,
+    "funders-current": 0.0,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 1.0,
+    "orcids-backfile": 0.001150306748466258,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 1.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.00144196106705119,
+    "similarity-checking-backfile": 1.0,
+    "references-backfile": 0.9950153374233129,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 1.0,
+    "licenses-current": 1.0,
+    "award-numbers-current": 0.0,
+    "abstracts-backfile": 0.001533742331288344,
+    "resource-links-current": 1.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.00144196106705119,
+    "references-current": 0.9956741167988464
+   },
+   "title": "Lobachevskii Journal of Mathematics",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791248002369,
+     "affiliations": 0.0,
+     "abstracts": 0.001501501501501502,
+     "orcids": 0.001251251251251251,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.9997497497497497,
+     "references": 0.994994994994995,
+     "funders": 0.0,
+     "similarity-checking": 0.9997497497497497,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.9997497497497497,
+     "resource-links": 0.9997497497497497,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791248002369,
+     "affiliations": 0.0,
+     "abstracts": 0.001533742331288344,
+     "orcids": 0.001150306748466258,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 1.0,
+     "references": 0.9950153374233129,
+     "funders": 0.0,
+     "similarity-checking": 1.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 1.0,
+     "resource-links": 1.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791248002369,
+     "affiliations": 0.0,
+     "abstracts": 0.00144196106705119,
+     "orcids": 0.00144196106705119,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 1.0,
+     "references": 0.9956741167988464,
+     "funders": 0.0,
+     "similarity-checking": 1.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 1.0,
+     "resource-links": 1.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": true,
+    "deposits-orcids-current": true,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": true,
+    "deposits-similarity-checking-backfile": true,
+    "deposits-award-numbers-current": false,
+    "deposits-resource-links-current": true,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": true,
+    "deposits-affiliations-current": false,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": false,
+    "deposits-references-backfile": true,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": true,
+    "deposits-licenses-backfile": true,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": true,
+    "deposits-resource-links-backfile": true,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": true,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": true,
+    "deposits-similarity-checking-current": true,
+    "deposits-licenses-current": true
+   },
+   "ISSN": [
+    "1995-0802",
+    "1818-9962"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "1995-0802"
+    },
+    {
+     "type": "electronic",
+     "value": "1818-9962"
+    }
+   ]
+  }
+ ],
+ "Mechanics of Advanced Materials and Structures": [
+  {
+   "last-status-check-time": 1793379116127,
+   "counts": {
+    "current-dois": 1534,
+    "backfile-dois": 3545,
+    "total-dois": 5079
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2024,
+      637
+     ],
+     [
+      2023,
+      584
+     ],
+     [
+      2025,
+      554
+     ],
+     [
+      2022,
+      479
+     ],
+     [
+      2021,
+      419
+     ],
+     [
+      2026,
+      343
+     ],
+     [
+      2020,
+      268
+     ],
+     [
+      2018,
+      250
+     ],
+     [
+      2016,
+      217
+     ],
+     [
+      2019,
+      209
+     ],
+     [
+      2017,
+      136
+     ],
+     [
+      2013,
+      110
+     ],
+     [
+      2015,
+      107
+     ],
+     [
+      2014,
+      100
+     ],
+     [
+      2011,
+      67
+     ],
+     [
+      2012,
+      63
+     ],
+     [
+      2009,
+      61
+     ],
+     [
+      2008,
+      61
+     ],
+     [
+      2007,
+      58
+     ],
+     [
+      2010,
+      51
+     ],
+     [
+      2005,
+      41
+     ],
+     [
+      2006,
+      39
+     ],
+     [
+      2001,
+      35
+     ],
+     [
+      2004,
+      26
+     ],
+     [
+      1999,
+      23
+     ],
+     [
+      1995,
+      21
+     ],
+     [
+      1996,
+      20
+     ],
+     [
+      2003,
+      19
+     ],
+     [
+      2000,
+      19
+     ],
+     [
+      2002,
+      18
+     ],
+     [
+      1997,
+      18
+     ],
+     [
+      1998,
+      17
+     ],
+     [
+      1994,
+      9
+     ]
+    ]
+   },
+   "publisher": "Informa UK (Taylor & Francis)",
+   "coverage": {
+    "affiliations-current": 0.9928292046936115,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 1.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.003911342894393742,
+    "funders-backfile": 0.3145275035260931,
+    "licenses-backfile": 0.01269393511988717,
+    "funders-current": 0.5312907431551499,
+    "affiliations-backfile": 0.6987306064880113,
+    "resource-links-backfile": 0.0002820874471086037,
+    "orcids-backfile": 0.2961918194640339,
+    "funder-ror-ids-current": 0.003911342894393742,
+    "update-policies-current": 1.0,
+    "ror-ids-backfile": 0.003385049365303244,
+    "orcids-current": 0.3885267275097784,
+    "similarity-checking-backfile": 0.994922425952045,
+    "references-backfile": 0.9495063469675599,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.2634696755994358,
+    "update-policies-backfile": 0.7918194640338505,
+    "licenses-current": 0.2861799217731421,
+    "award-numbers-current": 0.4784876140808344,
+    "abstracts-backfile": 0.0,
+    "resource-links-current": 0.2588005215123859,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.003385049365303244,
+    "abstracts-current": 0.0,
+    "references-current": 0.9902216427640156
+   },
+   "title": "Mechanics of Advanced Materials and Structures",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1793379116127,
+     "affiliations": 0.7875566056310297,
+     "abstracts": 0.0,
+     "orcids": 0.3240795432171687,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0952943492813546,
+     "references": 0.9618035046268951,
+     "funders": 0.3799960622169718,
+     "similarity-checking": 0.9964559952746604,
+     "funder-ror-ids": 0.003544004725339634,
+     "award-numbers": 0.3284111045481394,
+     "ror-ids": 0.003544004725339634,
+     "update-policies": 0.854695806261075,
+     "resource-links": 0.07836188226028747,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1793379116127,
+     "affiliations": 0.6987306064880113,
+     "abstracts": 0.0,
+     "orcids": 0.2961918194640339,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.01269393511988717,
+     "references": 0.9495063469675599,
+     "funders": 0.3145275035260931,
+     "similarity-checking": 0.994922425952045,
+     "funder-ror-ids": 0.003385049365303244,
+     "award-numbers": 0.2634696755994358,
+     "ror-ids": 0.003385049365303244,
+     "update-policies": 0.7918194640338505,
+     "resource-links": 0.0002820874471086037,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1793379116127,
+     "affiliations": 0.9928292046936115,
+     "abstracts": 0.0,
+     "orcids": 0.3885267275097784,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.2861799217731421,
+     "references": 0.9902216427640156,
+     "funders": 0.5312907431551499,
+     "similarity-checking": 1.0,
+     "funder-ror-ids": 0.003911342894393742,
+     "award-numbers": 0.4784876140808344,
+     "ror-ids": 0.003911342894393742,
+     "update-policies": 1.0,
+     "resource-links": 0.2588005215123859,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": false,
+    "deposits-orcids-current": true,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": true,
+    "deposits-update-policies-backfile": true,
+    "deposits-similarity-checking-backfile": true,
+    "deposits-award-numbers-current": true,
+    "deposits-resource-links-current": true,
+    "deposits-ror-ids-current": true,
+    "deposits-articles": true,
+    "deposits-affiliations-current": true,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": true,
+    "deposits-references-backfile": true,
+    "deposits-funder-ror-ids-current": true,
+    "deposits-ror-ids-backfile": true,
+    "deposits-abstracts-backfile": false,
+    "deposits-licenses-backfile": true,
+    "deposits-award-numbers-backfile": true,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": true,
+    "deposits-resource-links-backfile": true,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": true,
+    "deposits-funders-backfile": true,
+    "deposits-funder-ror-ids-backfile": true,
+    "deposits-update-policies-current": true,
+    "deposits-similarity-checking-current": true,
+    "deposits-licenses-current": true
+   },
+   "ISSN": [
+    "1537-6494",
+    "1521-0596",
+    "1537-6532"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "1537-6494"
+    },
+    {
+     "type": null,
+     "value": "1521-0596"
+    },
+    {
+     "type": null,
+     "value": "1537-6532"
+    }
+   ]
+  }
+ ],
+ "Media Education-Mediaobrazovanie": [
+  {
+   "last-status-check-time": 1791253200511,
+   "counts": {
+    "current-dois": 140,
+    "backfile-dois": 368,
+    "total-dois": 508
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2021,
+      76
+     ],
+     [
+      2023,
+      71
+     ],
+     [
+      2020,
+      71
+     ],
+     [
+      2019,
+      62
+     ],
+     [
+      2025,
+      57
+     ],
+     [
+      2022,
+      57
+     ],
+     [
+      2024,
+      55
+     ],
+     [
+      2018,
+      31
+     ],
+     [
+      2026,
+      28
+     ]
+    ]
+   },
+   "publisher": "Cherkas Global University Press",
+   "coverage": {
+    "affiliations-current": 0.0,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 0.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 0.0,
+    "funders-current": 0.0,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 0.0,
+    "orcids-backfile": 0.0,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 0.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.0,
+    "similarity-checking-backfile": 0.0,
+    "references-backfile": 0.0,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 0.0,
+    "licenses-current": 0.0,
+    "award-numbers-current": 0.0,
+    "abstracts-backfile": 0.0,
+    "resource-links-current": 0.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.0,
+    "references-current": 0.0
+   },
+   "title": "Media Education (Mediaobrazovanie)",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791253200511,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791253200511,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791253200511,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": false,
+    "deposits-orcids-current": false,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": false,
+    "deposits-similarity-checking-backfile": false,
+    "deposits-award-numbers-current": false,
+    "deposits-resource-links-current": false,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": true,
+    "deposits-affiliations-current": false,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": false,
+    "deposits-references-backfile": false,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": false,
+    "deposits-licenses-backfile": false,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": false,
+    "deposits-resource-links-backfile": false,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": false,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": false,
+    "deposits-similarity-checking-current": false,
+    "deposits-licenses-current": false
+   },
+   "ISSN": [
+    "1994-4195"
+   ],
+   "issn-type": [
+    {
+     "type": "electronic",
+     "value": "1994-4195"
+    }
+   ]
+  }
+ ],
+ "New Materials Compounds and Applications": [
+  {
+   "last-status-check-time": 1791258173449,
+   "counts": {
+    "current-dois": 113,
+    "backfile-dois": 0,
+    "total-dois": 113
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2025,
+      48
+     ],
+     [
+      2024,
+      38
+     ],
+     [
+      2026,
+      27
+     ]
+    ]
+   },
+   "publisher": "Jomard Publishing",
+   "coverage": {
+    "affiliations-current": 0.0,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 0.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 0.0,
+    "funders-current": 0.0,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 0.0,
+    "orcids-backfile": 0.0,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 0.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.0,
+    "similarity-checking-backfile": 0.0,
+    "references-backfile": 0.0,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 0.0,
+    "licenses-current": 0.0,
+    "award-numbers-current": 0.0,
+    "abstracts-backfile": 0.0,
+    "resource-links-current": 0.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.4867256637168142,
+    "references-current": 0.0
+   },
+   "title": "New Materials Compounds and Applications",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791258173449,
+     "affiliations": 0.0,
+     "abstracts": 0.4824561403508772,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791258173449,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791258173449,
+     "affiliations": 0.0,
+     "abstracts": 0.4867256637168142,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": true,
+    "deposits-orcids-current": false,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": false,
+    "deposits-similarity-checking-backfile": false,
+    "deposits-award-numbers-current": false,
+    "deposits-resource-links-current": false,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": true,
+    "deposits-affiliations-current": false,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": false,
+    "deposits-references-backfile": false,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": false,
+    "deposits-licenses-backfile": false,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": false,
+    "deposits-resource-links-backfile": false,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": false,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": false,
+    "deposits-similarity-checking-current": false,
+    "deposits-licenses-current": false
+   },
+   "ISSN": [
+    "2521-7194",
+    "2523-4773"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "2521-7194"
+    },
+    {
+     "type": "electronic",
+     "value": "2523-4773"
+    }
+   ]
+  }
+ ],
+ "Punjab University Journal of Mathematics": [
+  {
+   "last-status-check-time": 1791255376653,
+   "counts": {
+    "current-dois": 194,
+    "backfile-dois": 121,
+    "total-dois": 315
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2025,
+      115
+     ],
+     [
+      2026,
+      54
+     ],
+     [
+      2021,
+      51
+     ],
+     [
+      2022,
+      45
+     ],
+     [
+      2024,
+      25
+     ],
+     [
+      2023,
+      25
+     ]
+    ]
+   },
+   "publisher": "Department of Mathematics, University of the Punjab",
+   "coverage": {
+    "affiliations-current": 0.7319587628865979,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 0.2680412371134021,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.2989690721649485,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 0.0,
+    "funders-current": 0.0,
+    "affiliations-backfile": 0.8264462809917354,
+    "resource-links-backfile": 0.0,
+    "orcids-backfile": 0.0,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 0.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.0,
+    "similarity-checking-backfile": 0.0,
+    "references-backfile": 0.9752066115702479,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 0.0,
+    "licenses-current": 0.2680412371134021,
+    "award-numbers-current": 0.0,
+    "abstracts-backfile": 0.9834710743801653,
+    "resource-links-current": 0.2628865979381443,
+    "affiliation-ror-ids-current": 0.2989690721649485,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 1.0,
+    "references-current": 0.7319587628865979
+   },
+   "title": "Punjab University Journal of Mathematics",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791255376653,
+     "affiliations": 0.7658227848101266,
+     "abstracts": 0.9905063291139241,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.1835443037974684,
+     "licenses": 0.1645569620253165,
+     "references": 0.8227848101265823,
+     "funders": 0.0,
+     "similarity-checking": 0.1645569620253165,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.1835443037974684,
+     "update-policies": 0.0,
+     "resource-links": 0.1613924050632911,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791255376653,
+     "affiliations": 0.8264462809917354,
+     "abstracts": 0.9834710743801653,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.9752066115702479,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791255376653,
+     "affiliations": 0.7319587628865979,
+     "abstracts": 1.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.2989690721649485,
+     "licenses": 0.2680412371134021,
+     "references": 0.7319587628865979,
+     "funders": 0.0,
+     "similarity-checking": 0.2680412371134021,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.2989690721649485,
+     "update-policies": 0.0,
+     "resource-links": 0.2628865979381443,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": true,
+    "deposits-orcids-current": false,
+    "deposits-affiliation-ror-ids-current": true,
+    "deposits": true,
+    "deposits-affiliations-backfile": true,
+    "deposits-update-policies-backfile": false,
+    "deposits-similarity-checking-backfile": false,
+    "deposits-award-numbers-current": false,
+    "deposits-resource-links-current": true,
+    "deposits-ror-ids-current": true,
+    "deposits-articles": true,
+    "deposits-affiliations-current": true,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": false,
+    "deposits-references-backfile": true,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": true,
+    "deposits-licenses-backfile": false,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": true,
+    "deposits-resource-links-backfile": false,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": false,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": false,
+    "deposits-similarity-checking-current": true,
+    "deposits-licenses-current": true
+   },
+   "ISSN": [
+    "1016-2526",
+    "1016-2526"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "1016-2526"
+    },
+    {
+     "type": "electronic",
+     "value": "1016-2526"
+    }
+   ]
+  }
+ ],
+ "RUSS J PHYS CHEM B+": [],
+ "Russian Chemical Bulletin": [
+  {
+   "last-status-check-time": 1793378207686,
+   "counts": {
+    "current-dois": 995,
+    "backfile-dois": 37827,
+    "total-dois": 38822
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      1973,
+      856
+     ],
+     [
+      1972,
+      856
+     ],
+     [
+      1987,
+      844
+     ],
+     [
+      1976,
+      814
+     ],
+     [
+      1977,
+      793
+     ],
+     [
+      1971,
+      791
+     ],
+     [
+      1969,
+      781
+     ],
+     [
+      1975,
+      778
+     ],
+     [
+      1968,
+      778
+     ],
+     [
+      1974,
+      770
+     ],
+     [
+      1986,
+      769
+     ],
+     [
+      1970,
+      760
+     ],
+     [
+      1988,
+      758
+     ],
+     [
+      1978,
+      754
+     ],
+     [
+      1989,
+      747
+     ],
+     [
+      1967,
+      747
+     ],
+     [
+      1979,
+      719
+     ],
+     [
+      1990,
+      716
+     ],
+     [
+      1985,
+      713
+     ],
+     [
+      1984,
+      699
+     ],
+     [
+      1982,
+      698
+     ],
+     [
+      1983,
+      696
+     ],
+     [
+      1996,
+      663
+     ],
+     [
+      1966,
+      636
+     ],
+     [
+      1981,
+      627
+     ],
+     [
+      1991,
+      598
+     ],
+     [
+      1965,
+      586
+     ],
+     [
+      1962,
+      582
+     ],
+     [
+      1964,
+      581
+     ],
+     [
+      1993,
+      574
+     ],
+     [
+      1995,
+      563
+     ],
+     [
+      1994,
+      549
+     ],
+     [
+      1963,
+      537
+     ],
+     [
+      1958,
+      536
+     ],
+     [
+      1998,
+      528
+     ],
+     [
+      1992,
+      502
+     ],
+     [
+      1997,
+      496
+     ],
+     [
+      1999,
+      492
+     ],
+     [
+      1961,
+      479
+     ],
+     [
+      1960,
+      472
+     ],
+     [
+      1959,
+      463
+     ],
+     [
+      2015,
+      447
+     ],
+     [
+      2004,
+      441
+     ],
+     [
+      2005,
+      440
+     ],
+     [
+      2001,
+      439
+     ],
+     [
+      2003,
+      434
+     ],
+     [
+      2016,
+      431
+     ],
+     [
+      2014,
+      424
+     ],
+     [
+      1980,
+      412
+     ],
+     [
+      2011,
+      404
+     ],
+     [
+      2007,
+      402
+     ],
+     [
+      2009,
+      394
+     ],
+     [
+      2013,
+      385
+     ],
+     [
+      2024,
+      379
+     ],
+     [
+      2008,
+      376
+     ],
+     [
+      2025,
+      364
+     ],
+     [
+      2000,
+      364
+     ],
+     [
+      2002,
+      358
+     ],
+     [
+      2010,
+      357
+     ],
+     [
+      2006,
+      354
+     ],
+     [
+      2018,
+      349
+     ],
+     [
+      2023,
+      342
+     ],
+     [
+      2022,
+      341
+     ],
+     [
+      2017,
+      339
+     ],
+     [
+      2019,
+      338
+     ],
+     [
+      2012,
+      338
+     ],
+     [
+      2020,
+      334
+     ],
+     [
+      2021,
+      318
+     ],
+     [
+      2026,
+      252
+     ],
+     [
+      1954,
+      232
+     ],
+     [
+      1956,
+      225
+     ],
+     [
+      1955,
+      220
+     ],
+     [
+      1952,
+      129
+     ],
+     [
+      1957,
+      102
+     ],
+     [
+      1953,
+      57
+     ]
+    ]
+   },
+   "publisher": "Springer-Verlag",
+   "coverage": {
+    "affiliations-current": 0.0,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 1.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 1.0,
+    "funders-current": 0.0,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 1.0,
+    "orcids-backfile": 0.0,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 0.9748743718592965,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.0,
+    "similarity-checking-backfile": 1.0,
+    "references-backfile": 0.9635709942633569,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 0.09709995505855606,
+    "licenses-current": 1.0,
+    "award-numbers-current": 0.0,
+    "abstracts-backfile": 0.0,
+    "resource-links-current": 1.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.0,
+    "references-current": 0.9728643216080402
+   },
+   "title": "Russian Chemical Bulletin",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1793378207686,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 3.8822,
+     "references": 3.7417,
+     "funders": 0.0,
+     "similarity-checking": 3.8822,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.4643,
+     "resource-links": 3.8822,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1793378207686,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 1.0,
+     "references": 0.9635709942633569,
+     "funders": 0.0,
+     "similarity-checking": 1.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.09709995505855606,
+     "resource-links": 1.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1793378207686,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 1.0,
+     "references": 0.9728643216080402,
+     "funders": 0.0,
+     "similarity-checking": 1.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.9748743718592965,
+     "resource-links": 1.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": false,
+    "deposits-orcids-current": false,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": true,
+    "deposits-similarity-checking-backfile": true,
+    "deposits-award-numbers-current": false,
+    "deposits-resource-links-current": true,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": true,
+    "deposits-affiliations-current": false,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": false,
+    "deposits-references-backfile": true,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": false,
+    "deposits-licenses-backfile": true,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": true,
+    "deposits-resource-links-backfile": true,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": false,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": true,
+    "deposits-similarity-checking-current": true,
+    "deposits-licenses-current": true
+   },
+   "ISSN": [
+    "1066-5285",
+    "1573-9171"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "1066-5285"
+    },
+    {
+     "type": "electronic",
+     "value": "1573-9171"
+    }
+   ]
+  },
+  {
+   "last-status-check-time": 1791247213829,
+   "counts": {
+    "current-dois": 0,
+    "backfile-dois": 503,
+    "total-dois": 503
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      1992,
+      503
+     ]
+    ]
+   },
+   "publisher": "Springer-Verlag",
+   "coverage": {
+    "affiliations-current": 0.0,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 0.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 1.0,
+    "funders-current": 0.0,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 1.0,
+    "orcids-backfile": 0.0,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 0.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.0,
+    "similarity-checking-backfile": 1.0,
+    "references-backfile": 0.9721669980119284,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 0.0,
+    "licenses-current": 0.0,
+    "award-numbers-current": 0.0,
+    "abstracts-backfile": 0.0,
+    "resource-links-current": 0.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.0,
+    "references-current": 0.0
+   },
+   "title": "Bulletin of the Russian Academy of Sciences Division of Chemical Science",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791247213829,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 1.0,
+     "references": 0.9721669980119284,
+     "funders": 0.0,
+     "similarity-checking": 1.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 1.0,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791247213829,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 1.0,
+     "references": 0.9721669980119284,
+     "funders": 0.0,
+     "similarity-checking": 1.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 1.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791247213829,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": false,
+    "deposits-orcids-current": false,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": false,
+    "deposits-similarity-checking-backfile": true,
+    "deposits-award-numbers-current": false,
+    "deposits-resource-links-current": false,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": true,
+    "deposits-affiliations-current": false,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": false,
+    "deposits-references-backfile": true,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": false,
+    "deposits-licenses-backfile": true,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": false,
+    "deposits-resource-links-backfile": true,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": false,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": false,
+    "deposits-similarity-checking-current": false,
+    "deposits-licenses-current": false
+   },
+   "ISSN": [
+    "1063-5211"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "1063-5211"
+    }
+   ]
+  }
+ ],
+ "Russian Journal of Physical Chemistry B": [
+  {
+   "last-status-check-time": 1791247762118,
+   "counts": {
+    "current-dois": 484,
+    "backfile-dois": 2785,
+    "total-dois": 3269
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2024,
+      223
+     ],
+     [
+      2021,
+      209
+     ],
+     [
+      2023,
+      192
+     ],
+     [
+      2020,
+      186
+     ],
+     [
+      2022,
+      183
+     ],
+     [
+      2019,
+      180
+     ],
+     [
+      2016,
+      180
+     ],
+     [
+      2018,
+      177
+     ],
+     [
+      2017,
+      176
+     ],
+     [
+      2009,
+      174
+     ],
+     [
+      2025,
+      173
+     ],
+     [
+      2010,
+      173
+     ],
+     [
+      2015,
+      170
+     ],
+     [
+      2011,
+      163
+     ],
+     [
+      2014,
+      160
+     ],
+     [
+      2008,
+      137
+     ],
+     [
+      2013,
+      133
+     ],
+     [
+      2012,
+      118
+     ],
+     [
+      2026,
+      88
+     ],
+     [
+      2007,
+      74
+     ]
+    ]
+   },
+   "publisher": "Pleiades Publishing",
+   "coverage": {
+    "affiliations-current": 0.0,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 1.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 1.0,
+    "funders-current": 0.0,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 1.0,
+    "orcids-backfile": 0.01723518850987433,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 1.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.2024793388429752,
+    "similarity-checking-backfile": 1.0,
+    "references-backfile": 0.9935368043087971,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 0.9709156193895871,
+    "licenses-current": 1.0,
+    "award-numbers-current": 0.0,
+    "abstracts-backfile": 0.003231597845601436,
+    "resource-links-current": 1.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.02066115702479339,
+    "references-current": 0.9731404958677686
+   },
+   "title": "Russian Journal of Physical Chemistry B",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791247762118,
+     "affiliations": 0.0,
+     "abstracts": 0.00581039755351682,
+     "orcids": 0.04464831804281346,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.9996941896024465,
+     "references": 0.9902140672782875,
+     "funders": 0.0,
+     "similarity-checking": 0.9996941896024465,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.9749235474006116,
+     "resource-links": 0.9996941896024465,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791247762118,
+     "affiliations": 0.0,
+     "abstracts": 0.003231597845601436,
+     "orcids": 0.01723518850987433,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 1.0,
+     "references": 0.9935368043087971,
+     "funders": 0.0,
+     "similarity-checking": 1.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.9709156193895871,
+     "resource-links": 1.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791247762118,
+     "affiliations": 0.0,
+     "abstracts": 0.02066115702479339,
+     "orcids": 0.2024793388429752,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 1.0,
+     "references": 0.9731404958677686,
+     "funders": 0.0,
+     "similarity-checking": 1.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 1.0,
+     "resource-links": 1.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": true,
+    "deposits-orcids-current": true,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": true,
+    "deposits-similarity-checking-backfile": true,
+    "deposits-award-numbers-current": false,
+    "deposits-resource-links-current": true,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": true,
+    "deposits-affiliations-current": false,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": false,
+    "deposits-references-backfile": true,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": true,
+    "deposits-licenses-backfile": true,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": true,
+    "deposits-resource-links-backfile": true,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": true,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": true,
+    "deposits-similarity-checking-current": true,
+    "deposits-licenses-current": true
+   },
+   "ISSN": [
+    "1990-7931",
+    "1990-7923"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "1990-7931"
+    },
+    {
+     "type": "electronic",
+     "value": "1990-7923"
+    }
+   ]
+  }
+ ],
+ "Tema-Journal of Land Use Mobility and Environment": [],
+ "Transactions of FAMENA": [
+  {
+   "last-status-check-time": 1791251735866,
+   "counts": {
+    "current-dois": 106,
+    "backfile-dois": 293,
+    "total-dois": 399
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2021,
+      46
+     ],
+     [
+      2018,
+      44
+     ],
+     [
+      2022,
+      42
+     ],
+     [
+      2024,
+      41
+     ],
+     [
+      2019,
+      39
+     ],
+     [
+      2025,
+      38
+     ],
+     [
+      2020,
+      37
+     ],
+     [
+      2023,
+      30
+     ],
+     [
+      2017,
+      29
+     ],
+     [
+      2026,
+      27
+     ],
+     [
+      2016,
+      26
+     ]
+    ]
+   },
+   "publisher": "Faculty of Mechanical Engineering and Naval Architecture, Univ. of Zagreb",
+   "coverage": {
+    "affiliations-current": 0.0,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 0.8962264150943396,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 0.0,
+    "funders-current": 0.0,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 0.0,
+    "orcids-backfile": 0.0,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 0.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.0,
+    "similarity-checking-backfile": 0.8839590443686007,
+    "references-backfile": 0.003412969283276451,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 0.0,
+    "licenses-current": 0.0,
+    "award-numbers-current": 0.0,
+    "abstracts-backfile": 0.0204778156996587,
+    "resource-links-current": 0.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.07547169811320754,
+    "references-current": 0.0
+   },
+   "title": "Transactions of FAMENA",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791251735866,
+     "affiliations": 0.0,
+     "abstracts": 0.035,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0025,
+     "funders": 0.0,
+     "similarity-checking": 0.885,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791251735866,
+     "affiliations": 0.0,
+     "abstracts": 0.0204778156996587,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.003412969283276451,
+     "funders": 0.0,
+     "similarity-checking": 0.8839590443686007,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791251735866,
+     "affiliations": 0.0,
+     "abstracts": 0.07547169811320754,
+     "orcids": 0.0,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 0.0,
+     "references": 0.0,
+     "funders": 0.0,
+     "similarity-checking": 0.8962264150943396,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.0,
+     "resource-links": 0.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": true,
+    "deposits-orcids-current": false,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": false,
+    "deposits-similarity-checking-backfile": true,
+    "deposits-award-numbers-current": false,
+    "deposits-resource-links-current": false,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": true,
+    "deposits-affiliations-current": false,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": false,
+    "deposits-references-backfile": true,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": true,
+    "deposits-licenses-backfile": false,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": false,
+    "deposits-resource-links-backfile": false,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": false,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": false,
+    "deposits-similarity-checking-current": true,
+    "deposits-licenses-current": false
+   },
+   "ISSN": [
+    "1333-1124",
+    "1849-1391"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "1333-1124"
+    },
+    {
+     "type": "electronic",
+     "value": "1849-1391"
+    }
+   ]
+  }
+ ],
+ "Vestnik St Petersburg University-Mathematics": [
+  {
+   "last-status-check-time": 1791247794594,
+   "counts": {
+    "current-dois": 179,
+    "backfile-dois": 776,
+    "total-dois": 955
+   },
+   "breakdowns": {
+    "dois-by-issued-year": [
+     [
+      2025,
+      71
+     ],
+     [
+      2024,
+      61
+     ],
+     [
+      2022,
+      61
+     ],
+     [
+      2023,
+      59
+     ],
+     [
+      2020,
+      57
+     ],
+     [
+      2021,
+      55
+     ],
+     [
+      2016,
+      54
+     ],
+     [
+      2019,
+      52
+     ],
+     [
+      2018,
+      50
+     ],
+     [
+      2017,
+      50
+     ],
+     [
+      2008,
+      50
+     ],
+     [
+      2026,
+      47
+     ],
+     [
+      2007,
+      47
+     ],
+     [
+      2011,
+      45
+     ],
+     [
+      2015,
+      42
+     ],
+     [
+      2009,
+      40
+     ],
+     [
+      2010,
+      39
+     ],
+     [
+      2012,
+      28
+     ],
+     [
+      2013,
+      24
+     ],
+     [
+      2014,
+      23
+     ]
+    ]
+   },
+   "publisher": "Pleiades Publishing",
+   "coverage": {
+    "affiliations-current": 0.0,
+    "affiliation-ror-ids-backfile": 0.0,
+    "similarity-checking-current": 1.0,
+    "descriptions-current": 0.0,
+    "ror-ids-current": 0.0,
+    "funders-backfile": 0.0,
+    "licenses-backfile": 1.0,
+    "funders-current": 0.0,
+    "affiliations-backfile": 0.0,
+    "resource-links-backfile": 1.0,
+    "orcids-backfile": 0.001288659793814433,
+    "funder-ror-ids-current": 0.0,
+    "update-policies-current": 1.0,
+    "ror-ids-backfile": 0.0,
+    "orcids-current": 0.4301675977653631,
+    "similarity-checking-backfile": 1.0,
+    "references-backfile": 0.9871134020618557,
+    "descriptions-backfile": 0.0,
+    "award-numbers-backfile": 0.0,
+    "update-policies-backfile": 0.9304123711340206,
+    "licenses-current": 1.0,
+    "award-numbers-current": 0.0,
+    "abstracts-backfile": 0.0,
+    "resource-links-current": 1.0,
+    "affiliation-ror-ids-current": 0.0,
+    "funder-ror-ids-backfile": 0.0,
+    "abstracts-current": 0.0,
+    "references-current": 1.0
+   },
+   "title": "Vestnik St Petersburg University Mathematics",
+   "subjects": [],
+   "coverage-type": {
+    "all": {
+     "last-status-check-time": 1791247794594,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.08167539267015707,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 1.0,
+     "references": 0.9895287958115183,
+     "funders": 0.0,
+     "similarity-checking": 1.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.943455497382199,
+     "resource-links": 1.0,
+     "descriptions": 0.0
+    },
+    "backfile": {
+     "last-status-check-time": 1791247794594,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.001288659793814433,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 1.0,
+     "references": 0.9871134020618557,
+     "funders": 0.0,
+     "similarity-checking": 1.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 0.9304123711340206,
+     "resource-links": 1.0,
+     "descriptions": 0.0
+    },
+    "current": {
+     "last-status-check-time": 1791247794594,
+     "affiliations": 0.0,
+     "abstracts": 0.0,
+     "orcids": 0.4301675977653631,
+     "affiliation-ror-ids": 0.0,
+     "licenses": 1.0,
+     "references": 1.0,
+     "funders": 0.0,
+     "similarity-checking": 1.0,
+     "funder-ror-ids": 0.0,
+     "award-numbers": 0.0,
+     "ror-ids": 0.0,
+     "update-policies": 1.0,
+     "resource-links": 1.0,
+     "descriptions": 0.0
+    }
+   },
+   "flags": {
+    "deposits-abstracts-current": false,
+    "deposits-orcids-current": true,
+    "deposits-affiliation-ror-ids-current": false,
+    "deposits": true,
+    "deposits-affiliations-backfile": false,
+    "deposits-update-policies-backfile": true,
+    "deposits-similarity-checking-backfile": true,
+    "deposits-award-numbers-current": false,
+    "deposits-resource-links-current": true,
+    "deposits-ror-ids-current": false,
+    "deposits-articles": true,
+    "deposits-affiliations-current": false,
+    "deposits-affiliation-ror-ids-backfile": false,
+    "deposits-funders-current": false,
+    "deposits-references-backfile": true,
+    "deposits-funder-ror-ids-current": false,
+    "deposits-ror-ids-backfile": false,
+    "deposits-abstracts-backfile": false,
+    "deposits-licenses-backfile": true,
+    "deposits-award-numbers-backfile": false,
+    "deposits-descriptions-current": false,
+    "deposits-references-current": true,
+    "deposits-resource-links-backfile": true,
+    "deposits-descriptions-backfile": false,
+    "deposits-orcids-backfile": true,
+    "deposits-funders-backfile": false,
+    "deposits-funder-ror-ids-backfile": false,
+    "deposits-update-policies-current": true,
+    "deposits-similarity-checking-current": true,
+    "deposits-licenses-current": true
+   },
+   "ISSN": [
+    "1063-4541",
+    "1934-7855"
+   ],
+   "issn-type": [
+    {
+     "type": "print",
+     "value": "1063-4541"
+    },
+    {
+     "type": "electronic",
+     "value": "1934-7855"
+    }
+   ]
+  }
+ ]
+}

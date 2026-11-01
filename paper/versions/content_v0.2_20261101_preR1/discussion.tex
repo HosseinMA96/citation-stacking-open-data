@@ -1,0 +1,37 @@
+% Central Paper C content (journal-neutral). Edit here; journal wrappers in ../journals/ only \input these files.
+% Every number traces to ../../FINDINGS.md.
+\section{Discussion}\label{sec:discussion}
+
+\paragraph{What open data can and cannot show.}
+Open citation data reproduce Clarivate's self-citation figures closely when reference lists are present, so open
+audits of journal citation behaviour are feasible. But the gaps sit where integrity questions arise: some publishers
+deposit no references, and several of the donors behind Clarivate's stacking cases are among them. An open audit can
+therefore not conclude that a journal shows no anomaly when its citing partners are absent from the data; coverage
+of the relevant journals should be reported alongside any result. Data citations from repositories, such as GBIF
+downloads, are a second, newer source of distortion for anyone computing impact-factor-like indicators from open
+data.
+
+\paragraph{Why CIDRE misses Clarivate-style stacking.}
+CIDRE was designed to find groups whose members exchange excessive citations, and it does find stacking between small
+journals. Its symmetric threshold, however, requires a donor to devote a substantial share of its own citations to the
+group. In the stacking cases Clarivate reported in 2023, large journals fed small ones, and CIDRE flags the edge but
+discards the group. This is a property of the method, not of the data: it appears with well-covered donors. A
+recipient-centric reading of the same test recovers listed stacking journals far above chance and often before
+listing, at the cost of flagging about 2--5\% of journals over nine years, depending on the consensus level.
+
+\paragraph{What the flags mean.}
+The flags mark anomalous citation patterns, not misconduct. Many have benign explanations, such as a society journal
+and its companion, editorial preferences, or regional communities. The evidence check shows that flagged pairs carry
+independent indicators far more often than matched pairs, and the paper-level anatomy shows that their citations are
+spread over many papers that cite the recipient repeatedly and are topically further from it. Flags are candidates for
+expert review, not verdicts.
+
+\paragraph{Limitations.}
+Clarivate names few stacking pairs, so recall figures rest on a small number of cases, and our enrichment results rely
+on 28 to 30 stacking-listed journals. The recipient-centric reading and its consensus rule were chosen after part of
+the evaluation; we excluded the cases used in the design and report all variants, but a test on future suppression
+lists is needed. The evidence check is a lower bound on precision. Clarivate's exact formulas and thresholds are not
+public, and our exchange share is an upper bound. Crossref coverage statistics describe the present, not the state at
+the time of the snapshot. Title similarity uses TF--IDF on titles only, and controls are matched on year and volume,
+not on field.
+

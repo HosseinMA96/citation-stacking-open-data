@@ -1,0 +1,96 @@
+{
+  "cidre_named_pairs": 20,
+  "cidre_pairs_both_matched": 15,
+  "cidre_detected_any_partition": 0,
+  "cidre_labeled_journal_years_in_group_main": "8/132",
+  "enrichment_main_num20": [
+    {
+      "kind": "any",
+      "exclude_design_cases": false,
+      "listed": 115,
+      "listed_flagged": 22,
+      "base_rate": 0.03418,
+      "enrichment": 5.6,
+      "p_one_sided": 5.7026039030694976e-11
+    },
+    {
+      "kind": "any",
+      "exclude_design_cases": true,
+      "listed": 113,
+      "listed_flagged": 20,
+      "base_rate": 0.03418,
+      "enrichment": 5.18,
+      "p_one_sided": 1.7475306162728093e-09
+    },
+    {
+      "kind": "self",
+      "exclude_design_cases": false,
+      "listed": 85,
+      "listed_flagged": 10,
+      "base_rate": 0.03418,
+      "enrichment": 3.44,
+      "p_one_sided": 0.0006549330426162673
+    },
+    {
+      "kind": "self",
+      "exclude_design_cases": true,
+      "listed": 85,
+      "listed_flagged": 10,
+      "base_rate": 0.03418,
+      "enrichment": 3.44,
+      "p_one_sided": 0.0006549330426162673
+    },
+    {
+      "kind": "stacking",
+      "exclude_design_cases": false,
+      "listed": 30,
+      "listed_flagged": 12,
+      "base_rate": 0.03418,
+      "enrichment": 11.7,
+      "p_one_sided": 1.2346666116714037e-10
+    },
+    {
+      "kind": "stacking",
+      "exclude_design_cases": true,
+      "listed": 28,
+      "listed_flagged": 10,
+      "base_rate": 0.03418,
+      "enrichment": 10.45,
+      "p_one_sided": 1.6186806380709515e-08
+    }
+  ],
+  "enrichment_range_all_partitions_K": {
+    "any|excl=False": [
+      2.55,
+      5.6,
+      0.00021290163898080453
+    ],
+    "any|excl=True": [
+      2.31,
+      5.18,
+      0.0013947433854452614
+    ],
+    "self|excl=False": [
+      1.31,
+      3.44,
+      0.2854329786134075
+    ],
+    "self|excl=True": [
+      1.31,
+      3.44,
+      0.2854329786134075
+    ],
+    "stacking|excl=False": [
+      6.25,
+      11.7,
+      2.878590279628968e-07
+    ],
+    "stacking|excl=True": [
+      5.67,
+      10.45,
+      1.1399411546389878e-05
+    ]
+  },
+  "flagged_before_first_listing_main": 8,
+  "listed_journals_ever_flagged_main": 22
+}

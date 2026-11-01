@@ -1,0 +1,1 @@
+Superseded by c19_accounting_20261101_02: stacking-fidelity rows counted both score variants (31/26 instead of 18/13).

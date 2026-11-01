@@ -1,0 +1,33 @@
+{
+  "run_id": "c18_asym_20261101_01",
+  "script": "c18_asym_null.py",
+  "script_sha256": "46cec47646b3de7c2e98c54d5f75ed2857bae824746966479920ffdba58badf7",
+  "cidre_paper_sha256": "c005822730b1cf8fb9613a6d5fe61c40467dfe75df482bca492e46853366c69c",
+  "src_run": "c6_full_20261031_02",
+  "years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "tag": "main",
+  "theta_d": [
+    0.15,
+    0.1,
+    0.05,
+    0.02,
+    0.01
+  ],
+  "theta_r": 0.15,
+  "theta_w": 50,
+  "alpha": 0.01,
+  "workers": 3,
+  "blocks_sha256": "6e9470caf26cfcf5c6175b64955d01c61ea2991a118003eaad714a563f705ffd",
+  "seconds_total": 200.3,
+  "python": "3.11.18"
+}
