@@ -1,16 +1,62 @@
-# Citation stacking on open data: data, code and run records
+<h1 align="center">📚 Citation stacking on open data</h1>
 
-Companion repository to the paper
+<p align="center">
+  <em>Can open citation data detect citation stacking? An audit against Clarivate's journal suppressions</em>
+</p>
 
-> Hossein Mohasel Arjomandi. *Can open citation data detect citation stacking? An audit against Clarivate's journal
-> suppressions.* Manuscript submitted for publication.
+<p align="center">
+  <img alt="Open data only" src="https://img.shields.io/badge/data-open%20only-1baf7a">
+  <img alt="Journal level" src="https://img.shields.io/badge/analysis-journal%20level-2a78d6">
+  <img alt="Python" src="https://img.shields.io/badge/python-3.10%20%7C%203.11-eda100">
+  <img alt="Code: MIT" src="https://img.shields.io/badge/code-MIT-6250d6">
+  <img alt="Records: CC BY 4.0" src="https://img.shields.io/badge/records-CC%20BY%204.0-eb6834">
+</p>
 
-The paper builds yearly journal citation networks from the OpenCitations snapshot of January 2024 and compares them
-with Clarivate's Journal Citation Reports suppressions for data years 2015–2023, with a prospective check on 2024–2025.
-It covers how well open data reproduce Clarivate's published figures, why CIDRE misses Clarivate's named stacking
-pairs, and a recipient-centric reading of CIDRE's test.
+Companion repository to the paper by **Hossein Mohasel Arjomandi** (manuscript submitted for publication). It holds
+the label tables, all code, every run record with checksums, a map from each number in the paper to the run that
+produced it, and the LaTeX source.
 
-## Contents
+---
+
+## 🧭 In one paragraph
+
+Clarivate suppresses journals from the Journal Citation Reports when self-citations or concentrated citations from
+another journal ("citation stacking") distort their Journal Impact Factor, but its data are closed. This project builds
+yearly journal citation networks from the **open OpenCitations snapshot of January 2024** and audits them against
+Clarivate's suppression lists for **data years 2015–2023**, collected from primary sources, with a prospective check
+on **2024–2025**. It asks how well open data reproduce Clarivate's published figures, why the leading open method
+(CIDRE) misses Clarivate's named stacking pairs, and whether a recipient-centric reading of CIDRE's own test does
+better.
+
+## 📊 Results at a glance
+
+| | |
+|---|---|
+| Citations / journals in the open network | **1.96 billion** / **85,437** |
+| Clarivate suppressions collected (data years 2015–2023) | 144 rows, every one with a primary source |
+| Self-citation shares reproduced within 10 points (journals whose references are open) | **36 of 50** (0 of 7 when references are missing) |
+| CIDRE detections among Clarivate's named stacking pairs | **0 of 15** (it drops large donor journals) |
+| Recipient-centric reading: stacking-listed journals flagged vs other journals | **6.6× – 13.9×** (by consensus level) |
+| … vs size-matched controls | 5× – 7× |
+| … vs a plain 43% donor-share rule at the same flag rate | 10 vs 3 of 28 listed journals |
+| Prospective check on the 2024–2025 lists | same direction, not significant (1 of 6) |
+| Flagged pairs vs matched pairs: citations per citing paper / title similarity | 1.98 vs 1.28 / 0.084 vs 0.133 |
+
+**Take-away:** open audits of journal-level citation manipulation are feasible, as long as coverage gaps (publishers
+that do not deposit references, dataset-download citations) are measured and reported. Every number above is traced
+in [`FINDINGS.md`](FINDINGS.md).
+
+<p align="center">
+  <img src="paper/figures/preview/F2_fidelity.png" alt="Open-data values vs Clarivate's published values" width="47%">
+  &nbsp;
+  <img src="paper/figures/preview/F4_enrichment.png" alt="Share of listed journals flagged, by consensus level" width="47%">
+</p>
+<p align="center">
+  <img src="paper/figures/preview/F3_cidre_peeling.png" alt="Why CIDRE misses the named pairs: recipient vs donor scores" width="55%">
+</p>
+<p align="center"><sub>Previews of paper figures F2, F4 and F3 (PNG renderings of the PDFs in <code>paper/figures/</code>).</sub></p>
+
+## 🗂️ What is in here
 
 | Path | What it holds |
 |---|---|
@@ -24,19 +70,50 @@ pairs, and a recipient-centric reading of CIDRE's test.
 | `paper/` | LaTeX source, figures and built PDFs (`main.pdf`; Scientometrics version in `paper/journals/scientometrics/`) |
 | `vm/` | Scripts and environment for the steps that need a large machine (64 GB RAM) |
 | `lit/` | Literature-search records used for the related-work section |
+| `CITATION.cff` | How to cite this repository |
 
 Clarivate's own files (spreadsheets, help pages, PDFs) are **not redistributed**. To rebuild the label tables, download
 them from the URLs in `data/suppression_sources/SOURCES.md` to the paths listed there and check the checksums.
 
-## Input data
+## 🔁 How the pipeline fits together
 
-Not included because of their size:
+```mermaid
+flowchart LR
+  OC["OpenCitations<br/>Jan 2024<br/>1.96 B links"] --> C6["c6 full run<br/>journal × year tables"]
+  META["OpenCitations Meta<br/>(journals)"] --> C6
+  C6 --> BLK["c6 blocks<br/>degree-corrected SBM"]
+  CL["Clarivate public lists<br/>2015–2025"] --> LAB["label tables<br/>suppressions_v2 / oos"]
+  C6 --> FID["c10 fidelity<br/>vs published %"]
+  LAB --> FID
+  BLK --> CID["c12 CIDRE +<br/>recipient-centric reading"]
+  LAB --> CID
+  CID --> AN["c13–c14 anatomy<br/>and evidence check"]
+  CID --> OOS["c16–c20 out-of-sample,<br/>baselines, size matching"]
+  FID --> FIG["c15 figures"]
+  CID --> FIG
+  AN --> FIG
+  FIG --> PAPER["paper/"]
+```
 
-- Parsed OpenCitations snapshot, January 2024 (Illinois Data Bank), doi:10.13012/B2IDB-5216575_V1:
-  `open_citations_jan2024_iid_el.csv.gz` and `open_citations_jan2024_pubs.csv.gz`.
-- OpenCitations Meta CSV dump (figshare), doi:10.6084/m9.figshare.21747461.v7 (fetched by `vm/download_meta.sh`).
+## ⚡ Quick start
 
-## Reproducing the results
+**On a laptop (minutes, no large data):**
+
+```bash
+pip install -r experiments/c01_journal_graph/requirements.lock.txt
+
+# 1. verify the committed run records (large parquet outputs are not in git, hence --ignore-missing)
+ok=1; for d in experiments/c01_journal_graph/runs/*/; do [ -f "$d/SHA256SUMS" ] || continue
+  (cd "$d" && sha256sum -c --quiet --ignore-missing SHA256SUMS) || ok=0; done; [ $ok = 1 ] && echo "all runs OK"
+
+# 2. redraw the paper's figures F1–F6 from the committed run outputs
+cd experiments/c01_journal_graph && python c15_figures.py --run-id my_rebuild && cd -
+
+# 3. build the paper (Tectonic or any XeLaTeX)
+cd paper && tectonic -X compile main.tex
+```
+
+**Full pipeline:**
 
 1. **Environment.** Laptop steps: Python with the packages in `experiments/c01_journal_graph/requirements.lock.txt`
    (DuckDB, pandas, pyarrow, cidre 0.0.1). Block-model steps: the conda environment in `vm/environment.yml`
@@ -52,7 +129,17 @@ Not included because of their size:
 Each script writes a new run folder and never overwrites an earlier one. Runs replaced by a later version carry a
 `SUPERSEDED.txt` and are not cited in the paper.
 
-## How to read the flag lists
+## 📥 Data sources
+
+| Source | Used for | Access | Terms |
+|---|---|---|---|
+| Parsed OpenCitations snapshot, Jan 2024 | citation graph | Illinois Data Bank, [doi:10.13012/B2IDB-5216575_V1](https://doi.org/10.13012/B2IDB-5216575_V1): `open_citations_jan2024_iid_el.csv.gz`, `open_citations_jan2024_pubs.csv.gz` | CC BY 4.0 |
+| OpenCitations Meta CSV dump | journals and ISSNs | figshare, [doi:10.6084/m9.figshare.21747461.v7](https://doi.org/10.6084/m9.figshare.21747461.v7) (fetched by `vm/download_meta.sh`) | CC0 |
+| Clarivate JCR suppression lists | labels | public Clarivate pages and files, listed in `data/suppression_sources/SOURCES.md` | not redistributed |
+
+The two OpenCitations inputs are not included because of their size.
+
+## 🤝 How to read the flag lists
 
 Some run outputs (e.g. `flags.csv`, `consensus_flags.csv`, `groups.csv`) list journals that a statistical screen
 flagged for an **anomalous citation pattern** in a given year. This includes journals that Clarivate never listed.
@@ -66,13 +153,18 @@ flagged for an **anomalous citation pattern** in a given year. This includes jou
   present a flag as evidence against a journal, its editors or its authors.
 - All analyses are at journal level. The files contain no author or editor names.
 
-## Licence
+## 📝 Citation
 
-- Code (`*.py`, `*.sh`): MIT, see `LICENSE`.
-- Data tables, run records, figures and documentation: CC BY 4.0, see `LICENSE-DATA`.
+Please cite the paper (details will be added on publication) and this repository; GitHub's *Cite this repository*
+button uses [`CITATION.cff`](CITATION.cff).
+
+## ⚖️ Licences
+
+- Code (`*.py`, `*.sh`): [MIT](LICENSE).
+- Data tables, run records, figures and documentation: [CC BY 4.0](LICENSE-DATA).
 - Clarivate's material is not covered and is not included. The input datasets keep their own licences.
 
-## Contact
+## ✉️ Contact
 
 Hossein Mohasel Arjomandi, hosseinm@microsoft.com. The views expressed here are the author's own and do not
 necessarily reflect those of Microsoft.

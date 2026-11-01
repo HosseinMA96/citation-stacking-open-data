@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use these data, code or records, please cite the paper and this repository."
+title: "Citation stacking on open data: data, code and run records"
+type: software
+authors:
+  - family-names: "Mohasel Arjomandi"
+    given-names: "Hossein"
+license: MIT
+repository-code: "https://github.com/HosseinMA96/citation-stacking-open-data"
+date-released: "2026-10-31"
+keywords:
+  - citation stacking
+  - journal self-citation
+  - Journal Impact Factor
+  - OpenCitations
+  - research integrity
+  - anomaly detection
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Mohasel Arjomandi"
+      given-names: "Hossein"
+  title: "Can open citation data detect citation stacking? An audit against Clarivate's journal suppressions"
+  status: submitted
+  year: 2026
